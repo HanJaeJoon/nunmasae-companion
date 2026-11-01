@@ -11,15 +11,6 @@ export const BRANDING = {
   brandColor: '#2F6F6A',
 
   /**
-   * AdMob 배너 광고 단위 ID.
-   *
-   * null 이면 kit/ads 가 구글 공식 테스트 광고를 띄운다.
-   * 실광고 오클릭은 계정 정지 사유이므로 기본값은 null 로 둔다.
-   * AdMob 에서 배너 단위를 만든 뒤 그 ID 로 바꾼다.
-   */
-  adBannerUnitId: null as string | null,
-
-  /**
    * AsyncStorage 키 접두사.
    *
    * 앱마다 달라야 한다. 같은 기기에 여러 마이크로앱이 깔려도

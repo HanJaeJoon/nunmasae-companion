@@ -1,12 +1,14 @@
 # 출시 체크리스트
 
+이 앱은 광고, 후원, 유료 기능이 없다. AdMob 단계는 없다.
+
 새 앱을 Play 에 처음 올릴 때의 순서. 위에서 아래로 그대로 따라간다.
 
-계정 작업(GitHub / AdMob / Play Console)은 사람만 할 수 있고, 코드 작업은 로컬에서 한다. 순서를 지키는 이유는 뒤 단계가 앞 단계의 산출물을 요구하기 때문이다.
+계정 작업(GitHub / Play Console)은 사람만 할 수 있고, 코드 작업은 로컬에서 한다. 순서를 지키는 이유는 뒤 단계가 앞 단계의 산출물을 요구하기 때문이다.
 
 ## 0. 코드 준비
 
-- [ ] `src/lib/branding.ts` 의 값 4개를 이 앱 값으로 교체
+- [ ] `src/lib/branding.ts` 의 값 3개를 이 앱 값으로 교체
 - [ ] `app.json` 의 `name` / `slug` / `scheme` / `android.package` / splash 색 교체
 - [ ] `package.json` 의 `name` 교체
 - [ ] `src/lib/i18n/translations.ts` 번역 교체
@@ -73,15 +75,6 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 `.github/workflows/build.yml` 의 `EXPECTED_UPLOAD_CERT_SHA256` 은 **아직 비워 둔다.** 비어 있으면 워크플로가 서명 검증을 건너뛰고 경고만 남긴다. 5단계에서 채운다.
 
-## 3. AdMob
-
-- [ ] AdMob > 앱 > 앱 추가. 플랫폼 Android, "앱이 아직 스토어에 등록되어 있지 않습니다" 선택
-- [ ] 앱 ID(`ca-app-pub-...~...`)를 `app.json` 의 `androidAppId` 에 넣기
-- [ ] 광고 단위 > 배너 생성. 단위 ID(`ca-app-pub-.../...`)를 `src/lib/branding.ts` 의 `adBannerUnitId` 에 넣기
-- [ ] `app-ads.txt` - **게시자 계정 단위라 앱마다 다시 할 필요 없다.** 이미 설정돼 있으면 넘어간다
-
-기본값은 구글 공식 테스트 ID 다. 자기 ID 로 바꾸는 순간부터 실광고가 뜨므로, 개발 중 자기 앱을 눌러 보는 일이 없게 한다. **자기 광고 클릭은 AdMob 계정 정지 사유다.** `kit/ads` 는 `__DEV__` 에서 항상 테스트 광고를 쓰도록 되어 있다.
-
 ## 4. 첫 빌드
 
 - [ ] Actions > Android Build > Run workflow, 브랜치 `main`
@@ -100,7 +93,6 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 - [ ] 차트가 실제로 렌더링되는지
 - [ ] 공유 카드 캡처 이미지가 정상인지
-- [ ] 광고 배너가 뜨는지
 - [ ] 다크모드 색이 깨지지 않는지
 
 첫 업로드가 끝나면 업로드 키 인증서가 생긴다.
@@ -114,10 +106,9 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 - [ ] 스토어 설정 > 스토어 등록정보: 앱 이름, 간단한 설명, 자세한 설명
 - [ ] 그래픽: 앱 아이콘 512x512, 그래픽 이미지 1024x500, 스크린샷 최소 2장
-- [ ] **스토어 등록정보 > 웹사이트에 도메인 입력.** AdMob 이 앱별 등록정보의 도메인을 크롤링한다. 빠뜨리면 앱 인증이 실패한다
 - [ ] 앱 콘텐츠 > 개인정보처리방침 URL
-- [ ] 앱 콘텐츠 > 광고: **"앱에 광고가 있습니다"** 선택
-- [ ] 앱 콘텐츠 > 데이터 보안: 광고 ID 수집 선언
+- [ ] 앱 콘텐츠 > 광고: **"앱에 광고가 없습니다"** 선택
+- [ ] 앱 콘텐츠 > 데이터 보안: 수집/공유하는 데이터 없음 (진행 권수와 언어만 기기에 저장)
 - [ ] 앱 콘텐츠 > 콘텐츠 등급(IARC) 설문
 - [ ] 앱 콘텐츠 > 타겟 고객층, 뉴스 앱 여부, 코로나19 앱 여부
 - [ ] 국가/지역 선택
@@ -143,5 +134,4 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 앱마다 반복하지 않아도 되는 것.
 
-- `app-ads.txt` - AdMob 게시자 계정에 묶인다
 - Play 개인 개발자 계정의 비공개 테스트 요건 (테스터 12명 / 14일) - 계정 단위 관문으로 보인다. 다만 신규 앱을 프로덕션에 올릴 때도 면제되는지는 미확인이다
