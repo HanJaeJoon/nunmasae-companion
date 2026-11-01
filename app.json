@@ -42,9 +42,7 @@
           "imageWidth": 76
         }
       ],
-      "expo-localization",
-      "expo-sharing",
-      "expo-media-library"
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true,
