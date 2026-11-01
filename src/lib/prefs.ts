@@ -1,25 +1,22 @@
 import { createPrefs } from '@/kit/prefs';
 import { storageKey } from './branding';
+import { BOOK_NUMBERS, type Locale, type Progress } from './entries';
 
-// 화면의 입력값을 저장/복원한다.
-// kit/prefs 는 저장 키와 검증 함수를 인자로 받는다. 키 접두사는 branding 에서 온다.
+// 진행 권수와 언어 선택만 기기에 저장한다. 서버, 계정 없음.
 
-export type SavedInputs = {
-  principal: string;
-  monthlyContribution: string;
-  annualRatePercent: string;
-  years: string;
+export type SavedSettings = {
+  /** 아직 고르지 않았으면 null. 이때 첫 화면은 진행 선택이다. */
+  progress: Progress | null;
+  locale: Locale;
 };
 
-function isSavedInputs(value: unknown): value is SavedInputs {
+export function isSavedSettings(value: unknown): value is SavedSettings {
   if (typeof value !== 'object' || value === null) return false;
   const v = value as Record<string, unknown>;
   return (
-    typeof v.principal === 'string' &&
-    typeof v.monthlyContribution === 'string' &&
-    typeof v.annualRatePercent === 'string' &&
-    typeof v.years === 'string'
+    (v.progress === null || BOOK_NUMBERS.includes(v.progress as Progress)) &&
+    (v.locale === 'en' || v.locale === 'ko')
   );
 }
 
-export const inputPrefs = createPrefs<SavedInputs>(storageKey('inputs'), isSavedInputs);
+export const settingsPrefs = createPrefs<SavedSettings>(storageKey('settings'), isSavedSettings);

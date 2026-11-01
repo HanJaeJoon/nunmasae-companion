@@ -1,0 +1,336 @@
+[
+  {
+    "id": "kagan",
+    "type": "character",
+    "name": { "ko": "케이건 드라카", "en": "Kagan Draca" },
+    "race": "human",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "푼텐 사막 끝의 마지막 주막에 남쪽에서 걸어 들어온 사내다.",
+        "en": "A man who walks in from the south to the Last Inn at the edge of the Punten Desert."
+      },
+      {
+        "at": 1,
+        "ko": "나가를 사냥해 잡아먹는다는 나가 살육자로 악명이 높다.",
+        "en": "He is infamous as a Nhaga Slayer, said to hunt and eat Nhaga."
+      },
+      {
+        "at": 1,
+        "ko": "칼자루 하나에 칼날 두 개가 나란히 붙은 기이한 칼을 쓴다.",
+        "en": "He carries a strange sword with two blades set side by side on a single hilt."
+      },
+      {
+        "at": 1,
+        "ko": "하인샤 대사원이 꾸린 구출대의 길잡이를 맡는다.",
+        "en": "He serves as the guide of the rescue party put together by the Hainsha Great Temple."
+      }
+    ]
+  },
+  {
+    "id": "teenahan",
+    "type": "character",
+    "name": { "ko": "티나한", "en": "Teenahan" },
+    "race": "rekon",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하늘치 등에 오르는 것을 숙원으로 삼은 레콘이다.",
+        "en": "A Rekon whose life goal is to climb onto the back of a Skyray."
+      },
+      {
+        "at": 1,
+        "ko": "하늘치 유적 발굴대를 이끄는 대장이다.",
+        "en": "He leads a team that digs up Skyray remains."
+      },
+      {
+        "at": 1,
+        "ko": "빚 문제로 구출대에 대적자로 합류한다.",
+        "en": "Because of a debt, he joins the rescue party as its fighter."
+      }
+    ]
+  },
+  {
+    "id": "byong",
+    "type": "character",
+    "name": { "ko": "비형 스라블", "en": "Byong Srabl" },
+    "race": "tokkebi",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "즈믄누리 성주 바우 머리돌의 몸종이며, 그 일을 무척 아낀다.",
+        "en": "He is the personal servant of Bau Meoridol, lord of Jeumeunnuri, and loves the job."
+      },
+      {
+        "at": 1,
+        "ko": "마침 성주의 방에 들어갔다가 구출대에 보낼 도깨비로 뽑힌다.",
+        "en": "He happens to walk into the lord's room and gets picked as the Tokkebi to send with the rescue party."
+      },
+      {
+        "at": 1,
+        "ko": "구출대의 요술쟁이로 도깨비불을 다룬다.",
+        "en": "As the rescue party's trickster, he works with tokkebi fire."
+      }
+    ]
+  },
+  {
+    "id": "ryun",
+    "type": "character",
+    "name": { "ko": "륜 페이", "en": "Ryun Pei" },
+    "race": "nhaga",
+    "group": "pei-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하텐그라쥬 페이 가문의 남성 나가로, 심장 적출식을 앞두고 있다.",
+        "en": "A young male Nhaga of the Pei family in Hatengrazh, about to undergo his heart extraction."
+      },
+      {
+        "at": 1,
+        "ko": "심장 적출을 몹시 두려워하는 소심한 성격이다.",
+        "en": "Timid by nature, he is deeply afraid of having his heart removed."
+      },
+      {
+        "at": 1,
+        "ko": "사모 페이의 동생이자 요스비의 아들이다.",
+        "en": "He is Sammo Pei's younger brother and Yosbi's son."
+      },
+      {
+        "at": 1,
+        "ko": "친구 화리트 마케로우의 죽음을 본 뒤 적출하지 않은 심장을 지닌 채 도망친다.",
+        "en": "After seeing his friend Hwarit Makerow die, he runs away with his heart still in his body."
+      }
+    ]
+  },
+  {
+    "id": "sammo",
+    "type": "character",
+    "name": { "ko": "사모 페이", "en": "Sammo Pei" },
+    "race": "nhaga",
+    "group": "pei-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜 페이의 누나인 페이 가문의 여성 나가다.",
+        "en": "A female Nhaga of the Pei family and Ryun Pei's older sister."
+      },
+      {
+        "at": 1,
+        "ko": "쇼자인테쉬크톨에 따라 도망친 륜을 쫓는 암살자로 지목된다.",
+        "en": "Under the rule of Shojaintesuktol, she is named as the assassin who must hunt down the runaway Ryun."
+      }
+    ]
+  },
+  {
+    "id": "hwarit",
+    "type": "character",
+    "name": { "ko": "화리트 마케로우", "en": "Hwarit Makerow" },
+    "race": "nhaga",
+    "group": "makerow-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜의 친구로, 수호자가 되려고 수련 중인 마케로우 가문의 남성 나가다.",
+        "en": "Ryun's friend, a male Nhaga of the Makerow family who is training to become a Guardian."
+      },
+      {
+        "at": 1,
+        "ko": "심장 적출식 날 누나 비아스 마케로우에게 살해된다.",
+        "en": "On the day of the heart extraction, he is killed by his sister Vias Makerow."
+      },
+      {
+        "at": 1,
+        "ko": "죽기 전 자기가 맡았던 일을 륜에게 떠맡긴다.",
+        "en": "Before he dies, he hands the task he was given over to Ryun."
+      }
+    ]
+  },
+  {
+    "id": "human",
+    "type": "race",
+    "name": { "ko": "인간", "en": "Human" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "어디에도 없는 신을 섬기며, 그 신을 모시는 사제를 스님이라 부른다.",
+        "en": "They worship the God Who Is Nowhere, and the priests of that god are called monks."
+      },
+      {
+        "at": 1,
+        "ko": "대부분 한계선 북쪽, 북부에 흩어져 산다.",
+        "en": "Most of them live scattered across the North, beyond the Line of Limit."
+      }
+    ]
+  },
+  {
+    "id": "rekon",
+    "type": "race",
+    "name": { "ko": "레콘", "en": "Rekon" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "온몸이 깃털로 덮이고 새 머리를 한, 키 3m 안팎의 거대한 종족이다.",
+        "en": "A huge, bird-headed people covered in feathers, standing about three meters tall."
+      },
+      {
+        "at": 1,
+        "ko": "물을 극도로 무서워해서 물이라는 말조차 돌려 말한다.",
+        "en": "They are so afraid of water that they avoid even saying the word."
+      }
+    ]
+  },
+  {
+    "id": "tokkebi",
+    "type": "race",
+    "name": { "ko": "도깨비", "en": "Tokkebi" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "누구나 도깨비불을 마음대로 다루며, 그 불은 자신을 죽이는 신의 선물로 여겨진다.",
+        "en": "Every Tokkebi can command tokkebi fire, which is seen as a gift from the God Who Kills Himself."
+      },
+      {
+        "at": 1,
+        "ko": "거대한 딱정벌레를 타고 다닌다.",
+        "en": "They ride giant beetles."
+      },
+      {
+        "at": 1,
+        "ko": "대부분 즈믄누리에 모여 살고 성주가 다스린다.",
+        "en": "Most of them live together in Jeumeunnuri, ruled by its lord."
+      }
+    ]
+  },
+  {
+    "id": "nhaga",
+    "type": "race",
+    "name": { "ko": "나가", "en": "Nhaga" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "비늘로 덮인 몸을 가진, 뱀을 닮은 남부 종족이다.",
+        "en": "A snake-like people of the South with scale-covered bodies."
+      },
+      {
+        "at": 1,
+        "ko": "말소리 대신 니름이라는 정신 대화를 쓰며, 다른 종족은 니름을 듣지도 하지도 못한다.",
+        "en": "Instead of speaking aloud they use nirm, a form of mind-speech that other peoples can neither hear nor use."
+      },
+      {
+        "at": 1,
+        "ko": "변온 동물이라 추위에 약해서 한계선 북쪽에서는 제대로 움직이지 못한다.",
+        "en": "Being cold-blooded, they cannot handle the cold and barely function north of the Line of Limit."
+      },
+      {
+        "at": 1,
+        "ko": "성인이 되면 심장을 적출하고, 그 뒤로는 웬만해서는 죽지 않는 몸이 된다.",
+        "en": "When they come of age they have their hearts removed, and after that they are very hard to kill."
+      },
+      {
+        "at": 1,
+        "ko": "여성이 가문을 이끄는 모계 사회이며, 성인 남성은 가문 밖으로 나간다.",
+        "en": "Their society is matriarchal: women lead the families, and grown men leave the household."
+      }
+    ]
+  },
+  {
+    "id": "kiboren",
+    "type": "place",
+    "name": { "ko": "키보렌", "en": "Kiboren" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가가 사는 남부의 거대한 밀림 지대다.",
+        "en": "The vast southern jungle where the Nhaga live."
+      },
+      {
+        "at": 1,
+        "ko": "하텐그라쥬를 비롯한 나가 도시들이 이곳에 있다.",
+        "en": "Hatengrazh and the other Nhaga cities lie here."
+      }
+    ]
+  },
+  {
+    "id": "hatengrazh",
+    "type": "place",
+    "name": { "ko": "하텐그라쥬", "en": "Hatengrazh" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "대륙 남쪽 끝에 있는 나가의 중심 도시다.",
+        "en": "The central Nhaga city, at the southern end of the continent."
+      },
+      {
+        "at": 1,
+        "ko": "페이 가문과 마케로우 가문 같은 대가문이 이곳에 있다.",
+        "en": "Great families such as the Pei and the Makerow are based here."
+      }
+    ]
+  },
+  {
+    "id": "hainsha",
+    "type": "place",
+    "name": { "ko": "하인샤 대사원", "en": "Hainsha Great Temple" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "어디에도 없는 신을 모시는 북부의 큰 사찰이다.",
+        "en": "A large temple in the North dedicated to the God Who Is Nowhere."
+      },
+      {
+        "at": 1,
+        "ko": "키보렌의 나가를 데려오라며 구출대를 꾸린 곳이다.",
+        "en": "It is the temple that puts together a rescue party to bring back a Nhaga from Kiboren."
+      }
+    ]
+  },
+  {
+    "id": "nirm",
+    "type": "term",
+    "name": { "ko": "니름", "en": "Nirm" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가가 말 대신 쓰는 정신 대화다.",
+        "en": "The mind-speech the Nhaga use in place of spoken words."
+      }
+    ]
+  },
+  {
+    "id": "heart-extraction",
+    "type": "term",
+    "name": { "ko": "심장 적출", "en": "Heart Extraction" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "성인이 되는 나가가 심장을 빼내 보관하는 의식이며, 이를 심장 적출식이라 한다.",
+        "en": "The coming-of-age rite in which a Nhaga's heart is taken out and stored away."
+      },
+      {
+        "at": 1,
+        "ko": "적출을 마친 나가는 웬만한 상처로는 죽지 않는다.",
+        "en": "A Nhaga whose heart has been removed does not die from ordinary wounds."
+      }
+    ]
+  },
+  {
+    "id": "rescue-party",
+    "type": "term",
+    "name": { "ko": "구출대", "en": "Rescue Party" },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하인샤 대사원이 키보렌의 나가 하나를 데려오려고 꾸린 일행이다.",
+        "en": "The group the Hainsha Great Temple puts together to bring one Nhaga back from Kiboren."
+      },
+      {
+        "at": 1,
+        "ko": "인간 길잡이, 레콘 대적자, 도깨비 요술쟁이 셋으로 이루어진다.",
+        "en": "It has three members: a Human guide, a Rekon fighter and a Tokkebi trickster."
+      }
+    ]
+  }
+]
