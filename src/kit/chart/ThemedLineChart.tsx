@@ -1,0 +1,139 @@
+import React from 'react';
+import { ViewStyle } from 'react-native';
+import { LineChart } from 'react-native-chart-kit';
+import { formatDecimal } from '../currency';
+import { ThemeColors } from '../theme';
+import { yAxisDecimalPlaces } from './yAxisDecimalPlaces';
+
+const MIN_STROKE_OPACITY = 0.9;
+
+// 마지막 X축 라벨의 오른쪽 절반이 잘리지 않게 SVG 캔버스만 넓히는 여유 폭(px).
+//
+// chart-kit 은 X축 라벨을 데이터 점 위 가운데 정렬로 그리는데, 마지막 점은
+// 캔버스 오른쪽 끝에서 한 칸(플롯 폭/점 개수, 점이 많으면 몇 px)밖에 안
+// 떨어져 있어 "360" 같은 라벨의 오른쪽 절반이 캔버스 밖으로 나가 잘린다.
+// chart-kit 은 SVG 폭을 width - margin*2 - marginRight 로 계산하면서 플롯
+// 좌표는 전부 width 만 쓰므로, marginRight 를 음수로 주면 플롯/격자/범례는
+// 그대로 두고 캔버스만 오른쪽으로 넓어져 라벨이 온전히 보인다.
+// 12px 면 fontSize 12 기준 숫자 3~4자리 라벨의 절반을 덮는다.
+const X_LABEL_RIGHT_OVERFLOW = 12;
+
+export function ThemedLineChart(props: {
+  labels: string[];
+  values: number[];
+  /**
+   * 주 계열과 함께 그릴 추가 계열. 방식별 비교처럼 여러 곡선을 겹칠 때 쓴다.
+   * 색은 앱이 지정한다 - kit 은 브랜드 색 외의 팔레트를 모른다.
+   */
+  extraSeries?: { values: number[]; /** `#RRGGBB` */ color: string }[];
+  /** 계열 이름. 주 계열부터 extraSeries 순서로 대응한다. */
+  legend?: string[];
+  width: number;
+  height?: number;
+  yAxisSuffix?: string;
+  // Y축 숫자 라벨을 locale 표기법(소수/천 단위 구분자)으로 표시한다. 없으면 chart-kit 기본 표기(점, 구분자 없음)
+  locale?: string;
+  brandColor: string;
+  colors: ThemeColors;
+  // react-native-chart-kit의 style prop은 Partial<ViewStyle>만 받는다 (StyleProp 불가)
+  style?: Partial<ViewStyle>;
+  /** 점을 숨긴다. 회차가 많아 점이 뭉개질 때 쓴다. */
+  hideDots?: boolean;
+  /**
+   * 곡선 아래 면 채움을 끈다.
+   *
+   * chart-kit 은 면을 chartConfig.color 로 칠하기 때문에 계열마다 색을 줘도
+   * 면이 겹쳐 곡선 색이 묻힌다. 여러 계열을 겹칠 때는 꺼야 구분이 된다.
+   */
+  hideFill?: boolean;
+  /**
+   * y축 라벨 소수점 자릿수. 금액은 보통 0 이 읽기 좋다.
+   * 생략하면 값 범위에 맞춰 고른다 (최소 1, 범위가 좁아 라벨이 뭉개질 때만 늘어난다).
+   */
+  decimalPlaces?: number;
+}) {
+  const { colors, brandColor, locale } = props;
+
+  // chart-kit renderLegend 는 datasets[i] 색을 쓰므로 계열 수보다 긴 legend 는
+  // LineChart 에 넘기기 전에 거절한다.
+  assertLegendLength(props.legend, props.extraSeries?.length ?? 0);
+
+  // chart-kit 은 선 색 콜백에 1 보다 작은 opacity 를 넘길 때가 있어
+  // 여러 계열을 겹치면 색이 흐려져 구분이 어렵다. 하한을 둔다.
+  const strokeOpacity = (opacity: number) => Math.max(opacity, MIN_STROKE_OPACITY);
+
+  const datasets = [
+    {
+      data: props.values,
+      color: (opacity = 1) => hexToRgba(brandColor, strokeOpacity(opacity)),
+      strokeWidth: 2,
+    },
+    ...(props.extraSeries ?? []).map((series) => ({
+      data: series.values,
+      color: (opacity = 1) => hexToRgba(series.color, strokeOpacity(opacity)),
+      strokeWidth: 2,
+    })),
+  ];
+
+  // chart-kit 은 Y축 min/max 를 전 계열 합집합으로 잡으므로 자릿수도 전 계열로 고른다.
+  const decimalPlaces =
+    props.decimalPlaces ??
+    yAxisDecimalPlaces([...props.values, ...(props.extraSeries ?? []).flatMap((s) => s.values)]);
+
+  return (
+    <LineChart
+      data={{ labels: props.labels, datasets, legend: props.legend }}
+      width={props.width}
+      height={props.height ?? 220}
+      yAxisSuffix={props.yAxisSuffix ?? ''}
+      yAxisInterval={1}
+      withDots={!props.hideDots}
+      withShadow={!props.hideFill}
+      // chart-kit 이 toFixed 로 만든 라벨을 locale 표기로 바꾼다 (de/es 는 쉼표 소수 구분자)
+      formatYLabel={
+        locale ? (yLabel) => formatDecimal(Number(yLabel), locale, decimalPlaces) : undefined
+      }
+      chartConfig={{
+        backgroundColor: colors.card,
+        backgroundGradientFrom: colors.card,
+        backgroundGradientTo: colors.card,
+        decimalPlaces,
+        color: (opacity = 1) => hexToRgba(brandColor, opacity),
+        labelColor: () => colors.subtext,
+        propsForDots: { r: '4', strokeWidth: '2', stroke: brandColor },
+        propsForBackgroundLines: { stroke: colors.chartGrid },
+      }}
+      bezier
+      // 음수 marginRight 만큼 SVG 캔버스가 넓어진다 (X_LABEL_RIGHT_OVERFLOW 주석 참고).
+      // 컨테이너(카드)에는 그만큼의 오른쪽 패딩 여유가 있어야 한다.
+      style={{ ...props.style, marginRight: -X_LABEL_RIGHT_OVERFLOW }}
+    />
+  );
+}
+
+/**
+ * chart-kit renderLegend 가 datasets[i] 색을 쓰므로,
+ * legend 가 계열 수보다 길면 런타임 예외가 난다.
+ */
+export function assertLegendLength(
+  legend: string[] | undefined,
+  extraSeriesLength: number,
+): void {
+  const datasetCount = 1 + extraSeriesLength;
+  if (legend && legend.length > datasetCount) {
+    throw new Error('ThemedLineChart: legend length exceeds dataset count');
+  }
+}
+
+/**
+ * `#RRGGBB` 만 받는다. `#RGB`, `rgb()`, 색 이름은 불가.
+ */
+export function hexToRgba(hex: string, opacity: number): string {
+  if (!/^#[0-9A-Fa-f]{6}$/.test(hex)) {
+    throw new Error('ThemedLineChart: color must be #RRGGBB');
+  }
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+}
