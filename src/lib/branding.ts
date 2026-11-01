@@ -5,10 +5,10 @@
 
 export const BRANDING = {
   /** 공유 카드와 화면 헤더에 표시되는 이름. app.json 의 expo.name 과 맞춘다. */
-  appName: 'Microapp Starter',
+  appName: 'Nunmasae Companion',
 
   /** 버튼/차트/공유 카드 배경에 쓰이는 대표 색. */
-  brandColor: '#208AEF',
+  brandColor: '#2F6F6A',
 
   /**
    * AdMob 배너 광고 단위 ID.
@@ -26,13 +26,13 @@ export const BRANDING = {
    * 각자 별개의 저장 공간이므로 충돌하지는 않지만,
    * 접두사를 두면 로그와 디버깅에서 어느 앱의 값인지 바로 보인다.
    */
-  storageKeyPrefix: 'microapp-starter',
+  storageKeyPrefix: 'nunmasae-companion',
 } as const;
 
 /** 브랜드 색에서 파생돼 kit/theme 의 기본 팔레트를 덮어쓰는 값. */
 export const THEME_OVERRIDES = {
-  light: { bannerBg: '#e7f1fd' },
-  dark: { bannerBg: '#16283c' },
+  light: { bannerBg: '#e3eeec' },
+  dark: { bannerBg: '#15302d' },
 } as const;
 
 export function storageKey(name: string): string {
