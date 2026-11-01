@@ -5,13 +5,16 @@ import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-cont
 
 import { useThemeColors } from "@/kit/theme";
 import { THEME_OVERRIDES } from "@/lib/branding";
+import { SettingsProvider } from "@/lib/settings";
 
 // 화면 본문이 자체 타이틀을 그리므로 네이티브 헤더는 끈다.
 // 켜두면 라우트명("index")이 그대로 헤더에 노출된다.
 export default function RootLayout() {
   return (
     <SafeAreaProvider>
-      <Shell />
+      <SettingsProvider>
+        <Shell />
+      </SettingsProvider>
     </SafeAreaProvider>
   );
 }

@@ -1,443 +1,162 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import {
-  Alert,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-  useWindowDimensions,
-} from 'react-native';
+import { Redirect, router } from 'expo-router';
+import { useMemo, useState } from 'react';
+import { FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
-import { ThemedLineChart } from '@/kit/chart/ThemedLineChart';
-import { decimateLabels } from '@/kit/chart/decimateLabels';
-import { formatCurrency, resolveTargetCurrency } from '@/kit/currency';
-import { BrandCard } from '@/kit/share/BrandCard';
-import {
-  captureCard,
-  saveImageToLibrary,
-  shareImage,
-  useShareAvailability,
-} from '@/kit/share/capture';
+import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
 import { useThemeColors } from '@/kit/theme';
-
 import { BRANDING, THEME_OVERRIDES } from '@/lib/branding';
-import { compoundSeries, yearEndPoints, type CompoundResult } from '@/lib/compound';
-import { appLocale, deviceCurrencyCode, t } from '@/lib/i18n';
-import { inputPrefs } from '@/lib/prefs';
+import { ENTRIES, visibleEntries, type EntryType } from '@/lib/entries';
+import { useSettings } from '@/lib/settings';
 
-// 기기 지역 통화로 표기한다. USD 지역이거나 통화를 알 수 없으면 USD.
-const DISPLAY_CURRENCY = resolveTargetCurrency(deviceCurrencyCode) ?? 'USD';
-
-// 차트 x축 라벨이 겹치지 않는 최대 개수
-const MAX_CHART_LABELS = 8;
-
-const DEFAULTS = {
-  principal: '10000',
-  monthlyContribution: '300',
-  annualRatePercent: '5',
-  years: '20',
-};
+const TABS: { label: string; types: EntryType[] }[] = [
+  { label: 'tabCharacters', types: ['character', 'creature'] },
+  { label: 'tabRaces', types: ['race', 'god'] },
+  { label: 'tabPlaces', types: ['place'] },
+  { label: 'tabTerms', types: ['term'] },
+];
 
 export default function Index() {
+  const { hydrated, progress, locale, t } = useSettings();
   const colors = useThemeColors(THEME_OVERRIDES);
-  const { width } = useWindowDimensions();
-  const canShare = useShareAvailability();
+  const [tab, setTab] = useState(0);
+  const [query, setQuery] = useState('');
 
-  const [principal, setPrincipal] = useState(DEFAULTS.principal);
-  const [monthlyContribution, setMonthlyContribution] = useState(DEFAULTS.monthlyContribution);
-  const [annualRatePercent, setAnnualRatePercent] = useState(DEFAULTS.annualRatePercent);
-  const [years, setYears] = useState(DEFAULTS.years);
-  const [hydrated, setHydrated] = useState(false);
-  const [result, setResult] = useState<CompoundResult | null>(null);
-  const [resultYears, setResultYears] = useState(0);
+  const other = locale === 'en' ? 'ko' : 'en';
 
-  const cardRef = useRef<View>(null);
+  // 검색어가 있으면 탭과 무관하게 보이는 항목 전체에서 찾는다.
+  const items = useMemo(() => {
+    const visible = visibleEntries(ENTRIES, progress ?? 0);
+    const q = query.trim().toLowerCase();
+    const filtered = q
+      ? visible.filter((e) => e.name.en.toLowerCase().includes(q) || e.name.ko.includes(q))
+      : visible.filter((e) => TABS[tab].types.includes(e.type));
+    return filtered.sort((a, b) => a.name[locale].localeCompare(b.name[locale], locale));
+  }, [progress, query, tab, locale]);
 
-  // 저장된 입력값 복원. setState 가 await 이후에 일어나므로 이펙트 동기 setState 가 아니다.
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      const saved = await inputPrefs.load();
-      if (cancelled) return;
-      if (saved) {
-        setPrincipal(saved.principal);
-        setMonthlyContribution(saved.monthlyContribution);
-        setAnnualRatePercent(saved.annualRatePercent);
-        setYears(saved.years);
-      }
-      setHydrated(true);
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  // 입력값 저장. 복원 완료 전에는 기본값으로 덮어쓰지 않는다.
-  useEffect(() => {
-    if (!hydrated) return;
-    inputPrefs.save({ principal, monthlyContribution, annualRatePercent, years });
-  }, [hydrated, principal, monthlyContribution, annualRatePercent, years]);
-
-  const calculate = useCallback(() => {
-    const parsed = parseInputs({ principal, monthlyContribution, annualRatePercent, years });
-    if (!parsed) {
-      Alert.alert(t('invalidInput'), undefined, [{ text: t('ok') }]);
-      return;
-    }
-    setResult(compoundSeries(parsed));
-    setResultYears(parsed.years);
-  }, [principal, monthlyContribution, annualRatePercent, years]);
-
-  const chart = useMemo(() => {
-    if (!result) return null;
-    const points = yearEndPoints(result);
-    if (points.length < 2) return null;
-    return {
-      labels: decimateLabels(
-        points.map((p) => String(p.month / 12)),
-        MAX_CHART_LABELS
-      ),
-      values: points.map((p) => p.balance),
-    };
-  }, [result]);
-
-  const money = useCallback(
-    (amount: number) => formatCurrency(amount, appLocale, DISPLAY_CURRENCY),
-    []
-  );
-
-  const onShare = useCallback(async () => {
-    try {
-      const uri = await captureCard(cardRef);
-      await shareImage(uri);
-    } catch {
-      Alert.alert(t('shareFailTitle'), t('shareFailBody'), [{ text: t('ok') }]);
-    }
-  }, []);
-
-  const onSave = useCallback(async () => {
-    try {
-      const uri = await captureCard(cardRef);
-      // kit 은 'saved' | 'denied' 만 돌려준다. 안내 문구는 앱이 번역해 띄운다.
-      const outcome = await saveImageToLibrary(uri);
-      if (outcome === 'denied') {
-        Alert.alert(t('deniedTitle'), t('deniedBody'), [{ text: t('ok') }]);
-        return;
-      }
-      Alert.alert(t('savedTitle'), t('savedBody'), [{ text: t('ok') }]);
-    } catch {
-      Alert.alert(t('shareFailTitle'), t('shareFailBody'), [{ text: t('ok') }]);
-    }
-  }, []);
+  if (!hydrated) return null;
+  if (progress === null) return <Redirect href="/progress" />;
 
   return (
-    <ScrollView
-      style={{ backgroundColor: colors.background }}
-      contentContainerStyle={styles.content}
-    >
-      <Text style={[styles.title, { color: colors.text }]}>{t('title')}</Text>
-      <Text style={[styles.subtitle, { color: colors.subtext }]}>{t('subtitle')}</Text>
-
-      <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
-        <NumberField
-          label={t('principalLabel')}
-          value={principal}
-          onChangeText={setPrincipal}
-          colors={colors}
-        />
-        <NumberField
-          label={t('monthlyLabel')}
-          value={monthlyContribution}
-          onChangeText={setMonthlyContribution}
-          colors={colors}
-        />
-        <NumberField
-          label={t('rateLabel')}
-          value={annualRatePercent}
-          onChangeText={setAnnualRatePercent}
-          colors={colors}
-        />
-        <NumberField
-          label={t('yearsLabel')}
-          value={years}
-          onChangeText={setYears}
-          colors={colors}
-        />
-
-        <TouchableOpacity
-          style={[styles.button, { backgroundColor: BRANDING.brandColor }]}
-          onPress={calculate}
-        >
-          <Text style={styles.buttonText}>{t('calculate')}</Text>
+    <View style={[styles.root, { backgroundColor: colors.background }]}>
+      <HeaderBar>
+        <ProgressChip />
+        <TouchableOpacity accessibilityRole="button" onPress={() => router.push('/settings')} style={styles.hit}>
+          <Text style={[styles.link, { color: BRANDING.brandColor }]}>{t('settings')}</Text>
         </TouchableOpacity>
-      </View>
+      </HeaderBar>
 
-      {result && (
-        <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
-          <SummaryRow
-            label={t('finalBalance')}
-            value={money(result.finalBalance)}
-            colors={colors}
-            emphasis
-          />
-          <SummaryRow
-            label={t('totalContributed')}
-            value={money(result.totalContributed)}
-            colors={colors}
-          />
-          <SummaryRow
-            label={t('totalInterest')}
-            value={money(result.totalInterest)}
-            colors={colors}
-          />
-        </View>
-      )}
+      <Text style={[styles.title, { color: colors.text }]}>{BRANDING.appName}</Text>
 
-      {chart && (
-        <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
-          <Text style={[styles.cardTitle, { color: colors.text }]}>{t('chartTitle')}</Text>
-          {/*
-            yAxisSuffix 는 y축(금액)에 붙는다. x축 단위(년)를 여기 주면
-            "50436.5년" 처럼 금액 뒤에 년이 붙는다. x축 단위는 카드 제목으로 알린다.
-          */}
-          <ThemedLineChart
-            labels={chart.labels}
-            values={chart.values}
-            width={Math.max(width - 64, 240)}
-            decimalPlaces={0}
-            locale={appLocale}
-            brandColor={BRANDING.brandColor}
-            colors={colors}
-            style={styles.chart}
-          />
-        </View>
-      )}
-
-      {result && (
-        <View style={styles.shareRow}>
-          {canShare && (
-            <TouchableOpacity
-              style={[
-                styles.secondaryButton,
-                { borderColor: colors.border, backgroundColor: colors.buttonBg },
-              ]}
-              onPress={onShare}
-            >
-              <Text style={[styles.secondaryButtonText, { color: colors.text }]}>{t('share')}</Text>
-            </TouchableOpacity>
-          )}
-          <TouchableOpacity
-            style={[
-              styles.secondaryButton,
-              { borderColor: colors.border, backgroundColor: colors.buttonBg },
-            ]}
-            onPress={onSave}
-          >
-            <Text style={[styles.secondaryButtonText, { color: colors.text }]}>{t('save')}</Text>
-          </TouchableOpacity>
-        </View>
-      )}
-
-      {/* 공유 카드는 화면 밖에 렌더링해 두고 캡처한다 */}
-      <View style={styles.offscreen} pointerEvents="none">
-        <BrandCard
-          ref={cardRef}
-          brandColor={BRANDING.brandColor}
-          appName={BRANDING.appName}
-          footerText={t('shareFooter')}
-        >
-          <Text style={styles.cardHeadline}>
-            {t('shareHeadline', {
-              years: resultYears,
-              balance: money(result?.finalBalance ?? 0),
-            })}
-          </Text>
-          <Text style={styles.cardSub}>
-            {t('totalInterest')} {money(result?.totalInterest ?? 0)}
-          </Text>
-        </BrandCard>
-      </View>
-    </ScrollView>
-  );
-}
-
-function NumberField(props: {
-  label: string;
-  value: string;
-  onChangeText: (value: string) => void;
-  colors: { text: string; subtext: string; border: string; background: string };
-}) {
-  return (
-    <View style={styles.field}>
-      <Text style={[styles.label, { color: props.colors.subtext }]}>{props.label}</Text>
       <TextInput
-        style={[
-          styles.input,
-          {
-            color: props.colors.text,
-            borderColor: props.colors.border,
-            backgroundColor: props.colors.background,
-          },
-        ]}
-        value={props.value}
-        onChangeText={props.onChangeText}
-        keyboardType="decimal-pad"
-        inputMode="decimal"
+        style={[styles.search, { color: colors.text, borderColor: colors.border, backgroundColor: colors.card }]}
+        placeholder={t('searchPlaceholder')}
+        placeholderTextColor={colors.faint}
+        accessibilityLabel={t('searchPlaceholder')}
+        value={query}
+        onChangeText={setQuery}
+        autoCorrect={false}
+        autoCapitalize="none"
+      />
+
+      {query.trim() === '' && (
+        <View style={[styles.segments, { borderColor: colors.border }]}>
+          {TABS.map((tb, i) => (
+            <TouchableOpacity
+              key={tb.label}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: i === tab }}
+              onPress={() => setTab(i)}
+              style={[styles.segment, i === tab && { backgroundColor: BRANDING.brandColor }]}
+            >
+              <Text style={[styles.segmentText, { color: i === tab ? '#fff' : colors.text }]} numberOfLines={1}>
+                {t(tb.label)}
+              </Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+      )}
+
+      <FlatList
+        data={items}
+        keyExtractor={(e) => e.id}
+        keyboardShouldPersistTaps="handled"
+        contentContainerStyle={styles.list}
+        ListEmptyComponent={<Text style={[styles.empty, { color: colors.subtext }]}>{t('noResults')}</Text>}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            accessibilityRole="button"
+            onPress={() => router.push({ pathname: '/entry/[id]', params: { id: item.id } })}
+            style={[styles.row, { backgroundColor: colors.card, borderColor: colors.border }]}
+          >
+            <Text style={[styles.name, { color: colors.text }]}>{item.name[locale]}</Text>
+            <Text style={[styles.altName, { color: colors.subtext }]}>{item.name[other]}</Text>
+          </TouchableOpacity>
+        )}
       />
     </View>
   );
 }
 
-function SummaryRow(props: {
-  label: string;
-  value: string;
-  colors: { text: string; subtext: string };
-  emphasis?: boolean;
-}) {
-  return (
-    <View style={styles.summaryRow}>
-      <Text style={[styles.summaryLabel, { color: props.colors.subtext }]}>{props.label}</Text>
-      <Text
-        style={[
-          styles.summaryValue,
-          { color: props.colors.text },
-          props.emphasis && styles.summaryValueEmphasis,
-        ]}
-      >
-        {props.value}
-      </Text>
-    </View>
-  );
-}
-
-// 빈 문자열이나 잘못된 숫자는 null 로 돌려 화면이 안내를 띄우게 한다.
-// 도메인 함수는 RangeError 를 던지므로 여기서 미리 걸러 예외로 흐름을 만들지 않는다.
-function parseInputs(raw: {
-  principal: string;
-  monthlyContribution: string;
-  annualRatePercent: string;
-  years: string;
-}): {
-  principal: number;
-  monthlyContribution: number;
-  annualRatePercent: number;
-  years: number;
-} | null {
-  const principal = Number(raw.principal);
-  const monthlyContribution = Number(raw.monthlyContribution);
-  const annualRatePercent = Number(raw.annualRatePercent);
-  const years = Number(raw.years);
-
-  // 빈 문자열은 Number('') === 0 이 되므로 따로 걸러낸다
-  if ([raw.principal, raw.monthlyContribution, raw.annualRatePercent, raw.years].some((s) => s.trim() === '')) {
-    return null;
-  }
-
-  const nonNegative = [principal, monthlyContribution, annualRatePercent];
-  if (nonNegative.some((n) => !Number.isFinite(n) || n < 0)) return null;
-  if (!Number.isInteger(years) || years < 1 || years > 100) return null;
-
-  return { principal, monthlyContribution, annualRatePercent, years };
-}
-
 const styles = StyleSheet.create({
-  content: {
-    padding: 16,
-    paddingBottom: 32,
+  root: {
+    flex: 1,
+    paddingHorizontal: 16,
     gap: 12,
+  },
+  hit: {
+    paddingVertical: 10,
+    paddingLeft: 4,
+  },
+  link: {
+    fontSize: 15,
+    fontWeight: '600',
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
   },
-  subtitle: {
-    fontSize: 13,
-    marginBottom: 4,
-  },
-  card: {
-    borderRadius: 12,
-    borderWidth: StyleSheet.hairlineWidth,
-    padding: 16,
-    gap: 12,
-  },
-  cardTitle: {
-    fontSize: 15,
-    fontWeight: '600',
-  },
-  field: {
-    gap: 6,
-  },
-  label: {
-    fontSize: 13,
-  },
-  input: {
+  search: {
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: 8,
     paddingHorizontal: 12,
     paddingVertical: 10,
     fontSize: 16,
   },
-  button: {
-    borderRadius: 8,
-    paddingVertical: 14,
-    alignItems: 'center',
-  },
-  buttonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  summaryRow: {
+  segments: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'baseline',
-  },
-  summaryLabel: {
-    fontSize: 14,
-  },
-  summaryValue: {
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  summaryValueEmphasis: {
-    fontSize: 22,
-    fontWeight: 'bold',
-  },
-  chart: {
-    borderRadius: 8,
-    marginLeft: -8,
-  },
-  shareRow: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  secondaryButton: {
-    flex: 1,
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: 8,
-    paddingVertical: 12,
+    overflow: 'hidden',
+  },
+  segment: {
+    flex: 1,
+    paddingVertical: 10,
     alignItems: 'center',
   },
-  secondaryButtonText: {
-    fontSize: 14,
+  segmentText: {
+    fontSize: 13,
     fontWeight: '600',
   },
-  offscreen: {
-    position: 'absolute',
-    left: -9999,
-    top: 0,
+  list: {
+    gap: 8,
+    paddingBottom: 32,
   },
-  cardHeadline: {
-    color: '#fff',
-    fontSize: 22,
-    fontWeight: 'bold',
-    marginBottom: 8,
+  row: {
+    borderRadius: 10,
+    borderWidth: StyleSheet.hairlineWidth,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
   },
-  cardSub: {
-    color: 'rgba(255,255,255,0.85)',
-    fontSize: 14,
-    marginBottom: 20,
+  name: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  altName: {
+    fontSize: 13,
+    marginTop: 2,
+  },
+  empty: {
+    textAlign: 'center',
+    marginTop: 32,
   },
 });

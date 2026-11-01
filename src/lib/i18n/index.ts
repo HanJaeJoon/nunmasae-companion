@@ -1,9 +1,8 @@
 import { createI18n } from '@/kit/i18n';
 import { FALLBACK_LOCALE, SUPPORTED_LOCALES, translations, type AppLocale } from './translations';
 
-// kit/i18n 은 앱의 번역과 지원 언어 목록을 인자로 받는다.
-// 로케일 감지(pickSupportedLocale)와 fallback 은 kit 이 처리한다.
-export const { t, appLocale, deviceCurrencyCode } = createI18n<AppLocale>({
+// kit/i18n 은 기기 로케일로 초기 언어를 고른다. 사용자가 토글하면 t(key, { locale }) 로 덮어쓴다.
+export const { t, appLocale } = createI18n<AppLocale>({
   translations,
   supportedLocales: SUPPORTED_LOCALES,
   fallbackLocale: FALLBACK_LOCALE,
