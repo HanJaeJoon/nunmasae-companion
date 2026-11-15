@@ -46,7 +46,8 @@
           "imageWidth": 76
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      "./plugins/withReleaseMinify"
     ],
     "experiments": {
       "typedRoutes": true,
