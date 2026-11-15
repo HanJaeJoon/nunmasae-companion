@@ -1,8 +1,9 @@
+import type { ReactNode } from 'react';
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
-import { useThemeColors } from '@/kit/theme';
-import { BRANDING, THEME_OVERRIDES } from '@/lib/branding';
+import { BRANDING } from '@/lib/branding';
+import { useAppColors } from '@/lib/colors';
 import type { Locale } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
@@ -16,29 +17,54 @@ const LANGUAGES: { locale: Locale; label: string }[] = [
 
 export default function SettingsScreen() {
   const { locale, setLocale, t } = useSettings();
-  const colors = useThemeColors(THEME_OVERRIDES);
-  const cardStyle = [styles.card, { backgroundColor: colors.card, borderColor: colors.border }];
+  const colors = useAppColors();
+
+  const section = (title: string, children: ReactNode) => (
+    <View style={styles.section}>
+      <Text accessibilityRole="header" style={[styles.sectionTitle, { color: colors.subtext }]}>
+        {title}
+      </Text>
+      <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>{children}</View>
+    </View>
+  );
+
+  const links = [
+    { label: t('sourceCode'), url: SOURCE_URL },
+    { label: t('privacyPolicy'), url: BRANDING.privacyPolicyUrl },
+  ];
 
   return (
     <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={styles.content}>
       <HeaderBar back />
-      <Text style={[styles.title, { color: colors.text }]}>{t('settings')}</Text>
+      <Text accessibilityRole="header" style={[styles.title, { color: colors.text }]}>
+        {t('settings')}
+      </Text>
 
-      <View style={cardStyle}>
-        <Text style={[styles.label, { color: colors.subtext }]}>{t('language')}</Text>
-        <View style={styles.row}>
+      {section(
+        t('progress'),
+        <View style={styles.padded}>
+          <View style={styles.row}>
+            <ProgressChip />
+          </View>
+        </View>
+      )}
+
+      {section(
+        t('language'),
+        <View accessibilityRole="radiogroup" style={[styles.padded, styles.row]}>
           {LANGUAGES.map((l) => {
             const selected = l.locale === locale;
             return (
               <TouchableOpacity
                 key={l.locale}
                 accessibilityRole="radio"
-                accessibilityState={{ selected }}
+                accessibilityState={{ selected, checked: selected }}
                 onPress={() => setLocale(l.locale)}
                 style={[
                   styles.option,
-                  { borderColor: selected ? BRANDING.brandColor : colors.border },
-                  selected && { backgroundColor: BRANDING.brandColor },
+                  selected
+                    ? { backgroundColor: BRANDING.brandColor, borderColor: BRANDING.brandColor }
+                    : { borderColor: colors.border },
                 ]}
               >
                 <Text style={[styles.optionText, { color: selected ? '#fff' : colors.text }]}>{l.label}</Text>
@@ -46,27 +72,24 @@ export default function SettingsScreen() {
             );
           })}
         </View>
-      </View>
+      )}
 
-      <View style={cardStyle}>
-        <Text style={[styles.label, { color: colors.subtext }]}>{t('progress')}</Text>
-        <View style={styles.row}>
-          <ProgressChip />
-        </View>
-      </View>
-
-      <View style={cardStyle}>
-        <Text style={[styles.label, { color: colors.subtext }]}>{t('about')}</Text>
-        <Text style={[styles.body, { color: colors.text }]}>{t('disclaimer')}</Text>
-        <TouchableOpacity accessibilityRole="link" onPress={() => Linking.openURL(SOURCE_URL)}>
-          <Text style={[styles.body, { color: BRANDING.brandColor }]}>
-            {t('sourceCode')}: {SOURCE_URL}
-          </Text>
-        </TouchableOpacity>
-        <TouchableOpacity accessibilityRole="link" onPress={() => Linking.openURL(BRANDING.privacyPolicyUrl)}>
-          <Text style={[styles.body, { color: BRANDING.brandColor }]}>{t('privacyPolicy')}</Text>
-        </TouchableOpacity>
-      </View>
+      {section(
+        t('about'),
+        <>
+          <Text style={[styles.padded, styles.body, { color: colors.text }]}>{t('disclaimer')}</Text>
+          {links.map((l) => (
+            <TouchableOpacity
+              key={l.url}
+              accessibilityRole="link"
+              onPress={() => Linking.openURL(l.url)}
+              style={[styles.link, { borderTopColor: colors.border }]}
+            >
+              <Text style={[styles.linkText, { color: colors.accent }]}>{l.label}</Text>
+            </TouchableOpacity>
+          ))}
+        </>
+      )}
     </ScrollView>
   );
 }
@@ -76,20 +99,29 @@ const styles = StyleSheet.create({
     padding: 16,
     paddingTop: 0,
     paddingBottom: 32,
-    gap: 12,
+    gap: 20,
   },
   title: {
-    fontSize: 24,
+    fontSize: 26,
     fontWeight: 'bold',
+  },
+  section: {
+    gap: 8,
+  },
+  sectionTitle: {
+    fontSize: 13,
+    fontWeight: '600',
+    letterSpacing: 0.4,
+    textTransform: 'uppercase',
+    paddingHorizontal: 4,
   },
   card: {
     borderRadius: 12,
     borderWidth: StyleSheet.hairlineWidth,
-    padding: 16,
-    gap: 10,
+    overflow: 'hidden',
   },
-  label: {
-    fontSize: 13,
+  padded: {
+    padding: 16,
   },
   row: {
     flexDirection: 'row',
@@ -97,6 +129,8 @@ const styles = StyleSheet.create({
   },
   option: {
     flex: 1,
+    minHeight: 44,
+    justifyContent: 'center',
     borderWidth: 1,
     borderRadius: 8,
     paddingVertical: 10,
@@ -109,5 +143,16 @@ const styles = StyleSheet.create({
   body: {
     fontSize: 14,
     lineHeight: 20,
+  },
+  link: {
+    minHeight: 48,
+    justifyContent: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderTopWidth: StyleSheet.hairlineWidth,
+  },
+  linkText: {
+    fontSize: 15,
+    fontWeight: '600',
   },
 });

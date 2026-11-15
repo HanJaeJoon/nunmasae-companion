@@ -72,3 +72,14 @@ export function isNewEntry(entry: Entry, progress: number, newSince: number | un
 export function isNewFact(fact: Fact, progress: number, newSince: number | undefined): boolean {
   return newSince !== undefined && fact.at > newSince && fact.at <= progress;
 }
+
+/** 정렬된 사실을 같은 at 끼리 묶는다. 상세 화면의 "Book N" 소제목 단위. */
+export function groupFactsByAt(facts: readonly Fact[]): { at: number; facts: Fact[] }[] {
+  const groups: { at: number; facts: Fact[] }[] = [];
+  for (const f of facts) {
+    const last = groups[groups.length - 1];
+    if (last?.at === f.at) last.facts.push(f);
+    else groups.push({ at: f.at, facts: [f] });
+  }
+  return groups;
+}

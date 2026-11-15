@@ -29,6 +29,14 @@ type Strings = {
   privacyPolicy: string;
   notFound: string;
   newBadge: string;
+  appTagline: string;
+  noMatches: string;
+  typeCharacter: string;
+  typeCreature: string;
+  typeRace: string;
+  typeGod: string;
+  typePlace: string;
+  typeTerm: string;
 };
 
 export const translations: Record<AppLocale, Strings> = {
@@ -58,6 +66,14 @@ export const translations: Record<AppLocale, Strings> = {
     privacyPolicy: 'Privacy policy',
     notFound: 'This entry is not available.',
     newBadge: 'New',
+    appTagline: 'A spoiler-free glossary of characters, races, places and terms.',
+    noMatches: 'No matching names. Only entries that have appeared so far are searched.',
+    typeCharacter: 'Character',
+    typeCreature: 'Creature',
+    typeRace: 'Race',
+    typeGod: 'God',
+    typePlace: 'Place',
+    typeTerm: 'Term',
   },
   ko: {
     progressTitle: '어디까지 읽었나요?',
@@ -85,5 +101,13 @@ export const translations: Record<AppLocale, Strings> = {
     privacyPolicy: '개인정보처리방침',
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
+    appTagline: '인물, 종족, 장소, 용어를 스포일러 없이 찾아보는 용어집입니다.',
+    noMatches: '일치하는 이름이 없습니다. 지금까지 나온 항목에서만 찾습니다.',
+    typeCharacter: '인물',
+    typeCreature: '생물',
+    typeRace: '종족',
+    typeGod: '신',
+    typePlace: '장소',
+    typeTerm: '용어',
   },
 };

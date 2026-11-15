@@ -3,15 +3,15 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
 import { NewBadge } from '@/components/NewBadge';
-import { useThemeColors } from '@/kit/theme';
-import { THEME_OVERRIDES } from '@/lib/branding';
-import { ENTRIES, firstAt, isNewFact, visibleFacts } from '@/lib/entries';
+import { TypeLabel } from '@/components/TypeLabel';
+import { useAppColors } from '@/lib/colors';
+import { ENTRIES, firstAt, groupFactsByAt, isNewFact, visibleFacts } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 export default function EntryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { hydrated, progress, newSince, locale, t } = useSettings();
-  const colors = useThemeColors(THEME_OVERRIDES);
+  const colors = useAppColors();
 
   if (!hydrated) return null;
 
@@ -28,18 +28,36 @@ export default function EntryScreen() {
 
       {visible ? (
         <>
-          <View>
-            <Text style={[styles.name, { color: colors.text }]}>{entry.name[locale]}</Text>
+          <View style={styles.head}>
+            <TypeLabel type={entry.type} />
+            <Text accessibilityRole="header" style={[styles.name, { color: colors.text }]}>
+              {entry.name[locale]}
+            </Text>
             <Text style={[styles.altName, { color: colors.subtext }]}>{entry.name[other]}</Text>
           </View>
-          <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
-            {visibleFacts(entry, progress).map((f, i) => (
-              <View key={i} style={styles.factRow}>
-                {isNewFact(f, progress, newSince) && <NewBadge />}
-                <Text style={[styles.fact, { color: colors.text }]}>{'- ' + f[locale]}</Text>
+
+          {/* 진행까지의 권만 묶여 나오므로 소제목 자체는 스포일러가 아니다. */}
+          {groupFactsByAt(visibleFacts(entry, progress)).map((group) => (
+            <View key={group.at} style={styles.section}>
+              <Text accessibilityRole="header" style={[styles.sectionTitle, { color: colors.accent }]}>
+                {t('bookLabel', { n: group.at })}
+              </Text>
+              <View
+                accessibilityRole="list"
+                style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}
+              >
+                {group.facts.map((f, i) => (
+                  <View
+                    key={i}
+                    style={[styles.fact, i > 0 && { borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: colors.border }]}
+                  >
+                    {isNewFact(f, progress, newSince) && <NewBadge />}
+                    <Text style={[styles.factText, { color: colors.text }]}>{f[locale]}</Text>
+                  </View>
+                ))}
               </View>
-            ))}
-          </View>
+            </View>
+          ))}
         </>
       ) : (
         <Text style={[styles.altName, { color: colors.subtext }]}>{t('notFound')}</Text>
@@ -53,27 +71,38 @@ const styles = StyleSheet.create({
     padding: 16,
     paddingTop: 0,
     paddingBottom: 32,
-    gap: 12,
+    gap: 20,
+  },
+  head: {
+    gap: 4,
   },
   name: {
-    fontSize: 26,
+    fontSize: 28,
     fontWeight: 'bold',
   },
   altName: {
     fontSize: 15,
-    marginTop: 2,
+  },
+  section: {
+    gap: 8,
+  },
+  sectionTitle: {
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0.4,
+    textTransform: 'uppercase',
   },
   card: {
     borderRadius: 12,
     borderWidth: StyleSheet.hairlineWidth,
-    padding: 16,
-    gap: 10,
-  },
-  factRow: {
-    gap: 4,
+    paddingHorizontal: 16,
   },
   fact: {
-    fontSize: 15,
-    lineHeight: 22,
+    paddingVertical: 12,
+    gap: 6,
+  },
+  factText: {
+    fontSize: 16,
+    lineHeight: 24,
   },
 });

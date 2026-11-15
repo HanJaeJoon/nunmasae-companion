@@ -25,8 +25,14 @@ export const BRANDING = {
 
 /** 브랜드 색에서 파생돼 kit/theme 의 기본 팔레트를 덮어쓰는 값. */
 export const THEME_OVERRIDES = {
-  light: { bannerBg: '#e3eeec' },
-  dark: { bannerBg: '#15302d' },
+  light: { background: '#f6f5f1', border: '#e2dfd8', bannerBg: '#e3eeec' },
+  dark: { background: '#111413', card: '#1a1f1e', border: '#2e3735', bannerBg: '#15302d' },
+} as const;
+
+/** 글자와 테두리에 쓰는 브랜드 색. 다크 배경에서는 brandColor 대비가 낮아 밝힌 색을 쓴다. */
+export const ACCENT = {
+  light: '#2F6F6A',
+  dark: '#7DBDB5',
 } as const;
 
 export function storageKey(name: string): string {

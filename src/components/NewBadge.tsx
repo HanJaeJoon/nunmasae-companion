@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import { useThemeColors } from '@/kit/theme';
-import { BRANDING, THEME_OVERRIDES } from '@/lib/branding';
+import { useAppColors } from '@/lib/colors';
 import { useSettings } from '@/lib/settings';
 
 export function NewBadge() {
   const { t } = useSettings();
-  const colors = useThemeColors(THEME_OVERRIDES);
+  const colors = useAppColors();
   return (
     <View style={[styles.badge, { backgroundColor: colors.bannerBg }]}>
-      <Text style={[styles.text, { color: BRANDING.brandColor }]}>{t('newBadge')}</Text>
+      <Text style={[styles.text, { color: colors.accent }]}>{t('newBadge')}</Text>
     </View>
   );
 }

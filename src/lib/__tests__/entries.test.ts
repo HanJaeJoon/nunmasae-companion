@@ -1,6 +1,7 @@
 import {
   ENTRIES,
   firstAt,
+  groupFactsByAt,
   isNewEntry,
   isNewFact,
   nextNewSince,
@@ -48,6 +49,16 @@ describe('visibleEntries', () => {
 
   it('첫 등장은 가장 작은 at 이다 (사실 순서와 무관)', () => {
     expect(firstAt(entry('x', [4, 2, 3]))).toBe(2);
+  });
+});
+
+describe('groupFactsByAt', () => {
+  it('보이는 사실을 권별로 묶고 순서를 유지한다', () => {
+    const groups = groupFactsByAt(visibleFacts(entry('a', [3, 1, 2, 1]), 2));
+    expect(groups.map((g) => [g.at, g.facts.map((f) => f.ko)])).toEqual([
+      [1, ['a-1', 'a-3']],
+      [2, ['a-2']],
+    ]);
   });
 });
 
