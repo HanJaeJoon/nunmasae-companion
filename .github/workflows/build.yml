@@ -14,7 +14,7 @@ env:
   # 업로드 키 인증서가 아직 없으므로 빈 값이 정상이다.
   # 첫 업로드 이후 반드시 채울 것. 채우지 않으면 잘못된 키로 서명된 AAB 가
   # 조용히 통과한다.
-  EXPECTED_UPLOAD_CERT_SHA256: ''
+  EXPECTED_UPLOAD_CERT_SHA256: 'E3:CE:DD:11:FF:AB:70:83:27:1F:A1:62:43:19:85:F0:50:6D:80:95:6F:E2:CC:D7:61:9F:5B:C4:E7:18:0C:8E'
   AAB_PATH: android/app/build/outputs/bundle/release/app-release.aab
 
 jobs:
