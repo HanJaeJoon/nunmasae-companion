@@ -2,7 +2,7 @@
 
 Unofficial, spoiler-free fan companion for the Korean fantasy novel "The Bird That Drinks Tears" (눈물을 마시는 새). Not affiliated with the author, Golden Bough, Krafton or HarperCollins. No ads, no donations, no paid features.
 
-소설 "눈물을 마시는 새"의 비공식 동반 앱. 몇 권까지 읽었는지 고르면 **거기까지 나온 인물, 종족, 장소, 용어만**, 항목 안에서도 **그 권까지 밝혀진 사실만** 보여 준다. 그 너머의 항목과 사실은 흐리게 처리하지 않고 아예 렌더하지 않는다 (개수도 드러나지 않게).
+한국어 이름은 **눈마새 길잡이**다 (화면의 앱 이름과 한국어 기기의 홈 화면 이름. 홈 화면 이름은 `app.json` 의 `locales.ko`). 소설 "눈물을 마시는 새"의 비공식 동반 앱. 몇 권까지 읽었는지 고르면 **거기까지 나온 인물, 종족, 장소, 용어만**, 항목 안에서도 **그 권까지 밝혀진 사실만** 보여 준다. 그 너머의 항목과 사실은 흐리게 처리하지 않고 아예 렌더하지 않는다 (개수도 드러나지 않게).
 
 Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, 광고 없음. 저장하는 것은 진행 권수, 직전 진행 권수("new" 표시용), 언어 선택뿐이다 (기기의 AsyncStorage).
 

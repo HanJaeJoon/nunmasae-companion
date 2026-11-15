@@ -32,6 +32,12 @@
       },
       "predictiveBackGestureEnabled": false
     },
+    "locales": {
+      "ko": {
+        "ios": { "CFBundleDisplayName": "눈마새 길잡이" },
+        "android": { "app_name": "눈마새 길잡이" }
+      }
+    },
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"

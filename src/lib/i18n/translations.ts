@@ -5,6 +5,7 @@ export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
 export const FALLBACK_LOCALE: AppLocale = 'en';
 
 type Strings = {
+  appName: string;
   greeting: string;
   openCount: string;
   bookOf: string;
@@ -45,6 +46,7 @@ type Strings = {
 
 export const translations: Record<AppLocale, Strings> = {
   en: {
+    appName: 'Nunmasae Companion',
     greeting: 'Read through Book %{n}.',
     openCount: '%{count} entries open so far.',
     bookOf: 'Book %{n} of %{total}',
@@ -84,6 +86,7 @@ export const translations: Record<AppLocale, Strings> = {
     typeTerm: 'Term',
   },
   ko: {
+    appName: '눈마새 길잡이',
     greeting: '%{n}권까지 읽었어요.',
     openCount: '지금까지 %{count}개 항목이 열려 있습니다.',
     bookOf: '전체 %{total}권 중 %{n}권',
