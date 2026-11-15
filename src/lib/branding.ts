@@ -4,10 +4,10 @@
 // kit/ 은 이 값들을 인자나 prop 으로 받으므로 kit 안에는 앱 고유 값이 없다.
 
 export const BRANDING = {
-  /** 공유 카드와 화면 헤더에 표시되는 이름. app.json 의 expo.name 과 맞춘다. */
+  /** 화면 헤더에 표시되는 이름. app.json 의 expo.name 과 맞춘다. */
   appName: 'Nunmasae Companion',
 
-  /** 버튼/차트/공유 카드 배경에 쓰이는 대표 색. */
+  /** 선택된 버튼 배경에 쓰이는 대표 색. */
   brandColor: '#2F6F6A',
 
   /**

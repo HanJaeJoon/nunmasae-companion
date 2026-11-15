@@ -7,6 +7,3 @@ export const { t, appLocale } = createI18n<AppLocale>({
   supportedLocales: SUPPORTED_LOCALES,
   fallbackLocale: FALLBACK_LOCALE,
 });
-
-export { FALLBACK_LOCALE, SUPPORTED_LOCALES };
-export type { AppLocale };

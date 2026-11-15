@@ -1,6 +1,6 @@
 # 출시 체크리스트
 
-이 앱은 광고, 후원, 유료 기능이 없다. AdMob 단계는 없다.
+이 앱은 광고, 후원, 유료 기능이 없다.
 
 새 앱을 Play 에 처음 올릴 때의 순서. 위에서 아래로 그대로 따라간다.
 
@@ -72,9 +72,9 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 | `ANDROID_KEY_ALIAS` | `upload` |
 | `ANDROID_KEY_PASSWORD` | 키 비밀번호 |
 
-`.github/workflows/build.yml` 의 `EXPECTED_UPLOAD_CERT_SHA256` 은 **아직 비워 둔다.** 비어 있으면 워크플로가 서명 검증을 건너뛰고 경고만 남긴다. 5단계에서 채운다.
+`.github/workflows/build.yml` 의 `EXPECTED_UPLOAD_CERT_SHA256` 은 **아직 비워 둔다.** 비어 있으면 워크플로가 서명 검증을 건너뛰고 경고만 남긴다. 4단계에서 채운다.
 
-## 4. 첫 빌드
+## 3. 첫 빌드
 
 - [ ] Actions > Android Build > Run workflow, 브랜치 `main`
 - [ ] 약 25분 대기
@@ -82,7 +82,7 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 `main` 에서 1회 빌드해야 Gradle 캐시가 저장된다. 캐시는 저장소별이고 기본 브랜치에서만 저장되므로, 작업 브랜치에서만 빌드하면 매번 처음부터 컴파일한다.
 
-## 5. Play Console 앱 생성과 첫 업로드
+## 4. Play Console 앱 생성과 첫 업로드
 
 - [ ] Play Console > 앱 만들기. 앱 이름 / 기본 언어 / 앱 or 게임 / 무료 or 유료
 - [ ] 테스트 > 내부 테스트 > 새 버전 만들기 > AAB 업로드
@@ -99,7 +99,7 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 
 **이걸 채우지 않으면 잘못된 키로 서명된 AAB 가 조용히 통과한다.** 서명 키가 틀리면 Play 가 업로드를 거부하는데, 25분 빌드를 다 쓴 뒤에 알게 된다. 채워 두면 빌드가 직접 대조해서 알려준다.
 
-## 6. 스토어 등록정보와 콘텐츠 선언
+## 5. 스토어 등록정보와 콘텐츠 선언
 
 - [ ] 스토어 설정 > 스토어 등록정보: 앱 이름, 간단한 설명, 자세한 설명
 - [ ] 그래픽: 앱 아이콘 512x512, 그래픽 이미지 1024x500, 스크린샷 최소 2장
@@ -110,7 +110,7 @@ GitHub 저장소 > Settings > Secrets and variables > Actions > New repository s
 - [ ] 앱 콘텐츠 > 타겟 고객층, 뉴스 앱 여부, 코로나19 앱 여부
 - [ ] 국가/지역 선택
 
-## 7. 프로덕션 출시
+## 6. 프로덕션 출시
 
 내부 테스트에서 문제가 없으면 진행한다.
 
