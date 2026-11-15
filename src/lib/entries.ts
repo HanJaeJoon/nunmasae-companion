@@ -83,3 +83,11 @@ export function groupFactsByAt(facts: readonly Fact[]): { at: number; facts: Fac
   }
   return groups;
 }
+
+/**
+ * 화면 언어 옆에 보조로 보일 다른 언어. 영어로 보면 원어(한국어) 이름과 한국어판 권 제목을 함께 보여
+ * 원작과 맞춰 볼 수 있게 하고, 한국어로 보면 영문 정보는 숨긴다. 검색은 이와 무관하게 두 언어에서 찾는다.
+ */
+export function secondaryLocale(locale: Locale): Locale | null {
+  return locale === 'en' ? 'ko' : null;
+}

@@ -6,11 +6,11 @@ import { BookShelf } from '@/components/BookShelf';
 import { BrandRow } from '@/components/BrandRow';
 import { HeaderBar } from '@/components/HeaderBar';
 import { useAppColors } from '@/lib/colors';
-import { BOOK_NUMBERS, BOOKS, type Progress } from '@/lib/entries';
+import { BOOK_NUMBERS, BOOKS, secondaryLocale, type Progress } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 export default function ProgressScreen() {
-  const { hydrated, progress, setProgress, t } = useSettings();
+  const { hydrated, progress, locale, setProgress, t } = useSettings();
   const colors = useAppColors();
   // 누르는 동안 위 책등이 그 권까지 채워져 고르기 전에 미리 보인다.
   const [pressing, setPressing] = useState<Progress | null>(null);
@@ -19,6 +19,7 @@ export default function ProgressScreen() {
 
   // 첫 실행에는 뒤로 갈 곳이 없으므로 앱 소개를 함께 보인다. 진행 변경은 간결하게.
   const changing = progress !== null && router.canGoBack();
+  const showEnglish = secondaryLocale(locale) !== null;
 
   const choose = (n: Progress) => {
     setProgress(n);
@@ -72,11 +73,18 @@ export default function ProgressScreen() {
                   ground={selected ? colors.newBg : colors.panel}
                 />
                 <View style={styles.rowText}>
-                  <Text style={[styles.book, { color: colors.text }]}>{t('bookLabel', { n })}</Text>
-                  <Text style={[styles.edition, { color: colors.text }]}>{BOOKS[n].ko}</Text>
-                  <Text style={[styles.edition, { color: BOOKS[n].en ? colors.text : colors.subtext }]}>
-                    {BOOKS[n].en ?? t('englishNotYet')}
+                  <Text style={[styles.book, { color: colors.text }]}>
+                    {t('bookLabel', { n })}
+                    {!showEnglish && <Text style={styles.regular}>{'  ' + BOOKS[n].ko}</Text>}
                   </Text>
+                  {showEnglish && (
+                    <>
+                      <Text style={[styles.edition, { color: colors.text }]}>{BOOKS[n].ko}</Text>
+                      <Text style={[styles.edition, { color: BOOKS[n].en ? colors.text : colors.subtext }]}>
+                        {BOOKS[n].en ?? t('englishNotYet')}
+                      </Text>
+                    </>
+                  )}
                 </View>
               </Pressable>
             </View>
@@ -141,6 +149,9 @@ const styles = StyleSheet.create({
     fontSize: 17,
     lineHeight: 22,
     fontWeight: '600',
+  },
+  regular: {
+    fontWeight: '400',
   },
   edition: {
     fontSize: 14,

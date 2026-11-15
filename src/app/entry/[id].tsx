@@ -6,7 +6,7 @@ import { HeaderBar } from '@/components/HeaderBar';
 import { NewBadge } from '@/components/NewBadge';
 import { TYPE_KEYS } from '@/components/TypeLabel';
 import { useAppColors } from '@/lib/colors';
-import { ENTRIES, firstAt, groupFactsByAt, isNewFact, visibleFacts } from '@/lib/entries';
+import { ENTRIES, firstAt, groupFactsByAt, isNewFact, secondaryLocale, visibleFacts } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 export default function EntryScreen() {
@@ -19,7 +19,7 @@ export default function EntryScreen() {
   // 딥 링크로 진행 너머 항목에 바로 들어와도 이름조차 보이지 않게 한다.
   const entry = ENTRIES.find((e) => e.id === id);
   const visible = entry && progress !== null && firstAt(entry) <= progress;
-  const other = locale === 'en' ? 'ko' : 'en';
+  const other = secondaryLocale(locale);
 
   return (
     <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={styles.content}>
@@ -32,7 +32,7 @@ export default function EntryScreen() {
               {entry.name[locale]}
             </Text>
             <Text style={[styles.sub, { color: colors.subtext }]}>
-              {[entry.name[other], t(TYPE_KEYS[entry.type])].filter(Boolean).join(' · ')}
+              {[other && entry.name[other], t(TYPE_KEYS[entry.type])].filter(Boolean).join(' · ')}
             </Text>
           </View>
 

@@ -5,6 +5,7 @@ import {
   isNewEntry,
   isNewFact,
   nextNewSince,
+  secondaryLocale,
   visibleEntries,
   visibleFacts,
   type Entry,
@@ -128,5 +129,15 @@ describe('entries.json 무결성', () => {
       expect(race?.type).toBe('race');
       expect(firstAt(race!)).toBeLessThanOrEqual(firstAt(e));
     }
+  });
+});
+
+describe('secondaryLocale', () => {
+  it('영어 화면은 한국어를 보조로 보인다', () => {
+    expect(secondaryLocale('en')).toBe('ko');
+  });
+
+  it('한국어 화면은 영문 정보를 보이지 않는다', () => {
+    expect(secondaryLocale('ko')).toBeNull();
   });
 });

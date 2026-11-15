@@ -7,7 +7,7 @@ import { BrandRow } from '@/components/BrandRow';
 import { NewBadge } from '@/components/NewBadge';
 import { TYPE_KEYS } from '@/components/TypeLabel';
 import { useAppColors } from '@/lib/colors';
-import { ENTRIES, isNewEntry, visibleEntries, type EntryType } from '@/lib/entries';
+import { ENTRIES, isNewEntry, secondaryLocale, visibleEntries, type EntryType } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 const TABS: { label: string; types: EntryType[] }[] = [
@@ -23,7 +23,7 @@ export default function Index() {
   const [tab, setTab] = useState(0);
   const [query, setQuery] = useState('');
 
-  const other = locale === 'en' ? 'ko' : 'en';
+  const other = secondaryLocale(locale);
   const searching = query.trim() !== '';
 
   // 보이는 항목 수라 진행 너머의 개수는 드러나지 않는다.
@@ -150,7 +150,7 @@ export default function Index() {
           </View>
         }
         renderItem={({ item, index }) => {
-          const sub = [item.name[other], showType && t(TYPE_KEYS[item.type])].filter(Boolean).join(' · ');
+          const sub = [other && item.name[other], showType && t(TYPE_KEYS[item.type])].filter(Boolean).join(' · ');
           return (
             <Pressable
               accessibilityRole="button"
