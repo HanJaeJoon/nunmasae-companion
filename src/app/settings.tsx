@@ -63,6 +63,9 @@ export default function SettingsScreen() {
             {t('sourceCode')}: {SOURCE_URL}
           </Text>
         </TouchableOpacity>
+        <TouchableOpacity accessibilityRole="link" onPress={() => Linking.openURL(BRANDING.privacyPolicyUrl)}>
+          <Text style={[styles.body, { color: BRANDING.brandColor }]}>{t('privacyPolicy')}</Text>
+        </TouchableOpacity>
       </View>
     </ScrollView>
   );

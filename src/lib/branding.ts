@@ -18,6 +18,9 @@ export const BRANDING = {
    * 접두사를 두면 로그와 디버깅에서 어느 앱의 값인지 바로 보인다.
    */
   storageKeyPrefix: 'nunmasae-companion',
+
+  /** 설정 화면에서 여는 개인정보처리방침. Play 등록 정보의 URL 과 같아야 한다. */
+  privacyPolicyUrl: 'https://whochoolab.github.io/nunmasae-companion-privacy/',
 } as const;
 
 /** 브랜드 색에서 파생돼 kit/theme 의 기본 팔레트를 덮어쓰는 값. */

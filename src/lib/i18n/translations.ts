@@ -26,6 +26,7 @@ type Strings = {
   about: string;
   disclaimer: string;
   sourceCode: string;
+  privacyPolicy: string;
   notFound: string;
   newBadge: string;
 };
@@ -54,6 +55,7 @@ export const translations: Record<AppLocale, Strings> = {
     disclaimer:
       'Unofficial fan project. Not affiliated with the author, Golden Bough, Krafton or HarperCollins. No ads, no donations.',
     sourceCode: 'Source code',
+    privacyPolicy: 'Privacy policy',
     notFound: 'This entry is not available.',
     newBadge: 'New',
   },
@@ -80,6 +82,7 @@ export const translations: Record<AppLocale, Strings> = {
     disclaimer:
       '비공식 팬 프로젝트입니다. 작가, 황금가지, 크래프톤, HarperCollins와 관계가 없습니다. 광고와 후원이 없습니다.',
     sourceCode: '소스 코드',
+    privacyPolicy: '개인정보처리방침',
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
   },

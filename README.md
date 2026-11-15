@@ -15,7 +15,7 @@ Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, �
 | `src/app/progress.tsx` | 진행 선택. 권 1~4, 한국어판 권 제목과 영문판 대응 (Book Two 이후는 미출간) |
 | `src/app/index.tsx` | 목록. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다) |
 | `src/app/entry/[id].tsx` | 상세. 진행까지의 사실을 등장 순서대로 |
-| `src/app/settings.tsx` | 언어 토글, 진행 변경, 비공식 안내, 소스 코드 링크 |
+| `src/app/settings.tsx` | 언어 토글, 진행 변경, 비공식 안내, 소스 코드와 개인정보처리방침 링크 |
 
 진행을 아직 고르지 않았으면 목록이 진행 선택으로 보낸다.
 
