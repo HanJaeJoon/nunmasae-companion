@@ -52,3 +52,23 @@ export function visibleEntries(entries: readonly Entry[], progress: number): Ent
 export function visibleFacts(entry: Entry, progress: number): Fact[] {
   return entry.facts.filter((f) => f.at <= progress).sort((a, b) => a.at - b.at);
 }
+
+/**
+ * 진행을 바꿀 때 저장할 newSince. 올리면 직전 진행값, 낮추거나 첫 선택이면 새 진행값(표시 없음).
+ * 같은 값을 다시 고르면 진행 변경이 아니므로 기존 newSince 를 유지한다.
+ */
+export function nextNewSince(from: Progress | null, fromNewSince: Progress | undefined, to: Progress): Progress {
+  if (from === to) return fromNewSince ?? to;
+  return from !== null && to > from ? from : to;
+}
+
+/** 직전 진행 이후 새로 열린 항목인지. 진행 너머 항목은 보이지 않으므로 new 도 아니다. */
+export function isNewEntry(entry: Entry, progress: number, newSince: number | undefined): boolean {
+  const at = firstAt(entry);
+  return newSince !== undefined && at > newSince && at <= progress;
+}
+
+/** 직전 진행 이후 새로 밝혀진 사실인지. */
+export function isNewFact(fact: Fact, progress: number, newSince: number | undefined): boolean {
+  return newSince !== undefined && fact.at > newSince && fact.at <= progress;
+}

@@ -3,9 +3,10 @@ import { useMemo, useState } from 'react';
 import { FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
+import { NewBadge } from '@/components/NewBadge';
 import { useThemeColors } from '@/kit/theme';
 import { BRANDING, THEME_OVERRIDES } from '@/lib/branding';
-import { ENTRIES, visibleEntries, type EntryType } from '@/lib/entries';
+import { ENTRIES, isNewEntry, visibleEntries, type EntryType } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 const TABS: { label: string; types: EntryType[] }[] = [
@@ -16,7 +17,7 @@ const TABS: { label: string; types: EntryType[] }[] = [
 ];
 
 export default function Index() {
-  const { hydrated, progress, locale, t } = useSettings();
+  const { hydrated, progress, newSince, locale, t } = useSettings();
   const colors = useThemeColors(THEME_OVERRIDES);
   const [tab, setTab] = useState(0);
   const [query, setQuery] = useState('');
@@ -88,6 +89,7 @@ export default function Index() {
             onPress={() => router.push({ pathname: '/entry/[id]', params: { id: item.id } })}
             style={[styles.row, { backgroundColor: colors.card, borderColor: colors.border }]}
           >
+            {isNewEntry(item, progress, newSince) && <NewBadge />}
             <Text style={[styles.name, { color: colors.text }]}>{item.name[locale]}</Text>
             <Text style={[styles.altName, { color: colors.subtext }]}>{item.name[other]}</Text>
           </TouchableOpacity>

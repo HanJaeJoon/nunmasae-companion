@@ -27,6 +27,7 @@ type Strings = {
   disclaimer: string;
   sourceCode: string;
   notFound: string;
+  newBadge: string;
 };
 
 export const translations: Record<AppLocale, Strings> = {
@@ -54,6 +55,7 @@ export const translations: Record<AppLocale, Strings> = {
       'Unofficial fan project. Not affiliated with the author, Golden Bough, Krafton or HarperCollins. No ads, no donations.',
     sourceCode: 'Source code',
     notFound: 'This entry is not available.',
+    newBadge: 'New',
   },
   ko: {
     progressTitle: '어디까지 읽었나요?',
@@ -79,5 +81,6 @@ export const translations: Record<AppLocale, Strings> = {
       '비공식 팬 프로젝트입니다. 작가, 황금가지, 크래프톤, HarperCollins와 관계가 없습니다. 광고와 후원이 없습니다.',
     sourceCode: '소스 코드',
     notFound: '볼 수 없는 항목입니다.',
+    newBadge: '새로 나옴',
   },
 };

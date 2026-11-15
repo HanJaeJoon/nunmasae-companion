@@ -1,4 +1,13 @@
-import { ENTRIES, firstAt, visibleEntries, visibleFacts, type Entry } from '../entries';
+import {
+  ENTRIES,
+  firstAt,
+  isNewEntry,
+  isNewFact,
+  nextNewSince,
+  visibleEntries,
+  visibleFacts,
+  type Entry,
+} from '../entries';
 
 const entry = (id: string, ats: number[]): Entry => ({
   id,
@@ -39,6 +48,43 @@ describe('visibleEntries', () => {
 
   it('첫 등장은 가장 작은 at 이다 (사실 순서와 무관)', () => {
     expect(firstAt(entry('x', [4, 2, 3]))).toBe(2);
+  });
+});
+
+describe('new 표시', () => {
+  it('진행을 올리면 직전 진행값을, 낮추거나 첫 선택이면 새 진행값을 저장한다', () => {
+    expect(nextNewSince(1, 1, 3)).toBe(1);
+    expect(nextNewSince(3, 1, 2)).toBe(2);
+    expect(nextNewSince(null, undefined, 2)).toBe(2);
+  });
+
+  it('같은 진행을 다시 고르면 기존 newSince 를 유지한다', () => {
+    expect(nextNewSince(3, 1, 3)).toBe(1);
+    expect(nextNewSince(3, undefined, 3)).toBe(3);
+  });
+
+  it('newSince 보다 늦게 처음 나온 보이는 항목만 new 다', () => {
+    const list = [entry('b1', [1, 3]), entry('b2', [2]), entry('b3', [3]), entry('b4', [4])];
+    const news = list.filter((e) => isNewEntry(e, 3, 1)).map((e) => e.id);
+    expect(news).toEqual(['b2', 'b3']);
+  });
+
+  it('진행 너머 항목과 사실은 new 로도 드러나지 않는다', () => {
+    expect(isNewEntry(entry('late', [4]), 2, 1)).toBe(false);
+    expect(isNewFact({ at: 4, ko: '', en: '' }, 2, 1)).toBe(false);
+  });
+
+  it('newSince 보다 늦게 밝혀진 보이는 사실만 new 다', () => {
+    const e = entry('a', [1, 2, 3, 4]);
+    expect(e.facts.filter((f) => isNewFact(f, 3, 1)).map((f) => f.at)).toEqual([2, 3]);
+  });
+
+  it('newSince 가 진행과 같거나 없으면 아무것도 new 가 아니다', () => {
+    const e = entry('a', [1, 2]);
+    expect(isNewEntry(e, 2, 2)).toBe(false);
+    expect(e.facts.some((f) => isNewFact(f, 2, 2))).toBe(false);
+    expect(isNewEntry(e, 2, undefined)).toBe(false);
+    expect(e.facts.some((f) => isNewFact(f, 2, undefined))).toBe(false);
   });
 });
 

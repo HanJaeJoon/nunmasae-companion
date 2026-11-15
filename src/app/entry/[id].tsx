@@ -2,14 +2,15 @@ import { useLocalSearchParams } from 'expo-router';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
+import { NewBadge } from '@/components/NewBadge';
 import { useThemeColors } from '@/kit/theme';
 import { THEME_OVERRIDES } from '@/lib/branding';
-import { ENTRIES, firstAt, visibleFacts } from '@/lib/entries';
+import { ENTRIES, firstAt, isNewFact, visibleFacts } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 export default function EntryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { hydrated, progress, locale, t } = useSettings();
+  const { hydrated, progress, newSince, locale, t } = useSettings();
   const colors = useThemeColors(THEME_OVERRIDES);
 
   if (!hydrated) return null;
@@ -33,9 +34,10 @@ export default function EntryScreen() {
           </View>
           <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>
             {visibleFacts(entry, progress).map((f, i) => (
-              <Text key={i} style={[styles.fact, { color: colors.text }]}>
-                {'- ' + f[locale]}
-              </Text>
+              <View key={i} style={styles.factRow}>
+                {isNewFact(f, progress, newSince) && <NewBadge />}
+                <Text style={[styles.fact, { color: colors.text }]}>{'- ' + f[locale]}</Text>
+              </View>
             ))}
           </View>
         </>
@@ -66,6 +68,9 @@ const styles = StyleSheet.create({
     borderWidth: StyleSheet.hairlineWidth,
     padding: 16,
     gap: 10,
+  },
+  factRow: {
+    gap: 4,
   },
   fact: {
     fontSize: 15,

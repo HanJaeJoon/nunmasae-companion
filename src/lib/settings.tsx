@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 
-import type { Locale, Progress } from './entries';
+import { nextNewSince, type Locale, type Progress } from './entries';
 import { appLocale, t as baseT } from './i18n';
 import { settingsPrefs, type SavedSettings } from './prefs';
 
@@ -36,7 +36,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     if (hydrated) settingsPrefs.save(settings);
   }, [hydrated, settings]);
 
-  const setProgress = useCallback((progress: Progress) => setSettings((s) => ({ ...s, progress })), []);
+  const setProgress = useCallback(
+    (progress: Progress) =>
+      setSettings((s) => ({ ...s, progress, newSince: nextNewSince(s.progress, s.newSince, progress) })),
+    []
+  );
   const setLocale = useCallback((locale: Locale) => setSettings((s) => ({ ...s, locale })), []);
 
   const value = useMemo<SettingsValue>(

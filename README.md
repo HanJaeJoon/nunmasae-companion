@@ -4,7 +4,9 @@ Unofficial, spoiler-free fan companion for the Korean fantasy novel "The Bird Th
 
 소설 "눈물을 마시는 새"의 비공식 동반 앱. 몇 권까지 읽었는지 고르면 **거기까지 나온 인물, 종족, 장소, 용어만**, 항목 안에서도 **그 권까지 밝혀진 사실만** 보여 준다. 그 너머의 항목과 사실은 흐리게 처리하지 않고 아예 렌더하지 않는다 (개수도 드러나지 않게).
 
-Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, 광고 없음. 저장하는 것은 진행 권수와 언어 선택 두 가지뿐이다 (기기의 AsyncStorage).
+Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, 광고 없음. 저장하는 것은 진행 권수, 직전 진행 권수("new" 표시용), 언어 선택뿐이다 (기기의 AsyncStorage).
+
+진행을 올리면 직전 진행 이후 새로 열린 항목(목록)과 사실(상세)에 "new" 표시가 붙고, 다음 진행 변경 때까지 유지된다. 낮추면 표시가 없어진다.
 
 ## 화면
 
