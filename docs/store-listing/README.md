@@ -7,7 +7,7 @@
 1. Play Console > Nunmasae Companion > 스토어 설정 > **기본 스토어 등록정보**
 2. 기본 언어는 **영어(미국) en-US** 다 (영문판 독자가 대상). `en-US.md` 내용을 붙여넣기
 3. **번역 관리** > "직접 번역 추가" > 한국어 ko-KR 에 `ko-KR.md` 내용 붙여넣기
-4. 그래픽: `graphics/play-icon-512.png`(앱 아이콘), `graphics/feature-graphic-1024x500.png`(그래픽 이미지), 스크린샷 (아직 없음)
+4. 그래픽: `graphics/play-icon-512.png`(앱 아이콘), `graphics/feature-graphic-1024x500.png`(그래픽 이미지), 스크린샷 `graphics/en-*.png`(en-US), `graphics/ko-*.png`(ko-KR). 등록 순서는 2, 3, 1, 4, 5, 6
 
 그래픽은 `scripts/make-icons.py` 가 생성한다. 손으로 고치지 말고 스크립트를 고쳐서 다시 뽑는다.
 
