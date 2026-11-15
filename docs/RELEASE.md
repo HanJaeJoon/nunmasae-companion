@@ -19,9 +19,9 @@
 
 ## 0.5 아이콘과 스토어 그래픽 (사람만 가능)
 
-**`assets/images/` 는 create-expo-app 템플릿의 Expo 로고 그대로다.** 스타터를 복제한 직후 상태에서는 항상 그렇다. 이대로 올리면 Expo 로고를 쓴 앱이 스토어에 올라간다.
+**아래 파일은 `scripts/make-icons.py` 가 그린 자작 마크(레콘 옆모습 머리 + 긴 창)로 교체했다** (2026-11-15). 예외로 `assets/expo.icon/` (iOS) 은 아직 템플릿의 Expo 로고 그대로다.
 
-교체해야 하는 파일:
+생성되는 파일:
 
 | 파일 | 용도 | 요구 규격 |
 |---|---|---|
@@ -33,15 +33,14 @@
 | `assets/images/favicon.png` | 웹 파비콘 | 48x48 PNG (Android 출시에는 무관) |
 | `assets/expo.icon/` | iOS 아이콘 묶음 | iOS 출시 안 하면 무관 |
 
-Play Console 에 따로 업로드하는 것 (저장소에 두지 않아도 된다):
+Play Console 에 따로 업로드하는 것 (`docs/store-listing/graphics/` 에 생성된다):
 
 - 앱 아이콘 512x512 PNG
 - 그래픽 이미지 1024x500 PNG/JPG
 
 **`scripts/make-icons.py` 가 위 파일 전부를 생성한다** (iOS 묶음 제외).
-`BRAND` / `TINT` 상수와 `draw_mark()` 의 마크를 자기 앱 것으로 교체한 뒤
-`pip install pillow` 하고 실행할 것. 마크 교체 없이 돌리면 loan-calculator
-의 예시 마크가 그대로 나온다.
+마크를 고치면 `draw_mark()` 를 수정하고 `pip install pillow` 후 다시 실행한다.
+생성된 PNG 를 손으로 고치지 말 것 (다시 돌리면 덮어쓴다).
 - 스크린샷 최소 2장 (16:9 또는 9:16, 최소 320px)
 
 `app.json` 의 `android.adaptiveIcon.backgroundColor` 를 브랜드 색의 연한 톤으로 맞춰 두면 도형만 바꿔도 통일감이 난다.

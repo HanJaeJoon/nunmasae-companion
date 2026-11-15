@@ -4,16 +4,17 @@
     pip install pillow
     python scripts/make-icons.py
 
-새 앱에서 고칠 것 두 가지:
+마크는 레콘(깃털에 볏 달린 새 머리를 한 전사 종족) 옆모습과 그 옆에 세운 긴 창이다.
+전부 자작 기하 도형이며 공식 표지/삽화/게임 아트를 참고하지 않는다 (CLAUDE.md
+"절대 올리지 않는 것" 2, 3). 글자, 원작 제목, 눈물/물방울 모티프를 넣지 않는다.
 
-1. BRAND / TINT 상수 - app.json 의 splash backgroundColor,
-   android.adaptiveIcon.backgroundColor 와 각각 같아야 한다.
-2. draw_mark() 와 render_feature_graphic() 의 오른쪽 장식 - 아래 구현은
-   loan-calculator 의 마크(줄어드는 잔액 막대 3개)와 상환 곡선이다.
-   자기 앱의 마크로 교체할 것. 마크를 고를 때의 기준:
-   - 48px 파비콘에서도 형태가 남는다 (곡선은 그 크기에서 사라진다)
-   - 단색 실루엣(테마 아이콘)으로도 성립한다
-   - 앱의 핵심 기능을 그대로 가리킨다
+마크를 고칠 때의 기준:
+- 48px 파비콘에서도 형태가 남는다 (가는 선, 잔 곡선은 그 크기에서 사라진다)
+- 단색 실루엣(테마 아이콘)으로도 성립한다
+- 적응형 아이콘 전경(mark_ratio 0.50)이 안쪽 66% 원 밖으로 나가지 않는다
+
+BRAND / TINT 는 app.json 의 splash backgroundColor,
+android.adaptiveIcon.backgroundColor 와 각각 같아야 한다.
 
 아이콘을 손으로 고친 뒤 이 스크립트를 다시 돌리면 덮어쓰므로,
 디자이너가 만든 아이콘으로 교체한 다음에는 이 스크립트를 돌리지 말 것.
@@ -23,11 +24,13 @@ import os
 
 from PIL import Image, ImageDraw
 
-# app.json 의 splash backgroundColor (#208AEF), src/lib/branding.ts 의 brandColor 와 같아야 한다
-BRAND = (0x20, 0x8A, 0xEF)
-# app.json 의 android.adaptiveIcon.backgroundColor (#E6F4FE) 와 같아야 한다
-TINT = (0xE6, 0xF4, 0xFE)
+# app.json 의 splash backgroundColor (#2F6F6A), src/lib/branding.ts 의 brandColor 와 같아야 한다
+BRAND = (0x2F, 0x6F, 0x6A)
+# app.json 의 android.adaptiveIcon.backgroundColor (#E3EEEC) 와 같아야 한다
+TINT = (0xE3, 0xEE, 0xEC)
 WHITE = (0xFF, 0xFF, 0xFF)
+# 마크의 구멍(눈). ImageDraw 는 합성하지 않고 픽셀을 덮어쓰므로 이 색으로 칠하면 투명해진다.
+CLEAR = (0, 0, 0, 0)
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 IMAGES = os.path.join(ROOT, "assets", "images")
@@ -39,35 +42,41 @@ SS = 4
 
 
 def draw_mark(draw, box, color):
-    """box=(x, y, size) 정사각 영역에 마크를 그린다. 좌표는 정규화 비율."""
+    """box=(x, y, size) 정사각 영역에 마크를 그린다. 좌표는 정규화 비율.
+
+    눈은 CLEAR 로 구멍을 내므로 빈 투명 레이어에 그린 뒤 배경에 합성해야 한다.
+    """
     x0, y0, m = box
 
-    def px(a, b):
-        return (x0 + a * m, y0 + b * m)
+    def P(pts):
+        return [(x0 + a * m, y0 + b * m) for a, b in pts]
 
-    # 기준선. 막대보다 살짝 넓게 빼서 "차트" 로 읽히게 한다.
-    draw.rounded_rectangle([px(0.0, 0.88), px(1.0, 0.95)],
-                           radius=0.035 * m, fill=color)
+    # 창: 마름모 창날 + 자루. 자루 폭 0.10 은 48px 에서 3px 남기기 위한 최소값
+    draw.polygon(P([(0.10, 0.00), (0.21, 0.16), (0.10, 0.30), (-0.01, 0.16)]),
+                 fill=color)
+    draw.rectangle(P([(0.05, 0.27), (0.15, 0.96)]), fill=color)
+    # 볏: 칼날 세 개
+    draw.polygon(P([(0.40, 0.36), (0.36, 0.14), (0.50, 0.24), (0.60, 0.06),
+                    (0.70, 0.22), (0.85, 0.12), (0.84, 0.36)]), fill=color)
+    # 머리, 끝이 꺾인 부리, 육수, 목. 목 뒤를 깃 톱니로 기울여야 체스 나이트로 안 읽힌다
+    draw.polygon(P([(0.34, 0.32), (0.78, 0.30), (0.86, 0.33), (0.96, 0.38),
+                    (1.00, 0.49), (0.86, 0.52), (0.82, 0.55), (0.82, 0.73),
+                    (0.72, 0.63), (0.72, 0.68), (0.84, 0.96), (0.22, 0.96),
+                    (0.30, 0.80), (0.20, 0.78), (0.30, 0.62), (0.22, 0.58),
+                    (0.32, 0.44)]), fill=color)
+    # 눈: 앞으로 기운 쐐기
+    draw.polygon(P([(0.54, 0.39), (0.76, 0.40), (0.69, 0.49), (0.57, 0.48)]),
+                 fill=CLEAR)
 
-    # 막대 3개. 높이 비율 1 : 0.675 : 0.35 로 잔액이 줄어드는 모양.
-    # 위쪽 두 꼭지만 둥글게 하고 아래는 기준선에 딱 붙인다. 네 꼭지를 다
-    # 둥글게 하면 가장 짧은 막대가 원처럼 보이고 막대가 기준선에서 떠 보인다.
-    bar_w, gap, bottom = 0.22, 0.11, 0.885
-    tops = [0.045, 0.305, 0.565]
-    for i, top in enumerate(tops):
-        left = 0.06 + i * (bar_w + gap)
-        draw.rounded_rectangle([px(left, top), px(left + bar_w, bottom)],
-                               radius=0.075 * m, fill=color,
-                               corners=(True, True, False, False))
 
-
-def render(size, *, bg=None, fg=WHITE, mark_ratio=0.56, path):
+def render(size, *, bg=None, fg=WHITE, mark_ratio=0.66, path):
     """정사각 PNG 하나를 만든다. bg=None 이면 투명 배경."""
     n = size * SS
-    img = Image.new("RGBA", (n, n), (bg + (255,)) if bg else (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
+    layer = Image.new("RGBA", (n, n), (0, 0, 0, 0))
     m = n * mark_ratio
-    draw_mark(d, ((n - m) / 2, (n - m) / 2, m), fg + (255,))
+    draw_mark(ImageDraw.Draw(layer), ((n - m) / 2, (n - m) / 2, m), fg + (255,))
+    img = Image.new("RGBA", (n, n), (bg + (255,)) if bg else (0, 0, 0, 0))
+    img = Image.alpha_composite(img, layer)
     img.resize((size, size), Image.LANCZOS).save(path)
     print("  %-38s %dx%d" % (os.path.relpath(path, ROOT).replace(os.sep, "/"),
                              size, size))
@@ -89,52 +98,39 @@ def render_feature_graphic(path, w=1024, h=500):
         f = 1 - 0.22 * (y / H)
         img.putpixel((0, y), tuple(int(c * f) for c in BRAND))
     img = img.resize((W, H)).convert("RGBA")
-    d = ImageDraw.Draw(img)
 
-    # 마크는 왼쪽에. 아이콘과 같은 도형이라 스토어에서 같은 앱으로 읽힌다.
-    m = H * 0.46
-    draw_mark(d, (W * 0.10, (H - m) / 2, m), WHITE + (255,))
-
-    # 오른쪽 장식은 앱의 핵심 기능을 보여주는 그림으로 교체할 것.
-    # 아래는 loan-calculator 의 3방식 잔액 곡선 예시다.
-    x1, x2 = W * 0.44, W * 0.90
-    top, bot = H * 0.30, H * 0.70
-
-    # ImageDraw 는 알파를 합성하지 않고 픽셀을 그대로 덮어쓴다. 반투명 요소를
-    # 같은 레이어에 그리면 전부 불투명 흰색이 된다. 요소마다 레이어를 만들어
-    # alpha_composite 로 얹는다.
+    # ImageDraw 는 알파를 합성하지 않고 픽셀을 그대로 덮어쓴다. 반투명 요소나
+    # 구멍(CLEAR)을 같은 레이어에 그리면 불투명 흰색이나 검은 구멍이 된다.
+    # 요소마다 레이어를 만들어 alpha_composite 로 얹는다.
     def overlay(fn):
-        nonlocal img, d
+        nonlocal img
         layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         fn(ImageDraw.Draw(layer))
         img = Image.alpha_composite(img, layer)
-        d = ImageDraw.Draw(img)
 
-    # 기준선. 곡선이 허공에 떠 보이지 않게 잡아 준다.
-    overlay(lambda ld: ld.line([(x1, bot), (x2 + W * 0.02, bot)],
+    # 마크는 왼쪽에. 아이콘과 같은 도형이라 스토어에서 같은 앱으로 읽힌다.
+    m = H * 0.62
+    overlay(lambda ld: draw_mark(ld, (W * 0.13, (H - m) / 2, m), WHITE + (255,)))
+
+    # 오른쪽: 책 4권의 책등. 앞(1권)만 불투명하고 뒤로 갈수록 옅어져
+    # "읽은 권까지만 보인다" 를 뜻한다.
+    bot = H * 0.78
+    spine_w, gap, x = W * 0.06, W * 0.025, W * 0.56
+    overlay(lambda ld: ld.line([(x - W * 0.03, bot), (W * 0.89, bot)],
                                fill=WHITE + (55,), width=2 * SS))
+    for alpha, height in [(255, 0.50), (130, 0.45), (75, 0.52), (40, 0.47)]:
+        top = bot - H * height
 
-    for alpha, width, curve in [
-        # 만기일시: 기간 중 잔액이 그대로다. 만기의 수직 낙하는 그리지 않는다.
-        # 그리면 다른 두 곡선과 삼각형을 이뤄 도형 오류처럼 보인다.
-        (110, 5, lambda t: 1.0),
-        # 원리금균등: 처음엔 느리게 줄다가 뒤에서 가팔라진다
-        (170, 6, lambda t: 1 - t ** 2.1),
-        # 원금균등: 직선으로 줄어든다
-        (255, 8, lambda t: 1 - t),
-    ]:
-        pts = [(x1 + (x2 - x1) * (s / 120),
-                bot - (bot - top) * curve(s / 120)) for s in range(121)]
-        cx, cy, r = pts[-1][0], pts[-1][1], width * SS * 1.5
+        def draw_spine(ld, x=x, top=top, alpha=alpha):
+            ld.rounded_rectangle([x, top, x + spine_w, bot - SS * 3],
+                                 radius=W * 0.008, fill=WHITE + (alpha,))
+            # 책등 위아래의 띠. 구멍으로 내서 배경이 비친다.
+            for band in (top + H * 0.06, bot - H * 0.12):
+                ld.rectangle([x, band, x + spine_w, band + H * 0.025],
+                             fill=CLEAR)
 
-        def draw_curve(ld, pts=pts, alpha=alpha, width=width,
-                       cx=cx, cy=cy, r=r):
-            ld.line(pts, fill=WHITE + (alpha,), width=width * SS,
-                    joint="curve")
-            # 끝점에 점을 찍어 곡선 세 개가 각각 어디서 끝나는지 보이게 한다.
-            ld.ellipse([cx - r, cy - r, cx + r, cy + r], fill=WHITE + (alpha,))
-
-        overlay(draw_curve)
+        overlay(draw_spine)
+        x += spine_w + gap
 
     img.convert("RGB").resize((w, h), Image.LANCZOS).save(path, quality=95)
     print("  %-38s %dx%d" % (os.path.relpath(path, ROOT).replace(os.sep, "/"),
@@ -150,6 +146,7 @@ def main():
     render(1024, bg=BRAND, path=p(IMAGES, "icon.png"))
     # 적응형 아이콘. 배경은 단색, 전경은 브랜드 색 마크.
     # 마스킹으로 바깥 33% 가 잘릴 수 있으므로 마크를 안쪽 50% 에만 둔다.
+    # 0.52 부터 볏/창 끝이 안쪽 66% 원 밖으로 나간다.
     render(432, bg=TINT, fg=TINT, mark_ratio=0.0,
            path=p(IMAGES, "android-icon-background.png"))
     render(432, fg=BRAND, mark_ratio=0.50,
@@ -160,7 +157,7 @@ def main():
     # 스플래시. 배경이 진한 브랜드 색이라 흰 마크를 쓴다.
     # imageWidth 가 작으면 작게 렌더되므로 여백을 거의 두지 않는다.
     render(512, fg=WHITE, mark_ratio=0.92, path=p(IMAGES, "splash-icon.png"))
-    render(48, bg=BRAND, mark_ratio=0.62, path=p(IMAGES, "favicon.png"))
+    render(48, bg=BRAND, mark_ratio=0.70, path=p(IMAGES, "favicon.png"))
 
     print("docs/store-listing/graphics (Play Console 에 직접 업로드):")
     render(512, bg=BRAND, path=p(STORE, "play-icon-512.png"))

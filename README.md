@@ -103,7 +103,7 @@ src/
 | `pnpm run test:ci` | Jest 1회 실행 |
 | `pnpm run lint` | ESLint (kit 단방향 의존 규칙 포함) |
 
-출시는 `docs/RELEASE.md` 를 따른다. `assets/images/` 아이콘은 아직 템플릿의 Expo 로고이므로 출시 전에 자작 아이콘으로 바꾼다.
+출시는 `docs/RELEASE.md` 를 따른다. 아이콘과 Play 그래픽은 `scripts/make-icons.py` 가 그린 자작 레콘 마크이고, 스토어 등록정보 초안은 `docs/store-listing/` 에 있다.
 
 ## 알아둘 제약
 
