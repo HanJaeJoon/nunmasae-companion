@@ -60,41 +60,15 @@ src/
 - 사실 문장은 직접 쓴 요약만. 원문 인용, 나무위키 문장 복사 금지.
 - 추가 후 `pnpm run test:ci` 로 무결성(id 유일, facts 비어 있지 않음, `at` 1~4)을 확인한다.
 
-재료는 vault 의 데이터 초안이다. 사용자가 권 번호를 검수한 사실만 옮긴다. 현재는 1권 사실만 들어 있다 (인물 6, 종족 4, 장소 3, 용어 3).
+재료는 `docs/data-draft.md` 다. 현재는 1~4권 항목 168개(인물 77, 생물 5, 종족 6, 신 5, 장소 33, 용어 42)와 사실 638개가 들어 있다. 사용자 검수 전 데이터이며 피드백이 오면 바로 고친다.
 
 ## 영문 표기
 
-영문판 공식 표기(리뷰/시놉시스에서 확인): Nhaga, Tokkebi, Rekon, Human, Kagan Draca, Teenahan, Byong, Ryun Pei, Sammo Pei, Kiboren, Line of Limit, Skyray.
+영문판 공식 표기(용어집의 A/B 등급, 출판사 자료 또는 독립 출처 2곳 이상) 대표 예: Human, Rekon, Tokkebi, Nhaga, Duoksini, Kagan Draca, Teenahan, Byong Srabble, Ryun Pei, Sammo Pei, Hwarit Mahkerow, Bao Moridol, Kiboren, Hattengraaj, Line of Limit, Skyray. 전체는 `docs/glossary.json` 에 있다.
 
-### 미확정 표기
+임시 표기는 `docs/glossary.json` 의 `provisional` 항목이다. 영문판으로 확인하면 `entries.json` 과 용어집을 함께 고친다.
 
-공식 표기를 모르는 상태에서 임시로 쓴 것. 영문판으로 확인하면 `entries.json` 을 고치고 이 목록에서 지운다.
-
-| 한국어 | 임시 표기 | 쓰인 곳 |
-|---|---|---|
-| 비형 스라블 (성) | Byong Srabl | 이름 |
-| 화리트 마케로우 | Hwarit Makerow | 이름, 륜 페이 |
-| 비아스 마케로우 | Vias Makerow | 화리트 마케로우 |
-| 마케로우 가문 | Makerow | 하텐그라쥬 |
-| 요스비 | Yosbi | 륜 페이 |
-| 바우 머리돌 | Bau Meoridol | 비형 스라블 |
-| 즈믄누리 | Jeumeunnuri | 비형 스라블, 도깨비 |
-| 하텐그라쥬 | Hatengrazh | 이름, 륜 페이, 키보렌 |
-| 하인샤 대사원 | Hainsha Great Temple | 이름, 케이건, 구출대 |
-| 푼텐 사막 | Punten Desert | 케이건 |
-| 마지막 주막 | Last Inn | 케이건 |
-| 쇼자인테쉬크톨 | Shojaintesuktol | 사모 페이 |
-| 니름 | Nirm | 이름, 나가 |
-| 심장 적출 | Heart Extraction | 이름 |
-| 구출대 | Rescue Party | 이름 |
-| 나가 살육자 | Nhaga Slayer | 케이건 |
-| 수호자 | Guardian | 화리트 마케로우 |
-| 어디에도 없는 신 | God Who Is Nowhere | 인간, 하인샤 대사원 |
-| 자신을 죽이는 신 | God Who Kills Himself | 도깨비 |
-| 길잡이 / 대적자 / 요술쟁이 | guide / fighter / trickster | 케이건, 티나한, 비형, 구출대 |
-| 도깨비불 | tokkebi fire | 비형, 도깨비 |
-| 스님 | monks | 인간 |
-| 영문판 2~4권 제목 | (미출간 표시) | 진행 선택 |
+영문판 2~4권 제목: Book Two "Those Who Prepare the Way" (2027-01 예정), Book Three "The Cry of the Earth" (2027-07 예정), Book Four "Three Is Not Enough" (미정). 앱 화면(`entries.ts` 의 `BOOKS`)에는 아직 반영하지 않았다.
 
 ## 명령어
 

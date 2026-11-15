@@ -22,7 +22,7 @@ What's inside
 - Korean edition volumes shown next to the matching English edition volumes
 
 Content
-This version covers Book One. Entries for later books are added as they are written and checked, so the guide keeps growing.
+This version covers all four books of the Korean edition. Entries are still being checked, and reported mistakes are fixed quickly.
 
 Languages
 English and Korean, switchable in Settings.

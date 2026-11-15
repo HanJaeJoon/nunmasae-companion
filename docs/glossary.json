@@ -1,0 +1,1765 @@
+[
+  {
+    "ko": "인간",
+    "en": "Human",
+    "status": "A",
+    "id": "human"
+  },
+  {
+    "ko": "레콘",
+    "en": "Rekon",
+    "status": "A",
+    "id": "rekon"
+  },
+  {
+    "ko": "도깨비",
+    "en": "Tokkebi",
+    "status": "A",
+    "id": "tokkebi"
+  },
+  {
+    "ko": "나가",
+    "en": "Nhaga",
+    "status": "A",
+    "id": "nhaga"
+  },
+  {
+    "ko": "두억시니",
+    "en": "Duoksini",
+    "status": "B",
+    "id": "duoksini"
+  },
+  {
+    "ko": "첫 번째 종족",
+    "en": "First Race",
+    "status": "provisional",
+    "id": "first-race"
+  },
+  {
+    "ko": "어디에도 없는 신",
+    "en": "God of Nowhere",
+    "status": "provisional",
+    "id": "god-of-nowhere"
+  },
+  {
+    "ko": "자신을 죽이는 신",
+    "en": "God That Kills Himself",
+    "status": "A",
+    "id": "god-that-kills-himself"
+  },
+  {
+    "ko": "모든 이보다 낮은 여신",
+    "en": "Goddess Lower Than All",
+    "status": "provisional",
+    "id": "goddess-lower-than-all"
+  },
+  {
+    "ko": "발자국 없는 여신",
+    "en": "Traceless Goddess",
+    "status": "provisional",
+    "id": "traceless-goddess"
+  },
+  {
+    "ko": "자신을 보지 못하는 신",
+    "en": "God That Cannot See Itself",
+    "status": "provisional",
+    "id": "god-that-cannot-see-itself"
+  },
+  {
+    "ko": "케이건 드라카",
+    "en": "Kagan Draca",
+    "status": "A",
+    "id": "kagan"
+  },
+  {
+    "ko": "티나한",
+    "en": "Teenahan",
+    "status": "A",
+    "id": "teenahan"
+  },
+  {
+    "ko": "비형 스라블",
+    "en": "Byong Srabble",
+    "status": "A",
+    "id": "byong"
+  },
+  {
+    "ko": "륜 페이",
+    "en": "Ryun Pei",
+    "status": "A",
+    "id": "ryun"
+  },
+  {
+    "ko": "사모 페이",
+    "en": "Sammo Pei",
+    "status": "A",
+    "id": "sammo"
+  },
+  {
+    "ko": "요스비",
+    "en": "Yosby",
+    "status": "B",
+    "id": "yosby"
+  },
+  {
+    "ko": "지커엔 페이",
+    "en": "Jikoen Pei",
+    "status": "provisional",
+    "id": "jikoen-pei"
+  },
+  {
+    "ko": "솜나니 페이",
+    "en": "Somnani Pei",
+    "status": "provisional",
+    "id": "somnani-pei"
+  },
+  {
+    "ko": "화리트 마케로우",
+    "en": "Hwarit Mahkerow",
+    "status": "B",
+    "id": "hwarit"
+  },
+  {
+    "ko": "비아스 마케로우",
+    "en": "Vyass Mahkerow",
+    "status": "B",
+    "id": "vyass-mahkerow"
+  },
+  {
+    "ko": "카린돌 마케로우",
+    "en": "Carindol Mahkerow",
+    "status": "B",
+    "id": "carindol-mahkerow"
+  },
+  {
+    "ko": "두세나 마케로우",
+    "en": "Dusenna Mahkerow",
+    "status": "provisional",
+    "id": "dusenna-mahkerow"
+  },
+  {
+    "ko": "소메로 마케로우",
+    "en": "Somero Mahkerow",
+    "status": "provisional",
+    "id": "somero-mahkerow"
+  },
+  {
+    "ko": "그리미 마케로우",
+    "en": "Grimi Mahkerow",
+    "status": "provisional",
+    "id": "grimi-mahkerow"
+  },
+  {
+    "ko": "라토 센",
+    "en": "Rato Sen",
+    "status": "provisional",
+    "id": "rato-sen"
+  },
+  {
+    "ko": "라디올 센",
+    "en": "Radiol Sen",
+    "status": "provisional",
+    "id": "radiol-sen"
+  },
+  {
+    "ko": "쥬어 센",
+    "en": "Juo Sen",
+    "status": "provisional",
+    "id": "juo-sen"
+  },
+  {
+    "ko": "세리스마",
+    "en": "Serisma",
+    "status": "B",
+    "id": "serisma"
+  },
+  {
+    "ko": "갈로텍",
+    "en": "Galotek",
+    "status": "provisional",
+    "id": "galotek"
+  },
+  {
+    "ko": "주퀘도 사르마크",
+    "en": "Juquedo Sarmak",
+    "status": "provisional",
+    "id": "juquedo-sarmak"
+  },
+  {
+    "ko": "노기 하수언",
+    "en": "Nogi Hasu'un",
+    "status": "provisional",
+    "id": "nogi-hasuun"
+  },
+  {
+    "ko": "세페린",
+    "en": "Seperin",
+    "status": "provisional",
+    "id": "seperin"
+  },
+  {
+    "ko": "카루",
+    "en": "Karu",
+    "status": "B",
+    "id": "karu"
+  },
+  {
+    "ko": "스바치",
+    "en": "Suvachi",
+    "status": "provisional",
+    "id": "suvachi"
+  },
+  {
+    "ko": "유벡스",
+    "en": "Yubex",
+    "status": "provisional",
+    "id": "yubex"
+  },
+  {
+    "ko": "보트린",
+    "en": "Botrin",
+    "status": "provisional",
+    "id": "botrin"
+  },
+  {
+    "ko": "페니나 시에도",
+    "en": "Penina Siedo",
+    "status": "provisional",
+    "id": "penina-siedo"
+  },
+  {
+    "ko": "그로스",
+    "en": "Gros",
+    "status": "provisional",
+    "id": "gros"
+  },
+  {
+    "ko": "키베인",
+    "en": "Kibein",
+    "status": "provisional",
+    "id": "kibein"
+  },
+  {
+    "ko": "세키리",
+    "en": "Sekiri",
+    "status": "provisional",
+    "id": "sekiri"
+  },
+  {
+    "ko": "인실롭",
+    "en": "Insilop",
+    "status": "provisional",
+    "id": "insilop"
+  },
+  {
+    "ko": "칸비야 고소리",
+    "en": "Kanbiya Gosori",
+    "status": "provisional",
+    "id": "kanbiya-gosori"
+  },
+  {
+    "ko": "아스화리탈",
+    "en": "Azhwarital",
+    "status": "B",
+    "id": "azhwarital"
+  },
+  {
+    "ko": "마루나래",
+    "en": "Marunarae",
+    "status": "B",
+    "id": "marunarae"
+  },
+  {
+    "ko": "나늬",
+    "en": "Nani",
+    "status": "provisional",
+    "id": "nani"
+  },
+  {
+    "ko": "갈바마리",
+    "en": "Galbamari",
+    "status": "provisional",
+    "id": "galbamari"
+  },
+  {
+    "ko": "유해의 폭포",
+    "en": "Corpsefall",
+    "status": "B",
+    "id": "corpsefall"
+  },
+  {
+    "ko": "바우 머리돌",
+    "en": "Bao Moridol",
+    "status": "A",
+    "id": "bao-moridol"
+  },
+  {
+    "ko": "사빈 하수언",
+    "en": "Sabin Hasu'un",
+    "status": "A",
+    "id": "sabin-hasuun"
+  },
+  {
+    "ko": "시우쇠",
+    "en": "Siusoe",
+    "status": "provisional",
+    "id": "siusoe"
+  },
+  {
+    "ko": "쥬타기 대선사",
+    "en": "Great Abbot Jutagi",
+    "status": "B",
+    "id": "great-abbot-jutagi"
+  },
+  {
+    "ko": "오레놀",
+    "en": "Orenol",
+    "status": "B",
+    "id": "orenol"
+  },
+  {
+    "ko": "라샤린 선사",
+    "en": "Master Rasharin",
+    "status": "provisional",
+    "id": "master-rasharin"
+  },
+  {
+    "ko": "마지막 주막 주인",
+    "en": "Keeper of the Last Tavern",
+    "status": "provisional",
+    "id": "keeper-of-the-last-tavern"
+  },
+  {
+    "ko": "모티",
+    "en": "Moti",
+    "status": "provisional",
+    "id": "moti"
+  },
+  {
+    "ko": "롭스",
+    "en": "Robs",
+    "status": "provisional",
+    "id": "robs"
+  },
+  {
+    "ko": "토디 시노크",
+    "en": "Tody Sinok",
+    "status": "provisional",
+    "id": "tody-sinok"
+  },
+  {
+    "ko": "지그림 자보로",
+    "en": "Zigrim Zaboro",
+    "status": "provisional",
+    "id": "zigrim-zaboro"
+  },
+  {
+    "ko": "키타타 자보로",
+    "en": "Kitata Zaboro",
+    "status": "provisional",
+    "id": "kitata-zaboro"
+  },
+  {
+    "ko": "보늬",
+    "en": "Boni",
+    "status": "provisional",
+    "id": "boni"
+  },
+  {
+    "ko": "유료도로당 보좌관",
+    "en": "Aide of the Toll Road Guild",
+    "status": "provisional",
+    "id": "aide-of-the-toll-road-guild"
+  },
+  {
+    "ko": "하르체 도빈",
+    "en": "Harche Dobin",
+    "status": "provisional",
+    "id": "harche-dobin"
+  },
+  {
+    "ko": "괄하이드 규리하",
+    "en": "Gwalhaide Curia",
+    "status": "provisional",
+    "id": "gwalhaide-curia"
+  },
+  {
+    "ko": "라수 규리하",
+    "en": "Rasu Curia",
+    "status": "A",
+    "id": "rasu-curia"
+  },
+  {
+    "ko": "과텔 규리하",
+    "en": "Gwatel Curia",
+    "status": "provisional",
+    "id": "gwatel-curia"
+  },
+  {
+    "ko": "케나린 규리하",
+    "en": "Kenarin Curia",
+    "status": "provisional",
+    "id": "kenarin-curia"
+  },
+  {
+    "ko": "후사린 규리하",
+    "en": "Husarin Curia",
+    "status": "provisional",
+    "id": "husarin-curia"
+  },
+  {
+    "ko": "지코마 펠독스",
+    "en": "Jikoma Peldox",
+    "status": "provisional",
+    "id": "jikoma-peldox"
+  },
+  {
+    "ko": "코네도 빌파",
+    "en": "Konedo Bilpa",
+    "status": "provisional",
+    "id": "konedo-bilpa"
+  },
+  {
+    "ko": "그룸 빌파",
+    "en": "Grum Bilpa",
+    "status": "provisional",
+    "id": "grum-bilpa"
+  },
+  {
+    "ko": "토카리 빌파",
+    "en": "Tokari Bilpa",
+    "status": "provisional",
+    "id": "tokari-bilpa"
+  },
+  {
+    "ko": "세미쿼",
+    "en": "Semiquo",
+    "status": "provisional",
+    "id": "semiquo"
+  },
+  {
+    "ko": "무핀토",
+    "en": "Mupinto",
+    "status": "provisional",
+    "id": "mupinto"
+  },
+  {
+    "ko": "베미온 굴도하",
+    "en": "Bemion Guldoha",
+    "status": "provisional",
+    "id": "bemion-guldoha"
+  },
+  {
+    "ko": "데오늬 달비",
+    "en": "Deoni Dalbi",
+    "status": "provisional",
+    "id": "deoni-dalbi"
+  },
+  {
+    "ko": "바르사 돌",
+    "en": "Barsa Dol",
+    "status": "provisional",
+    "id": "barsa-dol"
+  },
+  {
+    "ko": "카시다의 소년",
+    "en": "Boy of Kasida",
+    "status": "provisional",
+    "id": "boy-of-kasida"
+  },
+  {
+    "ko": "여행자",
+    "en": "Traveler",
+    "status": "provisional",
+    "id": "traveler"
+  },
+  {
+    "ko": "즈라더",
+    "en": "Jurado",
+    "status": "provisional",
+    "id": "jurado"
+  },
+  {
+    "ko": "최후의 대장장이",
+    "en": "Final Smith",
+    "status": "provisional",
+    "id": "final-smith"
+  },
+  {
+    "ko": "레콘 아기",
+    "en": "Rekon Baby",
+    "status": "provisional",
+    "id": "rekon-baby"
+  },
+  {
+    "ko": "다스도",
+    "en": "Dasdo",
+    "status": "provisional",
+    "id": "dasdo"
+  },
+  {
+    "ko": "시루",
+    "en": "Siru",
+    "status": "provisional",
+    "id": "siru"
+  },
+  {
+    "ko": "영웅왕",
+    "en": "Hero King",
+    "status": "provisional",
+    "id": "hero-king"
+  },
+  {
+    "ko": "별비",
+    "en": "Byolbi",
+    "status": "provisional",
+    "id": "byolbi"
+  },
+  {
+    "ko": "극연왕",
+    "en": "King of Extremity",
+    "status": "provisional",
+    "id": "king-of-extremity"
+  },
+  {
+    "ko": "권능왕",
+    "en": "King of Power",
+    "status": "provisional",
+    "id": "king-of-power"
+  },
+  {
+    "ko": "이주무 선사",
+    "en": "Master Ijumu",
+    "status": "provisional",
+    "id": "master-ijumu"
+  },
+  {
+    "ko": "레누카",
+    "en": "Renuka",
+    "status": "provisional",
+    "id": "renuka"
+  },
+  {
+    "ko": "수수깨비",
+    "en": "Susukkebi",
+    "status": "provisional",
+    "id": "susukkebi"
+  },
+  {
+    "ko": "아젤키버",
+    "en": "Ajelkibo",
+    "status": "provisional",
+    "id": "ajelkibo"
+  },
+  {
+    "ko": "여름",
+    "en": "Yorum",
+    "status": "provisional",
+    "id": "yorum"
+  },
+  {
+    "ko": "키보렌",
+    "en": "Kiboren",
+    "status": "A",
+    "id": "kiboren"
+  },
+  {
+    "ko": "하텐그라쥬",
+    "en": "Hattengraaj",
+    "status": "A",
+    "id": "hatengrazh"
+  },
+  {
+    "ko": "심장탑",
+    "en": "Heart Tower",
+    "status": "B",
+    "id": "heart-tower"
+  },
+  {
+    "ko": "지도그라쥬",
+    "en": "Jidograaj",
+    "status": "provisional",
+    "id": "jidograaj"
+  },
+  {
+    "ko": "페로그라쥬",
+    "en": "Perograaj",
+    "status": "provisional",
+    "id": "perograaj"
+  },
+  {
+    "ko": "악타그라쥬",
+    "en": "Aktagraaj",
+    "status": "provisional",
+    "id": "aktagraaj"
+  },
+  {
+    "ko": "시모그라쥬",
+    "en": "Simograaj",
+    "status": "provisional",
+    "id": "simograaj"
+  },
+  {
+    "ko": "한계선",
+    "en": "Line of Limit",
+    "status": "A",
+    "id": "line-of-limit"
+  },
+  {
+    "ko": "푼텐 사막",
+    "en": "Peunten Desert",
+    "status": "B",
+    "id": "peunten-desert"
+  },
+  {
+    "ko": "카라보라",
+    "en": "Karabora",
+    "status": "provisional",
+    "id": "karabora"
+  },
+  {
+    "ko": "마지막 주막",
+    "en": "Last Tavern",
+    "status": "B",
+    "id": "last-tavern"
+  },
+  {
+    "ko": "바이소 계곡",
+    "en": "Baiso Valley",
+    "status": "provisional",
+    "id": "baiso-valley"
+  },
+  {
+    "ko": "엔거 평원",
+    "en": "Engo Plain",
+    "status": "provisional",
+    "id": "engo-plain"
+  },
+  {
+    "ko": "무룬 강",
+    "en": "Murun River",
+    "status": "provisional",
+    "id": "murun-river"
+  },
+  {
+    "ko": "두억시니의 도시",
+    "en": "City of the Duoksini",
+    "status": "provisional",
+    "id": "city-of-the-duoksini"
+  },
+  {
+    "ko": "높새바람 탑",
+    "en": "Northeast Wind Tower",
+    "status": "provisional",
+    "id": "northeast-wind-tower"
+  },
+  {
+    "ko": "하인샤 대사원",
+    "en": "Great Temple of Hainsha",
+    "status": "B",
+    "id": "hainsha"
+  },
+  {
+    "ko": "즈믄누리",
+    "en": "Jumunuri",
+    "status": "A",
+    "id": "jumunuri"
+  },
+  {
+    "ko": "자보로",
+    "en": "Zaboro",
+    "status": "B",
+    "id": "zaboro"
+  },
+  {
+    "ko": "시구리아트 산맥",
+    "en": "Siguriat Mountains",
+    "status": "provisional",
+    "id": "siguriat-mountains"
+  },
+  {
+    "ko": "도로왕의 옛길",
+    "en": "Old Road of the Road King",
+    "status": "provisional",
+    "id": "old-road-of-the-road-king"
+  },
+  {
+    "ko": "카시다",
+    "en": "Kasida",
+    "status": "provisional",
+    "id": "kasida"
+  },
+  {
+    "ko": "파름 평원",
+    "en": "Parum Plain",
+    "status": "provisional",
+    "id": "parum-plain"
+  },
+  {
+    "ko": "규리하",
+    "en": "Curia",
+    "status": "A",
+    "id": "curia"
+  },
+  {
+    "ko": "발케네",
+    "en": "Balkene",
+    "status": "provisional",
+    "id": "balkene"
+  },
+  {
+    "ko": "세퀴라도",
+    "en": "Sequirado",
+    "status": "provisional",
+    "id": "sequirado"
+  },
+  {
+    "ko": "최후의 대장간",
+    "en": "Final Forge",
+    "status": "provisional",
+    "id": "final-forge"
+  },
+  {
+    "ko": "라호친",
+    "en": "Rahochin",
+    "status": "provisional",
+    "id": "rahochin"
+  },
+  {
+    "ko": "키탈저",
+    "en": "Kitaljer",
+    "status": "A",
+    "id": "kitaljer"
+  },
+  {
+    "ko": "아라짓 왕국",
+    "en": "Kingdom of Arajit",
+    "status": "provisional",
+    "id": "kingdom-of-arajit"
+  },
+  {
+    "ko": "상고토와 하고토",
+    "en": "Sanggoto and Hagoto",
+    "status": "provisional",
+    "id": "sanggoto-and-hagoto"
+  },
+  {
+    "ko": "판사이",
+    "en": "Pansai",
+    "status": "provisional",
+    "id": "pansai"
+  },
+  {
+    "ko": "신 아라짓 왕국",
+    "en": "New Kingdom of Arajit",
+    "status": "provisional",
+    "id": "new-kingdom-of-arajit"
+  },
+  {
+    "ko": "선민종족",
+    "en": "Chosen Races",
+    "status": "provisional",
+    "id": "chosen-races"
+  },
+  {
+    "ko": "니름",
+    "en": "Nearm",
+    "status": "B",
+    "id": "nirm"
+  },
+  {
+    "ko": "은루",
+    "en": "Silver Tears",
+    "status": "provisional",
+    "id": "silver-tears"
+  },
+  {
+    "ko": "심장 적출",
+    "en": "Heart Extraction",
+    "status": "B",
+    "id": "heart-extraction"
+  },
+  {
+    "ko": "수호자",
+    "en": "Guardian",
+    "status": "B",
+    "id": "guardian"
+  },
+  {
+    "ko": "수호장군",
+    "en": "Guardian General",
+    "status": "provisional",
+    "id": "guardian-general"
+  },
+  {
+    "ko": "대수호자",
+    "en": "Great Guardian",
+    "status": "provisional",
+    "id": "great-guardian"
+  },
+  {
+    "ko": "수련자",
+    "en": "Novitiate",
+    "status": "provisional",
+    "id": "novitiate"
+  },
+  {
+    "ko": "신명",
+    "en": "Sacred Name",
+    "status": "provisional",
+    "id": "sacred-name"
+  },
+  {
+    "ko": "쇼자인테쉬크톨",
+    "en": "Shojainteshiktol",
+    "status": "B",
+    "id": "shojainteshiktol"
+  },
+  {
+    "ko": "정신 억압",
+    "en": "Mental Suppression",
+    "status": "provisional",
+    "id": "mental-suppression"
+  },
+  {
+    "ko": "뱀단지",
+    "en": "Snake Jar",
+    "status": "provisional",
+    "id": "snake-jar"
+  },
+  {
+    "ko": "대확장 전쟁",
+    "en": "Great Expansion War",
+    "status": "provisional",
+    "id": "great-expansion-war"
+  },
+  {
+    "ko": "나가 군단",
+    "en": "Nhaga Legions",
+    "status": "provisional",
+    "id": "nhaga-legions"
+  },
+  {
+    "ko": "북부군",
+    "en": "Northern Army",
+    "status": "provisional",
+    "id": "northern-army"
+  },
+  {
+    "ko": "작살검",
+    "en": "Harpoon Sword",
+    "status": "provisional",
+    "id": "harpoon-sword"
+  },
+  {
+    "ko": "도깨비 감투",
+    "en": "Tokkebi Cap",
+    "status": "provisional",
+    "id": "tokkebi-cap"
+  },
+  {
+    "ko": "이십이금군",
+    "en": "Twenty-Two Royal Guards",
+    "status": "provisional",
+    "id": "twenty-two-royal-guards"
+  },
+  {
+    "ko": "아라짓 전사",
+    "en": "Arajit Warriors",
+    "status": "provisional",
+    "id": "arajit-warriors"
+  },
+  {
+    "ko": "키탈저 사냥꾼",
+    "en": "Kitaljer Hunters",
+    "status": "A",
+    "id": "kitaljer-hunters"
+  },
+  {
+    "ko": "바라기",
+    "en": "Baragi",
+    "status": "A",
+    "id": "baragi"
+  },
+  {
+    "ko": "소드락",
+    "en": "Sodrak",
+    "status": "B",
+    "id": "sodrak"
+  },
+  {
+    "ko": "구출대",
+    "en": "Rescue Mission",
+    "status": "A",
+    "id": "rescue-party"
+  },
+  {
+    "ko": "셋이 하나를 상대한다",
+    "en": "Three Handles One",
+    "status": "A",
+    "id": "three-handles-one"
+  },
+  {
+    "ko": "나가 살육자",
+    "en": "Nhaga Slayer",
+    "status": "provisional",
+    "id": "nhaga-slayer"
+  },
+  {
+    "ko": "나가 살육신",
+    "en": "Nhaga-Slaying God",
+    "status": "provisional",
+    "id": "nhaga-slaying-god"
+  },
+  {
+    "ko": "군령자",
+    "en": "Manysoul",
+    "status": "provisional",
+    "id": "manysoul"
+  },
+  {
+    "ko": "전령",
+    "en": "Soul Transfer",
+    "status": "provisional",
+    "id": "soul-transfer"
+  },
+  {
+    "ko": "제왕병자",
+    "en": "Would-be King",
+    "status": "provisional",
+    "id": "would-be-king"
+  },
+  {
+    "ko": "유료도로당",
+    "en": "Toll Road Guild",
+    "status": "provisional",
+    "id": "toll-road-guild"
+  },
+  {
+    "ko": "하늘치",
+    "en": "Skyray",
+    "status": "A",
+    "id": "skyray"
+  },
+  {
+    "ko": "환상계단",
+    "en": "Phantom Stairs",
+    "status": "provisional",
+    "id": "phantom-stairs"
+  },
+  {
+    "ko": "용",
+    "en": "Dragon",
+    "status": "provisional",
+    "id": "dragon"
+  },
+  {
+    "ko": "대호",
+    "en": "Great Tiger",
+    "status": "provisional",
+    "id": "great-tiger"
+  },
+  {
+    "ko": "흑사자",
+    "en": "Black Lion",
+    "status": "provisional",
+    "id": "black-lion"
+  },
+  {
+    "ko": "철의 대화",
+    "en": "Converse in Iron",
+    "status": "provisional",
+    "id": "converse-in-iron"
+  },
+  {
+    "ko": "별철",
+    "en": "Stariron",
+    "status": "provisional",
+    "id": "stariron"
+  },
+  {
+    "ko": "살신 계획",
+    "en": "God-Killing Plan",
+    "status": "provisional",
+    "id": "god-killing-plan"
+  },
+  {
+    "ko": "수탐자",
+    "en": "Searchers",
+    "status": "A",
+    "id": "searchers"
+  },
+  {
+    "ko": "화신과 신체",
+    "en": "Avatar and Vessel",
+    "status": "provisional",
+    "id": "avatar-and-vessel"
+  },
+  {
+    "ko": "신체를 찾는 접시",
+    "en": "Vessel-Finding Dish",
+    "status": "provisional",
+    "id": "vessel-finding-dish"
+  },
+  {
+    "ko": "나늬 (전설)",
+    "en": "Nani (legend)",
+    "status": "provisional",
+    "id": "nani-legend"
+  },
+  {
+    "ko": "케이건",
+    "en": "Kagan",
+    "status": "A"
+  },
+  {
+    "ko": "비형",
+    "en": "Byong",
+    "status": "A"
+  },
+  {
+    "ko": "륜",
+    "en": "Ryun",
+    "status": "A"
+  },
+  {
+    "ko": "사모",
+    "en": "Sammo",
+    "status": "A"
+  },
+  {
+    "ko": "지커엔",
+    "en": "Jikoen",
+    "status": "provisional"
+  },
+  {
+    "ko": "솜나니",
+    "en": "Somnani",
+    "status": "provisional"
+  },
+  {
+    "ko": "화리트",
+    "en": "Hwarit",
+    "status": "B"
+  },
+  {
+    "ko": "비아스",
+    "en": "Vyass",
+    "status": "B"
+  },
+  {
+    "ko": "카린돌",
+    "en": "Carindol",
+    "status": "B"
+  },
+  {
+    "ko": "두세나",
+    "en": "Dusenna",
+    "status": "provisional"
+  },
+  {
+    "ko": "소메로",
+    "en": "Somero",
+    "status": "provisional"
+  },
+  {
+    "ko": "그리미",
+    "en": "Grimi",
+    "status": "provisional"
+  },
+  {
+    "ko": "라토",
+    "en": "Rato",
+    "status": "provisional"
+  },
+  {
+    "ko": "라디올",
+    "en": "Radiol",
+    "status": "provisional"
+  },
+  {
+    "ko": "쥬어",
+    "en": "Juo",
+    "status": "provisional"
+  },
+  {
+    "ko": "주퀘도",
+    "en": "Juquedo",
+    "status": "provisional"
+  },
+  {
+    "ko": "노기",
+    "en": "Nogi",
+    "status": "provisional"
+  },
+  {
+    "ko": "페니나",
+    "en": "Penina",
+    "status": "provisional"
+  },
+  {
+    "ko": "칸비야",
+    "en": "Kanbiya",
+    "status": "provisional"
+  },
+  {
+    "ko": "바우",
+    "en": "Bao",
+    "status": "A"
+  },
+  {
+    "ko": "사빈",
+    "en": "Sabin",
+    "status": "A"
+  },
+  {
+    "ko": "쥬타기",
+    "en": "Jutagi",
+    "status": "B"
+  },
+  {
+    "ko": "라샤린",
+    "en": "Rasharin",
+    "status": "provisional"
+  },
+  {
+    "ko": "토디",
+    "en": "Tody",
+    "status": "provisional"
+  },
+  {
+    "ko": "지그림",
+    "en": "Zigrim",
+    "status": "provisional"
+  },
+  {
+    "ko": "키타타",
+    "en": "Kitata",
+    "status": "provisional"
+  },
+  {
+    "ko": "하르체",
+    "en": "Harche",
+    "status": "provisional"
+  },
+  {
+    "ko": "괄하이드",
+    "en": "Gwalhaide",
+    "status": "provisional"
+  },
+  {
+    "ko": "라수",
+    "en": "Rasu",
+    "status": "A"
+  },
+  {
+    "ko": "과텔",
+    "en": "Gwatel",
+    "status": "provisional"
+  },
+  {
+    "ko": "케나린",
+    "en": "Kenarin",
+    "status": "provisional"
+  },
+  {
+    "ko": "후사린",
+    "en": "Husarin",
+    "status": "provisional"
+  },
+  {
+    "ko": "지코마",
+    "en": "Jikoma",
+    "status": "provisional"
+  },
+  {
+    "ko": "코네도",
+    "en": "Konedo",
+    "status": "provisional"
+  },
+  {
+    "ko": "그룸",
+    "en": "Grum",
+    "status": "provisional"
+  },
+  {
+    "ko": "토카리",
+    "en": "Tokari",
+    "status": "provisional"
+  },
+  {
+    "ko": "베미온",
+    "en": "Bemion",
+    "status": "provisional"
+  },
+  {
+    "ko": "데오늬",
+    "en": "Deoni",
+    "status": "provisional"
+  },
+  {
+    "ko": "바르사",
+    "en": "Barsa",
+    "status": "provisional"
+  },
+  {
+    "ko": "이주무",
+    "en": "Ijumu",
+    "status": "provisional"
+  },
+  {
+    "ko": "북부",
+    "en": "the North",
+    "status": "provisional"
+  },
+  {
+    "ko": "남부",
+    "en": "the South",
+    "status": "provisional"
+  },
+  {
+    "ko": "북부인",
+    "en": "Northerners",
+    "status": "provisional"
+  },
+  {
+    "ko": "아라짓",
+    "en": "Arajit",
+    "status": "provisional"
+  },
+  {
+    "ko": "고 아라짓 왕국",
+    "en": "Old Kingdom of Arajit",
+    "status": "provisional"
+  },
+  {
+    "ko": "아라짓 왕가",
+    "en": "royal house of Arajit",
+    "status": "provisional"
+  },
+  {
+    "ko": "왕검",
+    "en": "royal sword",
+    "status": "provisional"
+  },
+  {
+    "ko": "킴",
+    "en": "Kim",
+    "status": "A"
+  },
+  {
+    "ko": "불신자",
+    "en": "unbelievers",
+    "status": "provisional"
+  },
+  {
+    "ko": "다섯 번째 종족",
+    "en": "Fifth Race",
+    "status": "provisional"
+  },
+  {
+    "ko": "상고토",
+    "en": "Sanggoto",
+    "status": "provisional"
+  },
+  {
+    "ko": "하고토",
+    "en": "Hagoto",
+    "status": "provisional"
+  },
+  {
+    "ko": "칼리도",
+    "en": "Kalido",
+    "status": "provisional"
+  },
+  {
+    "ko": "페치렌",
+    "en": "Pechiren",
+    "status": "provisional"
+  },
+  {
+    "ko": "하인샤",
+    "en": "Hainsha",
+    "status": "B"
+  },
+  {
+    "ko": "대사원",
+    "en": "Great Temple",
+    "status": "B"
+  },
+  {
+    "ko": "페이 가문",
+    "en": "House of Pei",
+    "status": "provisional"
+  },
+  {
+    "ko": "마케로우 가문",
+    "en": "House of Mahkerow",
+    "status": "provisional"
+  },
+  {
+    "ko": "센 가문",
+    "en": "House of Sen",
+    "status": "provisional"
+  },
+  {
+    "ko": "규리하 가문",
+    "en": "House of Curia",
+    "status": "provisional"
+  },
+  {
+    "ko": "빌파 일가",
+    "en": "Bilpa family",
+    "status": "provisional"
+  },
+  {
+    "ko": "빌파 삼부자",
+    "en": "Bilpa father and sons",
+    "status": "provisional"
+  },
+  {
+    "ko": "대가문",
+    "en": "great houses",
+    "status": "provisional"
+  },
+  {
+    "ko": "가주",
+    "en": "head of the house",
+    "status": "provisional"
+  },
+  {
+    "ko": "가문원",
+    "en": "house member",
+    "status": "provisional"
+  },
+  {
+    "ko": "평의회",
+    "en": "Council",
+    "status": "provisional"
+  },
+  {
+    "ko": "의장",
+    "en": "Council chair",
+    "status": "provisional"
+  },
+  {
+    "ko": "하텐그라쥬 공작",
+    "en": "Duke of Hattengraaj",
+    "status": "provisional"
+  },
+  {
+    "ko": "뇌룡공",
+    "en": "Thunder Dragon Duke",
+    "status": "provisional"
+  },
+  {
+    "ko": "대호왕",
+    "en": "Great Tiger King",
+    "status": "provisional"
+  },
+  {
+    "ko": "도로왕",
+    "en": "Road King",
+    "status": "provisional"
+  },
+  {
+    "ko": "위엄왕",
+    "en": "Dignified King",
+    "status": "provisional"
+  },
+  {
+    "ko": "무적왕",
+    "en": "Peerless King",
+    "status": "B"
+  },
+  {
+    "ko": "마립간",
+    "en": "maripgan",
+    "status": "provisional"
+  },
+  {
+    "ko": "변경백",
+    "en": "margrave",
+    "status": "provisional"
+  },
+  {
+    "ko": "규리하 변경백",
+    "en": "Margrave of Curia",
+    "status": "provisional"
+  },
+  {
+    "ko": "대족장",
+    "en": "high chieftain",
+    "status": "provisional"
+  },
+  {
+    "ko": "부족장",
+    "en": "chieftain",
+    "status": "provisional"
+  },
+  {
+    "ko": "씨족",
+    "en": "clan",
+    "status": "provisional"
+  },
+  {
+    "ko": "군웅",
+    "en": "warlords",
+    "status": "provisional"
+  },
+  {
+    "ko": "대장군",
+    "en": "Great General",
+    "status": "A"
+  },
+  {
+    "ko": "상장군",
+    "en": "High General",
+    "status": "provisional"
+  },
+  {
+    "ko": "장군",
+    "en": "general",
+    "status": "provisional"
+  },
+  {
+    "ko": "군단장",
+    "en": "legion commander",
+    "status": "provisional"
+  },
+  {
+    "ko": "부관",
+    "en": "adjutant",
+    "status": "provisional"
+  },
+  {
+    "ko": "성주",
+    "en": "castle lord",
+    "status": "provisional"
+  },
+  {
+    "ko": "무사장",
+    "en": "master of arms",
+    "status": "provisional"
+  },
+  {
+    "ko": "어르신",
+    "en": "Elder",
+    "status": "provisional"
+  },
+  {
+    "ko": "승려",
+    "en": "monk",
+    "status": "A"
+  },
+  {
+    "ko": "대선사",
+    "en": "Great Abbot",
+    "status": "B"
+  },
+  {
+    "ko": "선사",
+    "en": "Master",
+    "status": "provisional"
+  },
+  {
+    "ko": "주지",
+    "en": "head monk",
+    "status": "provisional"
+  },
+  {
+    "ko": "대덕",
+    "en": "Venerable",
+    "status": "provisional"
+  },
+  {
+    "ko": "종단",
+    "en": "order",
+    "status": "provisional"
+  },
+  {
+    "ko": "종규해석소",
+    "en": "Office of Canon Interpretation",
+    "status": "provisional"
+  },
+  {
+    "ko": "파계승",
+    "en": "defrocked monk",
+    "status": "provisional"
+  },
+  {
+    "ko": "선지자",
+    "en": "the Prophet",
+    "status": "provisional"
+  },
+  {
+    "ko": "죽음의 거장",
+    "en": "Maestro of Death",
+    "status": "provisional"
+  },
+  {
+    "ko": "당주",
+    "en": "guild master",
+    "status": "provisional"
+  },
+  {
+    "ko": "당원",
+    "en": "guild member",
+    "status": "provisional"
+  },
+  {
+    "ko": "유료도로",
+    "en": "toll road",
+    "status": "provisional"
+  },
+  {
+    "ko": "유료도로 요새",
+    "en": "Toll Road Fortress",
+    "status": "provisional"
+  },
+  {
+    "ko": "징수소장",
+    "en": "chief toll collector",
+    "status": "provisional"
+  },
+  {
+    "ko": "통행료",
+    "en": "toll",
+    "status": "provisional"
+  },
+  {
+    "ko": "케이",
+    "en": "Kei",
+    "status": "provisional"
+  },
+  {
+    "ko": "단도장",
+    "en": "bladesmith",
+    "status": "provisional"
+  },
+  {
+    "ko": "길잡이",
+    "en": "pathfinder",
+    "status": "A"
+  },
+  {
+    "ko": "대적자",
+    "en": "fighter",
+    "status": "provisional"
+  },
+  {
+    "ko": "요술쟁이",
+    "en": "trickster",
+    "status": "provisional"
+  },
+  {
+    "ko": "수탐",
+    "en": "the search",
+    "status": "provisional"
+  },
+  {
+    "ko": "발굴대",
+    "en": "excavation team",
+    "status": "provisional"
+  },
+  {
+    "ko": "사서 수호자",
+    "en": "librarian Guardian",
+    "status": "provisional"
+  },
+  {
+    "ko": "특수도서실",
+    "en": "special archive",
+    "status": "provisional"
+  },
+  {
+    "ko": "니르다",
+    "en": "to nearm",
+    "status": "B"
+  },
+  {
+    "ko": "심장 적출식",
+    "en": "extraction ceremony",
+    "status": "B"
+  },
+  {
+    "ko": "심장병",
+    "en": "heart vial",
+    "status": "provisional"
+  },
+  {
+    "ko": "심장 파괴",
+    "en": "heart destruction",
+    "status": "provisional"
+  },
+  {
+    "ko": "허물",
+    "en": "molt",
+    "status": "provisional"
+  },
+  {
+    "ko": "허물벗기",
+    "en": "molting",
+    "status": "provisional"
+  },
+  {
+    "ko": "쉬크톨",
+    "en": "shiktol",
+    "status": "B"
+  },
+  {
+    "ko": "사이커",
+    "en": "Syker",
+    "status": "provisional"
+  },
+  {
+    "ko": "냉동 장치",
+    "en": "freezing device",
+    "status": "provisional"
+  },
+  {
+    "ko": "정신 억압자",
+    "en": "suppressor",
+    "status": "provisional"
+  },
+  {
+    "ko": "여신 감금",
+    "en": "imprisonment of the Goddess",
+    "status": "provisional"
+  },
+  {
+    "ko": "나가군",
+    "en": "Nhaga army",
+    "status": "provisional"
+  },
+  {
+    "ko": "마호가니 군단",
+    "en": "Mahogany Legion",
+    "status": "provisional"
+  },
+  {
+    "ko": "대나무 군단",
+    "en": "Bamboo Legion",
+    "status": "provisional"
+  },
+  {
+    "ko": "육형제 탑",
+    "en": "Six Brothers Towers",
+    "status": "provisional"
+  },
+  {
+    "ko": "화신",
+    "en": "avatar",
+    "status": "provisional"
+  },
+  {
+    "ko": "신체",
+    "en": "vessel",
+    "status": "provisional"
+  },
+  {
+    "ko": "춤추는 자",
+    "en": "the Dancer",
+    "status": "provisional"
+  },
+  {
+    "ko": "영적 잡종",
+    "en": "spiritual hybrid",
+    "status": "provisional"
+  },
+  {
+    "ko": "계명성",
+    "en": "Cockcrow",
+    "status": "provisional"
+  },
+  {
+    "ko": "숙원",
+    "en": "lifelong wish",
+    "status": "provisional"
+  },
+  {
+    "ko": "신부 탐색",
+    "en": "bride quest",
+    "status": "provisional"
+  },
+  {
+    "ko": "철의 침묵",
+    "en": "Silence in Iron",
+    "status": "provisional"
+  },
+  {
+    "ko": "최후의 대장간 가는 길",
+    "en": "road to the Final Forge",
+    "status": "provisional"
+  },
+  {
+    "ko": "도깨비불",
+    "en": "Tokkebibul",
+    "status": "B"
+  },
+  {
+    "ko": "감투",
+    "en": "cap",
+    "status": "provisional"
+  },
+  {
+    "ko": "용근",
+    "en": "dragon root",
+    "status": "provisional"
+  },
+  {
+    "ko": "용화",
+    "en": "dragon flower",
+    "status": "provisional"
+  },
+  {
+    "ko": "용인",
+    "en": "dragoner",
+    "status": "provisional"
+  },
+  {
+    "ko": "산노인",
+    "en": "Old Man of the Mountain",
+    "status": "provisional"
+  },
+  {
+    "ko": "라호친가히",
+    "en": "Rahochingahi",
+    "status": "provisional"
+  },
+  {
+    "ko": "용의 자손",
+    "en": "descendants of the dragon",
+    "status": "provisional"
+  },
+  {
+    "ko": "만민 회의",
+    "en": "Assembly of All Peoples",
+    "status": "provisional"
+  },
+  {
+    "ko": "환상벽",
+    "en": "Phantom Wall",
+    "status": "provisional"
+  },
+  {
+    "ko": "암각문",
+    "en": "rock inscription",
+    "status": "provisional"
+  },
+  {
+    "ko": "미움",
+    "en": "Hatred",
+    "status": "provisional"
+  },
+  {
+    "ko": "대도",
+    "en": "broadsword",
+    "status": "provisional"
+  },
+  {
+    "ko": "하늘치 유적",
+    "en": "Skyray ruins",
+    "status": "provisional"
+  }
+]

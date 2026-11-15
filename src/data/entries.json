@@ -1,196 +1,161 @@
 [
   {
-    "id": "kagan",
-    "type": "character",
-    "name": { "ko": "케이건 드라카", "en": "Kagan Draca" },
-    "race": "human",
-    "group": "rescue-party",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "푼텐 사막 끝의 마지막 주막에 남쪽에서 걸어 들어온 사내다.",
-        "en": "A man who walks in from the south to the Last Inn at the edge of the Punten Desert."
-      },
-      {
-        "at": 1,
-        "ko": "나가를 사냥해 잡아먹는다는 나가 살육자로 악명이 높다.",
-        "en": "He is infamous as a Nhaga Slayer, said to hunt and eat Nhaga."
-      },
-      {
-        "at": 1,
-        "ko": "칼자루 하나에 칼날 두 개가 나란히 붙은 기이한 칼을 쓴다.",
-        "en": "He carries a strange sword with two blades set side by side on a single hilt."
-      },
-      {
-        "at": 1,
-        "ko": "하인샤 대사원이 꾸린 구출대의 길잡이를 맡는다.",
-        "en": "He serves as the guide of the rescue party put together by the Hainsha Great Temple."
-      }
-    ]
-  },
-  {
-    "id": "teenahan",
-    "type": "character",
-    "name": { "ko": "티나한", "en": "Teenahan" },
-    "race": "rekon",
-    "group": "rescue-party",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "하늘치 등에 오르는 것을 숙원으로 삼은 레콘이다.",
-        "en": "A Rekon whose life goal is to climb onto the back of a Skyray."
-      },
-      {
-        "at": 1,
-        "ko": "하늘치 유적 발굴대를 이끄는 대장이다.",
-        "en": "He leads a team that digs up Skyray remains."
-      },
-      {
-        "at": 1,
-        "ko": "빚 문제로 구출대에 대적자로 합류한다.",
-        "en": "Because of a debt, he joins the rescue party as its fighter."
-      }
-    ]
-  },
-  {
-    "id": "byong",
-    "type": "character",
-    "name": { "ko": "비형 스라블", "en": "Byong Srabl" },
-    "race": "tokkebi",
-    "group": "rescue-party",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "즈믄누리 성주 바우 머리돌의 몸종이며, 그 일을 무척 아낀다.",
-        "en": "He is the personal servant of Bau Meoridol, lord of Jeumeunnuri, and loves the job."
-      },
-      {
-        "at": 1,
-        "ko": "마침 성주의 방에 들어갔다가 구출대에 보낼 도깨비로 뽑힌다.",
-        "en": "He happens to walk into the lord's room and gets picked as the Tokkebi to send with the rescue party."
-      },
-      {
-        "at": 1,
-        "ko": "구출대의 요술쟁이로 도깨비불을 다룬다.",
-        "en": "As the rescue party's trickster, he works with tokkebi fire."
-      }
-    ]
-  },
-  {
-    "id": "ryun",
-    "type": "character",
-    "name": { "ko": "륜 페이", "en": "Ryun Pei" },
-    "race": "nhaga",
-    "group": "pei-family",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "하텐그라쥬 페이 가문의 남성 나가로, 심장 적출식을 앞두고 있다.",
-        "en": "A young male Nhaga of the Pei family in Hatengrazh, about to undergo his heart extraction."
-      },
-      {
-        "at": 1,
-        "ko": "심장 적출을 몹시 두려워하는 소심한 성격이다.",
-        "en": "Timid by nature, he is deeply afraid of having his heart removed."
-      },
-      {
-        "at": 1,
-        "ko": "사모 페이의 동생이자 요스비의 아들이다.",
-        "en": "He is Sammo Pei's younger brother and Yosbi's son."
-      },
-      {
-        "at": 1,
-        "ko": "친구 화리트 마케로우의 죽음을 본 뒤 적출하지 않은 심장을 지닌 채 도망친다.",
-        "en": "After seeing his friend Hwarit Makerow die, he runs away with his heart still in his body."
-      }
-    ]
-  },
-  {
-    "id": "sammo",
-    "type": "character",
-    "name": { "ko": "사모 페이", "en": "Sammo Pei" },
-    "race": "nhaga",
-    "group": "pei-family",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "륜 페이의 누나인 페이 가문의 여성 나가다.",
-        "en": "A female Nhaga of the Pei family and Ryun Pei's older sister."
-      },
-      {
-        "at": 1,
-        "ko": "쇼자인테쉬크톨에 따라 도망친 륜을 쫓는 암살자로 지목된다.",
-        "en": "Under the rule of Shojaintesuktol, she is named as the assassin who must hunt down the runaway Ryun."
-      }
-    ]
-  },
-  {
-    "id": "hwarit",
-    "type": "character",
-    "name": { "ko": "화리트 마케로우", "en": "Hwarit Makerow" },
-    "race": "nhaga",
-    "group": "makerow-family",
-    "facts": [
-      {
-        "at": 1,
-        "ko": "륜의 친구로, 수호자가 되려고 수련 중인 마케로우 가문의 남성 나가다.",
-        "en": "Ryun's friend, a male Nhaga of the Makerow family who is training to become a Guardian."
-      },
-      {
-        "at": 1,
-        "ko": "심장 적출식 날 누나 비아스 마케로우에게 살해된다.",
-        "en": "On the day of the heart extraction, he is killed by his sister Vias Makerow."
-      },
-      {
-        "at": 1,
-        "ko": "죽기 전 자기가 맡았던 일을 륜에게 떠맡긴다.",
-        "en": "Before he dies, he hands the task he was given over to Ryun."
-      }
-    ]
-  },
-  {
     "id": "human",
     "type": "race",
-    "name": { "ko": "인간", "en": "Human" },
+    "name": {
+      "ko": "인간",
+      "en": "Human"
+    },
     "facts": [
       {
         "at": 1,
-        "ko": "어디에도 없는 신을 섬기며, 그 신을 모시는 사제를 스님이라 부른다.",
-        "en": "They worship the God Who Is Nowhere, and the priests of that god are called monks."
+        "ko": "어디에도 없는 신을 섬기며, 이 신을 모시는 승려들이 있다.",
+        "en": "They worship the God of Nowhere and have monks who serve this god."
       },
       {
         "at": 1,
         "ko": "대부분 한계선 북쪽, 북부에 흩어져 산다.",
-        "en": "Most of them live scattered across the North, beyond the Line of Limit."
+        "en": "Most live scattered across the North, north of the Line of Limit."
+      },
+      {
+        "at": 1,
+        "ko": "다른 세 종족과 달리 물, 피, 추위를 꺼리는 종족의 제약이 없다.",
+        "en": "Unlike the other three races, they have no racial aversion to water, blood, or cold."
+      },
+      {
+        "at": 1,
+        "ko": "아라짓 왕국이 무너진 뒤로 오랫동안 왕이 없다.",
+        "en": "They have had no king for a long time since the Kingdom of Arajit fell."
+      },
+      {
+        "at": 1,
+        "ko": "스스로 왕을 칭하는 제왕병자가 끊이지 않고 나타난다.",
+        "en": "Would-be Kings who proclaim themselves king keep appearing."
+      },
+      {
+        "at": 3,
+        "ko": "다른 종족과 달리 인간이 신에게서 무엇을 받았는지는 수수께끼로 남아 있다.",
+        "en": "Unlike with the other races, what humans received from their god remains a mystery."
+      },
+      {
+        "at": 3,
+        "ko": "나가의 북진으로 북부의 여러 도시와 고장이 무너지거나 물에 잠긴다.",
+        "en": "The northward advance of the Nhaga destroys or floods many cities and towns in the North."
+      },
+      {
+        "at": 4,
+        "ko": "어디에도 없는 신이 인간에게 준 것은 인간에게서만 태어나는 나늬다.",
+        "en": "What the God of Nowhere gave humans is Nani, who is born only from humans."
       }
     ]
   },
   {
     "id": "rekon",
     "type": "race",
-    "name": { "ko": "레콘", "en": "Rekon" },
+    "name": {
+      "ko": "레콘",
+      "en": "Rekon"
+    },
     "facts": [
       {
         "at": 1,
-        "ko": "온몸이 깃털로 덮이고 새 머리를 한, 키 3m 안팎의 거대한 종족이다.",
-        "en": "A huge, bird-headed people covered in feathers, standing about three meters tall."
+        "ko": "온몸이 깃털로 덮이고 부리와 벼슬이 있는 새 모습의 종족으로, 키가 인간의 두 배 가까이 된다.",
+        "en": "A bird-like race covered in feathers, with a beak and a crest, standing nearly twice as tall as a human."
       },
       {
         "at": 1,
-        "ko": "물을 극도로 무서워해서 물이라는 말조차 돌려 말한다.",
-        "en": "They are so afraid of water that they avoid even saying the word."
+        "ko": "물을 몹시 두려워한다.",
+        "en": "They are terribly afraid of water."
+      },
+      {
+        "at": 1,
+        "ko": "물이라는 말을 꺼려 돌려 말하기도 한다.",
+        "en": "They sometimes avoid the word water and talk around it."
+      },
+      {
+        "at": 1,
+        "ko": "개인 전투력이 다른 종족과 비교가 안 될 만큼 강하다.",
+        "en": "Their individual combat strength is far beyond that of any other race."
+      },
+      {
+        "at": 1,
+        "ko": "섬기는 신은 모든 이보다 낮은 여신이다.",
+        "en": "The deity they worship is the Goddess Lower Than All."
+      },
+      {
+        "at": 1,
+        "ko": "레콘에게 함부로 말할 수 있는 것은 레콘뿐이라, 다른 종족은 레콘에게 존댓말을 쓴다.",
+        "en": "Only a Rekon may speak casually to a Rekon, so other races use polite speech with them."
+      },
+      {
+        "at": 1,
+        "ko": "부리를 부딪치는 것이 인간의 콧방귀 같은 몸짓이다.",
+        "en": "Clacking their beaks is a gesture like a human's snort."
+      },
+      {
+        "at": 1,
+        "ko": "힘껏 내지르는 고함인 계명성은 주변을 귀먹게 할 만큼 강하다.",
+        "en": "Cockcrow, their full-force shout, is strong enough to deafen those nearby."
+      },
+      {
+        "at": 2,
+        "ko": "성인 레콘은 평생의 목표인 숙원을 좇거나 신부 탐색에 나선다.",
+        "en": "Adult Rekon either pursue a lifelong wish or set out on a bride quest."
+      },
+      {
+        "at": 3,
+        "ko": "성년이 되면 홀로 최후의 대장간에 가서 평생 쓸 별철 무기를 받는다.",
+        "en": "On coming of age, each goes alone to the Final Forge to receive a Stariron weapon to use for life."
+      },
+      {
+        "at": 3,
+        "ko": "별철 무기는 모든 이보다 낮은 여신이 레콘에게 준 선물로 이야기된다.",
+        "en": "Stariron weapons are said to be a gift from the Goddess Lower Than All to the Rekon."
+      },
+      {
+        "at": 3,
+        "ko": "어린 레콘은 병아리 같은 모습이다.",
+        "en": "Young Rekon look like chicks."
+      },
+      {
+        "at": 3,
+        "ko": "출산 때 외지인이 곁에 있으면 부정을 탄다고 믿는다.",
+        "en": "They believe that an outsider present at a birth brings impurity."
+      },
+      {
+        "at": 3,
+        "ko": "전사의 삶을 마칠 때는 무기를 최후의 대장간에 돌려보낸다.",
+        "en": "When they end their lives as warriors, they send their weapons back to the Final Forge."
+      },
+      {
+        "at": 3,
+        "ko": "북부군에서 레콘은 부대가 아니라 한 사람씩 싸우지만, 몇 명만으로도 큰 전력이 된다.",
+        "en": "In the Northern Army, Rekon fight one by one rather than as a unit, yet just a few of them make a great force."
+      },
+      {
+        "at": 4,
+        "ko": "동료를 구하려고 물의 공포를 이겨 내는 레콘도 있다.",
+        "en": "Some Rekon overcome their fear of water to save their comrades."
       }
     ]
   },
   {
     "id": "tokkebi",
     "type": "race",
-    "name": { "ko": "도깨비", "en": "Tokkebi" },
+    "name": {
+      "ko": "도깨비",
+      "en": "Tokkebi"
+    },
     "facts": [
       {
         "at": 1,
-        "ko": "누구나 도깨비불을 마음대로 다루며, 그 불은 자신을 죽이는 신의 선물로 여겨진다.",
-        "en": "Every Tokkebi can command tokkebi fire, which is seen as a gift from the God Who Kills Himself."
+        "ko": "인간보다 머리 하나쯤 큰 체구에 붉고 오돌토돌한 피부를 가졌다.",
+        "en": "They stand about a head taller than humans and have red, bumpy skin."
+      },
+      {
+        "at": 1,
+        "ko": "도깨비라면 누구나 도깨비불을 다룬다.",
+        "en": "Every Tokkebi can wield Tokkebibul."
       },
       {
         "at": 1,
@@ -199,137 +164,4789 @@
       },
       {
         "at": 1,
-        "ko": "대부분 즈믄누리에 모여 살고 성주가 다스린다.",
-        "en": "Most of them live together in Jeumeunnuri, ruled by its lord."
+        "ko": "많은 도깨비가 즈믄누리에 모여 살고, 성주가 다스린다.",
+        "en": "Many Tokkebi live together in Jumunuri, which is ruled by a castle lord."
+      },
+      {
+        "at": 1,
+        "ko": "장난과 씨름을 좋아한다.",
+        "en": "They love pranks and wrestling."
+      },
+      {
+        "at": 1,
+        "ko": "피를 몹시 두려워하고 폭력을 꺼려 전쟁에 관심이 없다.",
+        "en": "They are terribly afraid of blood and shun violence, so they have no interest in war."
+      },
+      {
+        "at": 1,
+        "ko": "몸이 죽어도 영혼이 어르신으로 남아 살아 있는 도깨비 곁에서 말을 나눈다.",
+        "en": "Even after the body dies, the soul remains as an Elder beside living Tokkebi and talks with them."
+      },
+      {
+        "at": 1,
+        "ko": "인간을 킴이라 부르는데, 옛날 도깨비에게 농사를 가르친 인간의 이름에서 왔다.",
+        "en": "They call humans Kim, after the name of a human who long ago taught the Tokkebi to farm."
+      },
+      {
+        "at": 3,
+        "ko": "도깨비불은 자신을 죽이는 신이 자기 불을 나눠 준 선물로 이야기된다.",
+        "en": "Tokkebibul is said to be a gift from the God That Kills Himself, who shared his own fire."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁에서 직접 싸우지 않고 어르신을 통한 전령과 척후, 도깨비 감투 같은 물건으로 북부군을 돕는다.",
+        "en": "In the war, they do not fight directly but help the Northern Army with messaging and scouting through the Elders and with items such as the Tokkebi Cap."
+      },
+      {
+        "at": 4,
+        "ko": "피를 뒤집어쓴 도깨비는 정신을 잃고 주변을 불태울 수 있다.",
+        "en": "A Tokkebi drenched in blood can lose its senses and set everything around it on fire."
       }
     ]
   },
   {
     "id": "nhaga",
     "type": "race",
-    "name": { "ko": "나가", "en": "Nhaga" },
+    "name": {
+      "ko": "나가",
+      "en": "Nhaga"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "비늘로 덮인 몸을 가진, 뱀을 닮은 남부 종족이다.",
-        "en": "A snake-like people of the South with scale-covered bodies."
+        "en": "A snake-like southern race with scale-covered bodies."
       },
       {
         "at": 1,
-        "ko": "말소리 대신 니름이라는 정신 대화를 쓰며, 다른 종족은 니름을 듣지도 하지도 못한다.",
-        "en": "Instead of speaking aloud they use nirm, a form of mind-speech that other peoples can neither hear nor use."
+        "ko": "말소리 대신 니름이라는 정신 대화를 쓰며, 다른 선민종족은 니름을 듣지도 하지도 못한다.",
+        "en": "Instead of speech they use a mental communication called Nearm, which the other Chosen Races can neither hear nor use."
       },
       {
         "at": 1,
-        "ko": "변온 동물이라 추위에 약해서 한계선 북쪽에서는 제대로 움직이지 못한다.",
-        "en": "Being cold-blooded, they cannot handle the cold and barely function north of the Line of Limit."
+        "ko": "청력이 약하다.",
+        "en": "Their hearing is weak."
+      },
+      {
+        "at": 1,
+        "ko": "추위에 약해서 한계선 북쪽의 추운 땅으로는 올라가지 않는다.",
+        "en": "They are vulnerable to cold, so they do not go into the cold lands north of the Line of Limit."
+      },
+      {
+        "at": 1,
+        "ko": "열을 보는 눈을 가져 온도 차이로 세상을 본다.",
+        "en": "Their eyes see heat, so they perceive the world through differences in temperature."
       },
       {
         "at": 1,
         "ko": "성인이 되면 심장을 적출하고, 그 뒤로는 웬만해서는 죽지 않는 몸이 된다.",
-        "en": "When they come of age they have their hearts removed, and after that they are very hard to kill."
+        "en": "On reaching adulthood they have their hearts extracted, after which they are very hard to kill."
       },
       {
         "at": 1,
         "ko": "여성이 가문을 이끄는 모계 사회이며, 성인 남성은 가문 밖으로 나간다.",
-        "en": "Their society is matriarchal: women lead the families, and grown men leave the household."
+        "en": "A matriarchal society where women lead the houses and adult men leave their houses."
+      },
+      {
+        "at": 1,
+        "ko": "발자국 없는 여신을 섬기며, 수호자는 남성만 될 수 있다.",
+        "en": "They worship the Traceless Goddess, and only men can become Guardians."
+      },
+      {
+        "at": 1,
+        "ko": "나무를 귀하게 여기고 불을 꺼리며, 다른 종족을 불신자라 낮춰 본다.",
+        "en": "They treasure trees, shun fire, and look down on other races as unbelievers."
+      },
+      {
+        "at": 1,
+        "ko": "때가 되면 허물을 벗는다.",
+        "en": "They shed their skin when the time comes."
+      },
+      {
+        "at": 3,
+        "ko": "수호자들이 여신의 힘으로 추위를 이겨 내면서 나가군이 한계선을 넘어 북진한다.",
+        "en": "As the Guardians overcome the cold with the Goddess's power, the Nhaga army crosses the Line of Limit and advances north."
+      },
+      {
+        "at": 3,
+        "ko": "나가 도시들은 저마다 심장탑을 중심으로 따로 움직이는 도시 국가에 가깝다.",
+        "en": "Nhaga cities are close to city-states, each acting on its own around its Heart Tower."
+      },
+      {
+        "at": 4,
+        "ko": "남성 나가의 허물벗기는 부끄러운 일로 여겨져, 가까운 여성 나가가 곁에서 지켜 준다.",
+        "en": "Molting is considered shameful for a male Nhaga, so a close female Nhaga stays by his side to guard him."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 북부와 교류를 시작한다.",
+        "en": "After the war ends, they begin exchanges with the North."
+      }
+    ]
+  },
+  {
+    "id": "duoksini",
+    "type": "race",
+    "name": {
+      "ko": "두억시니",
+      "en": "Duoksini"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "개체마다 생김새가 제멋대로라 정해진 형태가 없는 생물이다.",
+        "en": "Creatures with no fixed form, each one shaped in its own random way."
+      },
+      {
+        "at": 1,
+        "ko": "신을 잃은 종족으로 불리며, 네 선민종족에 들지 않는다.",
+        "en": "Called the race that lost its god, they are not counted among the four Chosen Races."
+      },
+      {
+        "at": 1,
+        "ko": "대개 말을 하지만 그 말의 뜻이 통하지 않는다.",
+        "en": "Most can speak, but what they say makes no sense."
+      },
+      {
+        "at": 1,
+        "ko": "키보렌 밀림 속 폐허 도시에 모여 산다.",
+        "en": "They live together in a ruined city in the Kiboren jungle."
+      },
+      {
+        "at": 2,
+        "ko": "유해의 폭포가 보낸 두억시니 수천이 사모 페이를 따라 북부로 올라온다.",
+        "en": "Thousands of Duoksini sent by Corpsefall follow Sammo Pei up to the North."
+      },
+      {
+        "at": 3,
+        "ko": "화신 시우쇠는 두억시니가 신을 잃은 것이 아니라고 말한다.",
+        "en": "The avatar Siusoe says the Duoksini did not lose their god."
+      },
+      {
+        "at": 4,
+        "ko": "두억시니는 첫 번째 종족이 세상을 떠나며 남긴 찌꺼기다.",
+        "en": "The Duoksini are the dregs the First Race left behind when it departed the world."
+      }
+    ]
+  },
+  {
+    "id": "first-race",
+    "type": "race",
+    "name": {
+      "ko": "첫 번째 종족",
+      "en": "First Race"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "네 선민종족보다 먼저 있었던 종족으로, 자신을 보지 못하는 신을 섬겼다.",
+        "en": "A race that existed before the four Chosen Races and worshipped the God That Cannot See Itself."
+      },
+      {
+        "at": 4,
+        "ko": "다섯 번째 종족이라고도 불린다.",
+        "en": "It is also called the Fifth Race."
+      },
+      {
+        "at": 4,
+        "ko": "완전해져 자기 신보다 위대해졌고, 그 신이 소멸한 뒤 빛이 되어 세상을 떠났다.",
+        "en": "It became complete and greater than its own god, and after that god ceased to exist, it turned into light and left the world."
+      },
+      {
+        "at": 4,
+        "ko": "하늘치와 그 등의 유적, 두억시니의 피라미드는 이 종족이 남긴 것이다.",
+        "en": "The Skyrays and the ruins on their backs, as well as the pyramids of the Duoksini, were left behind by this race."
+      }
+    ]
+  },
+  {
+    "id": "god-of-nowhere",
+    "type": "god",
+    "name": {
+      "ko": "어디에도 없는 신",
+      "en": "God of Nowhere"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "인간이 섬기는 신이다.",
+        "en": "The god that humans worship."
+      },
+      {
+        "at": 1,
+        "ko": "하인샤 대사원의 승려들이 이 신을 모신다.",
+        "en": "The monks of the Great Temple of Hainsha serve this god."
+      },
+      {
+        "at": 4,
+        "ko": "케이건 드라카가 이 신의 신체이자 화신이며, 둘은 하나로 합쳐져 있다.",
+        "en": "Kagan Draca is this god's vessel and avatar, and the two are merged into one."
+      },
+      {
+        "at": 4,
+        "ko": "케이건 안에 깃든 이 신은 춤추는 자라고도 불린다.",
+        "en": "Dwelling within Kagan, this god is also called the Dancer."
+      },
+      {
+        "at": 4,
+        "ko": "바람의 신이다.",
+        "en": "The god of wind."
+      },
+      {
+        "at": 4,
+        "ko": "이 신이 아주 오랫동안 한 몸 안에 머물러 신들이 서로를 보지 못했고, 그동안 세상의 변화가 멈춰 있었다.",
+        "en": "Because this god stayed in one body for a very long time, the gods could not see one another, and all that while the world stopped changing."
+      },
+      {
+        "at": 4,
+        "ko": "이 신이 인간에게 준 선물은 나늬다.",
+        "en": "The gift this god gave to humans is Nani."
+      }
+    ]
+  },
+  {
+    "id": "god-that-kills-himself",
+    "type": "god",
+    "name": {
+      "ko": "자신을 죽이는 신",
+      "en": "God That Kills Himself"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "도깨비가 섬기는 신이다.",
+        "en": "The god that the Tokkebi worship."
+      },
+      {
+        "at": 3,
+        "ko": "불의 신으로, 도깨비불은 이 신이 자기 불을 나눠 준 선물이다.",
+        "en": "The god of fire; Tokkebibul is a gift from this god, who shared his own fire."
+      },
+      {
+        "at": 3,
+        "ko": "도깨비 시우쇠의 몸에서 화신으로 깨어나 북부군에 합류한다.",
+        "en": "Awakens as an avatar in the body of the Tokkebi Siusoe and joins the Northern Army."
+      },
+      {
+        "at": 3,
+        "ko": "화신은 피와 살생을 꺼리지 않아 이 신의 불을 그대로 무기로 쓴다.",
+        "en": "The avatar has no aversion to blood or killing, so it wields this god's fire directly as a weapon."
+      },
+      {
+        "at": 4,
+        "ko": "자신을 보지 못하는 신이 소멸할 때 다른 신들과 함께 이 신의 불로 그 소멸을 도왔다.",
+        "en": "When the God That Cannot See Itself ceased to exist, this god joined the other gods in aiding its end with his fire."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 시우쇠의 몸을 떠나고, 시우쇠는 어르신으로 남는다.",
+        "en": "After the war ends, this god leaves Siusoe's body, and Siusoe remains as an Elder."
+      }
+    ]
+  },
+  {
+    "id": "goddess-lower-than-all",
+    "type": "god",
+    "name": {
+      "ko": "모든 이보다 낮은 여신",
+      "en": "Goddess Lower Than All"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "레콘이 섬기는 여신이다.",
+        "en": "The goddess that the Rekon worship."
+      },
+      {
+        "at": 3,
+        "ko": "땅의 여신으로, 레콘에게 별철을 선물로 내렸다.",
+        "en": "The goddess of earth, who gave Stariron to the Rekon as a gift."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장간이 이 여신의 사원이고, 최후의 대장장이가 그 사제라는 것이 밝혀진다.",
+        "en": "It is revealed that the Final Forge is her temple and the Final Smith is her priest."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장장이가 낳은 아기 레콘이 이 여신의 신체였고, 태어나자마자 화신이 된다.",
+        "en": "The Rekon baby born to the Final Smith was this goddess's vessel and becomes her avatar as soon as it is born."
+      },
+      {
+        "at": 3,
+        "ko": "화신은 먼 거리를 순식간에 옮겨 다니는 힘을 쓴다.",
+        "en": "The avatar can travel long distances in an instant."
+      },
+      {
+        "at": 4,
+        "ko": "화신이 수탐자들과 함께 북부군에 합류한다.",
+        "en": "The avatar joins the Northern Army along with the Searchers."
+      }
+    ]
+  },
+  {
+    "id": "traceless-goddess",
+    "type": "god",
+    "name": {
+      "ko": "발자국 없는 여신",
+      "en": "Traceless Goddess"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가가 섬기는 여신이다.",
+        "en": "The goddess that the Nhaga worship."
+      },
+      {
+        "at": 1,
+        "ko": "나가에게 신명을 내려 준다.",
+        "en": "She grants Sacred Names to the Nhaga."
+      },
+      {
+        "at": 1,
+        "ko": "하텐그라쥬 심장탑의 수호자들이 이 여신을 모신다.",
+        "en": "The Guardians of the Heart Tower of Hattengraaj serve this goddess."
+      },
+      {
+        "at": 2,
+        "ko": "물의 여신이다.",
+        "en": "The goddess of water."
+      },
+      {
+        "at": 2,
+        "ko": "하텐그라쥬 수호자들에게 붙잡혀 카린돌 마케로우의 몸에 갇히고, 그 몸은 얼려진다.",
+        "en": "Captured by the Guardians of Hattengraaj, she is imprisoned in the body of Carindol Mahkerow, and that body is frozen."
+      },
+      {
+        "at": 2,
+        "ko": "갇힌 뒤에도 신명을 지닌 수호자들이 그 힘을 빌려 물과 비를 다룬다.",
+        "en": "Even after her imprisonment, Guardians who hold Sacred Names borrow her power to control water and rain."
+      },
+      {
+        "at": 3,
+        "ko": "요스비가 이 여신의 신체였고, 그 앞의 신체는 세페린이었다.",
+        "en": "Yosby was this goddess's vessel, and the vessel before him was Seperin."
+      },
+      {
+        "at": 3,
+        "ko": "요스비가 죽을 때 여신은 곁에 있던 카린돌에게 옮겨 갔다.",
+        "en": "When Yosby died, the Goddess passed to Carindol, who was beside him."
+      },
+      {
+        "at": 4,
+        "ko": "세리스마의 계획을 이용해 일부러 갇힌 채 다른 신들을 불러 모은 것은 여신 자신이었다.",
+        "en": "It was the Goddess herself who used Serisma's plan to stay imprisoned on purpose and gather the other gods."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤에도 카린돌의 딸 그리미를 돌보려고 떠나지 않고 남는다.",
+        "en": "Even after the war ends, she stays instead of leaving, to look after Carindol's daughter Grimi."
+      }
+    ]
+  },
+  {
+    "id": "god-that-cannot-see-itself",
+    "type": "god",
+    "name": {
+      "ko": "자신을 보지 못하는 신",
+      "en": "God That Cannot See Itself"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "첫 번째 종족이 섬기던 신이다.",
+        "en": "The god that the First Race worshipped."
+      },
+      {
+        "at": 4,
+        "ko": "자기 종족이 신보다 위대해지자 그들이 떠날 수 있게 소멸을 택했고, 다른 신들이 자신을 죽이는 신의 불로 그 소멸을 도왔다.",
+        "en": "When its race became greater than itself, it chose to cease to exist so that they could leave, and the other gods aided its end with the fire of the God That Kills Himself."
+      }
+    ]
+  },
+  {
+    "id": "kagan",
+    "type": "character",
+    "name": {
+      "ko": "케이건 드라카",
+      "en": "Kagan Draca"
+    },
+    "race": "human",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "푼텐 사막 끝의 마지막 주막에 남쪽에서 걸어 들어온 사내다.",
+        "en": "A man who walks in from the south to the Last Tavern at the edge of the Peunten Desert."
+      },
+      {
+        "at": 1,
+        "ko": "칼자루 하나에 칼날 두 개가 나란히 붙은 바라기라는 칼을 등에 멘다.",
+        "en": "He carries on his back a sword called Baragi, with two blades side by side on a single hilt."
+      },
+      {
+        "at": 1,
+        "ko": "이름은 키탈저 사냥꾼 말로 흑사자와 용을 뜻하며, 본명이 아니다.",
+        "en": "His name means Black Lion and Dragon in the tongue of the Kitaljer Hunters, and it is not his real name."
+      },
+      {
+        "at": 1,
+        "ko": "나가를 사냥해 먹는 사내로, 나가들 사이에서는 나가 살육자로 불린다.",
+        "en": "A man who hunts and eats Nhaga, known among the Nhaga as the Nhaga Slayer."
+      },
+      {
+        "at": 1,
+        "ko": "하인샤 대사원이 꾸린 구출대의 길잡이를 맡는다.",
+        "en": "He serves as the pathfinder of the Rescue Mission organized by the Great Temple of Hainsha."
+      },
+      {
+        "at": 2,
+        "ko": "사라졌다고 알려진 아라짓의 왕검이 그의 칼 바라기라는 사실이 하인샤 대사원에서 드러난다.",
+        "en": "At the Great Temple of Hainsha, it comes to light that his sword Baragi is the royal sword of Arajit, which was believed lost."
+      },
+      {
+        "at": 2,
+        "ko": "아주 오래전 일을 직접 겪은 듯 이야기해, 보통 사람보다 훨씬 오래 살았음을 내비친다.",
+        "en": "He talks about events from long ago as if he had lived through them, hinting that he has lived far longer than an ordinary person."
+      },
+      {
+        "at": 2,
+        "ko": "나가에게 아내를 잃었다고 티나한에게 털어놓는다.",
+        "en": "He confides to Teenahan that he lost his wife to the Nhaga."
+      },
+      {
+        "at": 2,
+        "ko": "마지막 아라짓 전사이자 마지막 키탈저 사냥꾼을 자처하며 사모 페이를 북부의 왕으로 추대한다.",
+        "en": "Calling himself the last Arajit Warrior and the last Kitaljer Hunter, he raises Sammo Pei as King of the North."
+      },
+      {
+        "at": 2,
+        "ko": "사모의 명에 따라 티나한, 비형과 함께 다른 신들의 화신을 찾는 수탐자로 떠난다.",
+        "en": "At Sammo's command, he sets out with Teenahan and Byong as Searchers to find the avatars of the other gods."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장간에서 레콘 여신의 신체를 1년 가까이 기다린다.",
+        "en": "At the Final Forge, he waits nearly a year for the vessel of the Rekon goddess."
+      },
+      {
+        "at": 3,
+        "ko": "오래 나가를 먹지 못해 몸이 쇠약해지고 오른팔을 제대로 쓰지 못한다.",
+        "en": "Having gone long without eating Nhaga, his body weakens and he cannot use his right arm properly."
+      },
+      {
+        "at": 3,
+        "ko": "극광 아래에서 옛 은인 아젤키버의 환영과 이야기한다.",
+        "en": "Under the aurora, he talks with a vision of his old benefactor Ajelkibo."
+      },
+      {
+        "at": 3,
+        "ko": "폐허가 된 카시다에서 만난 소년에게 살아남는 법을 가르치고 단검을 준다.",
+        "en": "In ruined Kasida, he teaches a boy he meets how to survive and gives him a dagger."
+      },
+      {
+        "at": 3,
+        "ko": "오래전 유료도로당 당주 보늬의 남편이었고, 보좌관 케이가 그의 아들이다.",
+        "en": "Long ago he was the husband of Boni, guild master of the Toll Road Guild, and her aide Kei is his son."
+      },
+      {
+        "at": 4,
+        "ko": "아내를 나가에게 잃은 뒤 나가를 먹기 시작했고, 소드락을 먹은 나가를 먹어 늙지 않는다고 믿어 왔다.",
+        "en": "He began eating Nhaga after losing his wife to them, and has believed that eating Nhaga who ate Sodrak keeps him from aging."
+      },
+      {
+        "at": 4,
+        "ko": "극연왕의 오라비인 아라짓 왕자였으며, 나가에게 속아 누이의 검 바라기를 가지고 나온 일이 왕국 몰락의 한 원인이 되었다.",
+        "en": "He was a prince of Arajit and the brother of the King of Extremity, and being tricked by the Nhaga into taking his sister's sword Baragi out became one cause of the kingdom's fall."
+      },
+      {
+        "at": 4,
+        "ko": "시우쇠의 폭로로 어디에도 없는 신의 화신임이 드러나고, 나가를 증오한 채 나가 살육신이 되어 하텐그라쥬를 회오리로 덮친다.",
+        "en": "Siusoe's revelation exposes him as the avatar of the God of Nowhere, and still hating the Nhaga, he becomes the Nhaga-Slaying God and strikes Hattengraaj with a whirlwind."
+      },
+      {
+        "at": 4,
+        "ko": "신이 인간에게 준 선물이 나늬임을 깨닫고 나가 살육신이기를 멈춘다.",
+        "en": "Realizing that the gift the god gave humans is Nani, he stops being the Nhaga-Slaying God."
+      },
+      {
+        "at": 4,
+        "ko": "갈로텍 안의 영을 모두 몰아낸 뒤의 행방은 밝혀지지 않는다.",
+        "en": "Where he goes after driving every spirit out of Galotek is never revealed."
+      }
+    ]
+  },
+  {
+    "id": "teenahan",
+    "type": "character",
+    "name": {
+      "ko": "티나한",
+      "en": "Teenahan"
+    },
+    "race": "rekon",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "키가 3m 가까이 되는 레콘으로, 하늘치 등에 오르는 것을 숙원으로 삼는다.",
+        "en": "A Rekon nearly 3 m tall whose lifelong wish is to climb onto the back of a Skyray."
+      },
+      {
+        "at": 1,
+        "ko": "하늘치 유적 발굴대를 이끄는 대장으로, 발굴대의 빚 때문에 대사원의 제안을 받아들여 구출대에 대적자로 합류한다.",
+        "en": "As leader of the Skyray ruins excavation team, he accepts the Great Temple's offer because of the team's debts and joins the Rescue Mission as its fighter."
+      },
+      {
+        "at": 1,
+        "ko": "긴 별철 창을 쓰며 레콘다운 괴력을 지녔다.",
+        "en": "He wields a long Stariron spear and has the immense strength of a true Rekon."
+      },
+      {
+        "at": 1,
+        "ko": "다혈질이지만 정이 많고, 왕을 자칭하는 자들을 싫어한다.",
+        "en": "Hot-tempered but warm-hearted, he dislikes those who call themselves kings."
+      },
+      {
+        "at": 1,
+        "ko": "힘껏 내지르는 고함인 계명성으로 큰 위력을 낸다.",
+        "en": "His Cockcrow, a full-force shout, carries great power."
+      },
+      {
+        "at": 2,
+        "ko": "케이건이 수탐에 나서자 망설임 없이 따라나선다.",
+        "en": "When Kagan sets out on the search, he follows without hesitation."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장간에서 무기를 받으러 온 젊은 레콘들을 끌고 와 시험하는 소동을 벌이다 쫓겨난다.",
+        "en": "At the Final Forge, he causes an uproar by dragging in young Rekon who came for their weapons and testing them, and is thrown out."
+      },
+      {
+        "at": 3,
+        "ko": "1년을 기다려 찾은 레콘 여신의 화신은 갓 태어난 레콘 아기였고, 그 아기를 업고 다닌다.",
+        "en": "The avatar of the Rekon goddess he finds after a year of waiting is a newborn Rekon baby, and he carries the baby on his back."
+      },
+      {
+        "at": 3,
+        "ko": "무너진 유료도로당 요새에서 보늬와 케이건의 마지막 대화를 지켜본다.",
+        "en": "In the collapsed Toll Road Fortress, he witnesses the last conversation between Boni and Kagan."
+      },
+      {
+        "at": 4,
+        "ko": "피를 뒤집어쓰고 폭주하려는 비형을 자신이 두려워하던 물로 씻겨 살려 낸다.",
+        "en": "He saves Byong, drenched in blood and about to run wild, by washing him with the water he himself feared."
+      },
+      {
+        "at": 4,
+        "ko": "즈라더와 철의 침묵을 주고받고, 발굴대가 하늘치 등에 올라 숙원이 이루어졌다는 말을 듣는다.",
+        "en": "He exchanges a Silence in Iron with Jurado and hears that the excavation team has climbed onto the Skyray's back, fulfilling his lifelong wish."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 별철 창을 내려놓고 하늘치 등으로 올라간다.",
+        "en": "After the war ends, he lays down his Stariron spear and climbs onto the back of a Skyray."
+      }
+    ]
+  },
+  {
+    "id": "byong",
+    "type": "character",
+    "name": {
+      "ko": "비형 스라블",
+      "en": "Byong Srabble"
+    },
+    "race": "tokkebi",
+    "group": "rescue-party",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "즈믄누리 성주 바우 머리돌의 몸종이며, 그 일을 무척 아낀다.",
+        "en": "The personal servant of Bao Moridol, castle lord of Jumunuri, and he cherishes that job dearly."
+      },
+      {
+        "at": 1,
+        "ko": "무사장에게 일을 빼앗겼다고 항의하러 성주의 방에 들어갔다가 구출대에 보낼 도깨비로 뽑힌다.",
+        "en": "He goes into the castle lord's room to protest that the master of arms took his job, and is chosen as the Tokkebi to send with the Rescue Mission."
+      },
+      {
+        "at": 1,
+        "ko": "구출대의 요술쟁이로 도깨비불을 다룬다.",
+        "en": "The trickster of the Rescue Mission, he wields Tokkebibul."
+      },
+      {
+        "at": 1,
+        "ko": "나늬라는 이름의 딱정벌레를 타고 다닌다.",
+        "en": "He rides a beetle named Nani."
+      },
+      {
+        "at": 1,
+        "ko": "모든 말을 물음으로 끝내는 버릇이 있다.",
+        "en": "He has a habit of ending everything he says with a question."
+      },
+      {
+        "at": 2,
+        "ko": "유료도로 당원들과 씨름판을 벌일 만큼 씨름에 능하다.",
+        "en": "He is good enough at wrestling to hold matches with members of the Toll Road Guild."
+      },
+      {
+        "at": 2,
+        "ko": "즈믄누리로 먼저 돌아갔다가 성주의 답을 들고 하인샤 대사원에 돌아온다.",
+        "en": "He returns to Jumunuri first, then comes back to the Great Temple of Hainsha with the castle lord's answer."
+      },
+      {
+        "at": 3,
+        "ko": "시우쇠를 깨울 때 그릇의 물이 피로 변하자 질겁한다.",
+        "en": "When the water in a bowl turns to blood as they awaken Siusoe, he is horrified."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장간에서 북부 소식을 듣고 륜이 용인이 되었음을 안다.",
+        "en": "At the Final Forge, he hears news from the North and learns that Ryun has become a dragoner."
+      },
+      {
+        "at": 4,
+        "ko": "레콘 여신의 화신을 안고 다른 화신들과 함께 하텐그라쥬 심장탑에 들어간다.",
+        "en": "Holding the avatar of the Rekon goddess, he enters the Heart Tower of Hattengraaj with the other avatars."
+      },
+      {
+        "at": 4,
+        "ko": "떨어지는 스바치와 보트린을 나늬를 타고 받아 내지만, 피를 뒤집어써 하텐그라쥬를 불태울 뻔한다.",
+        "en": "Riding Nani, he catches the falling Suvachi and Botrin, but he is drenched in blood and nearly burns Hattengraaj."
+      },
+      {
+        "at": 4,
+        "ko": "티나한이 물로 씻겨 준 덕에 제정신을 찾는다.",
+        "en": "He comes back to his senses because Teenahan washes him with water."
+      }
+    ]
+  },
+  {
+    "id": "ryun",
+    "type": "character",
+    "name": {
+      "ko": "륜 페이",
+      "en": "Ryun Pei"
+    },
+    "race": "nhaga",
+    "group": "pei-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하텐그라쥬 페이 가문의 남성 나가로, 심장 적출식을 앞두고 있다.",
+        "en": "A male Nhaga of the House of Pei in Hattengraaj who is about to undergo his extraction ceremony."
+      },
+      {
+        "at": 1,
+        "ko": "심장 적출 자체를 몹시 싫어하고 두려워한다.",
+        "en": "He deeply hates and fears heart extraction itself."
+      },
+      {
+        "at": 1,
+        "ko": "사모 페이의 동생이며, 생물학적 아버지는 요스비다.",
+        "en": "The younger brother of Sammo Pei; his biological father is Yosby."
+      },
+      {
+        "at": 1,
+        "ko": "한때 수련자였다가 그만두었다.",
+        "en": "He was once a Novitiate but gave it up."
+      },
+      {
+        "at": 1,
+        "ko": "친구 화리트의 죽음을 본 뒤 심장을 적출하지 않은 채 도망치고, 화리트를 죽였다는 누명을 써 쇼자인테쉬크톨의 대상이 된다.",
+        "en": "After witnessing the death of his friend Hwarit, he flees with his heart unextracted, is falsely accused of killing Hwarit, and becomes the target of a Shojainteshiktol."
+      },
+      {
+        "at": 2,
+        "ko": "신명을 지닌 덕에 하인샤 대사원에서 발자국 없는 여신을 부르는 일을 맡는다.",
+        "en": "Because he has a Sacred Name, he is given the task of calling the Traceless Goddess at the Great Temple of Hainsha."
+      },
+      {
+        "at": 3,
+        "ko": "아스화리탈이 퍼뜨린 용근을 먹고 용인이 되어, 남의 마음과 몸속 물의 흐름까지 읽는다.",
+        "en": "He eats dragon root spread by Azhwarital and becomes a dragoner, able to read others' minds and even the flow of water inside their bodies."
+      },
+      {
+        "at": 3,
+        "ko": "북부군에서는 하텐그라쥬 공작, 또는 뇌룡공이라 불린다.",
+        "en": "In the Northern Army, he is called the Duke of Hattengraaj, or the Thunder Dragon Duke."
+      },
+      {
+        "at": 3,
+        "ko": "신명으로 물을 다루며 혼자서 수호장군 여럿을 상대한다.",
+        "en": "He controls water with his Sacred Name and takes on several Guardian Generals by himself."
+      },
+      {
+        "at": 3,
+        "ko": "북부군에 심장 파괴법을 알려 주고 페로그라쥬와 악타그라쥬의 심장탑을 부숴, 그 도시의 나가들이 목숨을 잃는다.",
+        "en": "He teaches the Northern Army how to destroy hearts and smashes the Heart Towers of Perograaj and Aktagraaj, and the Nhaga of those cities lose their lives."
+      },
+      {
+        "at": 4,
+        "ko": "시모그라쥬에서 허물을 벗던 갈로텍과 처음 마주쳐 짧게 맞붙는다.",
+        "en": "In Simograaj, he first encounters Galotek in the middle of molting and briefly clashes with him."
+      },
+      {
+        "at": 4,
+        "ko": "하텐그라쥬 외곽에서 사모와 다시 만난다.",
+        "en": "He reunites with Sammo on the outskirts of Hattengraaj."
+      },
+      {
+        "at": 4,
+        "ko": "사모를 노린 키타타 자보로의 작살검을 대신 맞는다.",
+        "en": "He takes the blow of Kitata Zaboro's Harpoon Sword that was aimed at Sammo."
+      },
+      {
+        "at": 4,
+        "ko": "죽음의 문턱에서 세계가 자신에게 니르는 체험을 하고, 나가 살육신을 멈출 열쇠가 신이 인간에게 준 선물임을 알아낸다.",
+        "en": "On the brink of death, he experiences the world speaking to him in Nearm, and learns that the key to stopping the Nhaga-Slaying God is the gift the god gave humans."
+      },
+      {
+        "at": 4,
+        "ko": "끝내 아스화리탈과 한 몸이 되어 하텐그라쥬 곁의 나무가 된다.",
+        "en": "In the end, he becomes one with Azhwarital and turns into a tree beside Hattengraaj."
+      }
+    ]
+  },
+  {
+    "id": "sammo",
+    "type": "character",
+    "name": {
+      "ko": "사모 페이",
+      "en": "Sammo Pei"
+    },
+    "race": "nhaga",
+    "group": "pei-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜 페이의 누나인 페이 가문의 여성 나가다.",
+        "en": "A female Nhaga of the House of Pei and the older sister of Ryun Pei."
+      },
+      {
+        "at": 1,
+        "ko": "검술이 뛰어나다.",
+        "en": "She is an excellent swordswoman."
+      },
+      {
+        "at": 1,
+        "ko": "쇼자인테쉬크톨에 따라 도망친 륜을 쫓는 암살자로 지목된다.",
+        "en": "Under the Shojainteshiktol, she is named the assassin to hunt down the fleeing Ryun."
+      },
+      {
+        "at": 1,
+        "ko": "한계선 북쪽 근처에서 대호가 스스로 그녀를 따르게 된다.",
+        "en": "Near the north side of the Line of Limit, a Great Tiger comes to follow her of its own accord."
+      },
+      {
+        "at": 2,
+        "ko": "북부의 추위를 견디려고 흑사자 모피를 두른다.",
+        "en": "She wears a Black Lion pelt to endure the cold of the North."
+      },
+      {
+        "at": 2,
+        "ko": "수호자들의 계획을 안 뒤, 쇼자인테쉬크톨을 끝내려고 륜의 손에 죽으려 한다.",
+        "en": "After learning of the Guardians' plan, she tries to die at Ryun's hands to end the Shojainteshiktol."
+      },
+      {
+        "at": 2,
+        "ko": "하인샤 대사원에서 북부의 왕으로 추대된다.",
+        "en": "At the Great Temple of Hainsha, she is raised as King of the North."
+      },
+      {
+        "at": 3,
+        "ko": "가면을 써서 나가라는 사실을 북부인에게 숨긴 채 북부의 왕으로 전쟁을 이끈다.",
+        "en": "Hiding behind a mask the fact that she is a Nhaga from the Northerners, she leads the war as King of the North."
+      },
+      {
+        "at": 3,
+        "ko": "대호를 타는 모습에서 대호왕이라 불린다.",
+        "en": "Because she rides a Great Tiger, she is called the Great Tiger King."
+      },
+      {
+        "at": 3,
+        "ko": "병사들에게 이기고 죽기보다 지더라도 살아 돌아오라고 할 만큼 병사의 목숨을 아낀다.",
+        "en": "She values her soldiers' lives so much that she tells them to come back alive even in defeat rather than win and die."
+      },
+      {
+        "at": 3,
+        "ko": "엔거 평원 전투 뒤 북부군이 자신을 남겨 두고 하텐그라쥬로 떠나자 홀로 그 뒤를 쫓는다.",
+        "en": "After the battle of the Engo Plain, when the Northern Army leaves for Hattengraaj without her, she follows them alone."
+      },
+      {
+        "at": 3,
+        "ko": "소멸하는 유해의 폭포와 마지막 이야기를 나눈다.",
+        "en": "She has a final conversation with Corpsefall as it ceases to exist."
+      },
+      {
+        "at": 4,
+        "ko": "키보렌에서 수탐자들과 레콘 여신의 화신을 만나 북부군에 합류하고 륜과 다시 만난다.",
+        "en": "In Kiboren, she meets the Searchers and the avatar of the Rekon goddess, joins the Northern Army, and reunites with Ryun."
+      },
+      {
+        "at": 4,
+        "ko": "나가 살육신이 된 케이건에게, 나가를 살려 주는 대신 자신이 그의 눈물을 마시고 죽겠다고 청한다.",
+        "en": "She asks Kagan, now the Nhaga-Slaying God, to spare the Nhaga, offering in return to drink his tears and die."
+      },
+      {
+        "at": 4,
+        "ko": "비아스의 쉬크톨에 찔리지만 심장을 적출한 나가라 살아남는다.",
+        "en": "She is stabbed by Vyass's shiktol but survives because she is a Nhaga whose heart has been extracted."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 스스로 나가임을 밝힌다.",
+        "en": "After the war ends, she reveals herself as a Nhaga."
+      },
+      {
+        "at": 4,
+        "ko": "심장이 회오리에 둘러싸인 탑 안에 있어, 누구도 심장 파괴로 그녀를 해칠 수 없다.",
+        "en": "Her heart is inside a tower surrounded by a whirlwind, so no one can harm her through heart destruction."
+      }
+    ]
+  },
+  {
+    "id": "yosby",
+    "type": "character",
+    "name": {
+      "ko": "요스비",
+      "en": "Yosby"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜과 사모의 생물학적 아버지다.",
+        "en": "The biological father of Ryun and Sammo."
+      },
+      {
+        "at": 1,
+        "ko": "륜이 어릴 때 수호자들에게 심장을 파괴당해 죽었다.",
+        "en": "He died when Ryun was young, after the Guardians destroyed his heart."
+      },
+      {
+        "at": 1,
+        "ko": "케이건 드라카와 아는 사이였다.",
+        "en": "He knew Kagan Draca."
+      },
+      {
+        "at": 3,
+        "ko": "발자국 없는 여신이 깃든 신체였고, 그가 죽자 여신은 카린돌에게 옮겨 갔다.",
+        "en": "He was the vessel in which the Traceless Goddess dwelt, and when he died, the Goddess passed to Carindol."
+      },
+      {
+        "at": 3,
+        "ko": "수호자들이 그를 죽인 것은 여신을 륜에게 옮기려는 계획이었다.",
+        "en": "The Guardians killed him as part of a plan to move the Goddess into Ryun."
+      },
+      {
+        "at": 3,
+        "ko": "세리스마에게 속아 뱀단지를 하인샤 대사원에 가져다 두었다.",
+        "en": "Deceived by Serisma, he brought the Snake Jar to the Great Temple of Hainsha and left it there."
+      },
+      {
+        "at": 4,
+        "ko": "나가를 먹지 못해 무너져 가던 케이건에게 소드락을 먹은 자기 팔을 내주어 살렸다.",
+        "en": "He saved Kagan, who was falling apart from not eating Nhaga, by giving him his own Sodrak-fed arm."
+      },
+      {
+        "at": 4,
+        "ko": "그의 심장을 실제로 부순 자는 갈로텍이었다.",
+        "en": "The one who actually destroyed his heart was Galotek."
+      }
+    ]
+  },
+  {
+    "id": "jikoen-pei",
+    "type": "character",
+    "name": {
+      "ko": "지커엔 페이",
+      "en": "Jikoen Pei"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "페이 가문의 가주이며 륜과 사모의 어머니다.",
+        "en": "Head of the House of Pei and mother of Ryun and Sammo."
+      }
+    ]
+  },
+  {
+    "id": "somnani-pei",
+    "type": "character",
+    "name": {
+      "ko": "솜나니 페이",
+      "en": "Somnani Pei"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "페이 가문의 장녀다.",
+        "en": "The eldest daughter of the House of Pei."
+      }
+    ]
+  },
+  {
+    "id": "hwarit",
+    "type": "character",
+    "name": {
+      "ko": "화리트 마케로우",
+      "en": "Hwarit Mahkerow"
+    },
+    "race": "nhaga",
+    "group": "makerow-family",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜의 친구로, 수호자가 되려고 수련 중인 마케로우 가문의 남성 나가다.",
+        "en": "Ryun's friend, a male Nhaga of the House of Mahkerow who is training to become a Guardian."
+      },
+      {
+        "at": 1,
+        "ko": "원래 구출대가 하인샤 대사원으로 데려갈 나가였다.",
+        "en": "He was originally the Nhaga the Rescue Mission was to take to the Great Temple of Hainsha."
+      },
+      {
+        "at": 1,
+        "ko": "심장 적출식 날 누나 비아스 마케로우에게 살해된다.",
+        "en": "On the day of his extraction ceremony, he is murdered by his older sister Vyass Mahkerow."
+      },
+      {
+        "at": 1,
+        "ko": "죽기 전 자기가 맡았던 일을 륜에게 떠맡긴다.",
+        "en": "Before he dies, he passes the task he had taken on to Ryun."
+      },
+      {
+        "at": 2,
+        "ko": "그의 영은 갈로텍 안에 붙들려 남아 있다.",
+        "en": "His spirit remains trapped inside Galotek."
+      },
+      {
+        "at": 3,
+        "ko": "갈로텍 안에서 카린돌의 영이 몸을 차지하지 못하게 막는다.",
+        "en": "Inside Galotek, he keeps Carindol's spirit from taking over the body."
+      }
+    ]
+  },
+  {
+    "id": "vyass-mahkerow",
+    "type": "character",
+    "name": {
+      "ko": "비아스 마케로우",
+      "en": "Vyass Mahkerow"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "화리트 마케로우의 누나다.",
+        "en": "The older sister of Hwarit Mahkerow."
+      },
+      {
+        "at": 1,
+        "ko": "동생 화리트를 죽인 장본인이다.",
+        "en": "She is the one who killed her brother Hwarit."
+      },
+      {
+        "at": 1,
+        "ko": "수호자 갈로텍과 손을 잡는다.",
+        "en": "She joins hands with the Guardian Galotek."
+      },
+      {
+        "at": 2,
+        "ko": "갈로텍이 보낸 남자들을 통해 아이를 가져 가주 자리를 차지하려 한다.",
+        "en": "She tries to have a child by men Galotek sends her, to seize the position of head of the house."
+      },
+      {
+        "at": 3,
+        "ko": "마호가니 군단 부관으로 나섰다가 엔거 평원에서 군단이 무너질 때 살아남아 군단장이 된다.",
+        "en": "Serving as adjutant of the Mahogany Legion, she survives when the legion collapses on the Engo Plain and becomes legion commander."
+      },
+      {
+        "at": 3,
+        "ko": "보트린을 붙잡아 심문해 수호자들의 비밀을 알아낸다.",
+        "en": "She captures and interrogates Botrin and learns the Guardians' secrets."
+      },
+      {
+        "at": 3,
+        "ko": "평의회에서 여신 감금과 심장 파괴의 비밀을 폭로하고 심장탑을 쳐 하텐그라쥬 내전을 일으키지만, 세리스마의 물에 밀려난다.",
+        "en": "At the Council she exposes the secrets of the imprisonment of the Goddess and heart destruction and attacks the Heart Tower, starting a civil war in Hattengraaj, but is driven back by Serisma's water."
+      },
+      {
+        "at": 4,
+        "ko": "가주가 된 소메로에게 버림받고 홀로 심장탑을 오르지만, 심장병의 이름이 지워져 있어 노리던 심장을 부수지 못한다.",
+        "en": "Abandoned by Somero, now head of the house, she climbs the Heart Tower alone, but the names on the heart vials have been erased, so she cannot destroy the heart she was after."
+      },
+      {
+        "at": 4,
+        "ko": "사모를 쉬크톨로 찌르지만 빌파 삼부자에게 제압되고, 세리스마에게 끌려 함께 떨어져 죽는다.",
+        "en": "She stabs Sammo with a shiktol but is subdued by the Bilpa father and sons, then is dragged down by Serisma, and the two fall to their deaths together."
+      }
+    ]
+  },
+  {
+    "id": "carindol-mahkerow",
+    "type": "character",
+    "name": {
+      "ko": "카린돌 마케로우",
+      "en": "Carindol Mahkerow"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "비아스의 동생이자 화리트의 누나인 마케로우 가문의 딸이다.",
+        "en": "A daughter of the House of Mahkerow, younger sister of Vyass and older sister of Hwarit."
+      },
+      {
+        "at": 1,
+        "ko": "비아스의 침대 밑에서 사이커를 찾아내 그녀가 화리트를 죽였음을 알아챈다.",
+        "en": "Finding a Syker under Vyass's bed, she realizes that Vyass killed Hwarit."
+      },
+      {
+        "at": 2,
+        "ko": "비아스를 가주 경쟁에서 떨어뜨리려고 가문에 온 남자들을 가로챈다.",
+        "en": "To knock Vyass out of the race for head of the house, she intercepts the men who come to the house."
+      },
+      {
+        "at": 2,
+        "ko": "그로스의 꾀에 넘어가 본명을 들키고, 수호자들에게 붙잡혀 냉동 장치에 갇힌다.",
+        "en": "Tricked by Gros, she has her true name discovered, and the Guardians capture her and lock her in a freezing device."
+      },
+      {
+        "at": 2,
+        "ko": "얼어붙은 그 몸에 발자국 없는 여신이 갇히고, 그녀의 영은 갈로텍에게 넘어간다.",
+        "en": "The Traceless Goddess is imprisoned in her frozen body, and her spirit passes to Galotek."
+      },
+      {
+        "at": 3,
+        "ko": "갈로텍 안에 갇힌 그녀의 영이 분노하며 점점 커져 그를 위협한다.",
+        "en": "Trapped inside Galotek, her spirit rages and keeps growing stronger, threatening him."
+      },
+      {
+        "at": 4,
+        "ko": "스바치의 아이를 품고 있었고, 딸 그리미를 낳는다.",
+        "en": "She was carrying Suvachi's child, and gives birth to a daughter, Grimi."
+      },
+      {
+        "at": 4,
+        "ko": "그녀의 영은 끝내 갈로텍의 몸을 차지하지만, 풀려난 뒤에도 제정신을 찾지 못한다.",
+        "en": "Her spirit finally takes over Galotek's body, but even after she is freed, she does not regain her sanity."
+      }
+    ]
+  },
+  {
+    "id": "dusenna-mahkerow",
+    "type": "character",
+    "name": {
+      "ko": "두세나 마케로우",
+      "en": "Dusenna Mahkerow"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "마케로우 가문의 가주다.",
+        "en": "Head of the House of Mahkerow."
+      },
+      {
+        "at": 2,
+        "ko": "수호자들이 대가문의 가주들을 붙잡아 갈 때 함께 끌려간다.",
+        "en": "Dusenna is also taken away when the Guardians seize the heads of the great houses."
+      }
+    ]
+  },
+  {
+    "id": "somero-mahkerow",
+    "type": "character",
+    "name": {
+      "ko": "소메로 마케로우",
+      "en": "Somero Mahkerow"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "마케로우 가문의 맏딸로, 덕이 높기로 이름나 있다.",
+        "en": "The eldest daughter of the House of Mahkerow, known for her great virtue."
+      },
+      {
+        "at": 2,
+        "ko": "비아스와 카린돌의 다툼을 수습하며 가주 두세나의 신임을 얻는다.",
+        "en": "By settling the quarrel between Vyass and Carindol, she earns the trust of Dusenna, head of the house."
+      },
+      {
+        "at": 3,
+        "ko": "가주 대리로서 카루, 스바치와 손잡는다.",
+        "en": "As acting head of the house, she joins hands with Karu and Suvachi."
+      },
+      {
+        "at": 4,
+        "ko": "마케로우 가문의 가주가 되어 동생 비아스 대신 가문을 택한다.",
+        "en": "Becoming head of the House of Mahkerow, she chooses the house over her younger sister Vyass."
+      }
+    ]
+  },
+  {
+    "id": "grimi-mahkerow",
+    "type": "character",
+    "name": {
+      "ko": "그리미 마케로우",
+      "en": "Grimi Mahkerow"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 4,
+        "ko": "카린돌과 스바치의 딸이다.",
+        "en": "The daughter of Carindol and Suvachi."
+      },
+      {
+        "at": 4,
+        "ko": "냉동 장치 속 어머니의 몸 안에서 느리게 자라, 아주 영리한 아이로 태어난다.",
+        "en": "She grows slowly inside her mother's body in the freezing device and is born a very bright child."
+      },
+      {
+        "at": 4,
+        "ko": "그녀의 미래 모습이 케이건 앞에 나타나, 인간이 받은 선물이 나늬임을 일깨운다.",
+        "en": "A vision of her future self appears before Kagan and reminds him that the gift humans received is Nani."
+      },
+      {
+        "at": 4,
+        "ko": "사모가 딸처럼 아껴 곁에 두고, 발자국 없는 여신이 그녀가 자랄 때까지 곁에 남는다.",
+        "en": "Sammo cherishes her like a daughter and keeps her close, and the Traceless Goddess stays by her side until she grows up."
+      }
+    ]
+  },
+  {
+    "id": "rato-sen",
+    "type": "character",
+    "name": {
+      "ko": "라토 센",
+      "en": "Rato Sen"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "센 가문의 가주이자 하텐그라쥬 평의회 의장으로, 비아스가 청한 쇼자인테쉬크톨을 마지못해 허락한다.",
+        "en": "Head of the House of Sen and chair of the Hattengraaj Council, she reluctantly grants the Shojainteshiktol that Vyass requested."
+      },
+      {
+        "at": 2,
+        "ko": "갈로텍과 수호자들이 센 가문을 습격해 그녀를 심장탑으로 끌고 간다.",
+        "en": "Galotek and the Guardians raid the House of Sen and drag her off to the Heart Tower."
+      }
+    ]
+  },
+  {
+    "id": "radiol-sen",
+    "type": "character",
+    "name": {
+      "ko": "라디올 센",
+      "en": "Radiol Sen"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "스스로 극작가이자 희극 배우로 여기지만, 주변에서는 웃음거리로 여긴다.",
+        "en": "She sees herself as a playwright and comic actor, but those around her see her as a laughingstock."
+      },
+      {
+        "at": 2,
+        "ko": "갈로텍이 비아스에게 처음 다가간 곳이 그녀의 작품 발표회였다.",
+        "en": "Galotek first approached Vyass at a presentation of one of her works."
+      },
+      {
+        "at": 3,
+        "ko": "센 가문에 남은 유일한 여성 가주 후보로, 재산을 예술에 쏟아붓기로 유명하다.",
+        "en": "The only remaining female candidate for head of the House of Sen, famous for pouring her wealth into art."
+      }
+    ]
+  },
+  {
+    "id": "juo-sen",
+    "type": "character",
+    "name": {
+      "ko": "쥬어 센",
+      "en": "Juo Sen"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "센 가문의 남성 나가로, 전쟁 중 북부인을 속여 빼앗은 재물로 남성 나가 의용군을 키우고 남자의 몸으로 가문을 잇겠다고 나선다.",
+        "en": "A male Nhaga of the House of Sen who, during the war, raises a volunteer force of male Nhaga with wealth swindled from Northerners and steps forward to carry on the house as a man."
+      },
+      {
+        "at": 3,
+        "ko": "비아스 편에 서서 심장탑 돌입조를 이끈다.",
+        "en": "He sides with Vyass and leads the team that storms the Heart Tower."
+      },
+      {
+        "at": 4,
+        "ko": "소메로가 가주가 되자 재빨리 비아스 곁을 떠난다.",
+        "en": "When Somero becomes head of the house, he quickly leaves Vyass's side."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 사모를 암살하러 갔다가 누군가에게 소리 없이 제거된다.",
+        "en": "After the war he goes to assassinate Sammo and is silently eliminated by someone."
+      }
+    ]
+  },
+  {
+    "id": "serisma",
+    "type": "character",
+    "name": {
+      "ko": "세리스마",
+      "en": "Serisma"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "뱀단지로 하인샤 대사원에 큰 위험이 다가온다고 알린다.",
+        "en": "He uses the Snake Jar to warn the Great Temple of Hainsha that a great danger is approaching."
+      },
+      {
+        "at": 2,
+        "ko": "하인샤 대사원에서는 세상을 걱정하는 양심적인 수호자로 여겨진다.",
+        "en": "At the Great Temple of Hainsha, he is regarded as a conscientious Guardian who worries about the world."
+      },
+      {
+        "at": 2,
+        "ko": "자신이 가르친 수련자였던 카루와 스바치를 부린다.",
+        "en": "He commands Karu and Suvachi, who were once Novitiates under his teaching."
+      },
+      {
+        "at": 2,
+        "ko": "살신 계획을 막는 척했지만, 실은 여신 감금 계획을 처음부터 짠 주모자였다.",
+        "en": "He pretended to stop the God-Killing Plan but was in fact the mastermind who devised the plan for the imprisonment of the Goddess from the start."
+      },
+      {
+        "at": 3,
+        "ko": "하텐그라쥬에서 가장 지위가 높은 수호자로, 심장탑 55층에 머문다.",
+        "en": "The highest-ranking Guardian in Hattengraaj, who stays on the 55th floor of the Heart Tower."
+      },
+      {
+        "at": 3,
+        "ko": "대수호자 자리에 오르지 못하고 심장탑에 남아, 뱀단지로 갈로텍에게 지시를 내린다.",
+        "en": "He does not rise to the post of Great Guardian, remains in the Heart Tower, and gives orders to Galotek through the Snake Jar."
+      },
+      {
+        "at": 3,
+        "ko": "비아스 무리가 심장탑을 치자 홀로 물을 끌어모아 막아 낸다.",
+        "en": "When Vyass's band attacks the Heart Tower, he alone draws water together and holds them off."
+      },
+      {
+        "at": 4,
+        "ko": "시우쇠가 심장탑 위층을 날려 버릴 때 크게 다친다.",
+        "en": "He is badly injured when Siusoe blows away the upper floors of the Heart Tower."
+      },
+      {
+        "at": 4,
+        "ko": "죽기 전 다름을 받아들이지 못한 것이 자기 죄였다고 털어놓는다.",
+        "en": "Before dying, he confesses that being unable to accept difference was his own sin."
+      },
+      {
+        "at": 4,
+        "ko": "비아스를 끌고 함께 탑 아래로 떨어져 죽는다.",
+        "en": "He drags Vyass along in a fall from the tower, and both die."
+      }
+    ]
+  },
+  {
+    "id": "galotek",
+    "type": "character",
+    "name": {
+      "ko": "갈로텍",
+      "en": "Galotek"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하텐그라쥬 심장탑의 젊은 수호자다.",
+        "en": "A young Guardian of the Heart Tower in Hattengraaj."
+      },
+      {
+        "at": 1,
+        "ko": "비아스 마케로우와 손을 잡는다.",
+        "en": "He joins hands with Vyass Mahkerow."
+      },
+      {
+        "at": 2,
+        "ko": "쉽게 화를 내는 신경질적인 면이 있다.",
+        "en": "He has a nervous side and is quick to anger."
+      },
+      {
+        "at": 2,
+        "ko": "나가로서는 드문 군령자로, 몸 안에 다른 이들의 영을 품고 있다.",
+        "en": "A Manysoul, rare among Nhaga, who carries the souls of others inside his body."
+      },
+      {
+        "at": 2,
+        "ko": "수호자들과 함께 대가문의 가주들을 붙잡아 심장탑에 가둔다.",
+        "en": "Together with the Guardians, he seizes the heads of the great houses and confines them in the Heart Tower."
+      },
+      {
+        "at": 2,
+        "ko": "카린돌의 본명을 불러 그녀의 영을 빼앗아 자기 안에 가둔다.",
+        "en": "He calls Carindol by her true name, takes her soul, and confines it inside himself."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁에서 나가군 대장군으로 병권을 쥔다.",
+        "en": "In the war he holds military command as Great General of the Nhaga army."
+      },
+      {
+        "at": 3,
+        "ko": "판사이의 육형제 탑을 물에 잠기게 해 그 땅을 무너뜨린다.",
+        "en": "He floods the Six Brothers Towers of Pansai and brings that land to ruin."
+      },
+      {
+        "at": 3,
+        "ko": "포로가 된 대수호자 키베인을 구하려 북상해 시구리아트 유료도로 요새를 무너뜨린다.",
+        "en": "He marches north to rescue the captured Great Guardian Kibein and brings down the Siguriat Toll Road Fortress."
+      },
+      {
+        "at": 3,
+        "ko": "누이 세페린을 죽인 나가 살육자에게 복수하려는 것이 그가 전쟁을 밀어붙인 숨은 동기다.",
+        "en": "His hidden motive for pushing the war is revenge on the Nhaga Slayer who killed his sister Seperin."
+      },
+      {
+        "at": 4,
+        "ko": "시모그라쥬 근처에서 허물을 벗다가 용인 륜과 처음 마주친다.",
+        "en": "While molting near Simograaj, he first comes face to face with the dragoner Ryun."
+      },
+      {
+        "at": 4,
+        "ko": "요스비의 심장을 실제로 부순 자가 그였다.",
+        "en": "He was the one who actually destroyed Yosby's heart."
+      },
+      {
+        "at": 4,
+        "ko": "케이건이 그의 안의 영을 모두 몰아내 더는 군령자가 아니게 된다.",
+        "en": "Kagan drives out every soul inside him, and he is no longer a Manysoul."
+      }
+    ]
+  },
+  {
+    "id": "juquedo-sarmak",
+    "type": "character",
+    "name": {
+      "ko": "주퀘도 사르마크",
+      "en": "Juquedo Sarmak"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "약 250년 전 죽음의 거장이라 불린 제왕병자로, 그 영이 갈로텍 안에 깃들어 있다.",
+        "en": "A Would-be King called the Maestro of Death about 250 years ago, whose soul dwells inside Galotek."
+      },
+      {
+        "at": 2,
+        "ko": "생전에 시구리아트 유료도로당 요새를 치다 큰 병력을 잃고 실패했다.",
+        "en": "In life, he attacked the fortress of the Siguriat Toll Road Guild, lost a large force, and failed."
+      },
+      {
+        "at": 3,
+        "ko": "나가군의 전략을 실제로 짜 연승을 이끌고, 끝내 유료도로당 요새를 무너뜨린다.",
+        "en": "He is the one who actually plans the Nhaga army's strategy, leading it to victory after victory and finally bringing down the Toll Road Guild's fortress."
+      },
+      {
+        "at": 3,
+        "ko": "요새를 무너뜨린 뒤 오히려 자기 삶을 더럽혔다고 괴로워하며, 갈로텍에게 죽을 때 다른 몸으로 옮기지 말라고 부탁한다.",
+        "en": "After the fortress falls, he is tormented by the thought of having instead stained his own life, and asks Galotek not to move him into another body when the time of death comes."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝나면 갈로텍과 함께 북부로 가 유료도로당에 사과하겠다고 한다.",
+        "en": "He says that once the war is over, he will go north with Galotek and apologize to the Toll Road Guild."
+      }
+    ]
+  },
+  {
+    "id": "nogi-hasuun",
+    "type": "character",
+    "name": {
+      "ko": "노기 하수언",
+      "en": "Nogi Hasu'un"
+    },
+    "race": "tokkebi",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "생전에 우연히 걸작을 만들어 내곤 하던 도깨비 대장장이로, 그 영이 갈로텍 안에 남아 있다.",
+        "en": "A Tokkebi smith who in life would now and then make a masterpiece by chance, and whose soul remains inside Galotek."
+      },
+      {
+        "at": 2,
+        "ko": "갈로텍의 부탁으로 여신을 가둘 냉동 장치를 설계한다.",
+        "en": "At Galotek's request, Nogi designs the freezing device that will imprison the Goddess."
+      }
+    ]
+  },
+  {
+    "id": "seperin",
+    "type": "character",
+    "name": {
+      "ko": "세페린",
+      "en": "Seperin"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "갈로텍의 누이로, 요스비보다 먼저 발자국 없는 여신이 깃든 신체였다.",
+        "en": "Galotek's sister, who was a vessel of the Traceless Goddess before Yosby."
+      },
+      {
+        "at": 3,
+        "ko": "나가 살육자의 공격으로 목숨을 잃었고, 그 일로 갈로텍이 복수심을 품었다.",
+        "en": "She lost her life to an attack by the Nhaga Slayer, which left Galotek bent on revenge."
+      }
+    ]
+  },
+  {
+    "id": "karu",
+    "type": "character",
+    "name": {
+      "ko": "카루",
+      "en": "Karu"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "노련한 방랑자 나가로, 고민하는 화리트에게 니름을 건네며 처음 나온다.",
+        "en": "A seasoned wandering Nhaga who first appears offering Nearm to the troubled Hwarit."
+      },
+      {
+        "at": 1,
+        "ko": "륜을 쫓는 사모를 몰래 따라가다 들킨 뒤 함께 움직이고, 사모가 한계선을 넘자 하텐그라쥬로 돌아간다.",
+        "en": "He secretly follows Sammo as she chases Ryun, travels with her after being caught, and returns to Hattengraaj when Sammo crosses the Line of Limit."
+      },
+      {
+        "at": 4,
+        "ko": "세리스마의 권유로 수련자 자리를 내려놓은 그의 측근으로, 스바치와 함께 심장탑에서 빠져나오며 심장병의 이름에 먹칠을 해 둔다.",
+        "en": "Having given up his Novitiate post at Serisma's urging, he is one of Serisma's close aides, and as he slips out of the Heart Tower with Suvachi, he blots out the names on the heart vials."
+      },
+      {
+        "at": 3,
+        "ko": "세리스마에게 속았음을 알고 스바치와 함께 하텐그라쥬로 돌아와, 쥬어 센과 소메로를 설득하러 다닌다.",
+        "en": "Learning that Serisma deceived them, he returns to Hattengraaj with Suvachi and goes around trying to persuade Juo Sen and Somero."
+      },
+      {
+        "at": 4,
+        "ko": "소드락과 여신의 축복을 받아 사모를 지키려 케이건과 맞붙고, 세리스마의 마지막 니름을 소리 내어 전한다.",
+        "en": "Blessed with Sodrak and by the Goddess, he fights Kagan to protect Sammo, and speaks Serisma's last Nearm aloud."
+      }
+    ]
+  },
+  {
+    "id": "suvachi",
+    "type": "character",
+    "name": {
+      "ko": "스바치",
+      "en": "Suvachi"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "화리트의 동료로 마케로우 가문에 머물던 나가다.",
+        "en": "A Nhaga and companion of Hwarit who stayed with the House of Mahkerow."
+      },
+      {
+        "at": 1,
+        "ko": "화리트 죽음의 진상을 캐려고 카린돌에게 다가갔다가 그녀를 깊이 아끼게 된다.",
+        "en": "He approaches Carindol to uncover the truth of Hwarit's death and comes to care for her deeply."
+      },
+      {
+        "at": 4,
+        "ko": "카루와 함께 세리스마의 측근으로, 수호자들이 심장 파괴로 자신들을 해치지 못하게 심장병의 이름을 지우자는 꾀를 낸다.",
+        "en": "Along with Karu, he is a close aide of Serisma, and he comes up with the idea of erasing the names on their heart vials so the Guardians cannot harm them through heart destruction."
+      },
+      {
+        "at": 4,
+        "ko": "심장탑에서 떨어지는 와중에 칼을 던져 냉동 장치를 깨뜨리고, 비형에게 구조된다.",
+        "en": "While falling from the Heart Tower, he throws his sword to smash the freezing device and is rescued by Byong."
+      },
+      {
+        "at": 4,
+        "ko": "그리미의 아버지다.",
+        "en": "He is Grimi's father."
+      }
+    ]
+  },
+  {
+    "id": "yubex",
+    "type": "character",
+    "name": {
+      "ko": "유벡스",
+      "en": "Yubex"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "심장탑 특수도서실을 맡은 사서 수호자다.",
+        "en": "The librarian Guardian in charge of the special archive of the Heart Tower."
+      }
+    ]
+  },
+  {
+    "id": "botrin",
+    "type": "character",
+    "name": {
+      "ko": "보트린",
+      "en": "Botrin"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "세리스마의 오랜 제자인 심장탑의 수호자다.",
+        "en": "A Guardian of the Heart Tower and a longtime disciple of Serisma."
+      },
+      {
+        "at": 3,
+        "ko": "신체를 알아보는 감각이 있어, 세페린에게서 여신을 느낀 것이 감금 계획의 시작이 되었다.",
+        "en": "He has a sense for recognizing vessels, and sensing the Goddess in Seperin was what set the imprisonment plan in motion."
+      },
+      {
+        "at": 3,
+        "ko": "비아스에게 붙잡혀 심문당한 끝에 계획을 모두 털어놓는다.",
+        "en": "Captured and interrogated by Vyass, he finally reveals the whole plan."
+      },
+      {
+        "at": 4,
+        "ko": "살아남아 냉동 장치를 멈추는 법을 알려 주고, 심장탑에서 떨어지다 비형에게 구조된다.",
+        "en": "He survives, explains how to stop the freezing device, and is rescued by Byong while falling from the Heart Tower."
+      }
+    ]
+  },
+  {
+    "id": "penina-siedo",
+    "type": "character",
+    "name": {
+      "ko": "페니나 시에도",
+      "en": "Penina Siedo"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "하텐그라쥬의 대장장이다.",
+        "en": "A smith of Hattengraaj."
+      },
+      {
+        "at": 4,
+        "ko": "여신을 가둔 심장탑 51층의 냉동 장치를 만들었다.",
+        "en": "Penina built the freezing device on the 51st floor of the Heart Tower that holds the Goddess captive."
+      }
+    ]
+  },
+  {
+    "id": "gros",
+    "type": "character",
+    "name": {
+      "ko": "그로스",
+      "en": "Gros"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "갈로텍이 비아스에게 보낸 남자들 가운데 하나로, 카린돌을 꾀어 그녀의 본명을 알아낸다.",
+        "en": "One of the men Galotek sent to Vyass, he seduces Carindol and learns her true name."
+      },
+      {
+        "at": 3,
+        "ko": "마호가니 군단장으로 엔거 평원에 나섰다가, 갈로텍을 기다리자는 부관 비아스의 말을 무시하고 싸워 크게 진다.",
+        "en": "As commander of the Mahogany Legion on the Engo Plain, he ignores his adjutant Vyass's advice to wait for Galotek, fights anyway, and suffers a crushing defeat."
+      },
+      {
+        "at": 3,
+        "ko": "패전 뒤 해임되고 행방이 끊긴다.",
+        "en": "After the defeat he is dismissed, and his whereabouts are lost."
+      }
+    ]
+  },
+  {
+    "id": "kibein",
+    "type": "character",
+    "name": {
+      "ko": "키베인",
+      "en": "Kibein"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "지도그라쥬 출신 수호자로, 하텐그라쥬를 견제하려고 새로 만든 대수호자 자리에 처음 오른다.",
+        "en": "A Guardian from Jidograaj who becomes the first to hold the post of Great Guardian, newly created to keep Hattengraaj in check."
+      },
+      {
+        "at": 3,
+        "ko": "스스로 종군했다가 엔거 평원에서 빌파 삼부자에게 생포된다.",
+        "en": "He joins the campaign of his own accord and is captured alive on the Engo Plain by the Bilpa father and sons."
+      },
+      {
+        "at": 3,
+        "ko": "유료도로 요새가 함락될 때 갈로텍 군에게 구출되고, 포로가 된 데오늬 달비와 바르사 돌을 다른 나가들에게서 지켜 준다.",
+        "en": "When the Toll Road Fortress falls, he is rescued by Galotek's army, and he protects the captured Deoni Dalbi and Barsa Dol from other Nhaga."
+      },
+      {
+        "at": 4,
+        "ko": "종전 몇 해 뒤 라수를 찾아와 수호자들이 곧 전쟁을 일으킬 것이라 경고하고, 대호왕 암살 계획도 귀띔한다.",
+        "en": "A few years after the war, he visits Rasu to warn that the Guardians will soon start a war, and also tips him off about a plot to assassinate the Great Tiger King."
+      }
+    ]
+  },
+  {
+    "id": "sekiri",
+    "type": "character",
+    "name": {
+      "ko": "세키리",
+      "en": "Sekiri"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "악타그라쥬의 여섯 군단을 지휘한 수호장군으로, 군단을 번갈아 내보내 북부군을 몰아붙인다.",
+        "en": "A Guardian General in command of the six legions of Aktagraaj, who drives back the Northern Army by sending the legions out in turns."
+      },
+      {
+        "at": 3,
+        "ko": "라수의 계략에 넘어가 여섯 군단을 한꺼번에 투입했다가, 더위에 미친 나가들이 서로 싸우며 무너진다.",
+        "en": "Falling for Rasu's ruse, Sekiri throws all six legions in at once, and they collapse as Nhaga maddened by the heat fight one another."
+      }
+    ]
+  },
+  {
+    "id": "insilop",
+    "type": "character",
+    "name": {
+      "ko": "인실롭",
+      "en": "Insilop"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 4,
+        "ko": "갈로텍이 가장 믿는 군단장으로, 시모그라쥬에 저지선을 친다.",
+        "en": "The legion commander Galotek trusts most, who sets up a defensive line at Simograaj."
+      },
+      {
+        "at": 4,
+        "ko": "칸비야 고소리의 중립 선언에 맞서 언쟁하다 도시에서 물러난다.",
+        "en": "After arguing against Kanbiya Gosori's declaration of neutrality, Insilop withdraws from the city."
+      },
+      {
+        "at": 4,
+        "ko": "하텐그라쥬 외곽에서 입성 허가를 기다리며 평의회의 사절을 맞는다.",
+        "en": "While waiting outside Hattengraaj for permission to enter, Insilop receives an envoy from the Council."
+      }
+    ]
+  },
+  {
+    "id": "kanbiya-gosori",
+    "type": "character",
+    "name": {
+      "ko": "칸비야 고소리",
+      "en": "Kanbiya Gosori"
+    },
+    "race": "nhaga",
+    "facts": [
+      {
+        "at": 4,
+        "ko": "시모그라쥬 평의회 의장으로, 도시를 전쟁터로 내주지 않으려 중립을 선언한다.",
+        "en": "The Council chair of Simograaj, who declares neutrality so the city will not be turned into a battlefield."
+      },
+      {
+        "at": 4,
+        "ko": "홀로 북부군 진지에 찾아가 스스로 인질이 되고, 륜이 그 말이 참임을 확인한다.",
+        "en": "She goes alone to the Northern Army's camp and offers herself as a hostage, and Ryun confirms that her words are true."
+      },
+      {
+        "at": 4,
+        "ko": "시우쇠에게 받은 전언을 레콘 여신의 화신에게 전한다.",
+        "en": "She delivers a message from Siusoe to the avatar of the Rekon goddess."
+      }
+    ]
+  },
+  {
+    "id": "azhwarital",
+    "type": "creature",
+    "name": {
+      "ko": "아스화리탈",
+      "en": "Azhwarital"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "륜이 도주 중 얻은 용근에서 자보로 무렵 깨어난 어린 용으로, 륜이 배낭에 넣어 기른다.",
+        "en": "A young dragon that hatched from the dragon root Ryun obtained while fleeing, around the time he reached Zaboro, and that Ryun raises in his backpack."
+      },
+      {
+        "at": 1,
+        "ko": "이름은 죽은 친구 화리트의 전체 이름에서 따왔다.",
+        "en": "Its name comes from the full name of Ryun's dead friend Hwarit."
+      },
+      {
+        "at": 1,
+        "ko": "나가의 적인 용이라 나늬가 겁을 내 태우려 하지 않는다.",
+        "en": "Because it is a dragon, the enemy of the Nhaga, Nani is afraid of it and refuses to carry it."
+      },
+      {
+        "at": 3,
+        "ko": "거대한 용으로 자라 륜을 태우고 싸우며, 엔거 평원에서 륜과 함께 나가 병사 수천 명을 불태운다.",
+        "en": "It grows into a huge dragon that carries Ryun into battle, and on the Engo Plain it burns thousands of Nhaga soldiers together with Ryun."
+      },
+      {
+        "at": 4,
+        "ko": "쓰러진 륜에게 자기 모습을 빌려 주어 과거를 떠돌게 한다.",
+        "en": "It lends its form to the fallen Ryun so that he can wander through the past."
+      },
+      {
+        "at": 4,
+        "ko": "회오리 속에서 륜을 지키다 륜과 한 몸인 나무가 된다.",
+        "en": "While protecting Ryun in a whirlwind, it becomes a tree that shares one body with Ryun."
+      }
+    ]
+  },
+  {
+    "id": "marunarae",
+    "type": "creature",
+    "name": {
+      "ko": "마루나래",
+      "en": "Marunarae"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "북부에서 사모 페이를 스스로 따르게 된 대호다.",
+        "en": "A Great Tiger in the North that came to follow Sammo Pei of its own will."
+      },
+      {
+        "at": 2,
+        "ko": "쓰러지기 직전의 사모를 체온으로 데우며 데려왔다.",
+        "en": "It brought Sammo back when she was about to collapse, keeping her warm with its body heat."
+      },
+      {
+        "at": 2,
+        "ko": "이름은 사모가 붙여 주었다.",
+        "en": "Sammo gave it its name."
+      },
+      {
+        "at": 3,
+        "ko": "왕이 된 사모를 태우고 전장을 누빈다.",
+        "en": "It carries Sammo, now a king, across the battlefield."
+      }
+    ]
+  },
+  {
+    "id": "nani",
+    "type": "creature",
+    "name": {
+      "ko": "나늬",
+      "en": "Nani"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "비형 스라블이 타고 다니는 거대한 딱정벌레다.",
+        "en": "The giant beetle that Byong Srabble rides."
+      },
+      {
+        "at": 2,
+        "ko": "이름은 전설 속 미인의 이름에서 따왔다.",
+        "en": "Its name comes from the name of a beautiful woman in legend."
+      }
+    ]
+  },
+  {
+    "id": "galbamari",
+    "type": "character",
+    "name": {
+      "ko": "갈바마리",
+      "en": "Galbamari"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "머리가 둘 달린 두억시니로, 유해의 폭포가 보낸 두억시니 무리의 우두머리였고 그나마 말이 통한다.",
+        "en": "A two-headed Duoksini who led the band of Duoksini sent by Corpsefall, and who can at least be reasoned with."
+      },
+      {
+        "at": 2,
+        "ko": "파름 평원의 하늘치 추락 참사에서 사모가 구해 낸 뒤 그녀를 친구라 부르며 따른다.",
+        "en": "After being rescued by Sammo in the Skyray crash disaster on the Parum Plain, Galbamari calls her a friend and follows her."
+      },
+      {
+        "at": 3,
+        "ko": "살아남은 두억시니 스물둘과 함께 사모의 호위를 맡는다.",
+        "en": "With twenty-two surviving Duoksini, Galbamari serves as Sammo's guard."
+      },
+      {
+        "at": 4,
+        "ko": "나가 살육신의 맴돌이에 휘말리지 않고 사모를 심장탑까지 데려간다.",
+        "en": "Without getting caught in the circling of the Nhaga-Slaying God, Galbamari brings Sammo to the Heart Tower."
+      }
+    ]
+  },
+  {
+    "id": "corpsefall",
+    "type": "creature",
+    "name": {
+      "ko": "유해의 폭포",
+      "en": "Corpsefall"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "키보렌 폐허의 피라미드 벽을 따라 흐르는, 두억시니의 유해가 모여 하나의 자아를 이룬 존재다.",
+        "en": "A being that flows down the pyramid walls in the ruins of Kiboren, formed from the remains of Duoksini gathered into a single self."
+      },
+      {
+        "at": 1,
+        "ko": "두억시니 가운데 드물게 니름으로 다른 이와 이야기한다.",
+        "en": "Unusually among Duoksini, it talks with others through Nearm."
+      },
+      {
+        "at": 3,
+        "ko": "시우쇠에게서 두억시니는 신을 잃지 않았다는 답을 듣고, 그의 불에 기꺼이 소멸한다.",
+        "en": "Hearing from Siusoe that the Duoksini have not lost their god, it willingly vanishes in his fire."
+      },
+      {
+        "at": 4,
+        "ko": "사라지기 전 사모와 마지막 이야기를 나누며, 자기 완성을 위해 산다는 자를 조심하라고 이른다.",
+        "en": "Before it disappears, it has a last talk with Sammo and warns her to beware of anyone who says they live for their own completion."
+      }
+    ]
+  },
+  {
+    "id": "bao-moridol",
+    "type": "character",
+    "name": {
+      "ko": "바우 머리돌",
+      "en": "Bao Moridol"
+    },
+    "race": "tokkebi",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "즈믄누리의 11대 성주로, 하인샤 대사원의 요청을 받고 구출대에 도깨비 하나를 보낸다.",
+        "en": "The 11th castle lord of Jumunuri, who sends a Tokkebi to the Rescue Mission at the request of the Great Temple of Hainsha."
+      },
+      {
+        "at": 1,
+        "ko": "케이건과 편지를 주고받는 사이로, 그의 본명과 과거를 알지만 말하지 않는다.",
+        "en": "He exchanges letters with Kagan and knows Kagan's real name and past, but does not reveal them."
+      },
+      {
+        "at": 2,
+        "ko": "비형을 통해, 모든 도깨비가 대사원에 있는 왕을 지지한다는 답을 보낸다.",
+        "en": "He sends back, through Byong, the answer that all Tokkebi support the king at the Great Temple."
+      },
+      {
+        "at": 3,
+        "ko": "북부군 상장군 계급을 받고 지휘부에서 라수와 작전을 논하지만, 싸움에는 직접 끼지 않는다.",
+        "en": "Given the rank of High General of the Northern Army, he discusses operations with Rasu at headquarters but does not take part in the fighting directly."
+      }
+    ]
+  },
+  {
+    "id": "sabin-hasuun",
+    "type": "character",
+    "name": {
+      "ko": "사빈 하수언",
+      "en": "Sabin Hasu'un"
+    },
+    "race": "tokkebi",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "즈믄누리의 무사장으로, 성주를 놀리기 좋아하지만 존경한다.",
+        "en": "The master of arms of Jumunuri, who loves to tease the castle lord but also respects the lord."
+      }
+    ]
+  },
+  {
+    "id": "siusoe",
+    "type": "character",
+    "name": {
+      "ko": "시우쇠",
+      "en": "Siusoe"
+    },
+    "race": "tokkebi",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "수탐자들이 처음 찾아낸 자신을 죽이는 신의 화신으로, 그릇의 물이 피로 변한 것을 마시고 온몸이 불길에 싸인 도깨비가 되었다.",
+        "en": "The first avatar of the God That Kills Himself found by the Searchers, he drank water from a bowl after it turned to blood and became a Tokkebi wrapped in flames from head to toe."
+      },
+      {
+        "at": 3,
+        "ko": "세퀴라도 공방전에서 무너지기 직전의 북부군에 합류해 전쟁을 버티게 한다.",
+        "en": "He joins the Northern Army as it is about to collapse in the battle for Sequirado and keeps it holding out in the war."
+      },
+      {
+        "at": 3,
+        "ko": "살아 있는 나가를 태우는 데 거리낌이 없어, 엔거 평원에서 불의 벽으로 나가군을 갈라 북부군의 첫 대승을 이끈다.",
+        "en": "Having no qualms about burning living Nhaga, he splits the Nhaga army with a wall of fire on the Engo Plain and leads the Northern Army to its first great victory."
+      },
+      {
+        "at": 3,
+        "ko": "악타그라쥬에서 하늘에 인공 태양을 띄워 나가 여섯 군단을 무너뜨린다.",
+        "en": "In Aktagraaj he raises an artificial sun in the sky and brings down six Nhaga legions."
+      },
+      {
+        "at": 3,
+        "ko": "유해의 폭포에게 두억시니는 신을 잃지 않았다고 알려 준 뒤, 그를 불로 기쁘게 소멸시킨다.",
+        "en": "After telling Corpsefall that the Duoksini have not lost their god, he gives it a joyful end in fire."
+      },
+      {
+        "at": 4,
+        "ko": "칸비야 고소리에게 레콘 여신의 화신에게 전할 말을 맡긴다.",
+        "en": "He entrusts Kanbiya Gosori with a message for the avatar of the Rekon goddess."
+      },
+      {
+        "at": 4,
+        "ko": "하텐그라쥬 심장탑 51층에서 폭발을 일으켜 그 위층을 날려 버린다.",
+        "en": "He sets off an explosion on the 51st floor of the Heart Tower in Hattengraaj, blowing away the floors above it."
+      },
+      {
+        "at": 4,
+        "ko": "화를 참지 못하고 케이건이 어디에도 없는 신이라는 사실을 때가 되기 전에 폭로한다.",
+        "en": "Unable to hold back his anger, he reveals before the time is right that Kagan is the God of Nowhere."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝나 신이 떠나면 도깨비 시우쇠는 어르신으로 남는다.",
+        "en": "When the war ends and the god departs, the Tokkebi Siusoe remains as an Elder."
+      }
+    ]
+  },
+  {
+    "id": "great-abbot-jutagi",
+    "type": "character",
+    "name": {
+      "ko": "쥬타기 대선사",
+      "en": "Great Abbot Jutagi"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하인샤 대사원이 속한 종단의 최고위 승려인 대선사다.",
+        "en": "The Great Abbot, the highest-ranking monk of the order to which the Great Temple of Hainsha belongs."
+      },
+      {
+        "at": 1,
+        "ko": "용근이 깨어났다는 소식에, 신이 용의 모습으로 나타난다는 꿈 이야기를 지어 사원마다 퍼뜨리게 한다.",
+        "en": "On news that a dragon root has awakened, he makes up a dream story in which a god appears in the form of a dragon and has it spread to every temple."
+      },
+      {
+        "at": 2,
+        "ko": "세리스마의 경고를 받고 키보렌에서 나가를 데려올 구출대를 꾸리게 했다.",
+        "en": "He had a Rescue Mission formed after Serisma's warning, to bring a Nhaga out of Kiboren."
+      },
+      {
+        "at": 2,
+        "ko": "세리스마에게 속은 일로 종규해석소의 심판을 받지만 가벼운 견책으로 끝난다.",
+        "en": "He is judged by the Office of Canon Interpretation for having been deceived by Serisma, but gets off with a light reprimand."
+      }
+    ]
+  },
+  {
+    "id": "orenol",
+    "type": "character",
+    "name": {
+      "ko": "오레놀",
+      "en": "Orenol"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하인샤 대사원의 최연소 대덕이다.",
+        "en": "The youngest Venerable of the Great Temple of Hainsha."
+      },
+      {
+        "at": 1,
+        "ko": "마지막 주막에 케이건 앞으로 편지를 맡기고, 대사원의 뜻을 전하러 티나한을 찾아온다.",
+        "en": "He leaves a letter for Kagan at the Last Tavern and comes to Teenahan to convey the will of the Great Temple."
+      },
+      {
+        "at": 3,
+        "ko": "발굴대의 하늘치 등정을 참관하러 갔다가 연에 매달려 하늘치 등에 오른다.",
+        "en": "Going to observe the excavation team's climb onto a Skyray, he ends up hanging from a kite and reaching the Skyray's back."
+      },
+      {
+        "at": 3,
+        "ko": "하늘치 유적이 보는 이의 바람대로 모습을 바꾼다는 것을 깨닫고 기둥의 글을 읽는다.",
+        "en": "Realizing that the Skyray ruins change their form according to the wishes of whoever looks at them, he reads the writing on the pillars."
+      },
+      {
+        "at": 4,
+        "ko": "하늘치를 몰고 하텐그라쥬로 와 환상계단으로 내려온 뒤, 나가의 멸망을 경고하고 케이건의 정체를 알린다.",
+        "en": "He steers the Skyray to Hattengraaj, comes down by the Phantom Stairs, warns of the destruction of the Nhaga, and reveals Kagan's identity."
+      }
+    ]
+  },
+  {
+    "id": "master-rasharin",
+    "type": "character",
+    "name": {
+      "ko": "라샤린 선사",
+      "en": "Master Rasharin"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "하인샤 대사원의 주지다.",
+        "en": "The head monk of the Great Temple of Hainsha."
+      },
+      {
+        "at": 2,
+        "ko": "북부 군웅들 앞에서 왕이 돌아오기를 바라는 연설을 한다.",
+        "en": "Before the warlords of the North, he gives a speech calling for the return of the king."
+      }
+    ]
+  },
+  {
+    "id": "keeper-of-the-last-tavern",
+    "type": "character",
+    "name": {
+      "ko": "마지막 주막 주인",
+      "en": "Keeper of the Last Tavern"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "푼텐 사막 끝의 바위 위에서 아내, 아들과 함께 마지막 주막을 꾸린다.",
+        "en": "Runs the Last Tavern on a rock at the edge of the Peunten Desert with his wife and son."
+      },
+      {
+        "at": 1,
+        "ko": "남쪽에서 온 낯선 케이건을 경계하며 맞고, 대사원 승려가 맡긴 그 앞의 편지를 건넨다.",
+        "en": "He warily greets Kagan, a stranger from the south, and hands him the letter a temple monk left for him."
+      }
+    ]
+  },
+  {
+    "id": "moti",
+    "type": "character",
+    "name": {
+      "ko": "모티",
+      "en": "Moti"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "마지막 주막 주인의 아들이다.",
+        "en": "The son of the Keeper of the Last Tavern."
+      }
+    ]
+  },
+  {
+    "id": "robs",
+    "type": "character",
+    "name": {
+      "ko": "롭스",
+      "en": "Robs"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하늘치 유적 발굴대에서 장부와 하늘치 이동 조사 같은 실무를 맡는다.",
+        "en": "Handles practical work for the Skyray ruins excavation team, such as the accounts and surveys of Skyray movements."
+      },
+      {
+        "at": 1,
+        "ko": "몸 안에 레콘과 도깨비의 영을 품은 군령자다.",
+        "en": "A Manysoul who carries the souls of a Rekon and a Tokkebi inside."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 흩어졌던 발굴대를 다시 모으고, 오레놀을 하늘치로 띄울 연에 거의 억지로 태운다.",
+        "en": "He gathers the excavation team again after it scattered during the war, and all but forces Orenol onto the kite that will lift him to the Skyray."
+      }
+    ]
+  },
+  {
+    "id": "tody-sinok",
+    "type": "character",
+    "name": {
+      "ko": "토디 시노크",
+      "en": "Tody Sinok"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "파계승인 선지자가 추대해 세운 무적왕이라는 제왕병자다.",
+        "en": "A Would-be King called the Peerless King, put forward by the Prophet, a defrocked monk."
+      },
+      {
+        "at": 1,
+        "ko": "원래는 페치렌의 가죽 상인이었다.",
+        "en": "Originally a leather merchant of Pechiren."
+      },
+      {
+        "at": 1,
+        "ko": "선지자가 죽은 뒤 스스로 무리를 해산한다.",
+        "en": "After the Prophet dies, Tody disbands the group of followers voluntarily."
+      }
+    ]
+  },
+  {
+    "id": "zigrim-zaboro",
+    "type": "character",
+    "name": {
+      "ko": "지그림 자보로",
+      "en": "Zigrim Zaboro"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "자보로를 다스리는 마립간으로, 위엄왕을 자칭한다.",
+        "en": "The maripgan who rules Zaboro and calls himself the Dignified King."
+      },
+      {
+        "at": 1,
+        "ko": "자보로는 성벽과 군대를 갖춘 실세력이지만, 지그림 자신은 미숙한 젊은이다.",
+        "en": "Zaboro is a real power with walls and an army, but Zigrim himself is an inexperienced young man."
+      }
+    ]
+  },
+  {
+    "id": "kitata-zaboro",
+    "type": "character",
+    "name": {
+      "ko": "키타타 자보로",
+      "en": "Kitata Zaboro"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "지그림 자보로의 삼촌으로, 자보로의 대장군으로 불린다.",
+        "en": "The uncle of Zigrim Zaboro, known as the Great General of Zaboro."
+      },
+      {
+        "at": 1,
+        "ko": "구출대를 공격한 조카를 혼내 왕이 되려는 뜻을 접게 만든다.",
+        "en": "He scolds his nephew for attacking the Rescue Mission and makes him give up his ambition to become king."
+      },
+      {
+        "at": 3,
+        "ko": "나가군에 자보로가 함락될 때 씨족 가운데 홀로 살아남아 북부군 장군이 된다.",
+        "en": "When Zaboro falls to the Nhaga army, he alone of his clan survives and becomes a general of the Northern Army."
+      },
+      {
+        "at": 4,
+        "ko": "사모를 노리고 작살검을 찔렀다가 대신 막아선 륜을 꿰뚫고, 괄하이드에게 처형된다.",
+        "en": "He thrusts a Harpoon Sword at Sammo, but it pierces Ryun, who steps in to block it, and Gwalhaide executes him."
+      }
+    ]
+  },
+  {
+    "id": "boni",
+    "type": "character",
+    "name": {
+      "ko": "보늬",
+      "en": "Boni"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "시구리아트 유료도로당의 당주로, 아주 나이가 많은 여인이다.",
+        "en": "The guild master of the Siguriat Toll Road Guild, a very old woman."
+      },
+      {
+        "at": 2,
+        "ko": "케이건을 한눈에 알아보고 그와 따로 이야기를 나눈다.",
+        "en": "She recognizes Kagan at a glance and talks with him privately."
+      },
+      {
+        "at": 3,
+        "ko": "오래전 케이건의 아내였고, 보좌관 케이는 둘의 아들이다.",
+        "en": "Long ago she was Kagan's wife, and her aide Kei is their son."
+      },
+      {
+        "at": 3,
+        "ko": "나가군이 요새를 무너뜨릴 때 잔해에 갇혀 27일을 버틴 끝에, 케이건과 마지막 이야기를 나누고 스스로 삶을 마친다.",
+        "en": "Trapped in the rubble when the Nhaga army brings down the fortress, she holds out for 27 days, has a last talk with Kagan, and ends her own life."
+      }
+    ]
+  },
+  {
+    "id": "aide-of-the-toll-road-guild",
+    "type": "character",
+    "name": {
+      "ko": "유료도로당 보좌관",
+      "en": "Aide of the Toll Road Guild"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "당주의 아들이자 보좌관으로, 당의 원칙을 고집스럽게 지킨다.",
+        "en": "The guild master's son and aide, who stubbornly upholds the guild's principles."
+      },
+      {
+        "at": 2,
+        "ko": "이름은 케이다.",
+        "en": "His name is Kei."
+      },
+      {
+        "at": 3,
+        "ko": "사모를 직접 돕지는 않되, 유료도로당 시설을 쓰도록 넌지시 길을 열어 준다.",
+        "en": "He does not help Sammo directly, but quietly opens the way for her to use the Toll Road Guild's facilities."
+      },
+      {
+        "at": 3,
+        "ko": "보늬가 죽은 뒤 살아남은 마지막 당원이 되어, 케이건을 아버지라 부르며 원망한다.",
+        "en": "After Boni dies, he becomes the last surviving guild member, calling Kagan father and resenting him."
+      }
+    ]
+  },
+  {
+    "id": "harche-dobin",
+    "type": "character",
+    "name": {
+      "ko": "하르체 도빈",
+      "en": "Harche Dobin"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "시구리아트 유료도로당 관문의 징수소장으로, 사모가 산양을 인질로 잡았을 때 교섭하러 나온다.",
+        "en": "The chief toll collector at the gate of the Siguriat Toll Road Guild, who comes out to negotiate when Sammo takes a mountain goat hostage."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 나가군에게 큰 통행료를 받고 길을 열어 준 뒤, 돈 없이 돌아가려는 갈로텍에게 다시 통행료를 요구하며 맞선다.",
+        "en": "During the war, after opening the road to the Nhaga army for a large toll, Harche stands up to Galotek, who tries to go back without paying, and demands the toll again."
+      }
+    ]
+  },
+  {
+    "id": "gwalhaide-curia",
+    "type": "character",
+    "name": {
+      "ko": "괄하이드 규리하",
+      "en": "Gwalhaide Curia"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "규리하 변경백으로, 큰 칼을 쓰며 북부 군웅들도 눈치를 보는 무력과 지략을 갖췄다.",
+        "en": "The Margrave of Curia, who wields a large sword and has a strength and cunning that even the warlords of the North are wary of."
+      },
+      {
+        "at": 2,
+        "ko": "왕이 없는데도 스스로 아라짓 왕의 변경백을 자처한다.",
+        "en": "Though there is no king, he calls himself the margrave of the king of Arajit."
+      },
+      {
+        "at": 2,
+        "ko": "가문의 정통성을 의심받는 것을 가장 참지 못한다.",
+        "en": "What he can least stand is having his house's legitimacy questioned."
+      },
+      {
+        "at": 2,
+        "ko": "케이건과의 결투에서 그의 대도가 바라기에 두 동강 난다.",
+        "en": "In his duel with Kagan, his broadsword is cut in two by Baragi."
+      },
+      {
+        "at": 2,
+        "ko": "사모를 왕으로 세우는 데 가장 먼저 찬성한다.",
+        "en": "He is the first to agree to making Sammo king."
+      },
+      {
+        "at": 3,
+        "ko": "북부군 대장군을 맡아, 작살검 대신 대도를 고집하며 인간 가운데 가장 강한 전사로 싸운다.",
+        "en": "As Great General of the Northern Army, he insists on a broadsword instead of a Harpoon Sword and fights as the strongest warrior among humans."
+      },
+      {
+        "at": 4,
+        "ko": "부하를 죽인 지코마 펠독스를 군법으로 처형하고 추도사를 한다.",
+        "en": "He executes Jikoma Peldox under military law for killing a subordinate, then delivers a eulogy."
+      },
+      {
+        "at": 4,
+        "ko": "륜을 찌른 키타타 자보로를 처형한다.",
+        "en": "He executes Kitata Zaboro, who stabbed Ryun."
+      }
+    ]
+  },
+  {
+    "id": "rasu-curia",
+    "type": "character",
+    "name": {
+      "ko": "라수 규리하",
+      "en": "Rasu Curia"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "괄하이드 규리하의 사촌 동생이다.",
+        "en": "The younger cousin of Gwalhaide Curia."
+      },
+      {
+        "at": 2,
+        "ko": "책을 많이 쓴 하인샤의 늦깎이 학자이며 냉소적인 독설가다.",
+        "en": "A late-blooming scholar of Hainsha who has written many books, and a cynical man with a sharp tongue."
+      },
+      {
+        "at": 3,
+        "ko": "북부군 상장군이자 참모로 전략과 보급을 맡는다.",
+        "en": "As High General and staff officer of the Northern Army, he is in charge of strategy and supplies."
+      },
+      {
+        "at": 3,
+        "ko": "일부러 거듭 패해 1만 5천 명을 잃어 가며 마호가니 군단을 엔거 평원으로 끌어내 무너뜨린다.",
+        "en": "By losing on purpose again and again at the cost of 15,000 men, he lures the Mahogany Legion onto the Engo Plain and destroys it."
+      },
+      {
+        "at": 3,
+        "ko": "승리 뒤 남은 병력으로 하텐그라쥬에 곧장 진군하는 결사 작전을 세운다.",
+        "en": "After the victory he devises a do-or-die plan to march straight on Hattengraaj with the remaining forces."
+      },
+      {
+        "at": 3,
+        "ko": "악타그라쥬에서 거짓 패주와 더위를 이용해 나가 여섯 군단이 서로 싸우다 무너지게 만든다.",
+        "en": "In Aktagraaj he uses a feigned retreat and the heat to make six Nhaga legions fight one another and collapse."
+      },
+      {
+        "at": 4,
+        "ko": "먼 거리를 순식간에 옮기는 레콘 여신이 오자, 기다렸으면 흘리지 않았을 피였다며 절망한다.",
+        "en": "When the Rekon goddess arrives, able to move people across great distances in an instant, he despairs that the blood they shed would not have been spilled had they waited."
+      },
+      {
+        "at": 4,
+        "ko": "철수를 명한 뒤에도 남아 오레놀과 환상벽을 연구하며 세계의 비밀을 읽는다.",
+        "en": "Even after ordering a withdrawal, he stays behind to study the Phantom Wall with Orenol and reads the secrets of the world."
+      }
+    ]
+  },
+  {
+    "id": "gwatel-curia",
+    "type": "character",
+    "name": {
+      "ko": "과텔 규리하",
+      "en": "Gwatel Curia"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "대가 끊긴 규리하 변경백 가문의 방계라며 나타나 그 땅을 일으킨 부자다.",
+        "en": "A wealthy figure who appeared claiming to be of a branch line of the margraves of Curia, whose main line had died out, and who revived that land."
+      }
+    ]
+  },
+  {
+    "id": "kenarin-curia",
+    "type": "character",
+    "name": {
+      "ko": "케나린 규리하",
+      "en": "Kenarin Curia"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "과텔 규리하의 딸로, 대군을 길러 가문이 변경백으로 인정받게 했다.",
+        "en": "The daughter of Gwatel Curia, who raised a large army and won the house recognition as margraves."
+      }
+    ]
+  },
+  {
+    "id": "husarin-curia",
+    "type": "character",
+    "name": {
+      "ko": "후사린 규리하",
+      "en": "Husarin Curia"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "옛 규리하 변경백으로, 대확장 전쟁 때 전사해 가문의 대가 끊겼다.",
+        "en": "A former Margrave of Curia whose death in battle in the Great Expansion War ended the house's line."
+      }
+    ]
+  },
+  {
+    "id": "jikoma-peldox",
+    "type": "character",
+    "name": {
+      "ko": "지코마 펠독스",
+      "en": "Jikoma Peldox"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "칼리도의 성주로, 하인샤 대사원에 모인 북부 군웅 가운데 하나다.",
+        "en": "The castle lord of Kalido and one of the warlords of the North gathered at the Great Temple of Hainsha."
+      },
+      {
+        "at": 3,
+        "ko": "북부군 상장군으로 종군한다.",
+        "en": "He serves in the war as a High General of the Northern Army."
+      },
+      {
+        "at": 4,
+        "ko": "키보렌에서 정신이 무너져 부하에게 쉬지 않고 노래를 시키다 죽이고, 그 죄로 괄하이드에게 처형된다.",
+        "en": "In Kiboren, his mind breaks down; he makes a subordinate sing without rest, then kills him, and is executed by Gwalhaide for that crime."
+      }
+    ]
+  },
+  {
+    "id": "konedo-bilpa",
+    "type": "character",
+    "name": {
+      "ko": "코네도 빌파",
+      "en": "Konedo Bilpa"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "발케네의 대족장으로, 아들 대에서 왕을 내려는 야심을 품고 맏아들 그룸과 하인샤 대사원에 온다.",
+        "en": "The high chieftain of Balkene, who comes to the Great Temple of Hainsha with his eldest son Grum, ambitious to produce a king in his sons' generation."
+      },
+      {
+        "at": 2,
+        "ko": "대사원에서 바라기를 훔치려다 사모에게 한 손을 잃는다.",
+        "en": "He tries to steal Baragi at the Great Temple and loses a hand to Sammo."
+      },
+      {
+        "at": 3,
+        "ko": "처벌 대신 두 아들과 북부군에 들어가, 도깨비 감투를 쓰고 엔거 평원에서 수호장군들을 암살한다.",
+        "en": "Instead of being punished, he joins the Northern Army with his two sons and, wearing Tokkebi Caps, assassinates Guardian Generals on the Engo Plain."
+      },
+      {
+        "at": 4,
+        "ko": "두 아들과 감투를 쓰고 사모를 몰래 따라가 비아스에게서 그녀를 구한다.",
+        "en": "Wearing the caps, he and his two sons secretly follow Sammo and save her from Vyass."
+      }
+    ]
+  },
+  {
+    "id": "grum-bilpa",
+    "type": "character",
+    "name": {
+      "ko": "그룸 빌파",
+      "en": "Grum Bilpa"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "코네도 빌파의 맏아들이다.",
+        "en": "The eldest son of Konedo Bilpa."
+      },
+      {
+        "at": 3,
+        "ko": "아버지, 동생과 함께 북부군에서 싸운다.",
+        "en": "He fights in the Northern Army with his father and younger brother."
+      }
+    ]
+  },
+  {
+    "id": "tokari-bilpa",
+    "type": "character",
+    "name": {
+      "ko": "토카리 빌파",
+      "en": "Tokari Bilpa"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "코네도 빌파의 둘째 아들로, 하인샤 대사원의 유학생이다.",
+        "en": "The second son of Konedo Bilpa, studying abroad at the Great Temple of Hainsha."
+      },
+      {
+        "at": 3,
+        "ko": "아버지, 형과 함께 북부군에서 싸운다.",
+        "en": "He fights in the Northern Army with his father and older brother."
+      }
+    ]
+  },
+  {
+    "id": "semiquo",
+    "type": "character",
+    "name": {
+      "ko": "세미쿼",
+      "en": "Semiquo"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "하인샤 대사원의 소동 소문을 듣고 부하들과 찾아온 북부 군웅이며, 이웃 부족장 무핀토와 앙숙이다.",
+        "en": "A warlord of the North who came with followers on hearing rumors of the commotion at the Great Temple of Hainsha, and a sworn rival of the neighboring chieftain Mupinto."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁에서 무핀토와 함께 북부군 보병을 이끌며, 작살검과 왼손의 가위를 무기로 쓴다.",
+        "en": "In the war, he leads the Northern Army's infantry together with Mupinto, fighting with a Harpoon Sword and a pair of scissors in his left hand."
+      }
+    ]
+  },
+  {
+    "id": "mupinto",
+    "type": "character",
+    "name": {
+      "ko": "무핀토",
+      "en": "Mupinto"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "하인샤 대사원에 모인 북부 군웅 가운데 하나다.",
+        "en": "One of the warlords of the North gathered at the Great Temple of Hainsha."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁에서 세미쿼와 함께 북부군 보병을 이끈다.",
+        "en": "In the war, he leads the Northern Army's infantry together with Semiquo."
+      }
+    ]
+  },
+  {
+    "id": "bemion-guldoha",
+    "type": "character",
+    "name": {
+      "ko": "베미온 굴도하",
+      "en": "Bemion Guldoha"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "판사이의 마립간으로, 갈로텍이 육형제 탑을 물에 잠기게 한 뒤 물을 두려워하며 어린아이처럼 되어 버렸다.",
+        "en": "The maripgan of Pansai, who became terrified of water and turned like a small child after Galotek flooded the Six Brothers Towers."
+      },
+      {
+        "at": 3,
+        "ko": "륜 곁을 떠나지 않으며, 륜이 여신의 힘으로 그를 돌본다.",
+        "en": "He never leaves Ryun's side, and Ryun looks after him with the power of the Goddess."
+      }
+    ]
+  },
+  {
+    "id": "deoni-dalbi",
+    "type": "character",
+    "name": {
+      "ko": "데오늬 달비",
+      "en": "Deoni Dalbi"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "늘 달리다 자주 넘어지는 북부군 전령으로, 남이 따라가기 힘든 방식으로 생각한다.",
+        "en": "A messenger of the Northern Army who is always running and often falls over, and who thinks in ways others find hard to follow."
+      },
+      {
+        "at": 3,
+        "ko": "북부군이 남진할 때 사모 곁에 남았다가, 유료도로 요새가 무너진 뒤 나가군의 포로가 되어 남쪽으로 끌려간다.",
+        "en": "When the Northern Army marches south, she stays behind with Sammo, and after the Toll Road Fortress falls, she is taken prisoner by the Nhaga army and dragged south."
+      },
+      {
+        "at": 4,
+        "ko": "시모그라쥬 근처에서 허물을 벗는 갈로텍을 처음 발견하고 돌본다.",
+        "en": "Near Simograaj, she is the first to find Galotek as he molts, and she looks after him."
+      },
+      {
+        "at": 4,
+        "ko": "나가 살육신의 맴돌이 속에서도 갈바마리와 함께 똑바로 나아간다.",
+        "en": "Even within the circling of the Nhaga-Slaying God, she moves straight ahead with Galbamari."
+      },
+      {
+        "at": 4,
+        "ko": "이 시대의 나늬이며, 증오를 거둔 케이건은 그녀에게서 옛 아내 여름의 얼굴을 본다.",
+        "en": "She is the Nani of this age, and Kagan, having let go of his hatred, sees in her the face of his wife of long ago, Yorum."
+      }
+    ]
+  },
+  {
+    "id": "barsa-dol",
+    "type": "character",
+    "name": {
+      "ko": "바르사 돌",
+      "en": "Barsa Dol"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "괄하이드의 가장 오랜 부하로, 북부군이 남진할 때 사모를 지키라는 명을 받고 남는다.",
+        "en": "Gwalhaide's longest-serving subordinate, who stays behind under orders to protect Sammo when the Northern Army marches south."
+      },
+      {
+        "at": 3,
+        "ko": "유료도로 요새에서 나가군을 도로왕의 옛길로 끌어들이려다 주퀘도 사르마크에게 간파당해 요새를 잃는다.",
+        "en": "At the Toll Road Fortress, he tries to lure the Nhaga army onto the Old Road of the Road King but is seen through by Juquedo Sarmak and loses the fortress."
+      },
+      {
+        "at": 3,
+        "ko": "키베인의 보호로 살아남아 나가군의 포로가 된다.",
+        "en": "He survives under Kibein's protection and becomes a prisoner of the Nhaga army."
+      },
+      {
+        "at": 4,
+        "ko": "포로로 하텐그라쥬까지 끌려갔다가 하늘치를 타고 빠져나온다.",
+        "en": "Taken as a prisoner all the way to Hattengraaj, he escapes aboard the Skyray."
+      }
+    ]
+  },
+  {
+    "id": "boy-of-kasida",
+    "type": "character",
+    "name": {
+      "ko": "카시다의 소년",
+      "en": "Boy of Kasida"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "폐허가 된 카시다의 마지막 생존자로, 케이건에게 살아남는 법과 단검을 받는다.",
+        "en": "The last survivor of ruined Kasida, who learns from Kagan how to survive and receives a dagger from him."
+      },
+      {
+        "at": 3,
+        "ko": "수탐자 일행을 따라가지 못하자 카시다 암각문의 빈자리에 미움이라는 글자를 새긴다.",
+        "en": "Unable to follow the Searchers' party, he carves the word \"Hatred\" into the empty space on the Kasida rock inscription."
+      },
+      {
+        "at": 4,
+        "ko": "그 글자는 소설 마지막 장면에서 한 여행자가 지운다.",
+        "en": "That word is struck out by a traveler in the final scene of the novel."
+      }
+    ]
+  },
+  {
+    "id": "traveler",
+    "type": "character",
+    "name": {
+      "ko": "여행자",
+      "en": "Traveler"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "소설 마지막 장면에서 카시다 암각문의 미움이라는 글자를 그어 지우는, 정체가 밝혀지지 않은 인물이다.",
+        "en": "A figure whose identity is never revealed, who strikes out the word \"Hatred\" on the Kasida rock inscription in the final scene of the novel."
+      }
+    ]
+  },
+  {
+    "id": "jurado",
+    "type": "character",
+    "name": {
+      "ko": "즈라더",
+      "en": "Jurado"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하고토 출신 레콘 전사로, 날이 넓은 별철 양날 도끼를 쓴다.",
+        "en": "A Rekon warrior from Hagoto who wields a broad-bladed, double-edged axe of Stariron."
+      },
+      {
+        "at": 3,
+        "ko": "엔거 평원에서 정신 억압된 전투 코끼리를 단번에 쪼갠다.",
+        "en": "On the Engo Plain, he splits a war elephant under Mental Suppression with a single blow."
+      },
+      {
+        "at": 3,
+        "ko": "포로가 된 키베인의 배에 박힌 대못을 뽑아 준다.",
+        "en": "He pulls out the large spike driven into the belly of the captured Kibein."
+      },
+      {
+        "at": 4,
+        "ko": "비형을 살린 티나한에게 레콘 최고의 경의를 바쳐 철의 침묵을 맹세하고, 그의 숙원이 이루어졌다고 알린다.",
+        "en": "Paying the highest Rekon tribute, he swears the Silence in Iron to Teenahan for saving Byong, and tells Teenahan that his lifelong wish has been fulfilled."
+      }
+    ]
+  },
+  {
+    "id": "final-smith",
+    "type": "character",
+    "name": {
+      "ko": "최후의 대장장이",
+      "en": "Final Smith"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "최후의 대장간의 우두머리로, 불이 아니라 별빛으로 철을 별철로 바꾸는 레콘 여성이다.",
+        "en": "The head of the Final Forge, a Rekon woman who turns iron into Stariron with starlight rather than fire."
+      },
+      {
+        "at": 3,
+        "ko": "아이를 바라 무기를 받으러 온 젊은 레콘과의 사이에서 딸을 낳았고, 그 딸이 모든 이보다 낮은 여신의 신체였다.",
+        "en": "Wishing for a child, she had a daughter with a young Rekon who came for a weapon, and that daughter was the vessel of the Goddess Lower Than All."
+      },
+      {
+        "at": 3,
+        "ko": "레콘 여신의 사제라는 사실이 수탐자들 앞에서 밝혀진다.",
+        "en": "That she is a priestess of the Rekon goddess is revealed before the Searchers."
+      },
+      {
+        "at": 3,
+        "ko": "신에게 이름을 붙일 수 없다고 여겨 딸의 이름을 짓지 못한다.",
+        "en": "Believing that a god cannot be given a name, she does not name her daughter."
+      }
+    ]
+  },
+  {
+    "id": "rekon-baby",
+    "type": "character",
+    "name": {
+      "ko": "레콘 아기",
+      "en": "Rekon Baby"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "최후의 대장장이가 낳은 병아리 모습의 딸로, 태어나자마자 모든 이보다 낮은 여신의 화신이 된다.",
+        "en": "The chick-shaped daughter of the Final Smith, who becomes the avatar of the Goddess Lower Than All as soon as she is born."
+      },
+      {
+        "at": 3,
+        "ko": "수탐자들이 1년을 기다려야 했던 것은 신체가 아직 태어나지 않은 아이였기 때문이다.",
+        "en": "The Searchers had to wait a year because the vessel was a child not yet born."
+      },
+      {
+        "at": 3,
+        "ko": "여신의 힘으로 어머니에게 말을 걸어, 일이 끝나면 돌아와 이름을 지어 달라고 부탁한다.",
+        "en": "Using the Goddess's power, she speaks to her mother and asks to be given a name when she comes back after everything is over."
+      },
+      {
+        "at": 3,
+        "ko": "땅을 따라 일행을 순식간에 먼 곳으로 옮긴다.",
+        "en": "She carries the party across great distances in an instant along the ground."
+      },
+      {
+        "at": 4,
+        "ko": "수탐자들을 데리고 북부군 진지에 도착하고, 화신을 다 모은 뒤 그들을 다시 구출대라 부른다.",
+        "en": "She arrives at the Northern Army's camp with the Searchers, and once all the avatars are gathered, she calls them the Rescue Mission again."
+      }
+    ]
+  },
+  {
+    "id": "dasdo",
+    "type": "character",
+    "name": {
+      "ko": "다스도",
+      "en": "Dasdo"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "무기를 받으러 최후의 대장간에 온 젊은 레콘이다.",
+        "en": "A young Rekon who comes to the Final Forge to receive a weapon."
+      },
+      {
+        "at": 3,
+        "ko": "티나한에게 억지로 끌려가 접시 시험을 당하지만 신체가 아니었고, 사정을 들은 뒤 티나한을 용서한다.",
+        "en": "Dragged off by Teenahan and put through the dish test, he turns out not to be a vessel, and after hearing the circumstances, forgives Teenahan."
+      }
+    ]
+  },
+  {
+    "id": "siru",
+    "type": "character",
+    "name": {
+      "ko": "시루",
+      "en": "Siru"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "최후의 대장간의 늙은 단도장으로, 일이 적어 손님 응대 같은 잡일을 맡는다.",
+        "en": "An old bladesmith of the Final Forge who has little work and so handles chores such as greeting visitors."
+      },
+      {
+        "at": 3,
+        "ko": "젊은 레콘을 끌고 오는 티나한을 꾸짖고, 끝내 수탐자들에게 라호친으로 가 있어 달라고 청한다.",
+        "en": "He scolds Teenahan for dragging in a young Rekon, and in the end asks the Searchers to go on to Rahochin and wait there."
+      }
+    ]
+  },
+  {
+    "id": "hero-king",
+    "type": "character",
+    "name": {
+      "ko": "영웅왕",
+      "en": "Hero King"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "아라짓 왕국을 세운 1대 왕으로, 인간 왕국의 첫 왕이 레콘이었다.",
+        "en": "The first king, who founded the Kingdom of Arajit; the first king of the human kingdom was a Rekon."
+      },
+      {
+        "at": 1,
+        "ko": "그가 쓰던 검이 아라짓 왕가의 왕검 바라기가 되었다.",
+        "en": "The sword he used became Baragi, the royal sword of the royal house of Arajit."
+      },
+      {
+        "at": 1,
+        "ko": "나가와 싸우다 한쪽 손을 잃었다.",
+        "en": "He lost one hand fighting the Nhaga."
+      },
+      {
+        "at": 1,
+        "ko": "나가를 감시하려고 높새바람 탑을 세웠다.",
+        "en": "He built the Northeast Wind Tower to keep watch over the Nhaga."
+      }
+    ]
+  },
+  {
+    "id": "byolbi",
+    "type": "creature",
+    "name": {
+      "ko": "별비",
+      "en": "Byolbi"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "옛날 자보로 성벽을 넘었다는 이야기가 전하는 전설적인 대호다.",
+        "en": "A legendary Great Tiger said in old tales to have once crossed the walls of Zaboro."
+      },
+      {
+        "at": 2,
+        "ko": "키탈저 사냥꾼들이 사냥해 잡았다.",
+        "en": "It was hunted down and caught by the Kitaljer Hunters."
+      }
+    ]
+  },
+  {
+    "id": "king-of-extremity",
+    "type": "character",
+    "name": {
+      "ko": "극연왕",
+      "en": "King of Extremity"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 4,
+        "ko": "아라짓의 21대 왕으로, 나가를 남쪽으로 몰아내고 최후의 대장간 가는 길 같은 길을 많이 놓아 도로왕이라 불렸다.",
+        "en": "The 21st king of Arajit, called the Road King for driving the Nhaga south and building many roads, such as the road to the Final Forge."
+      },
+      {
+        "at": 4,
+        "ko": "오라비가 왕위를 마다해 어린 나이에 왕위에 올랐다.",
+        "en": "She took the throne at a young age because her brother refused it."
+      },
+      {
+        "at": 4,
+        "ko": "그 오라비가 케이건 드라카다.",
+        "en": "That brother is Kagan Draca."
+      }
+    ]
+  },
+  {
+    "id": "king-of-power",
+    "type": "character",
+    "name": {
+      "ko": "권능왕",
+      "en": "King of Power"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 1,
+        "ko": "고 아라짓 왕국의 마지막 왕이다.",
+        "en": "The last king of the Old Kingdom of Arajit."
+      },
+      {
+        "at": 1,
+        "ko": "키탈저 사냥꾼들을 모욕해 떠나게 했고, 그 뒤로 아라짓에는 왕이 서지 못했다.",
+        "en": "Insulted the Kitaljer Hunters and drove them away, and after that no king could take the throne in Arajit."
+      },
+      {
+        "at": 4,
+        "ko": "그때 키탈저 사냥꾼들이 왕이 사과하기 전에는 왕이 없으리라는 저주를 내렸다.",
+        "en": "At that time, the Kitaljer Hunters laid a curse that there would be no king until the king apologized."
+      }
+    ]
+  },
+  {
+    "id": "master-ijumu",
+    "type": "character",
+    "name": {
+      "ko": "이주무 선사",
+      "en": "Master Ijumu"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 2,
+        "ko": "옛날 대사원을 지킨 무장 승려로, 그가 쓰던 활과 화살이 대사원에 남아 있다.",
+        "en": "An armed monk who once guarded the Great Temple, whose bow and arrows still remain there."
+      }
+    ]
+  },
+  {
+    "id": "renuka",
+    "type": "character",
+    "name": {
+      "ko": "레누카",
+      "en": "Renuka"
+    },
+    "race": "rekon",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "극연왕의 친구였던 레콘 여성으로, 왕의 특사가 되어 칼리도에 나타난 수수깨비를 고함으로 쫓아냈다는 이야기가 전한다.",
+        "en": "A Rekon woman who was a friend of the King of Extremity; a story tells that, as the king's envoy, she drove off Susukkebi, who had appeared in Kalido, with a roar."
+      }
+    ]
+  },
+  {
+    "id": "susukkebi",
+    "type": "character",
+    "name": {
+      "ko": "수수깨비",
+      "en": "Susukkebi"
+    },
+    "race": "tokkebi",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "옛날 칼리도에 나타나 수수께끼를 내고 틀린 사람들을 괴롭혔다는 도깨비 어르신이다.",
+        "en": "A Tokkebi Elder said to have once appeared in Kalido, posing riddles and tormenting those who answered wrong."
+      }
+    ]
+  },
+  {
+    "id": "ajelkibo",
+    "type": "character",
+    "name": {
+      "ko": "아젤키버",
+      "en": "Ajelkibo"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 3,
+        "ko": "케이건이 따랐던 키탈저 사냥꾼의 우두머리였다.",
+        "en": "The leader of the Kitaljer Hunters, whom Kagan followed."
+      },
+      {
+        "at": 3,
+        "ko": "최후의 대장간 근처에서 지쳐 쓰러진 케이건이 극광 아래에서 그의 환영과 이야기한다.",
+        "en": "Near the Final Forge, the exhausted Kagan collapses and talks with a vision of Ajelkibo under the aurora."
+      }
+    ]
+  },
+  {
+    "id": "yorum",
+    "type": "character",
+    "name": {
+      "ko": "여름",
+      "en": "Yorum"
+    },
+    "race": "human",
+    "facts": [
+      {
+        "at": 4,
+        "ko": "케이건의 아내였던 키탈저 사냥꾼의 딸이다.",
+        "en": "Kagan's wife, a daughter of the Kitaljer Hunters."
+      },
+      {
+        "at": 4,
+        "ko": "별비 사냥으로 가문의 남자들이 모두 죽자, 스스로 사냥꾼의 딸로서 별비에게 복수했다.",
+        "en": "When all the men of her family died in a Byolbi hunt, she took revenge on the Byolbi herself as a hunter's daughter."
+      },
+      {
+        "at": 4,
+        "ko": "케이건을 살리려고 나가의 제안에 응했다가 그의 눈앞에서 목숨을 잃었다.",
+        "en": "She accepted a Nhaga's offer to save Kagan and lost her life before his eyes."
+      },
+      {
+        "at": 4,
+        "ko": "그녀 또한 인간에게서 태어나는 나늬였다.",
+        "en": "She too was a Nani, one born of humans."
       }
     ]
   },
   {
     "id": "kiboren",
     "type": "place",
-    "name": { "ko": "키보렌", "en": "Kiboren" },
+    "name": {
+      "ko": "키보렌",
+      "en": "Kiboren"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "나가가 사는 남부의 거대한 밀림 지대다.",
-        "en": "The vast southern jungle where the Nhaga live."
+        "en": "The vast jungle in the South where the Nhaga live."
       },
       {
         "at": 1,
         "ko": "하텐그라쥬를 비롯한 나가 도시들이 이곳에 있다.",
-        "en": "Hatengrazh and the other Nhaga cities lie here."
+        "en": "Hattengraaj and the other Nhaga cities are located here."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 북부군이 키보렌으로 남진해 나가 도시들을 차례로 무너뜨린다.",
+        "en": "During the war, the Northern Army marches south into Kiboren and topples the Nhaga cities one by one."
       }
     ]
   },
   {
     "id": "hatengrazh",
     "type": "place",
-    "name": { "ko": "하텐그라쥬", "en": "Hatengrazh" },
+    "name": {
+      "ko": "하텐그라쥬",
+      "en": "Hattengraaj"
+    },
     "facts": [
       {
         "at": 1,
-        "ko": "대륙 남쪽 끝에 있는 나가의 중심 도시다.",
-        "en": "The central Nhaga city, at the southern end of the continent."
+        "ko": "키보렌에 있는 나가의 중심 도시로, 다른 나가 도시들은 이곳을 본떠 지어졌다.",
+        "en": "The central Nhaga city in Kiboren; the other Nhaga cities were built in its image."
       },
       {
         "at": 1,
         "ko": "페이 가문과 마케로우 가문 같은 대가문이 이곳에 있다.",
-        "en": "Great families such as the Pei and the Makerow are based here."
+        "en": "Great houses such as the House of Pei and the House of Mahkerow are here."
+      },
+      {
+        "at": 1,
+        "ko": "소리와 밤의 불빛이 없는 도시라 냉혹의 도시라 불린다.",
+        "en": "It is called the Merciless City because it has no sound and no lights at night."
+      },
+      {
+        "at": 2,
+        "ko": "갈로텍과 수호자들이 대가문 가주들을 붙잡아 심장탑으로 데려가며 도시를 손에 넣는다.",
+        "en": "Galotek and the Guardians take the city by seizing the heads of the great houses and bringing them to the Heart Tower."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 북부의 재물이 흘러들어 전례 없이 번성한다.",
+        "en": "During the war, wealth from the North flows in and the city prospers as never before."
+      },
+      {
+        "at": 3,
+        "ko": "비아스 마케로우가 여신 감금의 진상을 폭로하면서 나가끼리 싸움이 벌어진다.",
+        "en": "Vyass Mahkerow exposes the truth of the imprisonment of the Goddess, and fighting breaks out among the Nhaga."
+      },
+      {
+        "at": 4,
+        "ko": "도착한 북부군이 도시 주변의 마른 숲에 불을 지른다.",
+        "en": "The arriving Northern Army sets fire to the dry forest around the city."
+      },
+      {
+        "at": 4,
+        "ko": "나가 살육신이 된 케이건의 회오리에 휩싸였다가, 그 회오리가 심장탑을 지키는 벽으로 바뀐다.",
+        "en": "The city is caught in the whirlwind of Kagan, who has become the Nhaga-Slaying God, and the whirlwind then turns into a wall guarding the Heart Tower."
+      },
+      {
+        "at": 4,
+        "ko": "도시의 나가들과 북부군이 함께 하늘치를 타고 회오리를 빠져나온다.",
+        "en": "The city's Nhaga and the Northern Army escape the whirlwind together aboard a Skyray."
+      }
+    ]
+  },
+  {
+    "id": "heart-tower",
+    "type": "place",
+    "name": {
+      "ko": "심장탑",
+      "en": "Heart Tower"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가들이 적출한 심장을 맡겨 두는 탑이다.",
+        "en": "The tower where the Nhaga entrust their extracted hearts."
+      },
+      {
+        "at": 2,
+        "ko": "수호자들은 이 탑 안의 여러 층에 나뉘어 머문다.",
+        "en": "The Guardians live divided among the many floors of this tower."
+      },
+      {
+        "at": 2,
+        "ko": "심장은 이름을 적은 심장병에 담겨 보관되며, 그 병을 부수면 주인이 죽는다.",
+        "en": "Each heart is kept in a heart vial marked with a name, and breaking the vial kills its owner."
+      },
+      {
+        "at": 3,
+        "ko": "심장탑이 무너지면 그곳에 심장을 맡긴 도시의 나가들이 모두 목숨을 잃는다.",
+        "en": "If a Heart Tower falls, all the Nhaga of the city who entrusted their hearts to it die."
+      },
+      {
+        "at": 4,
+        "ko": "탑의 위층에 여신을 가둔 냉동 장치가 있다.",
+        "en": "The freezing device that holds the Goddess captive is on the tower's upper floors."
+      },
+      {
+        "at": 4,
+        "ko": "화신 시우쇠가 탑의 위층을 날려 버린다.",
+        "en": "The avatar Siusoe blows away the tower's upper floors."
+      }
+    ]
+  },
+  {
+    "id": "jidograaj",
+    "type": "place",
+    "name": {
+      "ko": "지도그라쥬",
+      "en": "Jidograaj"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하텐그라쥬 다음가는 나가 도시로, 하텐그라쥬를 견제하며 대수호자 키베인을 배출했다.",
+        "en": "The Nhaga city second only to Hattengraaj; it keeps Hattengraaj in check and produced the Great Guardian Kibein."
+      }
+    ]
+  },
+  {
+    "id": "perograaj",
+    "type": "place",
+    "name": {
+      "ko": "페로그라쥬",
+      "en": "Perograaj"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "키보렌 북쪽 끝의 나가 도시로, 남진한 북부군이 처음 무너뜨린다.",
+        "en": "A Nhaga city at the northern edge of Kiboren, the first to fall to the southbound Northern Army."
+      }
+    ]
+  },
+  {
+    "id": "aktagraaj",
+    "type": "place",
+    "name": {
+      "ko": "악타그라쥬",
+      "en": "Aktagraaj"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하텐그라쥬로 가는 길의 나가 도시로, 여러 군단이 번갈아 공격해 북부군을 몰아붙인다.",
+        "en": "A Nhaga city on the road to Hattengraaj, where several legions attack in turn and press the Northern Army hard."
+      },
+      {
+        "at": 3,
+        "ko": "시우쇠가 하늘에 띄운 불덩이와 륜이 더한 습기로 생긴 더위에 나가군이 서로 싸우며 무너진다.",
+        "en": "In the heat made by a fireball Siusoe raises into the sky and moisture added by Ryun, the Nhaga army fights among itself and collapses."
+      },
+      {
+        "at": 3,
+        "ko": "륜 페이가 이 도시의 심장탑을 무너뜨린다.",
+        "en": "Ryun Pei brings down this city's Heart Tower."
+      }
+    ]
+  },
+  {
+    "id": "simograaj",
+    "type": "place",
+    "name": {
+      "ko": "시모그라쥬",
+      "en": "Simograaj"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "하텐그라쥬 바로 앞의 나가 도시다.",
+        "en": "The Nhaga city just before Hattengraaj."
+      },
+      {
+        "at": 4,
+        "ko": "의장 칸비야 고소리가 중립을 선언해, 북부군과 나가군이 이 도시에서 싸우지 않는다.",
+        "en": "Council chair Kanbiya Gosori declares neutrality, so the Northern Army and the Nhaga army do not fight in this city."
+      }
+    ]
+  },
+  {
+    "id": "line-of-limit",
+    "type": "place",
+    "name": {
+      "ko": "한계선",
+      "en": "Line of Limit"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가가 추위 때문에 더는 북쪽으로 올라가지 못하는, 남부와 북부의 경계 지대다.",
+        "en": "The border zone between the South and the North, past which the Nhaga cannot go any farther north because of the cold."
+      },
+      {
+        "at": 3,
+        "ko": "수호자들이 열을 머금은 물로 추위를 막아 나가군이 이 선을 넘는다.",
+        "en": "The Guardians hold off the cold with heat-holding water, and the Nhaga army crosses the line."
+      }
+    ]
+  },
+  {
+    "id": "peunten-desert",
+    "type": "place",
+    "name": {
+      "ko": "푼텐 사막",
+      "en": "Peunten Desert"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "북부 남쪽 끝, 한계선 근처에 있는 사막이다.",
+        "en": "A desert at the southern edge of the North, near the Line of Limit."
+      }
+    ]
+  },
+  {
+    "id": "karabora",
+    "type": "place",
+    "name": {
+      "ko": "카라보라",
+      "en": "Karabora"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "푼텐 사막 동쪽 끝에 있는 곳으로, 케이건 드라카가 마지막 주막으로 오기 전에 떠난 곳이다.",
+        "en": "A place at the eastern edge of the Peunten Desert, which Kagan Draca left before coming to the Last Tavern."
+      }
+    ]
+  },
+  {
+    "id": "last-tavern",
+    "type": "place",
+    "name": {
+      "ko": "마지막 주막",
+      "en": "Last Tavern"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "푼텐 사막 끝의 높은 바위 위에 있는 주막으로, 그보다 남쪽에는 주막이 없어 그렇게 불린다.",
+        "en": "A tavern atop a high rock at the edge of the Peunten Desert, so named because there is no tavern farther south."
+      }
+    ]
+  },
+  {
+    "id": "baiso-valley",
+    "type": "place",
+    "name": {
+      "ko": "바이소 계곡",
+      "en": "Baiso Valley"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "하늘치 유적 발굴대가 큰 연을 띄워 하늘치에 오르려는 곳이다.",
+        "en": "The place where the Skyray ruins excavation team flies a large kite to try to climb onto a Skyray."
+      },
+      {
+        "at": 3,
+        "ko": "이곳에서 처음으로 사람이 하늘치 등에 오른다.",
+        "en": "Here, people climb onto a Skyray's back for the first time."
+      }
+    ]
+  },
+  {
+    "id": "engo-plain",
+    "type": "place",
+    "name": {
+      "ko": "엔거 평원",
+      "en": "Engo Plain"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "푼텐 사막 서쪽, 북부 남쪽 끝의 평원이다.",
+        "en": "A plain west of the Peunten Desert, at the southern edge of the North."
+      },
+      {
+        "at": 3,
+        "ko": "북부군이 나가군 마호가니 군단을 크게 무찌른 곳이다.",
+        "en": "Where the Northern Army crushed the Mahogany Legion of the Nhaga army."
+      },
+      {
+        "at": 3,
+        "ko": "이 전투에서 시우쇠가 불의 벽으로 나가군을 가르고, 륜과 아스화리탈이 수많은 나가를 불태운다.",
+        "en": "In this battle, Siusoe splits the Nhaga army with a wall of fire, and Ryun and Azhwarital burn countless Nhaga."
+      },
+      {
+        "at": 3,
+        "ko": "대수호자 키베인이 이곳에서 북부군에 사로잡힌다.",
+        "en": "The Great Guardian Kibein is captured here by the Northern Army."
+      }
+    ]
+  },
+  {
+    "id": "murun-river",
+    "type": "place",
+    "name": {
+      "ko": "무룬 강",
+      "en": "Murun River"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "한계선 근처에서 남부로 흐르는 강이다.",
+        "en": "A river that flows from near the Line of Limit into the South."
+      },
+      {
+        "at": 1,
+        "ko": "구출대가 쫓기던 륜을 찾아 구해 내는 곳이다.",
+        "en": "Where the Rescue Mission finds and saves Ryun, who was being chased."
+      }
+    ]
+  },
+  {
+    "id": "city-of-the-duoksini",
+    "type": "place",
+    "name": {
+      "ko": "두억시니의 도시",
+      "en": "City of the Duoksini"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "키보렌 폐허 속 버려진 피라미드 주변에 두억시니가 모여 사는 곳이다.",
+        "en": "A place in the ruins of Kiboren where Duoksini gather and live around an abandoned pyramid."
+      },
+      {
+        "at": 1,
+        "ko": "유해의 폭포가 이곳 피라미드에 있다.",
+        "en": "Corpsefall is in the pyramid here."
+      },
+      {
+        "at": 4,
+        "ko": "이 피라미드는 첫 번째 종족이 남긴 유적이다.",
+        "en": "The pyramid is a ruin left by the First Race."
+      }
+    ]
+  },
+  {
+    "id": "northeast-wind-tower",
+    "type": "place",
+    "name": {
+      "ko": "높새바람 탑",
+      "en": "Northeast Wind Tower"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "영웅왕이 나가를 감시하려고 세운 탑으로, 지금은 반쯤 무너졌다.",
+        "en": "A tower the Hero King built to watch the Nhaga; it is now half-collapsed."
       }
     ]
   },
   {
     "id": "hainsha",
     "type": "place",
-    "name": { "ko": "하인샤 대사원", "en": "Hainsha Great Temple" },
+    "name": {
+      "ko": "하인샤 대사원",
+      "en": "Great Temple of Hainsha"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "어디에도 없는 신을 모시는 북부의 큰 사찰이다.",
-        "en": "A large temple in the North dedicated to the God Who Is Nowhere."
+        "en": "A great temple in the North that serves the God of Nowhere."
       },
       {
         "at": 1,
         "ko": "키보렌의 나가를 데려오라며 구출대를 꾸린 곳이다.",
-        "en": "It is the temple that puts together a rescue party to bring back a Nhaga from Kiboren."
+        "en": "The place that formed the Rescue Mission to bring back a Nhaga from Kiboren."
+      },
+      {
+        "at": 2,
+        "ko": "북부의 군웅들이 모인 가운데 사모 페이가 이곳에서 북부의 왕으로 추대된다.",
+        "en": "With the warlords of the North gathered, Sammo Pei is proclaimed King of the North here."
+      }
+    ]
+  },
+  {
+    "id": "jumunuri",
+    "type": "place",
+    "name": {
+      "ko": "즈믄누리",
+      "en": "Jumunuri"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "도깨비들이 모여 사는 거대한 성으로, 그 구조는 성주만 안다.",
+        "en": "A huge castle where Tokkebi live together; only the castle lord knows its layout."
+      },
+      {
+        "at": 1,
+        "ko": "한 도깨비가 밤과 그 다섯 딸의 도움으로 이 성을 쌓았다는 전설이 있다.",
+        "en": "Legend says a Tokkebi built this castle with the help of Night and Night's five daughters."
+      },
+      {
+        "at": 1,
+        "ko": "성 안에서는 성주의 뜻이 무조건 받아들여진다.",
+        "en": "Inside the castle, the will of the castle lord is accepted without question."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 북부군의 병원과 병기창, 곡창 노릇을 한다.",
+        "en": "During the war, it serves the Northern Army as a hospital, armory, and granary."
+      },
+      {
+        "at": 3,
+        "ko": "북부군은 남진하면서 대호왕을 이곳으로 피신시키려 한다.",
+        "en": "As it marches south, the Northern Army tries to send the Great Tiger King here for safety."
+      }
+    ]
+  },
+  {
+    "id": "zaboro",
+    "type": "place",
+    "name": {
+      "ko": "자보로",
+      "en": "Zaboro"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "높은 성벽으로 이름난 북부의 성읍으로, 마립간 지그림 자보로가 다스린다.",
+        "en": "A town in the North famed for its high walls, ruled by the maripgan Zigrim Zaboro."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 나가군에 함락된다.",
+        "en": "During the war, it falls to the Nhaga army."
+      }
+    ]
+  },
+  {
+    "id": "siguriat-mountains",
+    "type": "place",
+    "name": {
+      "ko": "시구리아트 산맥",
+      "en": "Siguriat Mountains"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "북부의 큰 산맥이다.",
+        "en": "A great mountain range in the North."
+      },
+      {
+        "at": 2,
+        "ko": "유료도로당이 관리하는 유료도로가 이 산맥을 지난다.",
+        "en": "The toll road run by the Toll Road Guild passes through these mountains."
+      }
+    ]
+  },
+  {
+    "id": "old-road-of-the-road-king",
+    "type": "place",
+    "name": {
+      "ko": "도로왕의 옛길",
+      "en": "Old Road of the Road King"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "시구리아트 유료도로 곁에 남은 낡은 옛길이다.",
+        "en": "A worn old road left beside the Siguriat toll road."
+      },
+      {
+        "at": 3,
+        "ko": "대군은 지날 수 없는 길로 알려져 있다.",
+        "en": "It is known as a road a large army cannot pass."
+      }
+    ]
+  },
+  {
+    "id": "kasida",
+    "type": "place",
+    "name": {
+      "ko": "카시다",
+      "en": "Kasida"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "시구리아트 산맥 근처의 도시로, 전쟁 중 나가에게 파괴된다.",
+        "en": "A city near the Siguriat Mountains, destroyed by the Nhaga during the war."
+      },
+      {
+        "at": 3,
+        "ko": "입구에 글자 일부가 지워진 오래된 암각문이 있다.",
+        "en": "At its entrance stands an old rock inscription with part of its letters erased."
+      },
+      {
+        "at": 3,
+        "ko": "홀로 살아남은 소년이 그 빈자리에 '미움'이라는 말을 새긴다.",
+        "en": "A boy, the only survivor, carves the word \"Hatred\" into the blank space."
+      },
+      {
+        "at": 4,
+        "ko": "결말에서 한 여행자가 그 글자를 지운다.",
+        "en": "In the ending, a traveler erases that word."
+      }
+    ]
+  },
+  {
+    "id": "parum-plain",
+    "type": "place",
+    "name": {
+      "ko": "파름 평원",
+      "en": "Parum Plain"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "하인샤 대사원 가까운 평원으로, 케이건 드라카가 떨어뜨린 하늘치에 두억시니 대군이 깔려 목숨을 잃는다.",
+        "en": "A plain near the Great Temple of Hainsha, where a great Duoksini army dies crushed beneath the Skyray that Kagan Draca brought down."
+      }
+    ]
+  },
+  {
+    "id": "curia",
+    "type": "place",
+    "name": {
+      "ko": "규리하",
+      "en": "Curia"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "규리하 가문이 다스리는 북부 서쪽의 변경 지방이다.",
+        "en": "A frontier region in the west of the North, ruled by the House of Curia."
+      },
+      {
+        "at": 2,
+        "ko": "제왕병자를 반역자로 보고 용납하지 않는 땅이다.",
+        "en": "A land that sees Would-be Kings as traitors and does not tolerate them."
+      }
+    ]
+  },
+  {
+    "id": "balkene",
+    "type": "place",
+    "name": {
+      "ko": "발케네",
+      "en": "Balkene"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "북쪽 끝 가까운 지방으로, 빌파 일가의 근거지다.",
+        "en": "A region near the far north, the home base of the Bilpa family."
+      }
+    ]
+  },
+  {
+    "id": "sequirado",
+    "type": "place",
+    "name": {
+      "ko": "세퀴라도",
+      "en": "Sequirado"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "발케네 바로 아래에 있는 곳으로, 밀리던 북부군이 마지막으로 버틴 곳이다.",
+        "en": "A place just below Balkene, where the Northern Army, pushed back, made its last stand."
+      },
+      {
+        "at": 3,
+        "ko": "이 공방전 끝에 화신 시우쇠가 나타나 북부군을 구한다.",
+        "en": "At the end of this siege, the avatar Siusoe appears and saves the Northern Army."
+      }
+    ]
+  },
+  {
+    "id": "final-forge",
+    "type": "place",
+    "name": {
+      "ko": "최후의 대장간",
+      "en": "Final Forge"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "북쪽 끝에 있는, 레콘만 갈 수 있는 곳으로 알려져 있다.",
+        "en": "A place in the far north, known as one only Rekon can reach."
+      },
+      {
+        "at": 3,
+        "ko": "라호친보다 북쪽, 얼어붙은 바다 위의 섬에 있다.",
+        "en": "It lies north of Rahochin, on an island in a frozen sea."
+      },
+      {
+        "at": 3,
+        "ko": "성년이 된 레콘이 무기를 받으러 오는 곳으로, 불이 아니라 별빛으로 별철을 벼린다.",
+        "en": "Where Rekon who come of age go to receive their weapons; Stariron is forged here with starlight, not fire."
+      },
+      {
+        "at": 3,
+        "ko": "수탐자들이 다음 신체를 찾아 이곳에서 한 해 가까이 머문다.",
+        "en": "The Searchers stay here for nearly a year looking for the next vessel."
+      }
+    ]
+  },
+  {
+    "id": "rahochin",
+    "type": "place",
+    "name": {
+      "ko": "라호친",
+      "en": "Rahochin"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "사람이 사는 가장 북쪽 마을로, 그 북쪽에는 최후의 대장간뿐이다.",
+        "en": "The northernmost village where people live; north of it lies only the Final Forge."
+      },
+      {
+        "at": 3,
+        "ko": "썰매를 끄는 사나운 개 라호친가히로 이름났다.",
+        "en": "Famous for the Rahochingahi, fierce dogs that pull sleds."
+      }
+    ]
+  },
+  {
+    "id": "kitaljer",
+    "type": "place",
+    "name": {
+      "ko": "키탈저",
+      "en": "Kitaljer"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "키탈저 사냥꾼들의 고향인 북부의 고장이다.",
+        "en": "A region of the North, the homeland of the Kitaljer Hunters."
+      }
+    ]
+  },
+  {
+    "id": "kingdom-of-arajit",
+    "type": "place",
+    "name": {
+      "ko": "아라짓 왕국",
+      "en": "Kingdom of Arajit"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "레콘 영웅왕이 세우고 인간 왕들이 이어 간 옛 왕국으로, 지금은 무너지고 없다.",
+        "en": "An old kingdom founded by the Rekon Hero King and carried on by human kings; it has since fallen."
+      },
+      {
+        "at": 2,
+        "ko": "나가의 북진을 오랫동안 막아 낸 나라였다.",
+        "en": "A nation that long held back the Nhaga's advance north."
+      }
+    ]
+  },
+  {
+    "id": "sanggoto-and-hagoto",
+    "type": "place",
+    "name": {
+      "ko": "상고토와 하고토",
+      "en": "Sanggoto and Hagoto"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "아라짓의 한 왕이 나가를 견제하려고 수도를 옮긴 뒤, 옛 수도 쪽을 상고토, 새 수도 쪽을 하고토라 부른다.",
+        "en": "After a king of Arajit moved the capital to keep the Nhaga in check, the old capital's side came to be called Sanggoto and the new capital's side Hagoto."
+      }
+    ]
+  },
+  {
+    "id": "pansai",
+    "type": "place",
+    "name": {
+      "ko": "판사이",
+      "en": "Pansai"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "육형제 탑으로 이름난 상고토의 도시다.",
+        "en": "A city of Sanggoto famous for the Six Brothers Towers."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 갈로텍이 이끄는 나가군의 수공에 도시와 탑이 물에 잠긴다.",
+        "en": "During the war, the city and its towers are flooded by a water attack from the Nhaga army led by Galotek."
+      }
+    ]
+  },
+  {
+    "id": "new-kingdom-of-arajit",
+    "type": "place",
+    "name": {
+      "ko": "신 아라짓 왕국",
+      "en": "New Kingdom of Arajit"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "대호왕 사모 페이를 왕으로 세워 옛 아라짓을 이은 북부의 새 왕국이다.",
+        "en": "A new kingdom of the North that succeeds old Arajit, with the Great Tiger King Sammo Pei as its ruler."
+      }
+    ]
+  },
+  {
+    "id": "chosen-races",
+    "type": "term",
+    "name": {
+      "ko": "선민종족",
+      "en": "Chosen Races"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "신을 섬기는 네 종족, 곧 인간, 레콘, 도깨비, 나가를 함께 부르는 말이다.",
+        "en": "A collective name for the four races that serve gods: humans, Rekon, Tokkebi, and Nhaga."
+      },
+      {
+        "at": 2,
+        "ko": "네 신의 힘은 각각 물, 땅, 불, 바람과 닿아 있다고 설명된다.",
+        "en": "The powers of the four gods are described as tied to water, earth, fire, and wind respectively."
+      },
+      {
+        "at": 3,
+        "ko": "신들이 종족마다 선물을 주었다고 전하며, 도깨비에게는 불, 나가에게는 신명, 레콘에게는 별철이 그것이다.",
+        "en": "The gods are said to have given each race a gift: fire to the Tokkebi, the Sacred Name to the Nhaga, and Stariron to the Rekon."
       }
     ]
   },
   {
     "id": "nirm",
     "type": "term",
-    "name": { "ko": "니름", "en": "Nirm" },
+    "name": {
+      "ko": "니름",
+      "en": "Nearm"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "나가가 말 대신 쓰는 정신 대화다.",
-        "en": "The mind-speech the Nhaga use in place of spoken words."
+        "en": "The mental speech the Nhaga use instead of spoken words."
+      },
+      {
+        "at": 1,
+        "ko": "나가가 아닌 종족은 니름을 듣지 못해, 나가와 이야기하려면 나가가 소리 내어 말해야 한다.",
+        "en": "Races other than the Nhaga cannot hear Nearm, so to talk with them a Nhaga must speak aloud."
+      },
+      {
+        "at": 1,
+        "ko": "두억시니인 유해의 폭포도 니름을 쓴다.",
+        "en": "Corpsefall, a Duoksini, also uses Nearm."
+      }
+    ]
+  },
+  {
+    "id": "silver-tears",
+    "type": "term",
+    "name": {
+      "ko": "은루",
+      "en": "Silver Tears"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "은빛으로 빛나는 나가의 눈물을 이르는 말이다.",
+        "en": "A word for the tears of the Nhaga, which shine silver."
       }
     ]
   },
   {
     "id": "heart-extraction",
     "type": "term",
-    "name": { "ko": "심장 적출", "en": "Heart Extraction" },
+    "name": {
+      "ko": "심장 적출",
+      "en": "Heart Extraction"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "성인이 되는 나가가 심장을 빼내 보관하는 의식이며, 이를 심장 적출식이라 한다.",
-        "en": "The coming-of-age rite in which a Nhaga's heart is taken out and stored away."
+        "en": "A ritual in which a Nhaga coming of age has the heart removed and stored; it is called the extraction ceremony."
       },
       {
         "at": 1,
         "ko": "적출을 마친 나가는 웬만한 상처로는 죽지 않는다.",
-        "en": "A Nhaga whose heart has been removed does not die from ordinary wounds."
+        "en": "A Nhaga who has gone through extraction does not die from ordinary wounds."
+      },
+      {
+        "at": 1,
+        "ko": "추위가 닥치면 적출한 나가는 멈춰 잠들 뿐 죽지 않지만, 적출하지 않은 나가는 얼어 죽을 수 있다.",
+        "en": "When cold strikes, an extracted Nhaga only stops and sleeps without dying, but a Nhaga without extraction can freeze to death."
+      }
+    ]
+  },
+  {
+    "id": "guardian",
+    "type": "term",
+    "name": {
+      "ko": "수호자",
+      "en": "Guardian"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "발자국 없는 여신을 모시며 심장탑에 사는 남성 나가다.",
+        "en": "Male Nhaga who serve the Traceless Goddess and live in the Heart Tower."
+      },
+      {
+        "at": 1,
+        "ko": "나가 사회에서 큰 존경을 받는다.",
+        "en": "They are greatly respected in Nhaga society."
+      },
+      {
+        "at": 2,
+        "ko": "스스로를 여신의 신랑이라 부르며, 삶 전체를 여신과의 혼례로 여긴다.",
+        "en": "They call themselves the Goddess's bridegrooms and see their whole lives as a marriage to her."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁을 이끌면서 수호자들이 나가 사회를 이끄는 자리에 오른다.",
+        "en": "By leading the war, the Guardians rise to the leadership of Nhaga society."
+      }
+    ]
+  },
+  {
+    "id": "guardian-general",
+    "type": "term",
+    "name": {
+      "ko": "수호장군",
+      "en": "Guardian General"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "전쟁에서 나가 군단마다 배정되어 군단을 이끄는 수호자들이다.",
+        "en": "Guardians assigned to each Nhaga legion in the war to lead it."
+      },
+      {
+        "at": 3,
+        "ko": "여신의 힘으로 물을 모아 열을 가둬 북부에서도 나가군이 움직이게 하고, 비를 뿌려 레콘을 묶는다.",
+        "en": "With the Goddess's power they gather water to trap heat so the Nhaga army can move even in the North, and they bring rain to pin down the Rekon."
+      }
+    ]
+  },
+  {
+    "id": "great-guardian",
+    "type": "term",
+    "name": {
+      "ko": "대수호자",
+      "en": "Great Guardian"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하텐그라쥬의 독주를 견제하려고 나가 도시들이 전쟁 중에 새로 만든, 수호자 전체를 대표하는 자리다.",
+        "en": "A post representing all the Guardians, newly created by the Nhaga cities during the war to check the dominance of Hattengraaj."
+      },
+      {
+        "at": 3,
+        "ko": "첫 대수호자는 지도그라쥬의 키베인이다.",
+        "en": "The first Great Guardian is Kibein of Jidograaj."
+      }
+    ]
+  },
+  {
+    "id": "novitiate",
+    "type": "term",
+    "name": {
+      "ko": "수련자",
+      "en": "Novitiate"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "수호자가 되려고 수련하는 젊은 남성 나가다.",
+        "en": "A young male Nhaga training to become a Guardian."
+      }
+    ]
+  },
+  {
+    "id": "sacred-name",
+    "type": "term",
+    "name": {
+      "ko": "신명",
+      "en": "Sacred Name"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "수련자가 수련 중에 여신에게서 받는 이름으로, 보통 남에게 밝히지 않는다.",
+        "en": "A name a Novitiate receives from the Goddess during training, usually kept from others."
+      },
+      {
+        "at": 2,
+        "ko": "신명을 지닌 나가만 여신을 부를 수 있다.",
+        "en": "Only Nhaga who hold a Sacred Name can call on the Goddess."
+      },
+      {
+        "at": 3,
+        "ko": "신명은 발자국 없는 여신이 나가에게 준 선물로 이야기된다.",
+        "en": "The Sacred Name is spoken of as the Traceless Goddess's gift to the Nhaga."
+      }
+    ]
+  },
+  {
+    "id": "shojainteshiktol",
+    "type": "term",
+    "name": {
+      "ko": "쇼자인테쉬크톨",
+      "en": "Shojainteshiktol"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "가문원이 저지른 죄의 값으로, 그 가문 사람이 직접 죄인을 처단하게 하는 나가의 제도다.",
+        "en": "A Nhaga institution in which, as the price of a house member's crime, someone of that house must personally execute the offender."
+      },
+      {
+        "at": 1,
+        "ko": "처단하는 쪽이나 처단당하는 쪽이 죽기 전에는 끝나지 않는다.",
+        "en": "It does not end until either the executioner or the condemned dies."
+      },
+      {
+        "at": 1,
+        "ko": "암살자로 지목된 자는 쉬크톨이라는 무기를 받는다.",
+        "en": "The one chosen as assassin receives a weapon called a shiktol."
+      }
+    ]
+  },
+  {
+    "id": "mental-suppression",
+    "type": "term",
+    "name": {
+      "ko": "정신 억압",
+      "en": "Mental Suppression"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "니름을 응용해 지능이 낮은 동물이나 상대의 정신을 눌러 부리는 나가의 능력이다.",
+        "en": "A Nhaga ability that applies Nearm to press down and control the mind of a low-intelligence animal or an opponent."
+      }
+    ]
+  },
+  {
+    "id": "snake-jar",
+    "type": "term",
+    "name": {
+      "ko": "뱀단지",
+      "en": "Snake Jar"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "멀리 떨어진 곳과 소식을 주고받는 데 쓰는 나가의 도구다.",
+        "en": "A Nhaga tool used to exchange news with faraway places."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁에서 나가군은 뱀단지로 전장 사이에 소식을 거의 바로 주고받는다.",
+        "en": "In the war, the Nhaga army uses Snake Jars to pass news between battlefields almost instantly."
+      }
+    ]
+  },
+  {
+    "id": "great-expansion-war",
+    "type": "term",
+    "name": {
+      "ko": "대확장 전쟁",
+      "en": "Great Expansion War"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "나가가 북쪽으로 세력을 넓히려고 다른 종족과 벌인 옛 전쟁이다.",
+        "en": "An old war the Nhaga waged against other races to expand their power northward."
+      },
+      {
+        "at": 3,
+        "ko": "몇 해 뒤 여신을 가둔 나가가 다시 북진하면서 두 번째 전쟁이 벌어진다.",
+        "en": "Some years later, the Nhaga, having imprisoned the Goddess, push north again, and a second war begins."
+      },
+      {
+        "at": 4,
+        "ko": "하텐그라쥬에서 북부군과 나가가 함께 하늘치를 타고 회오리를 빠져나오며 전쟁이 끝난다.",
+        "en": "The war ends as the Northern Army and the Nhaga escape the whirlwind together aboard a Skyray at Hattengraaj."
+      }
+    ]
+  },
+  {
+    "id": "nhaga-legions",
+    "type": "term",
+    "name": {
+      "ko": "나가 군단",
+      "en": "Nhaga Legions"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "전쟁에서 나가군은 마호가니, 대나무 같은 나무 이름을 붙인 군단으로 나뉜다.",
+        "en": "In the war, the Nhaga army is divided into legions named after trees, such as Mahogany and Bamboo."
+      },
+      {
+        "at": 3,
+        "ko": "정신 억압자가 모는 코끼리 부대로 북부군의 기병에 맞선다.",
+        "en": "They counter the Northern Army's cavalry with elephant units driven by suppressors."
+      },
+      {
+        "at": 3,
+        "ko": "엔거 평원에 온 가장 큰 군단인 마호가니 군단은 북부군에 크게 진다.",
+        "en": "The Mahogany Legion, the largest legion to come to the Engo Plain, is badly defeated by the Northern Army."
+      },
+      {
+        "at": 3,
+        "ko": "대나무 군단은 시구리아트 산맥의 유료도로당 요새를 무너뜨린다.",
+        "en": "The Bamboo Legion brings down the Toll Road Guild's fortress in the Siguriat Mountains."
+      }
+    ]
+  },
+  {
+    "id": "northern-army",
+    "type": "term",
+    "name": {
+      "ko": "북부군",
+      "en": "Northern Army"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "대호왕 사모 페이 아래 북부의 남은 세력이 모여 이룬 군대다.",
+        "en": "An army formed from the remaining forces of the North under the Great Tiger King Sammo Pei."
+      },
+      {
+        "at": 3,
+        "ko": "괄하이드 규리하가 대장군, 라수 규리하가 상장군을 맡는다.",
+        "en": "Gwalhaide Curia serves as Great General and Rasu Curia as High General."
+      },
+      {
+        "at": 3,
+        "ko": "엔거 평원에서 이긴 뒤 남은 병력으로 하텐그라쥬까지 곧장 남진하는 길을 택한다.",
+        "en": "After winning on the Engo Plain, it chooses to march straight south to Hattengraaj with its remaining troops."
+      },
+      {
+        "at": 4,
+        "ko": "하텐그라쥬에 이른 뒤 하늘치를 타고 물러난다.",
+        "en": "After reaching Hattengraaj, it withdraws aboard a Skyray."
+      }
+    ]
+  },
+  {
+    "id": "harpoon-sword",
+    "type": "term",
+    "name": {
+      "ko": "작살검",
+      "en": "Harpoon Sword"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "재생하는 나가의 몸에 박혀 빠지지 않도록 미늘을 단 북부군의 표준 무기다.",
+        "en": "The Northern Army's standard weapon, barbed so that it stays lodged in a regenerating Nhaga's body."
+      }
+    ]
+  },
+  {
+    "id": "tokkebi-cap",
+    "type": "term",
+    "name": {
+      "ko": "도깨비 감투",
+      "en": "Tokkebi Cap"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "쓰면 모습이 보이지 않게 되는 도깨비의 물건이다.",
+        "en": "A Tokkebi item that makes its wearer invisible."
+      },
+      {
+        "at": 3,
+        "ko": "체온까지 숨기도록 고친 감투를 써서 북부군이 수호장군들을 노린다.",
+        "en": "Wearing caps altered to hide even body heat, the Northern Army goes after the Guardian Generals."
+      }
+    ]
+  },
+  {
+    "id": "twenty-two-royal-guards",
+    "type": "term",
+    "name": {
+      "ko": "이십이금군",
+      "en": "Twenty-Two Royal Guards"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하늘치 추락에서 살아남아 대호왕을 곁에서 지키는 두억시니 스물둘이다.",
+        "en": "Twenty-two Duoksini who survived the Skyray's fall and guard the Great Tiger King closely."
+      }
+    ]
+  },
+  {
+    "id": "arajit-warriors",
+    "type": "term",
+    "name": {
+      "ko": "아라짓 전사",
+      "en": "Arajit Warriors"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "영웅왕 때부터 아라짓 왕에게 충성을 맹세한 최강의 전사 집단이다.",
+        "en": "The mightiest band of warriors, sworn to loyalty to the kings of Arajit since the time of the Hero King."
+      },
+      {
+        "at": 4,
+        "ko": "바라기가 사라진 일로 아라짓 전사들이 왕에게서 충성을 거두었다.",
+        "en": "Because Baragi vanished, the Arajit Warriors withdrew their loyalty from the king."
+      }
+    ]
+  },
+  {
+    "id": "kitaljer-hunters",
+    "type": "term",
+    "name": {
+      "ko": "키탈저 사냥꾼",
+      "en": "Kitaljer Hunters"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "오래전에 사라진 인간 사냥꾼 집단으로, 사냥감에게 죽은 이의 원수를 대를 이어 갚는 풍습이 있었다.",
+        "en": "A long-vanished group of human hunters, who had a custom of avenging those killed by their prey, generation after generation."
+      },
+      {
+        "at": 1,
+        "ko": "권능왕에게 모욕당하고 떠난 뒤로 북부에 왕이 나오지 않았다고 전한다.",
+        "en": "It is said that after they were insulted by the King of Power and left, no king arose in the North."
+      },
+      {
+        "at": 4,
+        "ko": "스스로를 용의 자손이라 불렀다.",
+        "en": "They called themselves the descendants of the dragon."
+      },
+      {
+        "at": 4,
+        "ko": "만민 회의에서 모욕당한 그들은 왕이 사과하지 않는 한 왕은 없다는 저주를 남겼다.",
+        "en": "Insulted at the Assembly of All Peoples, they left a curse that there would be no king unless the king apologized."
+      }
+    ]
+  },
+  {
+    "id": "baragi",
+    "type": "term",
+    "name": {
+      "ko": "바라기",
+      "en": "Baragi"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "케이건 드라카가 등에 메고 다니는, 칼자루 하나에 칼날 둘이 붙은 칼의 이름이다.",
+        "en": "The name of the sword Kagan Draca carries on his back, with two blades on a single hilt."
+      },
+      {
+        "at": 1,
+        "ko": "영웅왕에게서 비롯된 아라짓 왕가의 왕검이다.",
+        "en": "The royal sword of the royal house of Arajit, handed down from the Hero King."
+      },
+      {
+        "at": 2,
+        "ko": "케이건이 지닌 칼이 오래전 사라졌다던 그 왕검이라는 것이 사람들 앞에 드러난다.",
+        "en": "It is revealed before others that the sword Kagan carries is that royal sword, long said to be lost."
+      },
+      {
+        "at": 4,
+        "ko": "옛날 바라기가 사라진 것은 케이건이 나가에게 속아 그 칼을 가지고 왕국을 떠났기 때문이다.",
+        "en": "Baragi vanished long ago because Kagan, deceived by the Nhaga, left the kingdom with it."
+      }
+    ]
+  },
+  {
+    "id": "sodrak",
+    "type": "term",
+    "name": {
+      "ko": "소드락",
+      "en": "Sodrak"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "먹으면 잠시 동안 몸이 빨라지고 강해지는 약이다.",
+        "en": "A drug that makes the body faster and stronger for a while when taken."
+      },
+      {
+        "at": 1,
+        "ko": "나가가 추운 곳에서도 움직일 수 있게 해 준다.",
+        "en": "It lets Nhaga move even in cold places."
+      },
+      {
+        "at": 4,
+        "ko": "소드락이 몸에 쌓여 늙지 않는다는 믿음이 있지만, 케이건이 오래 산 진짜 이유는 따로 있었다.",
+        "en": "Some believe Sodrak building up in the body keeps one from aging, but the real reason Kagan lived so long was something else."
       }
     ]
   },
   {
     "id": "rescue-party",
     "type": "term",
-    "name": { "ko": "구출대", "en": "Rescue Party" },
+    "name": {
+      "ko": "구출대",
+      "en": "Rescue Mission"
+    },
     "facts": [
       {
         "at": 1,
         "ko": "하인샤 대사원이 키보렌의 나가 하나를 데려오려고 꾸린 일행이다.",
-        "en": "The group the Hainsha Great Temple puts together to bring one Nhaga back from Kiboren."
+        "en": "A party the Great Temple of Hainsha put together to bring back a Nhaga from Kiboren."
       },
       {
         "at": 1,
         "ko": "인간 길잡이, 레콘 대적자, 도깨비 요술쟁이 셋으로 이루어진다.",
-        "en": "It has three members: a Human guide, a Rekon fighter and a Tokkebi trickster."
+        "en": "It is made up of three: a human pathfinder, a Rekon fighter, and a Tokkebi trickster."
+      },
+      {
+        "at": 4,
+        "ko": "화신을 다 찾은 뒤 레콘 여신이 수탐자들을 다시 구출대라 부르고, 이들은 여신을 구하러 심장탑에 간다.",
+        "en": "After all the avatars are found, the Rekon goddess calls the Searchers the Rescue Mission once more, and they go to the Heart Tower to rescue the Traceless Goddess."
+      }
+    ]
+  },
+  {
+    "id": "three-handles-one",
+    "type": "term",
+    "name": {
+      "ko": "셋이 하나를 상대한다",
+      "en": "Three Handles One"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "예로부터 전하는 말로, 하인샤 대사원은 이에 따라 인간, 레콘, 도깨비 하나씩으로 구출대를 꾸린다.",
+        "en": "An old saying; following it, the Great Temple of Hainsha forms the Rescue Mission with one human, one Rekon, and one Tokkebi."
+      },
+      {
+        "at": 4,
+        "ko": "이 말은 세 종족의 신이 인간의 신 하나를 상대하려고 세운 계획이었고, 그 하나는 케이건 드라카였다.",
+        "en": "The saying was a plan made by the gods of the three races to face the one god of the humans, and that one was Kagan Draca."
+      }
+    ]
+  },
+  {
+    "id": "nhaga-slayer",
+    "type": "term",
+    "name": {
+      "ko": "나가 살육자",
+      "en": "Nhaga Slayer"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가를 사냥해 잡아먹는다고 나가들 사이에 전설처럼 알려진 존재다.",
+        "en": "A being known among the Nhaga, almost as a legend, for hunting and eating Nhaga."
+      }
+    ]
+  },
+  {
+    "id": "nhaga-slaying-god",
+    "type": "term",
+    "name": {
+      "ko": "나가 살육신",
+      "en": "Nhaga-Slaying God"
+    },
+    "facts": [
+      {
+        "at": 4,
+        "ko": "어디에도 없는 신의 화신인 케이건 드라카가 나가를 미워하는 채로 그 힘을 쓰게 된 모습을 이르는 말이다.",
+        "en": "The name for Kagan Draca, avatar of the God of Nowhere, when he comes to use that power while still hating the Nhaga."
+      },
+      {
+        "at": 4,
+        "ko": "회오리로 하텐그라쥬를 감싸 조이고, 나가들이 제자리를 맴돌게 만든다.",
+        "en": "Wraps Hattengraaj in a tightening whirlwind and makes the Nhaga circle in place."
+      },
+      {
+        "at": 4,
+        "ko": "인간이 받은 선물이 나늬임을 깨달은 케이건이 증오를 거두면서 멈춘다.",
+        "en": "It stops when Kagan realizes that the gift humans received is Nani and lets go of his hatred."
+      }
+    ]
+  },
+  {
+    "id": "manysoul",
+    "type": "term",
+    "name": {
+      "ko": "군령자",
+      "en": "Manysoul"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "한 몸 안에 여러 사람의 영을 담고, 그들의 지식과 기술을 쓸 수 있는 존재다.",
+        "en": "A being who holds the spirits of many people in one body and can use their knowledge and skills."
+      },
+      {
+        "at": 3,
+        "ko": "영적 잡종이라고도 불린다.",
+        "en": "Also called a spiritual hybrid."
+      }
+    ]
+  },
+  {
+    "id": "soul-transfer",
+    "type": "term",
+    "name": {
+      "ko": "전령",
+      "en": "Soul Transfer"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "군령자가 죽기 전에 자기와 몸 안의 모든 영을 다른 사람의 몸으로 옮기는 일이다.",
+        "en": "The act by which a Manysoul, before dying, moves its own spirit and every spirit within it into another person's body."
+      }
+    ]
+  },
+  {
+    "id": "would-be-king",
+    "type": "term",
+    "name": {
+      "ko": "제왕병자",
+      "en": "Would-be King"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "스스로 왕이라 칭하며 추종자를 모으는 북부의 인간들이다.",
+        "en": "Humans of the North who call themselves kings and gather followers."
+      },
+      {
+        "at": 1,
+        "ko": "마립간 지그림 자보로처럼 이미 땅을 다스리던 자가 왕을 자처하기도 한다.",
+        "en": "Sometimes someone who already ruled land, like the maripgan Zigrim Zaboro, also claims to be king."
+      }
+    ]
+  },
+  {
+    "id": "toll-road-guild",
+    "type": "term",
+    "name": {
+      "ko": "유료도로당",
+      "en": "Toll Road Guild"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "시구리아트 산맥의 유료도로를 운영하며 통행료를 받는 집단이다.",
+        "en": "A group that runs the toll road through the Siguriat Mountains and collects tolls."
+      },
+      {
+        "at": 2,
+        "ko": "옛날 큰 군대의 공격도 막아 낸 요새를 지니고 있다.",
+        "en": "It holds a fortress that once withstood even the attack of a great army."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중에도 어느 편도 들지 않고 나가군에게도 통행료를 받는다.",
+        "en": "Even during the war, it takes no side and collects tolls from the Nhaga army too."
+      },
+      {
+        "at": 3,
+        "ko": "돌아가는 나가군이 통행료를 내지 못하자 맞서 싸운다.",
+        "en": "When the returning Nhaga army cannot pay the toll, it fights back."
+      },
+      {
+        "at": 3,
+        "ko": "수호장군들이 우물을 말리고 문을 녹슬게 한 끝에 요새가 함락되어 당원 대부분과 당주 보늬가 목숨을 잃는다.",
+        "en": "After the Guardian Generals dry up the wells and rust the gates, the fortress falls, and most guild members and the guild master Boni lose their lives."
+      }
+    ]
+  },
+  {
+    "id": "skyray",
+    "type": "term",
+    "name": {
+      "ko": "하늘치",
+      "en": "Skyray"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "등에 태고의 유적을 얹고 하늘을 헤엄치는 거대한 물고기 모양 생물로, 클수록 높이 난다.",
+        "en": "A giant fish-like creature that swims through the sky with ancient ruins on its back; the bigger it is, the higher it flies."
+      },
+      {
+        "at": 1,
+        "ko": "땅 위의 일에는 아랑곳하지 않는다.",
+        "en": "It pays no heed to what happens on the ground."
+      },
+      {
+        "at": 3,
+        "ko": "오레놀과 발굴대원들이 처음으로 하늘치 등에 오른다.",
+        "en": "Orenol and the members of the excavation team climb onto a Skyray's back for the first time."
+      },
+      {
+        "at": 3,
+        "ko": "등의 유적은 손이 통과하는 환상이며, 보는 이의 바람에 따라 모습이 달라진다.",
+        "en": "The ruins on its back are an illusion that hands pass through, and they look different depending on the viewer's wishes."
+      },
+      {
+        "at": 4,
+        "ko": "첫 번째 종족이 남긴 유산이다.",
+        "en": "A legacy left by the First Race."
+      },
+      {
+        "at": 4,
+        "ko": "사람이 원하는 곳으로 몰고 갈 수 있어, 하텐그라쥬의 나가와 북부군이 이를 타고 도시를 빠져나온다.",
+        "en": "It can be steered wherever people wish, so the Nhaga of Hattengraaj and the Northern Army ride one out of the city."
+      }
+    ]
+  },
+  {
+    "id": "phantom-stairs",
+    "type": "term",
+    "name": {
+      "ko": "환상계단",
+      "en": "Phantom Stairs"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "하늘치 등 유적의 환상은 바라는 사람에게는 실제처럼 만져지고 그 글도 읽힌다.",
+        "en": "The illusion of the ruins on a Skyray's back feels real to the touch for those who wish it, and its writing can be read."
+      },
+      {
+        "at": 3,
+        "ko": "하늘치 근처에서는 바라는 사람에게만 계단이 생겨 그 사람만 오르내릴 수 있다.",
+        "en": "Near a Skyray, stairs appear only for those who wish for them, and only they can climb up and down."
+      },
+      {
+        "at": 4,
+        "ko": "오레놀이 환상계단을 타고 북부군 진영으로 내려오고, 북부군도 이를 타고 하늘치에 오른다.",
+        "en": "Orenol comes down to the Northern Army's camp by the Phantom Stairs, and the Northern Army also climbs them onto the Skyray."
+      }
+    ]
+  },
+  {
+    "id": "dragon",
+    "type": "term",
+    "name": {
+      "ko": "용",
+      "en": "Dragon"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "땅속 뿌리(용근)로 지내다 꽃(용화)을 피우고 깨어나는 생물이며, 불을 뿜는다.",
+        "en": "A creature that lives underground as a root (dragon root), then blooms into a flower (dragon flower) and awakens; it breathes fire."
+      },
+      {
+        "at": 1,
+        "ko": "나무를 태우는 불을 꺼린 나가가 보이는 대로 없애, 멸종했다고 알려져 있다.",
+        "en": "It is said to have gone extinct because the Nhaga, wary of fire that burns trees, destroyed it on sight."
+      },
+      {
+        "at": 1,
+        "ko": "용근을 먹은 자는 용인이 된다.",
+        "en": "Whoever eats a dragon root becomes a dragoner."
+      },
+      {
+        "at": 3,
+        "ko": "나가도 용근을 먹으면 용인이 될 수 있다.",
+        "en": "Nhaga too can become dragoners by eating a dragon root."
+      }
+    ]
+  },
+  {
+    "id": "great-tiger",
+    "type": "term",
+    "name": {
+      "ko": "대호",
+      "en": "Great Tiger"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "북부에 사는 거대한 범으로, 일반 호랑이와 다른 종이다.",
+        "en": "A giant tiger that lives in the North, a different species from ordinary tigers."
+      },
+      {
+        "at": 1,
+        "ko": "키탈저 사냥꾼들은 대호를 산노인이라 부른다.",
+        "en": "The Kitaljer Hunters call the Great Tiger the Old Man of the Mountain."
+      }
+    ]
+  },
+  {
+    "id": "black-lion",
+    "type": "term",
+    "name": {
+      "ko": "흑사자",
+      "en": "Black Lion"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "나가 때문에 멸종했다고 전하는 짐승으로, 케이건 드라카라는 이름의 '흑사자'가 이 짐승을 가리킨다.",
+        "en": "A beast said to have been driven to extinction by the Nhaga; the \"Black Lion\" in the name Kagan Draca refers to this beast."
+      }
+    ]
+  },
+  {
+    "id": "converse-in-iron",
+    "type": "term",
+    "name": {
+      "ko": "철의 대화",
+      "en": "Converse in Iron"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "레콘이 무기로 결판을 내자고 청하는 결투 선언이다.",
+        "en": "A Rekon's declaration of a duel, asking to settle things with weapons."
+      },
+      {
+        "at": 1,
+        "ko": "선언한 쪽은 먼저 칠 기회를 상대에게 넘기고, 끝날 때까지 말을 섞지 않는다.",
+        "en": "The one who declares it gives the opponent the first strike and exchanges no words until it is over."
+      },
+      {
+        "at": 4,
+        "ko": "반대로 절대 싸우지 않겠다는 맹세는 철의 침묵이라 하며, 레콘에게는 최고의 경의다.",
+        "en": "Its opposite, a vow never to fight, is called the Silence in Iron, and to a Rekon it is the highest mark of respect."
+      }
+    ]
+  },
+  {
+    "id": "stariron",
+    "type": "term",
+    "name": {
+      "ko": "별철",
+      "en": "Stariron"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "레콘의 무기를 이루는 쇠다.",
+        "en": "The metal that Rekon weapons are made of."
+      },
+      {
+        "at": 3,
+        "ko": "모든 이보다 낮은 여신이 레콘에게 준 선물로, 최후의 대장간에서 불이 아닌 별빛으로 쇠를 벼려 만든다.",
+        "en": "A gift from the Goddess Lower Than All to the Rekon, made at the Final Forge by forging the metal with starlight instead of fire."
+      }
+    ]
+  },
+  {
+    "id": "god-killing-plan",
+    "type": "term",
+    "name": {
+      "ko": "살신 계획",
+      "en": "God-Killing Plan"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "나가가 레콘의 여신을 죽이려 한다고 하인샤 대사원에 알려진 계획이다.",
+        "en": "A plan, as made known to the Great Temple of Hainsha, in which the Nhaga intend to kill the Rekon goddess."
+      },
+      {
+        "at": 2,
+        "ko": "실은 수호자들이 발자국 없는 여신을 가두려고 꾸민 속임수였다.",
+        "en": "In truth, it was a ruse the Guardians devised to imprison the Traceless Goddess."
+      },
+      {
+        "at": 4,
+        "ko": "그 계획을 진짜로 설계한 것은 발자국 없는 여신 자신이었다.",
+        "en": "The one who truly designed that plan was the Traceless Goddess herself."
+      }
+    ]
+  },
+  {
+    "id": "searchers",
+    "type": "term",
+    "name": {
+      "ko": "수탐자",
+      "en": "Searchers"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "신들의 화신을 찾아 길을 떠나는 이들을 부르는 말이다.",
+        "en": "A name for those who set out in search of the avatars of the gods."
+      },
+      {
+        "at": 2,
+        "ko": "사모 페이를 왕으로 세운 뒤 구출대의 셋이 수탐자가 되어 떠난다.",
+        "en": "After making Sammo Pei king, the three of the Rescue Mission become Searchers and set out."
+      },
+      {
+        "at": 3,
+        "ko": "즈믄누리 성주가 준 접시로 첫 화신 시우쇠를 깨워 북부군에 보낸다.",
+        "en": "With the dish given by the castle lord of Jumunuri, they awaken the first avatar, Siusoe, and send him to the Northern Army."
+      },
+      {
+        "at": 3,
+        "ko": "다음 신체를 찾아 최후의 대장간으로 간다.",
+        "en": "They go to the Final Forge to find the next vessel."
+      },
+      {
+        "at": 4,
+        "ko": "레콘 여신의 화신과 함께 북부군에 합류한다.",
+        "en": "They join the Northern Army together with the avatar of the Rekon goddess."
+      }
+    ]
+  },
+  {
+    "id": "avatar-and-vessel",
+    "type": "term",
+    "name": {
+      "ko": "화신과 신체",
+      "en": "Avatar and Vessel"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "신이 깃든 사람의 몸을 신체라 하고, 그 안의 신이 깨어나 드러나면 화신이라 한다.",
+        "en": "A person's body in which a god dwells is called a vessel, and when the god within awakens and shows itself, it is called an avatar."
+      },
+      {
+        "at": 3,
+        "ko": "신체는 자기가 신을 품은 줄 모르고, 신도 자기 신체를 직접 알아보지 못해 단서로 찾아야 한다.",
+        "en": "A vessel does not know it holds a god, and the god cannot directly recognize its own vessel, so it must be found through clues."
+      },
+      {
+        "at": 3,
+        "ko": "신체가 죽으면 그 신은 다른 사람에게 옮겨 간다.",
+        "en": "When a vessel dies, its god passes to another person."
+      },
+      {
+        "at": 3,
+        "ko": "화신은 자기 신의 힘을 마음대로 다룬다.",
+        "en": "An avatar wields its god's power at will."
+      },
+      {
+        "at": 4,
+        "ko": "신들은 서로를 직접 보지 못해, 화신끼리도 서로를 알아보지 못한다.",
+        "en": "The gods cannot see one another directly, so avatars cannot recognize one another either."
+      }
+    ]
+  },
+  {
+    "id": "vessel-finding-dish",
+    "type": "term",
+    "name": {
+      "ko": "신체를 찾는 접시",
+      "en": "Vessel-Finding Dish"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "즈믄누리 성주가 성의 마지막 방에서 꺼내 수탐자들에게 준 접시다.",
+        "en": "A dish the castle lord of Jumunuri took from the castle's last room and gave to the Searchers."
+      },
+      {
+        "at": 3,
+        "ko": "깨뜨리면 조각 하나가 사라지고, 그 조각을 따라가 신체 앞에 서면 다시 붙는다.",
+        "en": "When it is broken, one piece vanishes, and following that piece to stand before a vessel makes the dish whole again."
+      },
+      {
+        "at": 3,
+        "ko": "다시 붙은 접시에 물을 부으면 그 종족이 가장 꺼리는 것으로 변하고, 이를 마신 신체가 화신이 된다.",
+        "en": "Water poured into the mended dish turns into what that race most shuns, and the vessel who drinks it becomes an avatar."
+      },
+      {
+        "at": 3,
+        "ko": "레콘 여신의 화신을 찾은 뒤로는 무슨 수를 써도 깨지지 않는다.",
+        "en": "After the avatar of the Rekon goddess is found, it cannot be broken by any means."
+      },
+      {
+        "at": 4,
+        "ko": "접시는 눈속임이었고, 신체를 찾아낸 것은 케이건 안에 있던 어디에도 없는 신의 힘이었다.",
+        "en": "The dish was a trick; what really found the vessels was the power of the God of Nowhere within Kagan."
+      }
+    ]
+  },
+  {
+    "id": "nani-legend",
+    "type": "term",
+    "name": {
+      "ko": "나늬 (전설)",
+      "en": "Nani (legend)"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "전설 속에 전하는 아름다운 여인의 이름이다.",
+        "en": "The name of a beautiful woman told of in legend."
+      },
+      {
+        "at": 2,
+        "ko": "보늬라는 이름은 나늬의 언니라는 뜻이다.",
+        "en": "The name Boni means \"elder sister of Nani.\""
+      },
+      {
+        "at": 4,
+        "ko": "인간에게서만 태어나 모든 종족에게 사랑받는 존재로, 어디에도 없는 신이 인간에게 준 선물이다.",
+        "en": "A being born only of humans and loved by all races, given to humans as a gift by the God of Nowhere."
+      },
+      {
+        "at": 4,
+        "ko": "이 시대의 나늬는 데오늬 달비다.",
+        "en": "The Nani of this age is Deoni Dalbi."
+      },
+      {
+        "at": 4,
+        "ko": "모든 종족에게서 태어나는 보늬라는 존재도 있어 나늬와 자매처럼 여겨진다.",
+        "en": "There is also a being called Boni, born of every race, regarded as a sister to the Nani."
       }
     ]
   }
