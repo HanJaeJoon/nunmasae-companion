@@ -1,0 +1,1794 @@
+[
+ {
+  "entry": "인간",
+  "fact": "어디에도 없는 신을 섬기며, 그 신을 모시는 사제를 스님이라 부른다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 본문에 '스님' 호칭과 삭발한 대사원 승려 등장; 신 이름 '어디에도 없는 신'은 미리보기 범위(1장~2장 초)에 없음",
+  "note": "신 이름 부분은 line 65와 같은 근거(mid). 1장에는 '승려', '중'도 섞여 쓰인다"
+ },
+ {
+  "entry": "인간",
+  "fact": "대부분 한계선 북쪽, 북부에 흩어져 산다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 화리트 니름: 불신자는 한계선 이남으로 내려올 수 있지만 나가는 이북 추운 땅에 안 간다; 1장 무대가 북부(푼텐 사막, 키준 산맥)",
+  "note": ""
+ },
+ {
+  "entry": "인간",
+  "fact": "몸의 힘은 네 선민종족 중 가장 약하지만, 종족으로서 묶인 제약도 가장 적다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/인간(새%20시리즈) - '가장 약하지만 제약이 가장 적다'는 위키의 종합 서술이고 작중 특정 장면이 아님",
+  "note": "작중 명시 문장이 아니라 해설. 타 종족 제약(물, 피, 추위)은 모두 1권에 나오므로 1로 둔다. 문장을 '어디든 갈 수 있다' 정도로 낮추는 것을 권함"
+ },
+ {
+  "entry": "인간",
+  "fact": "아라짓 왕국이 무너진 뒤 오랫동안 왕이 없어서, 왕이 돌아오기를 바라는 마음이 깊다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "http://garik16.blogspot.com/2026/08/scififantasy-book-review-heart-of-nhaga.html?m=1 - 영문 1권 리뷰: 사냥꾼 일족이 마지막 왕들을 저주해 진정한 왕이 없다; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 4장 삽화 '제왕병자들'",
+  "note": "왕을 바라는 연설(라샤린 선사)은 9장(2권)이지만 왕 부재와 제왕병자 현상은 1권"
+ },
+ {
+  "entry": "인간",
+  "fact": "스스로 왕을 칭하는 제왕병자가 끊이지 않고 나타난다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 4장 왕 잡아먹는 괴물 삽화 '높새바람 탑의 티나한과 제왕병자들'; https://skiffyandfanty.com/blog/review-heart-of-the-nhaga-lee-young-do/ - 영문 1권 리뷰에 왕을 자처하는 무리와 도시의 자칭 왕(자보로, 5장)",
+  "note": ""
+ },
+ {
+  "entry": "인간",
+  "fact": "다른 종족과 달리 신에게 무엇을 받았는지 분명하지 않다?",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 223화 '어디에도 없는 신이 인간에게 준 것'(4권 범위)에서 답이 나옴. 질문이 처음 제기되는 권은 못 찾음",
+  "note": "답(나늬)은 4권. '분명하지 않다'는 서술 자체는 4권 전까지 참이지만 처음 언급 시점 미확인. ? 는 사실로는 맞음"
+ },
+ {
+  "entry": "레콘",
+  "fact": "온몸이 깃털로 덮이고 새 머리를 한, 키 3m 안팎의 거대한 종족이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 티나한 등장에 깃털, 부리, 벼슬 묘사; https://www.goodreads.com/book/show/228974111-the-heart-of-the-nhaga - 영문 1권 소개 'giant birdlike'",
+  "note": "3m 수치는 나무위키(평균 약 3m) 기준이며 본문 수치 확인 못 함"
+ },
+ {
+  "entry": "레콘",
+  "fact": "물을 극도로 무서워해서 물이라는 말조차 돌려 말한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://www.goodreads.com/book/show/228974111-the-heart-of-the-nhaga - 영문 1권 출판사 소개 'the Rekon is deathly afraid of water'",
+  "note": "공포 자체는 1권 high. '그것/녹은 얼음' 같은 돌려 말하기가 나오는 장은 특정 못 함(1권 무룬 강 장면 추정)"
+ },
+ {
+  "entry": "레콘",
+  "fact": "개인 전투력이 다른 종족과 비교가 안 될 만큼 강하다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 하늘치 연에서 떨어지고도 무사; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 4장 삽화 '제왕병자들 사이에서 날뛰는 티나한'",
+  "note": ""
+ },
+ {
+  "entry": "레콘",
+  "fact": "섬기는 신은 모든 이보다 낮은 여신이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 티나한이 '모든 이보다 낮은 여신이여'라고 외침",
+  "note": ""
+ },
+ {
+  "entry": "레콘",
+  "fact": "다른 종족은 레콘에게 존댓말을 쓰는 것이 상식이다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 승려 시점: 레콘에게 마구 말할 수 있는 건 같은 레콘뿐(그래서 롭스가 군령자임을 알아챔)",
+  "note": "? 는 사실로 맞다. 레콘 쪽은 남에게 반말을 쓴다(나무위키 레콘)"
+ },
+ {
+  "entry": "레콘",
+  "fact": "성년이 되면 북쪽 끝 최후의 대장간에서 평생 쓸 별철 무기를 받는다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 요약에 티나한의 창이 Final Forge 산이라는 언급(요약 사이트, 신뢰도 낮음); 성년에 받는다는 설명이 나오는 장은 미확인",
+  "note": "최후의 대장간 방문 자체는 2부(브릿G 161화 '최후의 대장장이', 3권). 설명 시점이 1권이 아닐 수 있음"
+ },
+ {
+  "entry": "레콘",
+  "fact": "성인 레콘은 평생의 목표인 숙원을 좇거나 신부 탐색에 나선다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 102화 '레콘의 숙원'(2권 범위), 2권 부제 '숙원을 추구하는 레콘'; 알라딘 1장 미리보기에 '숙원/신부' 단어 없음",
+  "note": "1장 하늘치 연 장면이 티나한 숙원이지만 설명은 없음. 3~5장에 먼저 나올 가능성은 남음"
+ },
+ {
+  "entry": "레콘",
+  "fact": "힘껏 내지르는 고함(계명성)은 주변을 귀먹게 하고 돌풍 같은 힘을 낸다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/레콘 - 티나한이 유해의 폭포와 싸울 때 계명성으로 눈알을 터뜨림; https://namu.wiki/w/유해의%20폭포 - 유해의 폭포 첫 등장은 1권 3장",
+  "note": "? 는 사실로 맞다. '계명성'이라는 이름이 그 장면에서 쓰이는지는 미확인"
+ },
+ {
+  "entry": "도깨비",
+  "fact": "인간보다 머리 하나쯤 큰 체구에 붉고 오돌토돌한 피부를 가졌다?",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/도깨비(새%20시리즈) - 인간보다 머리 하나 크고 피부가 붉고 오돌토돌(원작에 뿔 없음); 1장 미리보기에는 외형 묘사 단어 없음",
+  "note": "사실/표기는 나무위키와 일치. 묘사가 나오는 장은 미확인"
+ },
+ {
+  "entry": "도깨비",
+  "fact": "누구나 도깨비불을 마음대로 다루며, 그 불은 자신을 죽이는 신의 선물로 여겨진다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 24화 '도깨비불'(1권 2~3장 범위); https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권에서 비형의 불 환영/보온",
+  "note": "도깨비불은 1권 확실. '신의 선물로 여겨진다' 부분은 신(시우쇠)이 직접 말하는 2부 장면만 확인됨. 두 문장으로 쪼개고 선물 부분은 line 71과 같이 처리 권장"
+ },
+ {
+  "entry": "도깨비",
+  "fact": "거대한 딱정벌레를 타고 다닌다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장(4화 즈믄누리) 딱정벌레 전갈; https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 21화 '길잡이 딱정벌레'",
+  "note": ""
+ },
+ {
+  "entry": "도깨비",
+  "fact": "대부분 즈믄누리에 모여 살고 성주가 다스린다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 즈믄누리 성주와 무사장 사빈 하수언 장면",
+  "note": ""
+ },
+ {
+  "entry": "도깨비",
+  "fact": "장난과 씨름, 신기한 이야기를 좋아한다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 킴 씨름꾼 이야기, 2장 니름에서 도깨비의 장난 언급",
+  "note": "'신기한 이야기를 좋아한다'는 장면 미확인"
+ },
+ {
+  "entry": "도깨비",
+  "fact": "피를 몹시 두려워하고 폭력을 꺼린다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "http://garik16.blogspot.com/2026/08/scififantasy-book-review-heart-of-nhaga.html?m=1 - 영문 1권 리뷰: Tokkebi는 피를 두려워함; https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장: 도깨비는 전쟁에 관심 없는 유일한 불신자",
+  "note": ""
+ },
+ {
+  "entry": "도깨비",
+  "fact": "몸이 죽어도 영혼이 어르신으로 남아 살아 있는 도깨비 곁에서 말을 나눈다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "http://garik16.blogspot.com/2026/08/scififantasy-book-review-heart-of-nhaga.html?m=1 - 영문 1권 리뷰: 몸이 죽어도 영혼이 남음",
+  "note": ""
+ },
+ {
+  "entry": "도깨비",
+  "fact": "인간을 킴이라 부르는데, 옛날 도깨비에게 농사를 가르친 인간의 이름에서 왔다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장에서 도깨비가 인간을 '킴'이라 부름(호칭은 high); 농사를 가르친 인간 유래가 나오는 장면은 못 찾음",
+  "note": "호칭과 유래를 쪼개면 호칭은 1 high, 유래는 null"
+ },
+ {
+  "entry": "나가",
+  "fact": "비늘로 덮인 몸을 가진, 뱀을 닮은 남부 종족이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 륜의 비늘 묘사, 남부 키보렌",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "말소리 대신 니름이라는 정신 대화를 쓰며, 다른 종족은 니름을 듣지도 하지도 못한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 일러두기와 2장 니름 대화, 비에나가 륜만 소리 내 말함; https://namu.wiki/w/나가(새%20시리즈)",
+  "note": "예외 있음: 두억시니 유해의 폭포도 니름을 함(35화 '폭포의 니름', 1권). '다른 선민종족은'으로 좁히는 게 정확"
+ },
+ {
+  "entry": "나가",
+  "fact": "변온 동물이라 추위에 약해서 한계선 북쪽에서는 제대로 움직이지 못한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 '한계선 이북 추운 땅'; https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권에서 륜이 추위로 굳고 한계선 넘어 허물벗기",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "열을 보는 눈을 가져 온도 차이로 세상을 본다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 '그들 모두는 열을 볼 수 없어', 륜이 뜨거운 심장을 보는 장면",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "성인이 되면 심장을 적출하고, 그 뒤로는 웬만해서는 죽지 않는 몸이 된다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 적출식, '반불사'라는 표현",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "여성이 가문을 이끄는 모계 사회이며, 성인 남성은 가문 밖으로 나간다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장: 성인이 되면 페이 가문이 더 이상 륜을 보호하지 않는다('자유로운 남자'), 가문의 여자와 남자 배분",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "발자국 없는 여신을 섬기며, 수호자는 남성만 될 수 있다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장: 수련자 화리트(남), '너는 발자국 없는 여신의 신랑이 될 테고'",
+  "note": ""
+ },
+ {
+  "entry": "나가",
+  "fact": "나무를 귀하게 여기고 불을 꺼리며, 다른 종족을 불신자라 낮춰 본다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 '더운 피의 불신자들', 도끼날을 모르는 키보렌 나무, 도깨비를 가장 큰 적으로 꺼림",
+  "note": ""
+ },
+ {
+  "entry": "두억시니",
+  "fact": "개체마다 생김새가 제멋대로라 정해진 형태가 없는 생물이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/유해의%20폭포 - 유해의 폭포(두억시니 시체가 모인 존재) 첫 등장 1권 3장; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 3장 삽화 '유해의 폭포와 구출대'",
+  "note": ""
+ },
+ {
+  "entry": "두억시니",
+  "fact": "신을 잃은 종족으로 불리며, 네 선민종족에 들지 않는다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/유해의%20폭포 - 유해의 폭포가 두억시니가 왜 신을 잃었는지 묻고자 함(3장); https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/",
+  "note": "4권에서 '잃은 것이 아니다'로 뒤집히지만 '그렇게 불린다'는 문장은 1권 기준으로 맞음"
+ },
+ {
+  "entry": "두억시니",
+  "fact": "대개 말을 하지만 그 말의 뜻이 통하지 않는다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/유해의%20폭포 - 두억시니는 언어를 이해하지 못하지만 단어는 정확히 발음",
+  "note": "어느 장면인지는 미확인, 1권 3장 조우에서 나오는 것으로 추정"
+ },
+ {
+  "entry": "두억시니",
+  "fact": "키보렌의 폐허 도시에 가장 많이 모여 산다?",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/유해의%20폭포 - 남부 밀림 속 두억시니 도시의 피라미드(유해의 폭포 거처), 과거 독으로 주변 두억시니가 다 죽었다는 설명",
+  "note": "'가장 많이 모여 산다'는 근거 없음. '키보렌 밀림에 두억시니의 폐허 도시가 있다'로 고치기 권장"
+ },
+ {
+  "entry": "두억시니",
+  "fact": "큰 무리를 지어 옮겨 다니며, 다른 종족에게 공포의 대상이다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 마지막: 사모가 수천의 두억시니가 북상한다고 경고; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 6장 삽화 3000 두억시니 행진",
+  "note": "대규모 무리는 유해의 폭포가 보낸 것이지 일반 습성인지는 불명. '?'는 절반만 맞음"
+ },
+ {
+  "entry": "어디에도 없는 신",
+  "fact": "인간이 섬기는 신이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "영문 1권 본문 발췌로 보이는 검색 스니펫(비공식 사이트라 인용 생략): 인간의 승려들이 God of Nowhere를 모심; https://namu.wiki/w/신(새%20시리즈)",
+  "note": "알라딘 1장 미리보기 범위에는 신 이름이 없음"
+ },
+ {
+  "entry": "어디에도 없는 신",
+  "fact": "하인샤 대사원의 스님들이 이 신을 모신다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "line 65와 같은 스니펫: 승려들이 God of Nowhere 의식을 맡고 염주에 기도문; https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 대사원 승려 등장",
+  "note": ""
+ },
+ {
+  "entry": "자신을 죽이는 신",
+  "fact": "도깨비가 섬기는 신이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 즈믄누리: 도깨비가 '자신을 죽이는 신의 이름으로' 맹세",
+  "note": ""
+ },
+ {
+  "entry": "자신을 죽이는 신",
+  "fact": "도깨비불을 내려 준 신으로 여겨진다.",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/신(새%20시리즈) / https://namu.wiki/w/도깨비(새%20시리즈) - 신이 도깨비불을 선물했다는 서술은 2부 시우쇠(화신) 장면에서만 확인",
+  "note": "1~2권에 '선물'로 언급되는지 못 찾음. 3 이후일 가능성"
+ },
+ {
+  "entry": "모든 이보다 낮은 여신",
+  "fact": "레콘이 섬기는 여신이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 티나한의 기도",
+  "note": ""
+ },
+ {
+  "entry": "모든 이보다 낮은 여신",
+  "fact": "최후의 대장간이 이 여신의 유일한 신전으로 여겨진다?",
+  "vol": 3,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/레콘 / 검색 요약(나무위키 티나한): 케이건과 모든 이보다 낮은 여신의 대화에서 대장간이 신전 역할을 하는 듯; https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 161화 '최후의 대장장이'(3권 범위)",
+  "note": "1~2권 범위 밖. 나무위키도 '하는 듯'으로 적어 단정은 과함. 초안 범위에서 빼는 것 권장"
+ },
+ {
+  "entry": "발자국 없는 여신",
+  "fact": "나가가 섬기는 여신이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 '발자국 없는 여신의 신랑'",
+  "note": ""
+ },
+ {
+  "entry": "발자국 없는 여신",
+  "fact": "나가에게 신명을 내려 준다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://en.wikipedia.org/wiki/The_Bird_That_Drinks_Tears - 수련자는 각자 여신의 신명을 받음; https://namu.wiki/w/나가(새%20시리즈) - 륜의 신명 라르간드(화리트가 넘김, 2장)",
+  "note": ""
+ },
+ {
+  "entry": "발자국 없는 여신",
+  "fact": "하텐그라쥬 심장탑의 수호자들이 이 여신을 모신다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 심장탑 적출식과 수호자(여신의 신랑); https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 13화 '심장탑', 18화 '수호자'",
+  "note": ""
+ },
+ {
+  "entry": "자신을 보지 못하는 신?",
+  "fact": "두억시니가 잃어버린 신의 이름이다?",
+  "vol": 4,
+  "confidence": "mid",
+  "evidence": "https://britg.kr/novel-group/novel-posts/?novel_post_id=113435 - 219화 '자신을 보지 못하는 신'(4권 범위); https://namu.wiki/w/자신을%20보지%20못하는%20신 - 시우쇠와 아기가 심장탑 이후 케이건에게 말함",
+  "note": "표기는 맞음. 1~2권 범위 밖이므로 초안에서 빼야 함. '잃어버린'은 반전과 어긋남(신이 스스로 소멸). 시우쇠가 유해의 폭포에게 첫 종족 이야기를 하는 3권(186화 부근) 장면이 먼저일 가능성"
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "푼텐 사막 끝의 마지막 주막에 남쪽에서 걸어 들어온 사내다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1권 전자책 미리보기(1장 구출대 본문): 푼텐 사막 '마지막 주막'에 남쪽에서 온 남자가 케이건 드라카",
+  "note": ""
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "나가를 사냥해 잡아먹는다는 나가 살육자로 악명이 높다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: 성주가 '한계선 근처에서 나가를 잡아먹고 있지'라고 설명. 영문 1권 리뷰도 'the human hunts and eats Nhaga'(https://fanfiaddict.com/review-the-heart-of-the-nhaga-the-bird-that-drinks-tears-1-by-young-do-lee-translated-by-anton-hur/)",
+  "note": ""
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "칼자루 하나에 칼날 두 개가 나란히 붙은 기이한 칼을 쓴다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 주막 장면: 한 칼자루에 120cm 칼날 두 개가 나란히 붙은 쌍신검",
+  "note": ""
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "하인샤 대사원이 꾸린 구출대의 길잡이를 맡는다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 케이건이 구출대의 길잡이. 1장(미리보기)에서 성주가 '구출대를 이끌 수 있는 킴은 케이건 드라카'",
+  "note": ""
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "이름은 키탈저 사냥꾼 말로 흑사자와 용을 뜻하며, 본명이 아니다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: 서신의 키탈저 사냥 기호 '흑사자와 용'을 키탈저 사냥어로 읽으면 케이건 드라카, 성주가 본명이 아니라고 확인",
+  "note": "사실 맞음. '?' 제거 가능. 원문 표현은 '키탈저 사냥어'"
+ },
+ {
+  "entry": "케이건 드라카",
+  "fact": "아라짓 전사이자 키탈저 사냥꾼의 자격으로 사모 페이를 북부의 왕으로 추대한다.",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 9장 제목이 '북부의 왕'. https://namu.wiki/w/사모 페이 - 유료도로당(6장) 이후 하인샤 대사원에서 케이건 연설 뒤 북부의 왕 추대",
+  "note": "추대 장소는 하인샤 대사원"
+ },
+ {
+  "entry": "티나한",
+  "fact": "하늘치 등에 오르는 것을 숙원으로 삼은 레콘이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: 바이소 계곡에서 연으로 하늘치 등에 오르려다 실패, '반드시 하늘치의 등 위에 올라갈 거라고'",
+  "note": ""
+ },
+ {
+  "entry": "티나한",
+  "fact": "하늘치 유적 발굴대를 이끄는 대장이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 1장 삽화 캡션 '키준 산맥과 하늘치 발굴대'. 미리보기 1장에서 오레놀이 티나한을 '이곳 분들의 지휘자'로 찾음",
+  "note": ""
+ },
+ {
+  "entry": "티나한",
+  "fact": "빚 문제로 구출대에 대적자로 합류한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: 대사원 대출 이자 반년 연체, 오레놀이 빚 탕감 조건으로 레콘 한 명을 요청. 위키백과도 빚을 갚기 위해 '대적자'가 된다고 기술",
+  "note": ""
+ },
+ {
+  "entry": "티나한",
+  "fact": "긴 별철 창을 쓰며 레콘 중에서도 괴력이 대단하다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/티나한 - 7m 통짜 별철 창. 4장 제왕병자 무리 조우 때 창으로 불꽃을 일으킴, 1장 탁자 박살 등 괴력 묘사(미리보기)",
+  "note": "'레콘 중에서도' 괴력이 대단하다는 비교는 나무위키도 추측이라고 함. '레콘다운 괴력'으로 낮추는 편이 안전"
+ },
+ {
+  "entry": "티나한",
+  "fact": "다혈질이지만 정이 많고, 왕을 자칭하는 자들을 싫어한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 4장 '왕 잡아먹는 괴물' 삽화 '제왕병자들 사이에서 날뛰는 왕 잡아먹는 괴물 티나한'. 영문 1권 리뷰도 'Teenahan and a group attempting to crown a new king'(https://fanfiaddict.com/review-the-heart-of-the-nhaga-the-bird-that-drinks-tears-1-by-young-do-lee-translated-by-anton-hur/)",
+  "note": ""
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "즈믄누리 성주 바우 머리돌의 몸종이며, 그 일을 무척 아낀다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: '성주의 몸종인 비형 스라블은 자신의 일을 사랑하는 젊은이'",
+  "note": ""
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "마침 성주의 방에 들어갔다가 구출대에 보낼 도깨비로 뽑힌다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: 성주가 다음에 방에 들어오는 첫 도깨비를 보내기로 했고, 비형이 나타나 구출 대원으로 지명됨",
+  "note": "정확히는 무사장에게 일을 뺏긴 데 항의하러 들어옴('마침'은 다소 부정확)"
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "구출대의 요술쟁이로 도깨비불을 다룬다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 비형이 구출대의 '요술쟁이'. https://namu.wiki/w/비형 스라블 - 3장 무룬강에서 도깨비불로 사모를 교란",
+  "note": ""
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "나늬라는 이름의 딱정벌레를 타고 다닌다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 3장 '눈물처럼 흐르는 죽음' 삽화 캡션 '그리고 비형과 나늬'",
+  "note": ""
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "말끝을 자주 물음으로 끝내는 버릇이 있다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/비형 스라블 - 모든 말을 의문형으로 끝내는 버릇, 초기에 케이건을 난처하게 함. 1장 대사도 의문형 위주(미리보기)",
+  "note": "'자주'가 아니라 '모든 말을' 의문형으로 끝내는 버릇"
+ },
+ {
+  "entry": "비형 스라블",
+  "fact": "씨름에 능하다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/비형 스라블 - 6장 시구리아트 유료도로에서 비로 발이 묶인 동안 당원들과 씨름해 연전연승",
+  "note": "사실은 맞음('?' 제거 가능). 단 1권에서 씨름 명성으로 소개되는 건 케이건(도깨비 장사들 상대로 판막음한 전설적 킴 씨름꾼, 1장)이라 혼동 주의"
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "하텐그라쥬 페이 가문의 남성 나가로, 심장 적출식을 앞두고 있다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장 첫 하텐그라쥬 장면: 륜 페이와 화리트가 적출식을 앞두고 대화, 2장 '은루'는 적출식 꿈",
+  "note": ""
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "심장 적출을 몹시 두려워하는 소심한 성격이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1장: '심장을 가지고 사는 것은 어떤 기분일까', 적출을 거부하면 어떻게 되냐고 화리트에게 캐물음. 2장 적출식 악몽",
+  "note": ""
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "사모 페이의 동생이자 요스비의 아들이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 사모의 동생임은 1~2장 본문에서 확인(high). 요스비가 아버지라는 건 https://namu.wiki/w/륜 페이/요스비 - 구출대 행군 중 륜이 케이건에게 요스비 이야기를 집요하게 물음(사건 순서 추론)",
+  "note": "요스비는 생물학적 아버지. 나가 사회는 아버지 개념을 인정하지 않음"
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "수련자 생활을 하다 그만둔 적이 있어 신명을 지니고 있다?",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/륜 페이 - 11세 때 요스비의 죽음을 보고 수련자를 그만뒀고 수련자 출신이라 신명(라르간드)을 지님. 공개 시점은 출처 없음",
+  "note": "사실 맞음('?' 제거 가능). 권은 못 찾음. 신명의 의미는 하인샤 대사원 살신 계획 설명(2권 후반)과 엮여 있어 2권일 가능성도 있음"
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "친구 화리트 마케로우의 죽음을 본 뒤 적출하지 않은 심장을 지닌 채 도망친다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 2장 '은루' 삽화 '비아스에게 살해당한 화리트'. https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 화리트 살해 목격 뒤 유언에 따라 적출을 거부하고 북쪽으로",
+  "note": ""
+ },
+ {
+  "entry": "륜 페이",
+  "fact": "화리트를 죽였다는 누명을 쓰고 쇼자인테쉬크톨의 대상이 된다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 사모가 쇼자인-테-쉬크톨에 따라 살해 누명을 쓰고 도망친 륜을 추적. https://namu.wiki/w/비아스 마케로우 - 살해 직후 비아스가 쇼자인테쉬크톨 요구",
+  "note": ""
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "륜 페이의 누나인 페이 가문의 여성 나가다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 초반: 륜이 '사모'를 맞고 '누나와 이모들' 언급, 사모가 '동생'을 앉힘",
+  "note": ""
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "검술이 뛰어나고, 나가답지 않게 눈물이 많고 온화하다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/사모 페이 - 요스비에게 검술을 배워 케이건과 맞설 수준, 3장 무룬강/피라미드에서 구출대와 교전. 2장(미리보기)에서 온화한 성품 묘사",
+  "note": "'눈물이 많다'는 출처가 약함(나무위키의 농담성 서술). 빼는 것을 권함"
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "쇼자인테쉬크톨에 따라 도망친 륜을 쫓는 암살자로 지목된다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 1권 줄거리: 사모가 쇼자인-테-쉬크톨로 륜을 쫓음. 나무위키 1권 연표에도 쇼자인테쉬크톨 개시",
+  "note": ""
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "북부의 추위를 견디려고 흑사자 모피를 걸친다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/사모 페이 - 높새바람 탑 근처에서 전 제왕병자 토디 시노크에게 흑사자 모피를 삼. 높새바람 탑은 4장 삽화에 등장(https://gall.dcinside.com/board/view/?id=dcbest&no=143036)",
+  "note": "사실 맞음('?' 제거 가능). '걸친다'보다 '산다/두른다'가 정확"
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "북부에서 대호 마루나래가 스스로 그녀를 따르게 된다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 5장 '철혈' 삽화 '자보로에서 두 번째 호환이 벌어진 날 / 마루나래와 사모 페이'. https://namu.wiki/w/사모 페이 - 한계선 넘어 쓰러졌을 때 대호에게 구조, 자보로 뒤 이름을 붙임",
+  "note": "'스스로 따르게 된다'는 맞음(정신억압이 대호에겐 안 통함). 만난 곳은 한계선 북쪽 근처"
+ },
+ {
+  "entry": "사모 페이",
+  "fact": "북부의 왕으로 추대되어 대호왕이라 불린다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 9장 '북부의 왕'. https://namu.wiki/w/사모 페이 - 대호왕 칭호는 즉위 때 대호 마루나래에서 땀",
+  "note": ""
+ },
+ {
+  "entry": "요스비",
+  "fact": "륜과 사모의 아버지다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 1권 줄거리에 '어릴 적 심장 파괴로 죽은 아버지를 기억하는 륜'. 아버지 이름(요스비)은 구출대 행군 중 케이건과의 대화에서 나옴(https://namu.wiki/w/요스비)",
+  "note": ""
+ },
+ {
+  "entry": "요스비",
+  "fact": "페이 가문의 검술 사범이었다?",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/요스비 - 사모의 검술 사범이었다는 설명은 있으나 본문 공개 시점은 출처 없음",
+  "note": "'페이 가문의 검술 사범'이 아니라 '사모의 검술 사범'이 정확"
+ },
+ {
+  "entry": "요스비",
+  "fact": "륜이 어릴 때 수호자들에게 심장을 파괴당해 죽었다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 1권 줄거리: 륜은 어릴 적 심장 파괴로 죽은 아버지 때문에 적출식을 두려워함. https://namu.wiki/w/륜 페이 - 11세 때 목격",
+  "note": "실제로 심장을 파괴한 자가 갈로텍이라는 진상은 후반부 공개. 이 문장은 '수호자들에게'로 두면 1권 범위로 무해"
+ },
+ {
+  "entry": "요스비",
+  "fact": "생전에 케이건 드라카와 아는 사이였다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/요스비 - 첫 행군 장면에서 비형이 케이건에게 요스비 이야기를 묻고, 륜이 '아버지의 친구'로 대해 달라 요구(구출대 1권 여정)",
+  "note": "'아는 사이'는 과소 표현. 케이건이 유일하게 친구로 여긴 나가. '?' 제거 가능"
+ },
+ {
+  "entry": "지커엔 페이",
+  "fact": "페이 가문의 가주이며 륜과 사모의 어머니다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/눈물을 마시는 새/등장인물 - '페이 가문의 가주. 륜과 사모를 낳은 어머니'. 쇼자인테쉬크톨이 페이 가문에 내려지는 1권 사건에서 가주로 등장(추론)",
+  "note": "사실 맞음('?' 제거 가능)"
+ },
+ {
+  "entry": "솜나니 페이?",
+  "fact": "페이 가문의 장녀로 륜과 사모의 누이다?",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/눈물을 마시는 새/등장인물 - '페이 가문의 장녀', 마케로우 가문과의 분쟁 건으로 평의회에 가문 대표로 참석(쇼자인테쉬크톨 분쟁으로 추정, 1권)",
+  "note": "이름 솜나니 페이는 맞음. 단 나무위키는 '지커엔의 친자식이라는 언급은 없는 듯'이라 '륜과 사모의 누이'는 근거 없음. '페이 가문의 장녀'로만 쓸 것"
+ },
+ {
+  "entry": "화리트 마케로우",
+  "fact": "륜의 친구로, 수호자가 되려고 수련 중인 마케로우 가문의 남성 나가다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 1~2장: 화리트는 '장차 수호자가 될' 수련자, 마케로우 가문",
+  "note": ""
+ },
+ {
+  "entry": "화리트 마케로우",
+  "fact": "심장 적출식 날 누나 비아스 마케로우에게 살해된다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 2장 '은루' 삽화 캡션 '비아스에게 살해당한 화리트'",
+  "note": ""
+ },
+ {
+  "entry": "화리트 마케로우",
+  "fact": "죽기 전 자기가 맡았던 일을 륜에게 떠맡긴다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ko.wikipedia.org/wiki/눈물을_마시는_새 - 화리트의 마지막 부탁에 따라 륜이 적출을 거부하고 구출대를 만나러 북쪽으로. 맡긴 일은 살신 계획 저지/구출대 접선(https://namu.wiki/w/륜 페이)",
+  "note": ""
+ },
+ {
+  "entry": "화리트 마케로우",
+  "fact": "원래 하인샤 대사원으로 가기로 되어 있던 나가였다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 초반: 화리트가 카루에게 '구출대는 준비되었습니까?', 한계선까지 '저를 안내'할 자들을 기다림",
+  "note": "사실 맞음('?' 제거 가능). 정확히는 구출대가 데려갈 나가가 원래 화리트"
+ },
+ {
+  "entry": "비아스 마케로우",
+  "fact": "화리트 마케로우의 누나다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 2장 삽화 '비아스에게 살해당한 화리트'. https://namu.wiki/w/비아스 마케로우 - 화리트는 12살 아래 동생",
+  "note": "비아스와 화리트는 어머니가 다름(두세나는 비아스의 양모)"
+ },
+ {
+  "entry": "비아스 마케로우",
+  "fact": "동생 화리트를 죽인 장본인이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 2장 삽화 캡션 '비아스에게 살해당한 화리트'",
+  "note": ""
+ },
+ {
+  "entry": "비아스 마케로우",
+  "fact": "수호자 갈로텍과 손을 잡는다?",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/갈로텍 - 화리트 살해 직후 라디올 센 작품 발표회에서 갈로텍이 비아스에게 접근해 살신 계획에 끌어들임. 1부(1~2권)인 것은 확실하나 장 미확인",
+  "note": "사실 맞음('?' 제거 가능). 1권인지 2권인지 못 정함. 2장 이후 하텐그라쥬 사건이라 1권일 가능성이 더 높아 보이나 근거 없음"
+ },
+ {
+  "entry": "카린돌 마케로우",
+  "fact": "화리트와 비아스의 누이인 마케로우 가문의 딸이다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/카린돌 마케로우 - 마케로우 3녀, 화리트보다 6살 위, 화리트 사망 직후 비아스의 범행을 추리하고 대립. 장 미확인, 하텐그라쥬 쪽 1권 사건 순서로 추정",
+  "note": "비아스의 여동생이자 화리트의 누나(화리트와 같은 어머니 두세나)"
+ },
+ {
+  "entry": "두세나 마케로우?",
+  "fact": "마케로우 가문의 가주다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://image.aladin.co.kr/EbookPreview/1809/50/18095038.html - 2장 초반: '마케로우 가문의 가주 두세나는 분노에 미쳐 날뛸 것이다'",
+  "note": "사실과 표기 모두 맞음. 항목 제목의 '?' 제거"
+ },
+ {
+  "entry": "세리스마",
+  "fact": "심장탑 55층에 머무는, 하텐그라쥬에서 가장 높은 자리의 수호자다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권 인물표에 세리스마가 화리트 살해를 조사하는 심장탑의 대수호자로 나옴. 55층/최고위는 https://namu.wiki/w/세리스마",
+  "note": "55층 수치가 1권 본문에 나오는지는 확인 못 함"
+ },
+ {
+  "entry": "세리스마",
+  "fact": "뱀단지로 하인샤 대사원에 큰 위험이 다가온다고 알린다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권(2~3장)에 오레놀이 뱀단지를 쥬타기에게 가져와 니름 경고를 받는 장면이 있음. 발신자가 세리스마라는 건 https://namu.wiki/w/세리스마",
+  "note": "1권 장면에서 발신자가 세리스마로 명시되는지는 미확인. 뱀단지는 요스비가 대사원에 둔 것"
+ },
+ {
+  "entry": "세리스마",
+  "fact": "하인샤 대사원에서는 세상을 걱정하는 양심적인 수호자로 여겨진다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://britg.kr/review-single/206667/ - 세리스마가 승려들 앞에서 양심적인 수호자로 행세했다는 대목을 2권 178쪽으로 인용(4권본)",
+  "note": "이 인식이 반전(2권 후반)의 전제라 2권 앞쪽으로 봄. 1권에 이미 암시됐을 수 있음"
+ },
+ {
+  "entry": "세리스마",
+  "fact": "자기가 가르친 수련자 출신 카루와 스바치를 측근으로 둔다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/세리스마 - 카루, 스바치는 세리스마가 가르친 수련자로 그의 권유로 지위를 반납. 카루, 스바치가 붙잡히고 세리스마가 주모자임을 밝히는 장면은 1부(반전은 2권 후반)",
+  "note": "둘이 세리스마 쪽 사람이라는 게 1권에 이미 드러나는지 못 찾음. 스포일러 회피 쪽으로 2"
+ },
+ {
+  "entry": "갈로텍",
+  "fact": "젊은 나이에 심장탑 32층에 오른 수호자다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/갈로텍 - 32층, 쉰 살이 안 돼 보이는 젊은 외모. 첫 등장은 라디올 센 발표회(전쟁 이전). 영문 1권 요약/인물표에 갈로텍 없음",
+  "note": "영문 1권 자료 전부에 갈로텍이 없어 2권 첫 등장으로 추론"
+ },
+ {
+  "entry": "갈로텍",
+  "fact": "쉽게 화를 내고 신경질적인 면이 있다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/갈로텍 - 감정적이고 분노로 욕하거나 신경질 부리는 모습이 잦다고 서술",
+  "note": "사실은 맞음(? 제거 가능). 권은 첫 등장 기준 추론"
+ },
+ {
+  "entry": "갈로텍",
+  "fact": "나가로서는 드문 군령자다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://actualitte.com/article/134606/chroniques/quand-les-monstres-raisonnent-mieux-que-les-hommes-la-fantasy-de-lee-young-do - 불어판 2권(=한국 2권, 유료도로당 수록) 서평에 여러 영을 품은 수호자 갈로텍과 그 안의 화리트 대화가 나옴. 나가 군령자 희소는 https://namu.wiki/w/군령자",
+  "note": "사실은 맞음(? 제거 가능). design.md 는 군령자 서사를 3권으로 적었으나 공개 자체는 2권(전쟁 이전 비아스와의 장면)으로 봄"
+ },
+ {
+  "entry": "카루",
+  "fact": "세리스마의 측근으로, 수련자 출신의 노련한 모험가다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권 인물표에 카루가 노련한 나가 방랑자, 사모의 길잡이로 나옴. 첫 등장 2장 은루는 https://namu.wiki/w/카루(눈물을_마시는_새)",
+  "note": "'세리스마의 측근' 부분은 1권 공개 미확인(175줄과 같은 문제). 분리하거나 1권 문장에서는 빼는 편이 안전. '모험가'보다 '방랑자'가 원작 결에 가까움"
+ },
+ {
+  "entry": "카루",
+  "fact": "륜을 쫓는 사모 페이와 함께 움직인다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권에서 카루가 사모의 길잡이로 두억시니 유적까지 따라감(3~4장)",
+  "note": "엄밀히는 사모를 몰래 따라가다 들킨 뒤 동행. 사모가 한계선을 넘으면 하텐그라쥬로 돌아감"
+ },
+ {
+  "entry": "스바치",
+  "fact": "카루와 함께 세리스마의 측근으로 꼽히는 나가다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/스바치 - 카루와 함께 세리스마의 권유로 수련자 지위 반납, 음모가 드러날 때 카루와 함께 붙잡힘",
+  "note": "175줄과 같은 이유로 2. 스바치 자체는 1권(2장 첫 등장, 5장 카린돌 장면)에 나옴"
+ },
+ {
+  "entry": "스바치",
+  "fact": "세리스마의 지시로 마케로우 가문에 머문다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/스바치 - 2장에서 마케로우 저택(화리트 이모 방)에서 첫 등장, 화리트 사건 진상을 캐려 카린돌에게 접근. 영문 1권 5장 카린돌-스바치 장면(ursummary)",
+  "note": "'세리스마의 지시로'는 출처 없음. 화리트의 동료로 머물다 진상을 캐려 남은 것. '세리스마의 지시로' 삭제 권장"
+ },
+ {
+  "entry": "유벡스",
+  "fact": "심장탑의 사서를 맡은 수호자다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장에서 륜이 심장탑 열람실에서 사서 유벡스의 잘린 머리를 발견",
+  "note": "정확히는 심장탑 특수도서실 담당 사서. 비아스에게 살해됨"
+ },
+ {
+  "entry": "보트린?",
+  "fact": "하텐그라쥬 심장탑의 수호자다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/보트린 - 수호자, 세리스마의 제자, 본명 스보트리넌 레졸디 이세리도. 행적은 카린돌 납치(전쟁 이전) 가담부터",
+  "note": "표기 '보트린' 맞음, 수호자도 맞음(? 제거 가능). 본편 첫 등장 장면은 못 찾음. 3권 이후일 수도 있음"
+ },
+ {
+  "entry": "페니나 시에도?",
+  "fact": "하텐그라쥬의 대장장이다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/페니나_시에도 - 하텐그라쥬 최고의 대장장이. 첫 행적은 갈로텍 의뢰로 냉동장치를 만드는 장면(카린돌 감금 이전)",
+  "note": "표기, 직업 맞음(? 제거 가능). 갈로텍과 엮인 장면이라 2권 추정, 3권 회상일 가능성도 배제 못 함"
+ },
+ {
+  "entry": "아스화리탈",
+  "fact": "륜이 도주 중 얻어 배낭에 넣고 기르는 어린 용이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장에서 륜이 용근을 지키기로 함, 5장 자보로에서 부화. 배낭에 숨겨 다닌 건 https://namu.wiki/w/아스화리탈",
+  "note": "얻은 시점엔 용근(용의 포자)이고 자보로에서 부화"
+ },
+ {
+  "entry": "아스화리탈",
+  "fact": "륜이 죽은 친구 화리트에게서 따온 이름을 붙였다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장, 죽은 친구 화리트를 따 이름 붙임",
+  "note": "사실 맞음(? 제거 가능). 화리트의 풀네임 '아스화리탈 세파빌 마케로우'에서 따옴"
+ },
+ {
+  "entry": "아스화리탈",
+  "fact": "나가가 가장 싫어하는 용이라는 점 때문에 륜에게 위험한 짐이 된다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/아스화리탈 - 용은 나가의 적. 나늬가 용을 겁내 륜을 안 태워 일행이 걸어감. 영문 1권 5장에 같은 장면(ursummary)",
+  "note": "'나가가 가장 싫어하는 용'은 원문 근거 약함. '나가의 적인 용이라 나늬가 겁내 태우지 않는다' 정도로 고치는 게 정확"
+ },
+ {
+  "entry": "마루나래",
+  "fact": "북부에서 사모 페이를 따르게 된 대호다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 5장에서 사모가 대호를 타고 자보로에 옴. 한계선 너머에서 만남은 https://namu.wiki/w/마루나래",
+  "note": ""
+ },
+ {
+  "entry": "마루나래",
+  "fact": "쓰러진 사모를 업고 체온으로 살려 냈다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/마루나래 - 추위로 쓰러지기 직전의 사모를 체온으로 데워가며 끌고 왔다는 서술. 자보로(1권 5장) 이전 사건",
+  "note": "'업고 살려 냈다'는 과장. '쓰러지기 직전의 사모를 체온으로 데우며 데려왔다'가 정확"
+ },
+ {
+  "entry": "마루나래",
+  "fact": "이름은 사모가 붙여 주었다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/마루나래 - 사모가 다툰 뒤 화해하며 지은 이름. 영문 1권 인물표(ursummary)에 Marunarae 이름이 나옴",
+  "note": "작명 장면의 권은 직접 확인 못 함. 1권 발췌에선 'Great tiger'로 부르는 대목도 있음"
+ },
+ {
+  "entry": "나늬",
+  "fact": "비형 스라블이 타고 다니는 거대한 딱정벌레다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://en.wikipedia.org/wiki/The_Bird_That_Drinks_Tears - 비형이 딱정벌레 나늬를 탐. 첫 등장은 마지막 주막(https://namu.wiki/w/나늬(딱정벌레))",
+  "note": ""
+ },
+ {
+  "entry": "나늬",
+  "fact": "이름은 전설 속 미인의 이름에서 따왔다?",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/나늬(딱정벌레) - 이름이 전설 속 미녀 나늬에서 왔고 인물들이 황당해함",
+  "note": "사실은 맞음. 누가 지었는지, 어느 장면에서 설명되는지 미확인. 첫 등장(1권)에 같이 나왔다고 추정"
+ },
+ {
+  "entry": "바우 머리돌",
+  "fact": "즈믄누리의 성주다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://reactormag.com/excerpts-the-heart-of-the-nhaga-by-lee-young-do/ - 영문 1권 1장 발췌에 즈믄누리 11대 성주로 나옴",
+  "note": "정확히는 11대 성주"
+ },
+ {
+  "entry": "바우 머리돌",
+  "fact": "하인샤 대사원의 요청을 받고 구출대에 도깨비 하나를 보낸다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://reactormag.com/excerpts-the-heart-of-the-nhaga-by-lee-young-do/ - 1장, 승려들의 전갈을 받고 다음에 방에 들어오는 도깨비(비형)를 보내기로 함",
+  "note": ""
+ },
+ {
+  "entry": "사빈 하수언",
+  "fact": "즈믄누리의 무사장이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://reactormag.com/excerpts-the-heart-of-the-nhaga-by-lee-young-do/ - 1장에 'head of the sentries'로 등장, 승려들 전갈을 성주에게 전함. https://namu.wiki/w/사빈_하수언 직책 무사장",
+  "note": ""
+ },
+ {
+  "entry": "쥬타기 대선사",
+  "fact": "하인샤 대사원의 수장이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/쥬타기_대선사 - 종단 최고위 대선사, 하인샤 대사원 주지는 라샤린 선사. 1권 뱀단지 장면(ursummary)과 4장 장면에 등장",
+  "note": "틀림: '대사원의 수장'이 아니라 종단 최고위 대선사. 대사원 운영은 주지 라샤린"
+ },
+ {
+  "entry": "쥬타기 대선사",
+  "fact": "세리스마의 경고를 받고 키보렌에서 나가를 데려올 구출대를 꾸리게 한다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권에서 쥬타기가 나가를 북부로 데려올 작전을 계획. 세리스마와의 협력은 https://en.wikipedia.org/wiki/The_Bird_That_Drinks_Tears",
+  "note": "1권에서 경고 발신자가 세리스마로 명시되는지는 미확인(173줄과 같음)"
+ },
+ {
+  "entry": "오레놀",
+  "fact": "하인샤 대사원의 젊은 대덕이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://en.wikipedia.org/wiki/The_Bird_That_Drinks_Tears - 하인샤 역사상 최연소 대덕, 마지막 주막에서 케이건에게 편지 전달(1권 첫머리)",
+  "note": "'최연소 대덕'이 더 정확"
+ },
+ {
+  "entry": "오레놀",
+  "fact": "대사원의 뜻을 전하러 티나한을 찾아온다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 1장, 오레놀이 빚 탕감을 조건으로 티나한을 구출대에 끌어들임",
+  "note": ""
+ },
+ {
+  "entry": "라샤린 대선사?",
+  "fact": "쥬타기 대선사 다음 서열인 하인샤 대사원의 승려다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/라샤린 - 칭호는 '라샤린 선사', 하인샤 대사원 주지. 행적은 대사원 철혈암 싸움(일행 도착 후, 2권)부터",
+  "note": "틀림: '대선사'가 아니라 '선사'(항목 제목도 고칠 것). 서열보다 '하인샤 대사원 주지'로 쓰는 게 정확. 첫 등장 권은 미확인"
+ },
+ {
+  "entry": "마지막 주막 주인",
+  "fact": "푼텐 사막 끝에서 마지막 주막을 꾸려 가는 사내다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/눈물을_마시는_새 - 각주: 케이건이 1장에서 마지막 주막 주인과 대화. 주막은 푼텐 사막 남쪽 끝(등장인물 문서)",
+  "note": "비형이 '영감'이라 불러 노인으로 보임. '사내'보다 '노인'이 정확"
+ },
+ {
+  "entry": "마지막 주막 주인",
+  "fact": "남쪽에서 걸어온 케이건 드라카를 처음 맞는다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/눈물을_마시는_새 - 각주: 케이건 첫 등장인 1장에서 주막 주인과 대화",
+  "note": "'남쪽에서 걸어온' 방향은 확인 못 함. 주인은 원래 케이건을 아는 사이(기다리다 첫 등장)라 '처음 맞는다'는 '소설 첫 장면에서 맞는다'로 읽히게 다듬을 것"
+ },
+ {
+  "entry": "모티?",
+  "fact": "마지막 주막 주인의 아들이다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/눈물을_마시는_새 - 각주: 모티는 마지막 주막 주인 부부의 아들. 케이건에게 나가 탕을 건넴(등장인물 문서)",
+  "note": "사실 맞음(? 제거 가능). 주막 장면이 1~2장이라 1권"
+ },
+ {
+  "entry": "롭스?",
+  "fact": "티나한이 이끄는 하늘치 유적 발굴대의 부대장으로 실무를 맡는다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/롭스(눈물을_마시는_새) - 첫 등장은 티나한을 따라온 오레놀 앞에서 티나한을 꾸짖는 장면. 영문 1권 1장에도 롭스 등장(ursummary)",
+  "note": "종족은 인간(군령자). '부대장' 직함은 출처 없음, 정보란은 '실무'. '실질적 책임자로 실무를 맡는다'로 고칠 것"
+ },
+ {
+  "entry": "토디 시노크",
+  "fact": "무적왕을 자칭한 제왕병자다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 20주년판 삽화 '높새바람 탑의 티나한과 제왕병자들'이 4장 왕 잡아먹는 괴물; https://namu.wiki/w/토디 시노크 - 자칭 영웅왕 49대손, 정의왕의 아들 무적왕",
+  "note": "엄밀히는 선지자(파계승)가 추대해 세운 무적왕(DRSAMO 닉표: '무적왕으로 추대된 제왕병자')."
+ },
+ {
+  "entry": "토디 시노크",
+  "fact": "원래는 패치렌의 가죽 상인이었다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/토디 시노크 - 작중 행적의 '과거' 절에 '본래 페치렌에서 피혁상'. 4장 일화 안에서 밝혀지는 것으로 추론",
+  "note": "지명 표기는 '페치렌'(패치렌 아님). 사실 자체는 맞다. 2023 단편집 소묘들에도 피혁상으로 나오지만 본편 설정으로 서술됨."
+ },
+ {
+  "entry": "토디 시노크",
+  "fact": "구출대와 부딪혀 세력을 잃는다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/토디 시노크 - 선지자가 불타 죽은 뒤 재산을 병사들에게 나눠 주고 무리를 해산, 홀로 떠남. 4장 사건",
+  "note": "문장 부정확: 구출대와 싸워 세력을 잃은 것이 아니라 선지자 사망 뒤 스스로 무리를 해산했다."
+ },
+ {
+  "entry": "지그림 자보로",
+  "fact": "자보로를 다스리는 마립간이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 자보로 호환 장면이 5장 철혈; https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 5장에 'self-proclaimed Dignified King Zigrim'(Zaboro)",
+  "note": "마립간이면서 '위엄왕'을 자칭한 제왕병자라는 점을 덧붙일 만하다."
+ },
+ {
+  "entry": "지그림 자보로",
+  "fact": "실제로 세력과 통치 기반을 갖춘, 만만치 않은 제왕병자다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/지그림 자보로 - 젊고 미숙한 마립간, 위엄왕 칭호는 오래 못 감, 숙부 키타타가 칼집으로 때려 제압",
+  "note": "성격 묘사가 원작과 어긋날 수 있다. 자보로 자체는 성벽과 군대를 갖춘 실세력이지만 지그림 개인은 미숙하고 실권은 키타타 쪽. '만만치 않은'은 재검토 권장."
+ },
+ {
+  "entry": "보늬",
+  "fact": "시구리아트 유료도로당의 당주로, 백 살 가까운 늙은 여인이다?",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/보늬(등장인물) - 구출대가 시구리아트 유료도로를 지날 때 첫 등장; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 유료도로당은 6장 길을 준비하는 자",
+  "note": "나무위키는 '100세가 넘은 할머니'(100세 이상)로 적음. '백 살 가까운'은 '백 살이 넘은'으로 고칠 것. 당주, 여성은 맞음."
+ },
+ {
+  "entry": "유료도로당 보좌관",
+  "fact": "당주의 아들이자 보좌관으로, 당의 원칙을 고집스럽게 지킨다.",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/케이(눈물을 마시는 새) - 유료도로당 보좌관, 어머니 보늬, 원칙주의자. 구출대의 유료도로 통과(6장) 때 등장",
+  "note": ""
+ },
+ {
+  "entry": "유료도로당 보좌관",
+  "fact": "이름은 케이다?",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - '케이: 유료도로당의 보좌관이며 보늬의 아들'; https://namu.wiki/w/케이(눈물을 마시는 새)",
+  "note": "이름 '케이' 맞음. ? 제거 가능."
+ },
+ {
+  "entry": "괄하이드 규리하",
+  "fact": "규리하 가문의 노장으로 큰 칼을 쓴다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - '케이건과 괄하이드 변경백의 대화'가 8장 열독; https://namu.wiki/w/괄하이드 규리하 - 무기는 대도",
+  "note": "'노장'은 근거 못 찾음(라수보다 10살 이상 연상 정도). 직함은 규리하 변경백이라 넣는 편이 정확."
+ },
+ {
+  "entry": "괄하이드 규리하",
+  "fact": "북부 군웅들도 눈치를 보는, 무력과 지략을 두루 갖춘 인물이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/지코마 펠독스 - 사모 옹립(9장 북부의 왕) 때 펠독스가 괄하이드의 단호한 태도에 입을 다묾",
+  "note": ""
+ },
+ {
+  "entry": "괄하이드 규리하",
+  "fact": "왕이 없는데도 스스로 왕의 방패를 자처한다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/괄하이드 규리하 - 스스로를 '왕의 변경백'으로 여김; https://namu.wiki/w/규리하 가문 - '변경백령은 왕국의 방패' 발언은 케나린",
+  "note": "'왕의 방패'는 원작 표현과 다를 수 있다. 나무위키 기준으로는 '왕의 변경백'을 자처. 문구 수정 권장."
+ },
+ {
+  "entry": "괄하이드 규리하",
+  "fact": "가문의 정통성을 의심받는 것을 가장 참지 못한다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/규리하 가문 - 케이건이 괄하이드 앞에서 과텔, 케나린을 모욕해(자칭 변경백) 도발. 8장 열독 케이건-괄하이드 대화 장면으로 추론",
+  "note": ""
+ },
+ {
+  "entry": "라수 규리하",
+  "fact": "괄하이드 규리하의 사촌 동생이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/라수 규리하 - 괄하이드의 사촌 동생, 하인샤 대사원에서 공부하던 학자로 첫 등장(7~8장)",
+  "note": "DRSAMO 닉표는 '동생'으로만 적었지만 나무위키, 영문 위키백과 모두 사촌 동생."
+ },
+ {
+  "entry": "라수 규리하",
+  "fact": "책을 많이 쓴 전략가이며 냉소적인 독설가다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/라수 규리하 - 저서 '꿈꾸는 도깨비', '왕국의 몰락' 등 다작, '끔찍한 독설가'. 북부군 전략가 역할은 제2차 대확장 전쟁(3권)",
+  "note": "2권 시점에는 하인샤 유학생/학자. '전략가'로 활약하는 것은 3권부터라 2권으로 두려면 '책을 많이 쓴 학자, 독설가'로 좁히는 편이 안전. 저작이 2권에서 언급되는지는 미확인."
+ },
+ {
+  "entry": "과텔 규리하?",
+  "fact": "대가 끊긴 규리하 변경백 가문의 방계라며 나타나 그 땅을 일으킨 부자다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - 9장까지 기준 닉표에 '과텔: 규리하의 거성을 개축해 계승한 신흥부자'; https://namu.wiki/w/규리하 가문 - 방계를 자칭하며 빈 성을 사들임",
+  "note": "사실은 맞음. 과거 인물이라 9장 이전 언급이 확인된 수준이고 정확한 장은 8장 괄하이드 도발 장면으로 추정."
+ },
+ {
+  "entry": "케나린 규리하?",
+  "fact": "과텔 규리하의 딸로, 대군을 길러 가문이 변경백으로 인정받게 했다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - 닉표(9장까지)에 '케나린: 과텔의 딸이며 규리하 지방을 정비'; https://namu.wiki/w/규리하 가문 - 상비군 1만, 이후 주변이 변경백으로 인정",
+  "note": "사실은 대체로 맞음. '대군'은 상비군 약 1만."
+ },
+ {
+  "entry": "후살린 규리하?",
+  "fact": "옛 규리하 변경백으로, 대확장 전쟁 때 전사해 가문의 대가 끊겼다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - 닉표(9장까지)에 '후사린: 800년 전의 규리하 변경백'; https://namu.wiki/w/규리하 가문 - 제1차 대확장 전쟁(권능왕 시대) 때 가병을 이끌고 남진했다 전사, 정통 대가 끊김",
+  "note": "표기는 '후사린'(후살린 아님). 항목 제목과 300줄 모두 고칠 것."
+ },
+ {
+  "entry": "지코마 펠독스",
+  "fact": "칼리도의 성주로, 하인샤 대사원에 모인 북부 군웅 가운데 하나다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/지코마 펠독스 - 칼리도 성주, 대사원 소식을 듣고 향로 시주 명목으로 방문, 사모 옹립(9장) 장면에 있음",
+  "note": ""
+ },
+ {
+  "entry": "코네도 빌파",
+  "fact": "발케네의 대족장으로, 두 아들과 함께 하인샤 대사원에 온다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/코네도 빌파 - 발케네 대족장, 토카리의 편지를 받고 그룸과 함께 대사원으로 달려옴. 사모 옹립(9장) 전후 사건",
+  "note": "문장 부정확: 토카리는 이미 하인샤 유학생으로 대사원에 있었고, 코네도는 맏아들 그룸만 데리고 왔다."
+ },
+ {
+  "entry": "코네도 빌파",
+  "fact": "큰아들을 왕으로 세우려는 야심이 있다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/코네도 빌파 - 자신이 아니라 아들 대에서 왕이 나오길 바람, 그룸은 직접 키운 후계자",
+  "note": "대체로 맞음. 원문에 가깝게는 '아들 대에서 왕을 내려는 야심'. 대사원에서 바라기를 훔치다 사모에게 오른손을 잃는 사건도 2권."
+ },
+ {
+  "entry": "그룸 빌파",
+  "fact": "코네도 빌파의 맏아들이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - 닉표(9장까지)에 '그룸: 코네도의 첫째 아들'; https://namu.wiki/w/코네도 빌파",
+  "note": ""
+ },
+ {
+  "entry": "토카리 빌파",
+  "fact": "코네도 빌파의 둘째 아들이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://m.cafe.daum.net/drsamo/3VqB/8 - 닉표(9장까지)에 '토카리: 코네도의 둘째 아들이며 하인샤 유학생'",
+  "note": "하인샤 대사원 유학생이라는 점을 덧붙일 만하다."
+ },
+ {
+  "entry": "영웅왕",
+  "fact": "아라짓 왕국을 세운 1대 왕으로, 인간 왕국의 첫 왕이 레콘이었다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장에서 케이건이 레콘 영웅왕 이야기를 함; https://www.postype.com/@lifeiscrab/post/5155688 - 왕위를 인간 부하가 계승: 1권 192-195쪽(3장)",
+  "note": ""
+ },
+ {
+  "entry": "영웅왕",
+  "fact": "나가와 싸우다 한쪽 손을 잃었다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/영웅왕(눈물을 마시는 새) - 나가에게 칼 쥔 손을 먹혀 외팔이, 이후 쌍검을 합쳐 한 손으로 쓰는 바라기를 만듦; https://www.postype.com/@lifeiscrab/post/5155688 - 재위 말기 바라기 제작 1권 3장",
+  "note": "사실은 맞음(나무위키 각주: 케이건의 말). 손을 잃은 이야기가 3장 바라기 기원담 안에 있다는 것은 추론."
+ },
+ {
+  "entry": "영웅왕",
+  "fact": "높새바람 탑을 세웠다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장: 영웅왕이 'built the northern surveillance towers'; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 높새바람 탑 장면은 4장",
+  "note": "사실은 맞음. 요새를 원했으나 신하 반대로 감시탑으로 지은 것이 높새바람 탑(나무위키). ? 제거 가능."
+ },
+ {
+  "entry": "별비",
+  "fact": "사람을 해쳐 키탈저 사냥꾼들이 힘겹게 잡은 전설적인 대호다.",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/별비 - 자보로 사람들을 공포에 떨게 한 대호, 3대에 걸쳐 잡음; https://namu.wiki/w/키탈저 사냥꾼 - 무라 마립간 요청으로 키탈저 사냥꾼이 사냥(양장본 부록 용어 설명 인용)",
+  "note": "별비 자체는 5장 철혈에서 언급되지만, '키탈저 사냥꾼이 잡았다'는 부분의 근거는 부록 용어 설명이라 본문 1권 등장은 미확인. '사람을 해쳐'도 직접 근거 없음(호환의 의미로 추정)."
+ },
+ {
+  "entry": "별비",
+  "fact": "자보로 성벽을 넘은 적이 있다는 이야기가 전한다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - 5장 철혈 삽화 '자보로에서 두 번째 호환이 벌어진 날'; https://namu.wiki/w/지그림 자보로 - 마루나래가 별비 이후 처음 성벽을 넘음",
+  "note": "사실 맞음(무라 마립간 시대에 성벽을 넘어 할퀸 돌이 남아 있음). ? 제거 가능."
+ },
+ {
+  "entry": "극연왕?",
+  "fact": "아라짓 왕국의 왕 가운데 하나로, 도로왕이라는 별칭이 있다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - '극연왕은 스스로 붙인 이름', '도로왕의 옛길': 2권 14, 71쪽(6장 길을 준비하는 자). 별명의 유래 서술은 4권 8-9쪽(15장)",
+  "note": "극연왕은 여성, 21대. 사실은 맞음. 다만 2권이 '도로왕'과 극연왕을 명시적으로 잇는지는 미확인이고, 명시적 연결이 4권 15장일 위험이 있다."
+ },
+ {
+  "entry": "권능왕?",
+  "fact": "아라짓 왕국의 마지막 왕이다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://en.wikipedia.org/wiki/The_Bird_That_Drinks_Tears - 31대 권능왕이 키탈저 사냥꾼을 모욕해 저주; 영문 1권 4장 본문(검색 스니펫)에 'so-called All-Mighty King' 이후 '8세기 동안 북부에 왕이 없었다'",
+  "note": "고 아라짓 왕국 기준 마지막 왕(31대, 행방불명 뒤 몰락). 신 아라짓까지 치면 마지막이 아니므로 '고 아라짓 왕국의 마지막 왕'으로 쓰는 편이 정확."
+ },
+ {
+  "entry": "이주무 선사?",
+  "fact": "옛날 대사원을 지킨 무장 승려로, 그가 쓰던 활과 화살이 대사원에 남아 있다?",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/하인샤 대사원 / 케이건 드라카 - 벽월암에 보관된 이주무 선사의 활을 케이건이 손질해 하늘치 눈을 쏨; https://gall.dcinside.com/board/view/?id=dcbest&no=143036 - '하늘치 떨구기'는 7장 여신의 신랑",
+  "note": "사실 맞음(활과 화살통, 칼날도 언급). ? 제거 가능."
+ },
+ {
+  "entry": "키보렌",
+  "fact": "나가가 사는 남부의 거대한 밀림 지대다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "http://garik16.blogspot.com/2026/08/scififantasy-book-review-heart-of-nhaga.html - 영문 1권 리뷰가 Line of Limit 너머 밀림 Kiboren 을 무대로 소개",
+  "note": ""
+ },
+ {
+  "entry": "키보렌",
+  "fact": "하텐그라쥬를 비롯한 나가 도시들이 이곳에 있다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://www.publishersweekly.com/9780063349896 - 영문 1권 시놉시스: 남쪽 숲 Kiboren 의 나가 도시 Hattengraaj 에서 륜의 적출식",
+  "note": "하텐그라쥬가 키보렌에 있다는 것은 1권 확정, 다른 나가 도시들(복수)이 1권에 언급되는지는 미확인"
+ },
+ {
+  "entry": "하텐그라쥬",
+  "fact": "대륙 남쪽 끝에 있는 나가의 중심 도시다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://www.publishersweekly.com/9780063349896 - 영문 1권 시놉시스가 Hattengraaj 를 륜이 사는 나가 도시로 소개",
+  "note": ""
+ },
+ {
+  "entry": "하텐그라쥬",
+  "fact": "페이 가문과 마케로우 가문 같은 대가문이 이곳에 있다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "http://garik16.blogspot.com/2026/08/scififantasy-book-review-heart-of-nhaga.html - 영문 1권 리뷰: Ryun(페이)과 Hwarit(마케로우)이 Hattengraaj 에 산다",
+  "note": ""
+ },
+ {
+  "entry": "심장탑",
+  "fact": "나가들이 적출한 심장을 보관하는 탑이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://www.publishersweekly.com/9780063349896 - 영문 1권: 적출한 심장을 도시의 Heart Tower 에 보관",
+  "note": ""
+ },
+ {
+  "entry": "심장탑",
+  "fact": "수호자들이 층을 나누어 머물며, 높은 층일수록 지위가 높다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/심장탑 - 층과 지위 관계는 비아스가 32층 갈로텍을 찾는 장면에서 나온 추정, 그 장면은 1부(2차 대확장 이전)지만 권 미표기",
+  "note": "나무위키도 '높을수록 지위가 높은 듯하다'는 추정으로 씀. 작중 명시 사실로 단정하지 말고 표현을 약하게 하거나 삭제 권장. 장면이 1권일 가능성도 있음"
+ },
+ {
+  "entry": "한계선",
+  "fact": "나가가 추위 때문에 더는 북쪽으로 올라가지 못하는, 남부와 북부의 경계 지대다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 절: 륜의 이동 속도가 떨어져 티나한이 업고 한계선을 넘음. 영문 1권 리뷰도 Line of Limit 를 세계의 경계로 소개",
+  "note": ""
+ },
+ {
+  "entry": "푼텐 사막",
+  "fact": "한계선 근처에 있는 사막으로, 나가가 건너기 어렵다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/눈물을_마시는_새 - 1장 구출대 첫 장면이 푼텐 사막의 마지막 주막",
+  "note": "사막 등장은 1장 확정. '나가가 건너기 어렵다'는 설명이 1권에 나오는지는 미확인"
+ },
+ {
+  "entry": "마지막 주막",
+  "fact": "북부에서 가장 남쪽, 푼텐 사막에 있는 주막이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/눈물을_마시는_새 - 1장 구출대가 '마지막 주막'으로 시작, 이름 유래(더 남쪽에 주막 없음)는 새 시리즈/지역 문서",
+  "note": ""
+ },
+ {
+  "entry": "무룬 강",
+  "fact": "한계선 근처에서 남부로 흐르는 강이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 절: 펠도리 강을 따라 무룬 강까지 약 20일, 강가에서 륜을 구출",
+  "note": ""
+ },
+ {
+  "entry": "무룬 강",
+  "fact": "구출대가 륜과 만나기로 한 곳이다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 절: 무룬 강가에서 노래를 기다리다 강 건너의 륜을 찾음",
+  "note": "나무위키(구출대, 륜 페이)는 미리 정한 약속 장소를 언급하지 않음. '만나기로 한 곳' 대신 '구출대가 륜을 찾아 구출한 곳'으로 고칠 것"
+ },
+ {
+  "entry": "두억시니의 도시?",
+  "fact": "키보렌 폐허 속 피라미드 주변에 두억시니가 모여 사는 곳이다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/유해의_폭포 - 남부 밀림 속 두억시니의 도시와 피라미드, 첫 등장 1권 3장 '눈물처럼 흐르는 죽음'",
+  "note": "항목명 '두억시니의 도시'는 나무위키 표기와 일치. 피라미드는 '버려진 피라미드'로 서술됨"
+ },
+ {
+  "entry": "두억시니의 도시?",
+  "fact": "유해의 폭포라 불리는, 말이 통하는 두억시니 무리가 있다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/유해의_폭포 - 첫 등장 1권 3장 '눈물처럼 흐르는 죽음'",
+  "note": "틀린 문장: 유해의 폭포는 '말이 통하는 두억시니 무리'가 아니라 두억시니 시체의 체액이 모여 자아를 가진 군집적 존재로, 피라미드 벽을 따라 흐르며 니름으로 대화함"
+ },
+ {
+  "entry": "높새바람 탑",
+  "fact": "영웅왕이 나가를 감시하려고 세운 탑으로, 지금은 반쯤 무너졌다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 절: 반파된 높새바람탑에서 륜의 허물벗기(4장 '왕 잡아먹는 괴물')",
+  "note": "탑 등장은 1권 4장. 영웅왕이 세웠다는 유래 설명도 같은 장면인지는 미확인. 나무위키상 원래 요새 계획이 신하 반대로 감시탑에 그침"
+ },
+ {
+  "entry": "하인샤 대사원",
+  "fact": "어디에도 없는 신을 모시는 북부의 큰 사찰이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://www.goodreads.com/en/book/show/228974111-the-heart-of-the-nhaga - 영문 1권에 Hainsha Temple 등장, '어디에도 없는 신' 총본산 설정은 namu.wiki/w/하인샤_대사원",
+  "note": "대사원 등장은 1권 확정, 모시는 신 이름이 1권에서 밝혀지는지는 미확인"
+ },
+ {
+  "entry": "하인샤 대사원",
+  "fact": "키보렌의 나가를 데려오라며 구출대를 꾸린 곳이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://www.publishersweekly.com/9780063349896 - 영문 1권: Hainsha Temple 이 셋에게 Kiboren 의 나가를 데려오라 의뢰",
+  "note": ""
+ },
+ {
+  "entry": "즈믄누리",
+  "fact": "도깨비 대부분이 모여 사는 성이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 연표: 도깨비의 즈믄누리 건설 관련 서술 출처 1권 3장. 비형은 1장에서 즈믄누리 성주 몸종으로 소개",
+  "note": "'대부분이 모여 산다'는 나무위키 표현, 1권 서술인지는 미확인"
+ },
+ {
+  "entry": "즈믄누리",
+  "fact": "밤과 다섯 딸의 도움으로 지어졌다는 전설이 있다?",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/즈믄누리 - 밤과 다섯 딸(혼란, 매혹, 감금, 은닉, 꿈)의 도움으로 건설했다는 전설은 있으나 어느 권인지 미표기",
+  "note": "사실 자체는 맞음(물음표 제거 가능). 막내딸 '꿈'은 피를 마시는 새에서 직접 등장하므로 출처가 후속작일 가능성도 있어 권 미정"
+ },
+ {
+  "entry": "자보로",
+  "fact": "높은 성벽으로 이름난 북부의 성읍으로, 마립간 지그림 자보로가 다스린다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://redtea.kr/free/15067 - 4권본 1권 481~482, 571쪽 인용: 지그림 자보로 선출과 칭왕, 케이건과 키타타 대화. 나무위키 구출대 1권 절도 자보로 도착으로 끝남",
+  "note": "design.md 2권 요약은 자보로를 2권에 넣었지만 자보로 장면은 1권 후반(5장)임. 지그림은 마립간으로 선출된 뒤 '위엄왕'을 자칭함"
+ },
+ {
+  "entry": "시구리아트 산맥",
+  "fact": "대륙의 등뼈처럼 뻗은 큰 산맥이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://redtea.kr/free/15067 - 2권 14쪽: 시구리아트 산맥의 유일한 통행로(6장)",
+  "note": "'대륙의 등뼈' 표현은 나무위키 새 시리즈/지역에서 피를 마시는 새 4권 111쪽 출처로 표기됨. 눈마새 표현인지 미확인이라 문구 재검토 권장"
+ },
+ {
+  "entry": "시구리아트 산맥",
+  "fact": "유료도로당이 관리하는 유료도로가 이 산맥을 지난다.",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://redtea.kr/free/15067 - 2권 14, 118~124쪽 유료도로당 통행료 장면. 나무위키 본문도 6장 '길을 준비하는 자'를 유료도로당과 연결",
+  "note": ""
+ },
+ {
+  "entry": "팔른 평원?",
+  "fact": "구출대가 하인샤 대사원 근처에서 큰 참사를 마주하는 평원이다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/소리(피를_마시는_새) - 하인샤 근처 파름 평원에서 눈을 맞은 하늘치가 추락해 두억시니 3천을 몰살, 팬들은 '파름 평원의 참사'로 부름. 하인샤 도착은 2권 227쪽(redtea.kr/free/15067)",
+  "note": "표기 틀림: '팔른 평원'이 아니라 '파름 평원'. 참사 내용(케이건이 하늘치 눈을 쏴 하늘치가 떨어져 두억시니 대군이 몰살)을 문장에 명시하는 편이 정확"
+ },
+ {
+  "entry": "규리하",
+  "fact": "북부 서쪽의 변경 지방으로, 규리하 가문이 다스린다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/괄하이드_규리하 - 변경백 괄하이드는 하인샤 대사원 두억시니 전투 뒤 모인 군웅으로 첫 등장(2권). 새 시리즈/지역: 지러쿼터 산맥 서부의 변경백령",
+  "note": "구출대는 규리하를 지나가지 않음(나무위키 구출대). 위치는 '지러쿼터 산맥 서부'가 원 표기"
+ },
+ {
+  "entry": "규리하",
+  "fact": "제왕병자를 반역자로 보고 용납하지 않는 땅이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/괄하이드_규리하 - 규리하 변경백령에서는 제왕병자가 반역자로 취급되어 참살됨, 괄하이드 등장(2권)과 함께 서술",
+  "note": "설정 자체는 나무위키로 확인. 2권 서술 시점은 등장 순서 추론"
+ },
+ {
+  "entry": "발케네",
+  "fact": "북극 바로 아래의 척박한 지방으로, 빌파 일가의 근거지다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/토카리_빌파 - 발케네 대족장 코네도 빌파 일가, 토카리가 하인샤에서 아버지를 불러 빌파 삼부자가 륜을 습격(2권)",
+  "note": "'북극 바로 아래' 위치는 나무위키 새 시리즈/지역 표기와 일치, '척박한'은 미확인"
+ },
+ {
+  "entry": "최후의 대장간",
+  "fact": "북쪽 끝에 있는 레콘의 성소로, 성년 레콘이 무기를 받는 곳이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/바라기 - 1권 바라기 유래 대목에서 케이건이 영웅왕이 최후의 대장간에서 두 검을 합쳤다며 대장간은 한 번만 무기를 준다고 설명",
+  "note": "실제 방문은 3권(수탐). '북쪽 끝 성소', '성년 레콘'까지 1권에서 나오는지는 미확인. 여신의 신전이라는 점은 레콘도 모르는 설정이므로 '성소' 표현 주의"
+ },
+ {
+  "entry": "키탈저",
+  "fact": "키탈저 사냥꾼들의 이름이 유래한 북부의 고장이다.",
+  "vol": null,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/키탈저_사냥꾼 - 사냥꾼들이 키탈저 지방을 근거지로 삼았다는 서술만 있고 권 미표기",
+  "note": "이름이 지명에서 유래했다는 서술은 나무위키에도 없음. 제국령 키탈저 설명은 피를 마시는 새 시점이라 눈마새에서 고장으로 언급되는지 미확인"
+ },
+ {
+  "entry": "아라짓 왕국",
+  "fact": "북부 인간들이 세웠던 옛 왕국으로, 지금은 망하고 없다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 연표: 영웅왕과 바라기 유래 1권 192~195쪽(3장), 나가가 약소 종족이던 왕국 이전 시대 1권 380쪽(4장)",
+  "note": "틀린 부분: 아라짓 건국자 영웅왕은 레콘이고 인간 부하가 왕위를 이었으며 인간, 도깨비, 레콘을 통일한 다종족 왕국(namu.wiki/w/영웅왕(눈물을_마시는_새)). '북부 인간들이 세웠던'은 고칠 것"
+ },
+ {
+  "entry": "아라짓 왕국",
+  "fact": "나가의 북진을 오랫동안 막아 낸 나라였다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 연표: 영웅왕과 아라짓 전사들이 대확장 전쟁에서 나가에 맞선 연혁 2권 56~57쪽(6장). 1권 바라기 유래에도 영웅왕의 나가 전투 일화가 있음",
+  "note": "1권에서 이미 암시될 수 있으나 연혁 수준 서술은 2권 6장이라 보수적으로 2. 아라짓 멸망 자체도 나가와의 전쟁 끝이었다는 점은 4권 부록 쪽 정보라 문장에 넣지 말 것"
+ },
+ {
+  "entry": "선민종족",
+  "fact": "신을 섬기는 네 종족, 곧 인간, 레콘, 도깨비, 나가를 함께 부르는 말이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "C:/Users/jj272/Desktop/Source/nunmasae-companion/docs/design.md 121줄 - 1권이 '네 종족과 네 신'을 펼치는 권. 용어 자체의 첫 장은 출처로 미확인",
+  "note": ""
+ },
+ {
+  "entry": "니름",
+  "fact": "나가가 말 대신 쓰는 정신 대화다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://locusmag.com/review/the-heart-of-the-nhaga-by-lee-young-do-tr-anton-hur-review-by-abigail-nussbaum/ - 영문 1권 리뷰가 nearm(니름) 신조어를 언급 (검색 결과 발췌, 본문은 403)",
+  "note": ""
+ },
+ {
+  "entry": "니름",
+  "fact": "나가가 아닌 종족은 니름을 듣지 못해, 나가와 이야기하려면 나가가 소리 내어 말해야 한다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/나가(새 시리즈) - 다른 종족은 니름을 못 들어 나가가 육성으로 말함. 1권 2장에 화리트의 노래, 비에나가 륜의 육성 장면(ursummary 영문 1권 요약)",
+  "note": "사실 자체는 맞음"
+ },
+ {
+  "entry": "은루",
+  "fact": "은빛으로 빛나는 나가의 눈물을 이르는 말이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 2장 '은루'에서 사모가 분노의 은빛 눈물을 흘림. 정의는 namu 나가(새 시리즈)",
+  "note": ""
+ },
+ {
+  "entry": "심장 적출",
+  "fact": "성인이 되는 나가가 심장을 빼내 보관하는 의식이며, 이를 심장 적출식이라 한다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://skiffyandfanty.com/blog/review-heart-of-the-nhaga-lee-young-do/ - 영문 1권 리뷰가 심장 적출, 보존 의식을 소개. 1장부터 륜이 적출식을 두려워함",
+  "note": ""
+ },
+ {
+  "entry": "심장 적출",
+  "fact": "적출을 마친 나가는 웬만한 상처로는 죽지 않는다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://skiffyandfanty.com/blog/review-heart-of-the-nhaga-lee-young-do/ - 적출로 몸이 사실상 불사가 된다는 설정이 영문 1권에 있음",
+  "note": ""
+ },
+ {
+  "entry": "심장 적출",
+  "fact": "적출을 받지 않은 나가는 추위를 견디지 못한다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/나가(새 시리즈) - 나가는 모두 변온이라 추위에 약하고, 적출한 나가는 추위에 동면할 뿐 죽지 않음. 영문 1권 4~5장에서 적출 안 한 륜이 얼어 죽을 위험(ursummary)",
+  "note": "문장이 부정확. 추위에 약한 건 나가 전체의 특성이고, 차이는 적출한 나가는 동면 상태가 될 뿐 죽지 않는 반면 적출 안 한 나가는 얼어 죽을 수 있다는 점. 그렇게 고쳐 쓸 것"
+ },
+ {
+  "entry": "수호자",
+  "fact": "발자국 없는 여신을 모시며 심장탑에 사는 남성 나가다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3, 5장에 심장탑 수호자(세리스마 대수호자, 탑의 심장으로 나가를 죽일 수 있음)",
+  "note": ""
+ },
+ {
+  "entry": "수호자",
+  "fact": "나가 사회에서 큰 존경을 받는다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/나가(새 시리즈) - 남성 나가가 존경과 지위를 얻는 거의 유일한 길. 1권의 나가 사회 묘사에서 추론",
+  "note": ""
+ },
+ {
+  "entry": "수련자",
+  "fact": "수호자가 되려고 수련하는 젊은 남성 나가다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권에서 화리트가 수련자(novice guardian). 륜도 전직 수련자(namu 륜 페이)",
+  "note": ""
+ },
+ {
+  "entry": "신명",
+  "fact": "여신이 나가에게 내려 주는 이름이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권 3장, 죽어 가는 화리트가 륜에게 신명을 넘김",
+  "note": "보완하면: 수련자가 수련 중 받는, 여신을 부르는 데 쓰는 이름이며 보통 비밀로 한다(namu 나가(새 시리즈))"
+ },
+ {
+  "entry": "신명",
+  "fact": "신명을 지닌 나가만 맡을 수 있는 일이 있다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/살신 계획 - 신명을 가진 수호자/수련자만 여신을 부를 수 있어 구출대가 신명 보유자를 데려옴. 1권 3장 화리트가 신명과 임무를 륜에게 넘기는 장면에서 암시, 구체 설명은 2권 대사원(쥬타기)",
+  "note": "문장이 모호함. '신명을 지닌 나가만 여신을 부를 수 있다'로 구체화하면 그 문장은 2권(대사원 설명)으로 태깅할 것"
+ },
+ {
+  "entry": "쇼자인테쉬크톨",
+  "fact": "도망친 가문원을 가문원이 직접 처단하게 하는 나가의 규칙이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/구출대 - 1권, 륜이 사모가 쇼자인테쉬크톨 때문에 자신을 노린다고 말함. 영문 1권 요약도 사모가 공식 암살자로 지명됨",
+  "note": "'도망친 가문원'은 틀림. 가문원이 저지른 죄(륜은 화리트 살해 누명)의 핏값으로 그 가문 사람이 직접 처단하게 하는 제도. 한쪽이 죽기 전엔 취소되지 않음(ko.wikipedia 나가 문서)"
+ },
+ {
+  "entry": "쇼자인테쉬크톨",
+  "fact": "암살자로 지목된 자는 쉬크톨이라는 무기를 받는다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장 사모가 shiktol을 들고 륜을 죽이려 함. ko.wikipedia 나가 문서: 쉬크톨은 이때 지급되는 검, 끝나면 부러뜨림",
+  "note": "사실 맞음. '?' 제거 가능"
+ },
+ {
+  "entry": "정신 억압",
+  "fact": "나가가 동물이나 상대의 정신을 눌러 마음대로 다루는 능력이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장 화리트가 륜의 정신을 억압. namu 구출대: 1권 사모가 왕독수리로 공격",
+  "note": "정확히는 니름을 응용해 지능 낮은 동물을 다루는 능력(namu 나가). '상대의 정신'도 화리트-륜 장면이 있어 틀리지 않음"
+ },
+ {
+  "entry": "뱀단지",
+  "fact": "멀리 떨어진 곳과 소식을 주고받는 데 쓰는 나가의 도구다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장 하인샤 승려들이 독사 단지로 수련자 사망 소식을 받음",
+  "note": "작중 첫 사용처는 하인샤 대사원(요스비가 가져다 둔 것, namu 살신 계획). 다루는 나가를 뱀부리미라 함"
+ },
+ {
+  "entry": "대확장 전쟁",
+  "fact": "나가가 북쪽으로 세력을 넓히려고 다른 종족과 벌인 옛 전쟁이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://www.clien.net/service/board/park/18427456 - 이탈리아어판 1권 리뷰가 나가의 대확장과 키보렌을 소개. 상세 연혁은 2권 6장(postype 연표)",
+  "note": "1차 대확장 전쟁을 말하는 문장. 3권의 제2차 대확장 전쟁 내용은 섞지 말 것"
+ },
+ {
+  "entry": "아라짓 전사",
+  "fact": "영웅왕 때부터 아라짓 왕에게 충성을 맹세한 최강의 전사 집단이다.",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 영웅왕과 아라짓 전사가 나가에 맞선 기록의 출처가 2권 56-57쪽, 6장",
+  "note": "1권에도 '아라짓 전사의 노래'로 이름은 나옴(ursummary 영문 1권 요약). 영웅왕 시절부터의 충성이라는 정의까지 보면 2권이 안전"
+ },
+ {
+  "entry": "키탈저 사냥꾼",
+  "fact": "용을 숭상하며, 한번 정한 사냥감은 끝까지 쫓는 인간 사냥꾼 집단이다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권에서 케이건이 키탈저 사냥꾼의 생존자, 키탈저 사냥 지식으로 키보렌 횡단",
+  "note": "'용을 숭상'은 스스로를 용의 자식이라 칭한 것(드라카=용, namu 케이건 드라카), '끝까지 쫓는다'는 사냥감에게 죽으면 아들이 복수할 의무를 지는 풍습. 세부 정의의 등장 장은 미확인"
+ },
+ {
+  "entry": "바라기",
+  "fact": "영웅왕에게서 비롯된 아라짓 왕의 검이다?",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 영웅왕이 해바라기와 달바라기를 합쳐 바라기를 만듦, 1권 192-195쪽 3장",
+  "note": "사실 맞음. '?' 제거 가능. 정확히는 레콘 영웅왕의 쌍신검으로 아라짓 왕가의 왕검"
+ },
+ {
+  "entry": "바라기",
+  "fact": "오래전에 사라져 행방을 아무도 모른다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 극연왕 시기 바라기 실종 언급 출처가 2권 6장과 4권 15장. 실종이 처음 언급되는 권은 미확인",
+  "note": "케이건이 바라기를 지녔다는 사실은 4권에 밝혀지므로 '아무도 모른다'는 작중 세상 기준 표현으로만 쓸 것. 1권 첫 등장 때 케이건의 검은 '두 칼날이 나란히 붙은 검'으로만 묘사된다(happybi.egloos.com/3738517)"
+ },
+ {
+  "entry": "소드락",
+  "fact": "먹으면 잠시 동안 몸이 빨라지고 강해지는 약이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 2장 케이건이 소드락 설명, 4~5장 륜이 17분 효과 동안 질주",
+  "note": "효과 시간은 17분(ko.wikipedia 나가 문서). 붉은 알약"
+ },
+ {
+  "entry": "소드락",
+  "fact": "나가가 추운 곳에서도 움직일 수 있게 해 준다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 귀환 중 소드락을 쓴 질주로 한계선을 넘음. 영문 1권 2장 '추운 북부에서 빨리 움직이게 하는 약'",
+  "note": ""
+ },
+ {
+  "entry": "구출대",
+  "fact": "하인샤 대사원이 키보렌의 나가 하나를 데려오려고 꾸린 일행이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 1장 제목 Rescue Mission(구출대), 대사원이 꾸린 일행",
+  "note": ""
+ },
+ {
+  "entry": "구출대",
+  "fact": "인간 길잡이, 레콘 대적자, 도깨비 요술쟁이 셋으로 이루어진다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/구출대 - 케이건 길잡이, 티나한 대적자, 비형 요술쟁이. 1권 1장 '셋이 하나를 상대한다'(영문 1권 1장)",
+  "note": ""
+ },
+ {
+  "entry": "나가 살육자",
+  "fact": "나가를 사냥해 잡아먹는다고 나가들 사이에 전설처럼 알려진 존재다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 1장부터 케이건이 나가를 사냥해 먹는 자로 소개. design.md 117줄",
+  "note": "케이건의 이명이기도 함"
+ },
+ {
+  "entry": "군령자",
+  "fact": "죽기 전에 다른 몸으로 영혼을 옮겨 살아가는 존재다.",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/갈로텍 - '전령하지 않고 죽겠다'는 갈로텍-비아스 대화가 1부(1~2권) 전쟁 전 시점. 영문 1권 요약에는 갈로텍이 없어 2권으로 추정",
+  "note": "4권 357쪽 '갈로텍은 더 이상 군령자가 아니었다'(britg/pgr21 검색 발췌)는 결말이라 무관. 장 미확인"
+ },
+ {
+  "entry": "군령자",
+  "fact": "한 몸 안에 여러 영혼을 담고 그들의 지식과 기술을 쓸 수 있다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/롭스(눈물을 마시는 새) - 1장 오레놀이 티나한을 찾아간 장면에서 군령자 롭스가 여러 영(레콘 영 등)을 드러냄. 영문 1권 1장 'manysoul' 롭스",
+  "note": ""
+ },
+ {
+  "entry": "제왕병자",
+  "fact": "스스로 왕이라 칭하며 추종자를 모으는 북부의 인간들이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://skiffyandfanty.com/blog/review-heart-of-the-nhaga-lee-young-do/ - 영문 1권에서 왕을 자처하는 자들의 무리를 만남. namu 구출대: 1권 높새바람탑 제왕병자 사건(5장)",
+  "note": ""
+ },
+ {
+  "entry": "제왕병자",
+  "fact": "큰 세력을 갖춘 제왕병자는 마립간이라 불리기도 한다?",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/구출대 - 1권 자보로 관문, 지그림 자보로가 마립간으로 추대됐다가 스스로 위엄왕이 됨",
+  "note": "정의가 틀림. 마립간은 아라짓 멸망 후 군웅 가문의 대표 지배자 칭호이고 제왕병자(왕을 자처)와 다름. 지그림은 마립간이었다가 왕을 자처한 경우. '세력이 큰 제왕병자=마립간'으로 쓰지 말 것"
+ },
+ {
+  "entry": "유료도로당",
+  "fact": "시구리아트 산맥의 유료도로를 운영하며 통행료를 받는 집단이다.",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 시구리아트 유료도로당 설립 기록 출처 2권 6장. design.md 129줄: 6장이 유료도로당 장",
+  "note": ""
+ },
+ {
+  "entry": "유료도로당",
+  "fact": "당원과 그 가족, 노인은 통행료를 면제받는다?",
+  "vol": 2,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/유료도로당 - 요금표상 노인(60세 이상 인간 등) 면제, 당원 가족 면제는 피를 마시는 새 기준이라고 함",
+  "note": "'당원과 그 가족' 면제는 후속작 피마새 출처라 눈마새 2권에 그대로 나오는지 불확실. 노인 면제만 남기거나 확인 후 쓸 것"
+ },
+ {
+  "entry": "하늘치",
+  "fact": "하늘을 떠다니는 거대한 생물로, 다른 생물과 같은 부류로 여겨지지 않는다.",
+  "vol": 1,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/구출대 - 1장 티나한이 하늘치 발굴대 빚으로 합류, 영문 1권 1장 'flying sky ray'",
+  "note": "등장은 1권 1장 확인. '다른 생물과 같은 부류로 여겨지지 않는다'는 출처 미확인(namu 하늘치는 먹지도 번식하지도 않는 생명체로만 설명). 근거를 못 찾으면 이 구절은 빼는 편이 안전"
+ },
+ {
+  "entry": "용",
+  "fact": "땅속 뿌리(용근)로 지내다 꽃(용화)을 피우고 깨어나는 생물이며, 불을 뿜는다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 3장 용화와 용근 발견, 5장 자보로에서 아스화리탈 부화 후 불로 대호를 쫓음",
+  "note": ""
+ },
+ {
+  "entry": "용",
+  "fact": "나가는 불을 뿜는 용을 싫어해 보이는 대로 없앴다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://skiffyandfanty.com/blog/review-heart-of-the-nhaga-lee-young-do/ - 영문 1권: 나가가 영토를 넓히며 용과 사자를 멸종시킴",
+  "note": "이유는 나무를 태우는 불을 꺼렸기 때문(namu 나가(새 시리즈)). 북부에선 인간이 용근을 탐내 사냥해 멸종 직전"
+ },
+ {
+  "entry": "용",
+  "fact": "용근을 먹은 인간은 용인이 된다?",
+  "vol": 3,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/륜 페이 - 2차 대확장 전쟁(3권)에서 륜이 용근을 먹고 용인(뇌룡공)이 됨. 개념 설명이 더 앞 권에 있는지는 미확인",
+  "note": "사실은 맞음(륜 사례). '?' 제거 가능"
+ },
+ {
+  "entry": "대호",
+  "fact": "북부에 사는 거대한 범으로, 일반 호랑이와 다른 종이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-book-review-lee-young-do/ - 영문 1권 5장 사모가 대호 마루나래를 타고 자보로에 나타남. skiffy 리뷰: 인간들의 대호 전설",
+  "note": "'다른 종'은 namu 대호(눈물을 마시는 새) 서술과 일치"
+ },
+ {
+  "entry": "대호",
+  "fact": "키탈저 사냥꾼들은 대호를 산노인이라 부른다?",
+  "vol": 1,
+  "confidence": "low",
+  "evidence": "https://namu.wiki/w/대호(눈물을 마시는 새) - 키탈저 사냥꾼이 대호를 산노인이라 부름. 자보로의 대호 별비 일화가 있어 1권 5장 자보로 장면으로 추정",
+  "note": "사실은 맞음. '?' 제거 가능. 호칭이 나오는 장은 미확인"
+ },
+ {
+  "entry": "철의 대화",
+  "fact": "레콘이 무기로 결판을 내자고 청하는 결투 선언이다.",
+  "vol": 1,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/철의 대화 - 작중 첫 사례가 티나한이 선지자에게 신청한 장면. 선지자 장면은 영문 1권 5장(ursummary), namu 구출대도 1권",
+  "note": "보완: 선언한 쪽이 선공을 양보하고 끝날 때까지 말을 섞지 않음"
+ },
+ {
+  "entry": "철의 대화",
+  "fact": "반대로 절대 싸우지 않겠다는 맹세는 철의 침묵이라 한다.",
+  "vol": 4,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/철의 침묵 - 하텐그라쥬에서 즈라더가 비형을 물로 씻긴 티나한에게 선언. 수탐자의 하텐그라쥬 장면은 4권(namu 구출대)",
+  "note": "철의 대화와 짝으로 묶여 있지만 공개 권이 다름(4권). 같은 항목에 넣으면 1권 독자에게 4권 내용이 보임. 레콘에게 최고의 경의라는 뜻도 있음"
+ },
+ {
+  "entry": "살신 계획?",
+  "fact": "나가 쪽에서 신을 죽이려 꾸민다고 하인샤 대사원에 알려진 계획이다?",
+  "vol": 2,
+  "confidence": "mid",
+  "evidence": "https://namu.wiki/w/살신 계획 - 구출대가 대사원 도착 후 쥬타기 대선사에게 살신 계획 설명을 들음(대사원 도착은 2권, namu 구출대)",
+  "note": "'살신'이라는 말은 1권 4장 유해의 폭포 장면에 먼저 나옴. 이 계획이 수호자들의 속임수(여신 감금)였다는 것은 2권 말 여신 납치로 드러남. 이 문장은 '알려진 계획'이라는 표면만 담고 있어 2권이 맞음. 제목의 '?'는 불필요(표기 맞음)"
+ },
+ {
+  "entry": "수탐자?",
+  "fact": "신들의 화신을 찾아 길을 떠나는 이들을 부르는 말이다?",
+  "vol": 2,
+  "confidence": "high",
+  "evidence": "https://namu.wiki/w/구출대 - 신의 힘을 얻은 나가를 막으려 제신의 신체를 찾아 떠나며 수탐자로 불림. 2권 10장 제목 '출발하는 수탐자들'",
+  "note": "표기 맞음. 정확히는 구출대 셋이 신들의 화신(신체)을 찾으며 얻은 이름. 실제 여정은 3권부터"
+ }
+]
