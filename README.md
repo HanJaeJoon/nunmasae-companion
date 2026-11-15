@@ -12,9 +12,9 @@ Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, �
 
 | 경로 | 화면 |
 |---|---|
-| `src/app/progress.tsx` | 진행 선택. 앱 한 줄 소개, 권 1~4 라디오 카드(한국어판 권 제목과 영문판 대응, Book Two 이후는 미출간), 비공식 안내 |
-| `src/app/index.tsx` | 목록. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다). 행마다 유형 라벨과 new 표시 |
-| `src/app/entry/[id].tsx` | 상세. 유형 라벨, 진행까지의 사실을 권별 소제목(Book N) 아래 등장 순서대로 |
+| `src/app/progress.tsx` | 진행 선택. 첫 실행이면 제품 표식과 한 줄 소개, 읽은 권까지 채우는 책등 4개, 권 1~4 라디오 행(한국어판 권 제목과 영문판 대응, Book Two 이후는 미출간), 비공식 안내 |
+| `src/app/index.tsx` | 목록. 진행 상태 문장("Read through Book 1.")이 제목이고 옆의 책등을 누르면 진행 변경. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다). 행마다 유형과 new 표시 |
+| `src/app/entry/[id].tsx` | 상세. 이름과 유형, 진행까지의 사실을 권별 패널(Book N) 안에 등장 순서대로 |
 | `src/app/settings.tsx` | 언어 토글, 진행 변경, 비공식 안내, 소스 코드와 개인정보처리방침 링크 |
 
 진행을 아직 고르지 않았으면 목록이 진행 선택으로 보낸다.
@@ -31,7 +31,7 @@ src/
     i18n/             화면 문구 (en, ko)
     branding.ts       앱 이름, 브랜드 색, 테마 덮어쓰기, 저장 키 접두사, 개인정보처리방침 URL
     colors.ts         kit 팔레트 + 앱 accent 색 (useAppColors)
-  components/         헤더, 진행 칩, new 표시, 유형 라벨
+  components/         뒤로 막대, 제품 표식 줄, 책등 진행 표식, new 표시, 유형 키
   kit/                마이크로앱 공통 모듈 (손대지 않는다, src/kit/README.md)
 ```
 

@@ -5,12 +5,16 @@ export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
 export const FALLBACK_LOCALE: AppLocale = 'en';
 
 type Strings = {
+  greeting: string;
+  openCount: string;
+  bookOf: string;
+  clearSearch: string;
+  languageHint: string;
+  version: string;
   progressTitle: string;
   progressSubtitle: string;
   bookLabel: string;
-  koreanEdition: string;
-  englishEdition: string;
-  notYetPublished: string;
+  englishNotYet: string;
   readThrough: string;
   changeProgress: string;
   tabCharacters: string;
@@ -41,12 +45,16 @@ type Strings = {
 
 export const translations: Record<AppLocale, Strings> = {
   en: {
+    greeting: 'Read through Book %{n}.',
+    openCount: '%{count} entries open so far.',
+    bookOf: 'Book %{n} of %{total}',
+    clearSearch: 'Clear',
+    languageHint: 'Screen text and entry names.',
+    version: 'Version %{v}',
     progressTitle: 'How far have you read?',
     progressSubtitle: 'Only what has appeared up to that point will be shown.',
     bookLabel: 'Book %{n}',
-    koreanEdition: 'Korean edition',
-    englishEdition: 'English edition',
-    notYetPublished: 'not yet published',
+    englishNotYet: 'English edition not yet published',
     readThrough: 'Read through Book %{n}',
     changeProgress: 'Change',
     tabCharacters: 'Characters',
@@ -67,7 +75,7 @@ export const translations: Record<AppLocale, Strings> = {
     notFound: 'This entry is not available.',
     newBadge: 'New',
     appTagline: 'A spoiler-free glossary of characters, races, places and terms.',
-    noMatches: 'No matching names. Only entries that have appeared so far are searched.',
+    noMatches: 'No names match up to Book %{n}.',
     typeCharacter: 'Character',
     typeCreature: 'Creature',
     typeRace: 'Race',
@@ -76,12 +84,16 @@ export const translations: Record<AppLocale, Strings> = {
     typeTerm: 'Term',
   },
   ko: {
+    greeting: '%{n}권까지 읽었어요.',
+    openCount: '지금까지 %{count}개 항목이 열려 있습니다.',
+    bookOf: '전체 %{total}권 중 %{n}권',
+    clearSearch: '지우기',
+    languageHint: '화면 문구와 항목 이름에 적용됩니다.',
+    version: '버전 %{v}',
     progressTitle: '어디까지 읽었나요?',
     progressSubtitle: '그 지점까지 나온 것만 보여 줍니다.',
     bookLabel: '%{n}권',
-    koreanEdition: '한국어판',
-    englishEdition: '영문판',
-    notYetPublished: '미출간',
+    englishNotYet: '영문판 미출간',
     readThrough: '%{n}권까지 읽음',
     changeProgress: '변경',
     tabCharacters: '인물',
@@ -102,7 +114,7 @@ export const translations: Record<AppLocale, Strings> = {
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
     appTagline: '인물, 종족, 장소, 용어를 스포일러 없이 찾아보는 용어집입니다.',
-    noMatches: '일치하는 이름이 없습니다. 지금까지 나온 항목에서만 찾습니다.',
+    noMatches: '%{n}권까지 나온 이름 중에 일치하는 것이 없습니다.',
     typeCharacter: '인물',
     typeCreature: '생물',
     typeRace: '종족',

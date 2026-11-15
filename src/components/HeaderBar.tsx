@@ -1,88 +1,63 @@
 import { router } from 'expo-router';
-import type { ReactNode } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { useAppColors } from '@/lib/colors';
 import { useSettings } from '@/lib/settings';
 
-export function HeaderBar({ back, children }: { back?: boolean; children?: ReactNode }) {
+/** 선으로 그린 꺾쇠. 글리프 대신 View 로 그려 글꼴과 무관하게 같은 모양이다. */
+export function Chevron({ color, direction = 'right' }: { color: string; direction?: 'left' | 'right' }) {
+  return (
+    <View
+      style={[
+        styles.chevron,
+        { borderColor: color, transform: [{ rotate: direction === 'right' ? '45deg' : '-135deg' }] },
+      ]}
+    />
+  );
+}
+
+export function HeaderBar() {
   const { t } = useSettings();
   const colors = useAppColors();
   return (
     <View style={styles.bar}>
-      {back ? (
-        <TouchableOpacity
-          accessibilityRole="button"
-          accessibilityLabel={t('back')}
-          onPress={() => router.back()}
-          style={styles.hit}
-        >
-          <Text style={[styles.link, { color: colors.accent }]}>{'< ' + t('back')}</Text>
-        </TouchableOpacity>
-      ) : (
-        <View />
-      )}
-      <View style={styles.right}>{children}</View>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={t('back')}
+        onPress={() => router.back()}
+        style={({ pressed }) => [styles.hit, pressed && { backgroundColor: colors.pressed }]}
+      >
+        <Chevron color={colors.text} direction="left" />
+        <Text style={[styles.link, { color: colors.text }]}>{t('back')}</Text>
+      </Pressable>
     </View>
-  );
-}
-
-/** 현재 읽은 지점 표시이자 진행 변경 진입점. */
-export function ProgressChip() {
-  const { progress, t } = useSettings();
-  const colors = useAppColors();
-  if (progress === null) return null;
-  return (
-    <TouchableOpacity
-      accessibilityRole="button"
-      accessibilityLabel={t('readThrough', { n: progress })}
-      accessibilityHint={t('changeProgress')}
-      onPress={() => router.push('/progress')}
-      style={[styles.chip, { backgroundColor: colors.bannerBg }]}
-    >
-      <Text style={[styles.chipText, { color: colors.text }]}>
-        {t('readThrough', { n: progress })} ·{' '}
-        <Text style={[styles.chipAction, { color: colors.accent }]}>{t('changeProgress')}</Text>
-      </Text>
-    </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
   bar: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
-    gap: 8,
     minHeight: 48,
   },
-  right: {
-    flexShrink: 1,
+  hit: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-  },
-  hit: {
     minHeight: 44,
-    justifyContent: 'center',
+    paddingLeft: 12,
     paddingRight: 12,
+    marginLeft: -8,
+    borderRadius: 22,
   },
   link: {
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: '600',
   },
-  chip: {
-    flexShrink: 1,
-    minHeight: 36,
-    justifyContent: 'center',
-    borderRadius: 18,
-    paddingHorizontal: 14,
-    paddingVertical: 8,
-  },
-  chipText: {
-    fontSize: 13,
-  },
-  chipAction: {
-    fontWeight: '600',
+  chevron: {
+    width: 8,
+    height: 8,
+    borderTopWidth: 2,
+    borderRightWidth: 2,
   },
 });

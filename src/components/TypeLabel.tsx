@@ -1,10 +1,7 @@
-import { StyleSheet, Text } from 'react-native';
-
-import { useAppColors } from '@/lib/colors';
 import type { EntryType } from '@/lib/entries';
-import { useSettings } from '@/lib/settings';
 
-const KEYS: Record<EntryType, string> = {
+/** 항목 유형의 번역 키. 목록과 상세의 회색 보조 줄에 문장형으로 붙는다. */
+export const TYPE_KEYS: Record<EntryType, string> = {
   character: 'typeCharacter',
   creature: 'typeCreature',
   race: 'typeRace',
@@ -12,18 +9,3 @@ const KEYS: Record<EntryType, string> = {
   place: 'typePlace',
   term: 'typeTerm',
 };
-
-export function TypeLabel({ type }: { type: EntryType }) {
-  const { t } = useSettings();
-  const colors = useAppColors();
-  return <Text style={[styles.text, { color: colors.subtext }]}>{t(KEYS[type])}</Text>;
-}
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 12,
-    fontWeight: '600',
-    letterSpacing: 0.4,
-    textTransform: 'uppercase',
-  },
-});

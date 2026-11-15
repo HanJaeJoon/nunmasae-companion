@@ -1,8 +1,10 @@
 import { router } from 'expo-router';
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { BookShelf } from '@/components/BookShelf';
+import { BrandRow } from '@/components/BrandRow';
 import { HeaderBar } from '@/components/HeaderBar';
-import { BRANDING } from '@/lib/branding';
 import { useAppColors } from '@/lib/colors';
 import { BOOK_NUMBERS, BOOKS, type Progress } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
@@ -10,6 +12,8 @@ import { useSettings } from '@/lib/settings';
 export default function ProgressScreen() {
   const { hydrated, progress, setProgress, t } = useSettings();
   const colors = useAppColors();
+  // 누르는 동안 위 책등이 그 권까지 채워져 고르기 전에 미리 보인다.
+  const [pressing, setPressing] = useState<Progress | null>(null);
 
   if (!hydrated) return null;
 
@@ -26,136 +30,124 @@ export default function ProgressScreen() {
   return (
     <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={styles.content}>
       {changing ? (
-        <HeaderBar back />
+        <HeaderBar />
       ) : (
         <View style={styles.intro}>
-          <Text accessibilityRole="header" style={[styles.appName, { color: colors.text }]}>
-            {BRANDING.appName}
-          </Text>
-          <Text style={[styles.tagline, { color: colors.text }]}>{t('appTagline')}</Text>
+          <BrandRow />
+          <Text style={[styles.body, { color: colors.text }]}>{t('appTagline')}</Text>
         </View>
       )}
+
       <View style={styles.head}>
-        <Text accessibilityRole="header" style={[styles.title, { color: colors.text }]}>
-          {t('progressTitle')}
-        </Text>
-        <Text style={[styles.subtitle, { color: colors.subtext }]}>{t('progressSubtitle')}</Text>
+        <View style={styles.headText}>
+          <Text accessibilityRole="header" style={[styles.h1, { color: colors.text }]}>
+            {t('progressTitle')}
+          </Text>
+          <Text style={[styles.body, { color: colors.subtext }]}>{t('progressSubtitle')}</Text>
+        </View>
+        <BookShelf read={pressing ?? progress ?? 0} size={32} />
       </View>
 
-      <View accessibilityRole="radiogroup" style={styles.cards}>
-        {BOOK_NUMBERS.map((n) => {
+      <View accessibilityRole="radiogroup" style={[styles.panel, { backgroundColor: colors.panel }]}>
+        {BOOK_NUMBERS.map((n, i) => {
           const selected = n === progress;
           return (
-            <TouchableOpacity
-              key={n}
-              accessibilityRole="radio"
-              accessibilityState={{ selected, checked: selected }}
-              onPress={() => choose(n)}
-              style={[
-                styles.card,
-                selected
-                  ? { backgroundColor: colors.bannerBg, borderColor: colors.accent }
-                  : { backgroundColor: colors.card, borderColor: colors.border },
-              ]}
-            >
-              <View style={[styles.radio, { borderColor: selected ? colors.accent : colors.subtext }]}>
-                {selected && <View style={[styles.radioDot, { backgroundColor: colors.accent }]} />}
-              </View>
-              <View style={styles.cardBody}>
-                <Text style={[styles.book, { color: colors.text }]}>{t('bookLabel', { n })}</Text>
-                <View>
-                  <Text style={[styles.edition, { color: colors.subtext }]}>{t('koreanEdition')}</Text>
-                  <Text style={[styles.edTitle, { color: colors.text }]}>{BOOKS[n].ko}</Text>
-                </View>
-                <View>
-                  <Text style={[styles.edition, { color: colors.subtext }]}>{t('englishEdition')}</Text>
-                  <Text style={[styles.edTitle, { color: BOOKS[n].en ? colors.text : colors.subtext }]}>
-                    {BOOKS[n].en ?? t('notYetPublished')}
+            <View key={n}>
+              {i > 0 && <View style={[styles.rule, { backgroundColor: colors.rule }]} />}
+              <Pressable
+                accessibilityRole="radio"
+                accessibilityState={{ selected, checked: selected }}
+                onPress={() => choose(n)}
+                onPressIn={() => setPressing(n)}
+                onPressOut={() => setPressing(null)}
+                style={({ pressed }) => [
+                  styles.row,
+                  (pressed || selected) && { backgroundColor: selected ? colors.newBg : colors.pressed },
+                ]}
+              >
+                <BookShelf
+                  read={n}
+                  size={18}
+                  fill={selected ? colors.accent : colors.spineRead}
+                  ground={selected ? colors.newBg : colors.panel}
+                />
+                <View style={styles.rowText}>
+                  <Text style={[styles.book, { color: colors.text }]}>{t('bookLabel', { n })}</Text>
+                  <Text style={[styles.edition, { color: colors.text }]}>{BOOKS[n].ko}</Text>
+                  <Text style={[styles.edition, { color: BOOKS[n].en ? colors.text : colors.subtext }]}>
+                    {BOOKS[n].en ?? t('englishNotYet')}
                   </Text>
                 </View>
-              </View>
-            </TouchableOpacity>
+              </Pressable>
+            </View>
           );
         })}
       </View>
 
-      {!changing && <Text style={[styles.disclaimer, { color: colors.subtext }]}>{t('disclaimer')}</Text>}
+      {!changing && <Text style={[styles.note, { color: colors.subtext }]}>{t('disclaimer')}</Text>}
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   content: {
-    padding: 16,
-    paddingTop: 0,
+    paddingHorizontal: 16,
     paddingBottom: 32,
-    gap: 20,
+    gap: 24,
   },
   intro: {
-    paddingTop: 24,
-    gap: 8,
+    gap: 4,
   },
-  appName: {
-    fontSize: 28,
-    fontWeight: 'bold',
+  head: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: 16,
+    paddingTop: 8,
   },
-  tagline: {
+  headText: {
+    flex: 1,
+    gap: 6,
+  },
+  h1: {
+    fontSize: 26,
+    lineHeight: 32,
+    fontWeight: '700',
+  },
+  body: {
     fontSize: 16,
     lineHeight: 24,
   },
-  head: {
-    gap: 6,
+  panel: {
+    borderRadius: 16,
+    overflow: 'hidden',
   },
-  title: {
-    fontSize: 22,
-    fontWeight: 'bold',
+  rule: {
+    height: 1,
+    marginLeft: 61,
   },
-  subtitle: {
-    fontSize: 15,
-    lineHeight: 22,
-  },
-  cards: {
-    gap: 12,
-  },
-  card: {
+  row: {
     flexDirection: 'row',
-    alignItems: 'flex-start',
-    gap: 14,
-    borderRadius: 12,
-    borderWidth: 1.5,
-    padding: 16,
-  },
-  radio: {
-    width: 22,
-    height: 22,
-    borderRadius: 11,
-    borderWidth: 2,
     alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 2,
+    gap: 16,
+    minHeight: 64,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
   },
-  radioDot: {
-    width: 10,
-    height: 10,
-    borderRadius: 5,
-  },
-  cardBody: {
+  rowText: {
     flex: 1,
-    gap: 8,
+    gap: 2,
   },
   book: {
-    fontSize: 18,
-    fontWeight: 'bold',
+    fontSize: 17,
+    lineHeight: 22,
+    fontWeight: '600',
   },
   edition: {
-    fontSize: 12,
-  },
-  edTitle: {
     fontSize: 14,
     lineHeight: 20,
   },
-  disclaimer: {
-    fontSize: 13,
-    lineHeight: 19,
+  note: {
+    fontSize: 14,
+    lineHeight: 20,
   },
 });

@@ -1,7 +1,10 @@
+import Constants from 'expo-constants';
+import { router } from 'expo-router';
 import type { ReactNode } from 'react';
-import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { HeaderBar, ProgressChip } from '@/components/HeaderBar';
+import { BookShelf } from '@/components/BookShelf';
+import { Chevron, HeaderBar } from '@/components/HeaderBar';
 import { BRANDING } from '@/lib/branding';
 import { useAppColors } from '@/lib/colors';
 import type { Locale } from '@/lib/entries';
@@ -16,15 +19,19 @@ const LANGUAGES: { locale: Locale; label: string }[] = [
 ];
 
 export default function SettingsScreen() {
-  const { locale, setLocale, t } = useSettings();
+  const { progress, locale, setLocale, t } = useSettings();
   const colors = useAppColors();
 
-  const section = (title: string, children: ReactNode) => (
+  // fit 이면 패널이 내용 폭만큼만 차지한다 (언어 세그먼트는 패널 자체가 트랙이다).
+  const section = (title: string, description: string, children: ReactNode, fit = false) => (
     <View style={styles.section}>
-      <Text accessibilityRole="header" style={[styles.sectionTitle, { color: colors.subtext }]}>
-        {title}
-      </Text>
-      <View style={[styles.card, { backgroundColor: colors.card, borderColor: colors.border }]}>{children}</View>
+      <View style={styles.label}>
+        <Text accessibilityRole="header" aria-level={2} style={[styles.sectionTitle, { color: colors.text }]}>
+          {title}
+        </Text>
+        <Text style={[styles.description, { color: colors.subtext }]}>{description}</Text>
+      </View>
+      <View style={[styles.panel, fit && styles.fit, { backgroundColor: colors.panel }]}>{children}</View>
     </View>
   );
 
@@ -35,124 +42,148 @@ export default function SettingsScreen() {
 
   return (
     <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={styles.content}>
-      <HeaderBar back />
-      <Text accessibilityRole="header" style={[styles.title, { color: colors.text }]}>
+      <HeaderBar />
+      <Text accessibilityRole="header" style={[styles.h1, { color: colors.text }]}>
         {t('settings')}
       </Text>
 
-      {section(
-        t('progress'),
-        <View style={styles.padded}>
-          <View style={styles.row}>
-            <ProgressChip />
-          </View>
-        </View>
-      )}
+      {progress !== null &&
+        section(
+          t('progress'),
+          t('progressSubtitle'),
+          <Pressable
+            accessibilityRole="button"
+            accessibilityHint={t('changeProgress')}
+            onPress={() => router.push('/progress')}
+            style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.pressed }]}
+          >
+            <BookShelf read={progress} size={20} ground={colors.panel} />
+            <Text style={[styles.rowText, { color: colors.text }]}>{t('readThrough', { n: progress })}</Text>
+            <Chevron color={colors.subtext} />
+          </Pressable>
+        )}
 
       {section(
         t('language'),
-        <View accessibilityRole="radiogroup" style={[styles.padded, styles.row]}>
+        t('languageHint'),
+        <View accessibilityRole="radiogroup" style={styles.segments}>
           {LANGUAGES.map((l) => {
             const selected = l.locale === locale;
             return (
-              <TouchableOpacity
+              <Pressable
                 key={l.locale}
                 accessibilityRole="radio"
                 accessibilityState={{ selected, checked: selected }}
                 onPress={() => setLocale(l.locale)}
-                style={[
-                  styles.option,
-                  selected
-                    ? { backgroundColor: BRANDING.brandColor, borderColor: BRANDING.brandColor }
-                    : { borderColor: colors.border },
+                style={({ pressed }) => [
+                  styles.segment,
+                  selected && { backgroundColor: colors.segment },
+                  pressed && !selected && { backgroundColor: colors.pressed },
                 ]}
               >
-                <Text style={[styles.optionText, { color: selected ? '#fff' : colors.text }]}>{l.label}</Text>
-              </TouchableOpacity>
+                <Text style={[styles.segmentText, { color: colors.text }, selected && styles.bold]}>{l.label}</Text>
+              </Pressable>
             );
           })}
-        </View>
+        </View>,
+        true
       )}
 
       {section(
         t('about'),
-        <>
-          <Text style={[styles.padded, styles.body, { color: colors.text }]}>{t('disclaimer')}</Text>
-          {links.map((l) => (
-            <TouchableOpacity
-              key={l.url}
-              accessibilityRole="link"
-              onPress={() => Linking.openURL(l.url)}
-              style={[styles.link, { borderTopColor: colors.border }]}
-            >
-              <Text style={[styles.linkText, { color: colors.accent }]}>{l.label}</Text>
-            </TouchableOpacity>
-          ))}
-        </>
+        t('disclaimer'),
+        links.map((l, i) => (
+          <Pressable
+            key={l.url}
+            accessibilityRole="link"
+            onPress={() => Linking.openURL(l.url)}
+            style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.pressed }]}
+          >
+            {i > 0 && <View style={[styles.rule, { backgroundColor: colors.rule }]} />}
+            <Text style={[styles.rowText, { color: colors.text }]}>{l.label}</Text>
+            <Chevron color={colors.subtext} />
+          </Pressable>
+        ))
       )}
+
+      <Text style={[styles.description, { color: colors.subtext }]}>
+        {t('version', { v: Constants.expoConfig?.version ?? '-' })}
+      </Text>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   content: {
-    padding: 16,
-    paddingTop: 0,
+    paddingHorizontal: 16,
     paddingBottom: 32,
-    gap: 20,
+    gap: 28,
   },
-  title: {
+  h1: {
     fontSize: 26,
-    fontWeight: 'bold',
+    lineHeight: 32,
+    fontWeight: '700',
+    marginTop: -12,
+    marginBottom: -8,
   },
   section: {
-    gap: 8,
+    gap: 12,
+  },
+  label: {
+    gap: 2,
   },
   sectionTitle: {
-    fontSize: 13,
-    fontWeight: '600',
-    letterSpacing: 0.4,
-    textTransform: 'uppercase',
-    paddingHorizontal: 4,
+    fontSize: 16,
+    lineHeight: 24,
+    fontWeight: '500',
   },
-  card: {
-    borderRadius: 12,
-    borderWidth: StyleSheet.hairlineWidth,
-    overflow: 'hidden',
-  },
-  padded: {
-    padding: 16,
-  },
-  row: {
-    flexDirection: 'row',
-    gap: 8,
-  },
-  option: {
-    flex: 1,
-    minHeight: 44,
-    justifyContent: 'center',
-    borderWidth: 1,
-    borderRadius: 8,
-    paddingVertical: 10,
-    alignItems: 'center',
-  },
-  optionText: {
-    fontSize: 15,
-    fontWeight: '600',
-  },
-  body: {
+  description: {
     fontSize: 14,
     lineHeight: 20,
   },
-  link: {
-    minHeight: 48,
-    justifyContent: 'center',
+  panel: {
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  fit: {
+    alignSelf: 'flex-start',
+    borderRadius: 24,
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    minHeight: 56,
     paddingHorizontal: 16,
     paddingVertical: 12,
-    borderTopWidth: StyleSheet.hairlineWidth,
   },
-  linkText: {
-    fontSize: 15,
+  rule: {
+    position: 'absolute',
+    top: 0,
+    left: 16,
+    right: 0,
+    height: 1,
+  },
+  rowText: {
+    flex: 1,
+    fontSize: 16,
+    lineHeight: 24,
+  },
+  segments: {
+    flexDirection: 'row',
+    padding: 4,
+    gap: 2,
+  },
+  segment: {
+    minHeight: 44,
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+    borderRadius: 20,
+  },
+  segmentText: {
+    fontSize: 16,
+  },
+  bold: {
     fontWeight: '600',
   },
 });

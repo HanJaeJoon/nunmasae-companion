@@ -7,8 +7,10 @@ export function NewBadge() {
   const { t } = useSettings();
   const colors = useAppColors();
   return (
-    <View style={[styles.badge, { backgroundColor: colors.bannerBg }]}>
-      <Text style={[styles.text, { color: colors.accent }]}>{t('newBadge')}</Text>
+    <View style={[styles.badge, { backgroundColor: colors.newBg }]}>
+      <Text style={[styles.text, { color: colors.newInk }]} numberOfLines={1}>
+        {t('newBadge')}
+      </Text>
     </View>
   );
 }
@@ -16,12 +18,14 @@ export function NewBadge() {
 const styles = StyleSheet.create({
   badge: {
     alignSelf: 'flex-start',
-    borderRadius: 4,
-    paddingHorizontal: 6,
-    paddingVertical: 2,
+    flexShrink: 0,
+    minHeight: 20,
+    justifyContent: 'center',
+    borderRadius: 10,
+    paddingHorizontal: 8,
   },
   text: {
-    fontSize: 11,
-    fontWeight: '700',
+    fontSize: 12,
+    fontWeight: '500',
   },
 });
