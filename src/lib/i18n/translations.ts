@@ -87,7 +87,7 @@ export const translations: Record<AppLocale, Strings> = {
   },
   ko: {
     appName: '눈마새 길잡이',
-    greeting: '%{n}권까지 읽었어요.',
+    greeting: '%{n}권까지 읽었습니다.',
     openCount: '지금까지 %{count}개 항목이 열려 있습니다.',
     bookOf: '전체 %{total}권 중 %{n}권',
     clearSearch: '지우기',
