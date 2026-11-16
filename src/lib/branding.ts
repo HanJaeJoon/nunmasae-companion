@@ -3,6 +3,8 @@
 // 스타터를 복제해 새 앱을 만들 때 여기와 app.json 만 고치면 브랜딩이 끝난다.
 // kit/ 은 이 값들을 인자나 prop 으로 받으므로 kit 안에는 앱 고유 값이 없다.
 
+const SOURCE_URL = 'https://github.com/HanJaeJoon/nunmasae-companion';
+
 export const BRANDING = {
   /** 화면 헤더에 표시되는 이름. app.json 의 expo.name 과 맞춘다. */
   appName: 'Nunmasae Companion',
@@ -21,6 +23,12 @@ export const BRANDING = {
 
   /** 설정 화면에서 여는 개인정보처리방침. Play 등록 정보의 URL 과 같아야 한다. */
   privacyPolicyUrl: 'https://whochoolab.github.io/nunmasae-companion-privacy/',
+
+  sourceUrl: SOURCE_URL,
+
+  /** 틀린 정보 알리기. 메일은 Play 등록 정보의 개발자 연락처와 같다. */
+  newIssueUrl: `${SOURCE_URL}/issues/new`,
+  contactEmail: 'jj2726@gmail.com',
 } as const;
 
 /** 브랜드 색에서 파생돼 kit/theme 의 기본 팔레트를 덮어쓰는 값. */

@@ -32,6 +32,12 @@ type Strings = {
   disclaimer: string;
   sourceCode: string;
   privacyPolicy: string;
+  report: string;
+  reportHint: string;
+  reportIssue: string;
+  reportEmail: string;
+  reportSubject: string;
+  reportBody: string;
   notFound: string;
   newBadge: string;
   appTagline: string;
@@ -74,6 +80,14 @@ export const translations: Record<AppLocale, Strings> = {
       'Unofficial fan project. Not affiliated with the author, Golden Bough, Krafton or HarperCollins. No ads, no donations.',
     sourceCode: 'Source code',
     privacyPolicy: 'Privacy policy',
+    report: 'Report a mistake',
+    reportHint:
+      'Facts are summarized from secondary sources, not the books themselves, so some may be wrong or placed in the wrong book. Let us know and we will fix it.',
+    reportIssue: 'Report on GitHub',
+    reportEmail: 'Report by email',
+    reportSubject: 'Mistake: ',
+    reportBody:
+      'Entry name:\nRead-through setting when you saw it (Book N):\nWhat is wrong:\nWhat is right (as far as you know):\n',
     notFound: 'This entry is not available.',
     newBadge: 'New',
     appTagline: 'A spoiler-free glossary of characters, races, places and terms.',
@@ -114,6 +128,13 @@ export const translations: Record<AppLocale, Strings> = {
       '비공식 팬 프로젝트입니다. 작가, 황금가지, 크래프톤, HarperCollins와 관계가 없습니다. 광고와 후원이 없습니다.',
     sourceCode: '소스 코드',
     privacyPolicy: '개인정보처리방침',
+    report: '틀린 정보 알리기',
+    reportHint:
+      '사실은 책 원문이 아니라 2차 자료를 바탕으로 정리해서 틀리거나 권이 어긋난 곳이 있을 수 있습니다. 알려 주시면 고치겠습니다.',
+    reportIssue: 'GitHub 이슈로 알리기',
+    reportEmail: '메일로 알리기',
+    reportSubject: '틀린 정보: ',
+    reportBody: '항목 이름:\n본 화면의 읽은 지점(N권까지):\n틀린 내용:\n맞는 내용(아는 만큼):\n',
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
     appTagline: '인물, 종족, 장소, 용어를 스포일러 없이 찾아보는 용어집입니다.',

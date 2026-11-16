@@ -10,8 +10,6 @@ import { useAppColors } from '@/lib/colors';
 import type { Locale } from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
-const SOURCE_URL = 'https://github.com/HanJaeJoon/nunmasae-companion';
-
 // 언어 이름은 번역하지 않는다. 각 언어 사용자가 자기 언어로 알아봐야 한다.
 const LANGUAGES: { locale: Locale; label: string }[] = [
   { locale: 'en', label: 'English' },
@@ -35,8 +33,37 @@ export default function SettingsScreen() {
     </View>
   );
 
+  // detail 은 메일 앱이 없는 기기에서도 주소를 볼 수 있게 행 안에 같이 보여 준다.
+  const linkRows = (items: { label: string; url: string; detail?: string }[]) =>
+    items.map((l, i) => (
+      <Pressable
+        key={l.url}
+        accessibilityRole="link"
+        onPress={() => Linking.openURL(l.url).catch(() => {})}
+        style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.pressed }]}
+      >
+        {i > 0 && <View style={[styles.rule, { backgroundColor: colors.rule }]} />}
+        <Text style={[styles.rowText, { color: colors.text }]}>
+          {l.label}
+          {l.detail && <Text style={[styles.description, { color: colors.subtext }]}>{'\n' + l.detail}</Text>}
+        </Text>
+        <Chevron color={colors.subtext} />
+      </Pressable>
+    ));
+
+  const subject = encodeURIComponent(t('reportSubject'));
+  const body = encodeURIComponent(t('reportBody'));
+  const reportLinks = [
+    { label: t('reportIssue'), url: `${BRANDING.newIssueUrl}?title=${subject}&body=${body}` },
+    {
+      label: t('reportEmail'),
+      url: `mailto:${BRANDING.contactEmail}?subject=${subject}&body=${body}`,
+      detail: BRANDING.contactEmail,
+    },
+  ];
+
   const links = [
-    { label: t('sourceCode'), url: SOURCE_URL },
+    { label: t('sourceCode'), url: BRANDING.sourceUrl },
     { label: t('privacyPolicy'), url: BRANDING.privacyPolicyUrl },
   ];
 
@@ -89,22 +116,9 @@ export default function SettingsScreen() {
         true
       )}
 
-      {section(
-        t('about'),
-        t('disclaimer'),
-        links.map((l, i) => (
-          <Pressable
-            key={l.url}
-            accessibilityRole="link"
-            onPress={() => Linking.openURL(l.url)}
-            style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.pressed }]}
-          >
-            {i > 0 && <View style={[styles.rule, { backgroundColor: colors.rule }]} />}
-            <Text style={[styles.rowText, { color: colors.text }]}>{l.label}</Text>
-            <Chevron color={colors.subtext} />
-          </Pressable>
-        ))
-      )}
+      {section(t('report'), t('reportHint'), linkRows(reportLinks))}
+
+      {section(t('about'), t('disclaimer'), linkRows(links))}
 
       <Text style={[styles.description, { color: colors.subtext }]}>
         {t('version', { v: Constants.expoConfig?.version ?? '-' })}

@@ -17,7 +17,7 @@ Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, �
 | `src/app/progress.tsx` | 진행 선택. 첫 실행이면 제품 표식과 한 줄 소개, 읽은 권까지 채우는 책등 4개, 권 1~4 라디오 행(한국어판 권 제목. 영어 화면이면 영문판 대응도, Book Two 이후는 미출간), 비공식 안내 |
 | `src/app/index.tsx` | 목록. 진행 상태 문장("Read through Book 1.")이 제목이고 옆의 책등을 누르면 진행 변경. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다). 행마다 유형과 new 표시 |
 | `src/app/entry/[id].tsx` | 상세. 이름과 유형, 진행까지의 사실을 권별 패널(Book N) 안에 등장 순서대로 |
-| `src/app/settings.tsx` | 언어 토글, 진행 변경, 비공식 안내, 소스 코드와 개인정보처리방침 링크 |
+| `src/app/settings.tsx` | 언어 토글, 진행 변경, 틀린 정보 알리기(GitHub 이슈, 메일), 비공식 안내, 소스 코드와 개인정보처리방침 링크 |
 
 진행을 아직 고르지 않았으면 목록이 진행 선택으로 보낸다.
 
