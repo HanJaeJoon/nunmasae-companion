@@ -661,7 +661,8 @@
       {
         "at": 2,
         "ko": "사모의 명에 따라 티나한, 비형과 함께 다른 신들의 화신을 찾는 수탐자로 떠난다.",
-        "en": "At Sammo's command, he sets out with Teenahan and Byong as Searchers to find the avatars of the other gods."
+        "en": "At Sammo's command, he sets out with Teenahan and Byong as Searchers to find the avatars of the other gods.",
+        "major": true
       },
       {
         "at": 2,
