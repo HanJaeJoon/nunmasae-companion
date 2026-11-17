@@ -774,7 +774,8 @@
       {
         "at": 3,
         "ko": "1년을 기다려 찾은 레콘 여신의 화신은 갓 태어난 레콘 아기였고, 그 아기를 업고 다닌다.",
-        "en": "The avatar of the Rekon goddess he finds after a year of waiting is a newborn Rekon baby, and he carries the baby on his back."
+        "en": "The avatar of the Rekon goddess he finds after a year of waiting is a newborn Rekon baby, and he carries the baby on his back.",
+        "major": true
       },
       {
         "at": 3,
@@ -962,7 +963,8 @@
       {
         "at": 4,
         "ko": "죽음의 문턱에서 세계가 자신에게 니르는 체험을 하고, 나가 살육신을 멈출 열쇠가 신이 인간에게 준 선물임을 알아낸다.",
-        "en": "On the brink of death, he experiences the world speaking to him in Nearm, and learns that the key to stopping the Nhaga-Slaying God is the gift the god gave humans."
+        "en": "On the brink of death, he experiences the world speaking to him in Nearm, and learns that the key to stopping the Nhaga-Slaying God is the gift the god gave humans.",
+        "major": true
       },
       {
         "at": 4,
@@ -1018,8 +1020,8 @@
       },
       {
         "at": 2,
-        "ko": "수호자들의 여신 감금을 여신을 존중한 일이 아니라고 비판하고, 수호자들은 반박하지 못한다.",
-        "en": "She condemns the Guardians' imprisonment of the Goddess as no act of reverence, and the Guardians cannot answer her.",
+        "ko": "수호자들의 여신 감금을 여신을 존중한 일이 아니라고 비판한다.",
+        "en": "She condemns the Guardians' imprisonment of the Goddess as no act of reverence.",
         "major": true
       },
       {
@@ -1061,7 +1063,8 @@
       {
         "at": 4,
         "ko": "나가 살육신이 된 케이건에게, 나가를 살려 주는 대신 자신이 그의 눈물을 마시고 죽겠다고 청한다.",
-        "en": "She asks Kagan, now the Nhaga-Slaying God, to spare the Nhaga, offering in return to drink his tears and die."
+        "en": "She asks Kagan, now the Nhaga-Slaying God, to spare the Nhaga, offering in return to drink his tears and die.",
+        "major": true
       },
       {
         "at": 4,
@@ -1124,7 +1127,8 @@
       {
         "at": 3,
         "ko": "수호자들이 그를 죽인 것은 여신을 륜에게 옮기려는 계획이었다.",
-        "en": "The Guardians killed him as part of a plan to move the Goddess into Ryun."
+        "en": "The Guardians killed him as part of a plan to move the Goddess into Ryun.",
+        "major": true
       },
       {
         "at": 3,
@@ -1321,7 +1325,8 @@
       {
         "at": 4,
         "ko": "스바치의 아이를 품고 있었고, 딸 그리미를 낳는다.",
-        "en": "She was carrying Suvachi's child, and gives birth to a daughter, Grimi."
+        "en": "She was carrying Suvachi's child, and gives birth to a daughter, Grimi.",
+        "major": true
       },
       {
         "at": 4,
@@ -1399,7 +1404,8 @@
       {
         "at": 4,
         "ko": "냉동 장치 속 어머니의 몸 안에서 느리게 자라, 아주 영리한 아이로 태어난다.",
-        "en": "She grows slowly inside her mother's body in the freezing device and is born a very bright child."
+        "en": "She grows slowly inside her mother's body in the freezing device and is born a very bright child.",
+        "major": true
       },
       {
         "at": 4,
@@ -1592,7 +1598,8 @@
       {
         "at": 2,
         "ko": "카린돌의 본명을 불러 그녀의 영을 빼앗아 자기 안에 가둔다.",
-        "en": "He calls Carindol by her true name, takes her soul, and confines it inside himself."
+        "en": "He calls Carindol by her true name, takes her soul, and confines it inside himself.",
+        "major": true
       },
       {
         "at": 3,
@@ -1708,7 +1715,8 @@
       {
         "at": 3,
         "ko": "갈로텍의 누이로, 요스비보다 먼저 발자국 없는 여신이 깃든 신체였다.",
-        "en": "Galotek's sister, who was a vessel of the Traceless Goddess before Yosby."
+        "en": "Galotek's sister, who was a vessel of the Traceless Goddess before Yosby.",
+        "major": true
       },
       {
         "at": 3,
@@ -1823,7 +1831,8 @@
       {
         "at": 3,
         "ko": "신체를 알아보는 감각이 있어, 세페린에게서 여신을 느낀 것이 감금 계획의 시작이 되었다.",
-        "en": "He has a sense for recognizing vessels, and sensing the Goddess in Seperin was what set the imprisonment plan in motion."
+        "en": "He has a sense for recognizing vessels, and sensing the Goddess in Seperin was what set the imprisonment plan in motion.",
+        "major": true
       },
       {
         "at": 3,
@@ -1870,7 +1879,8 @@
       {
         "at": 2,
         "ko": "갈로텍이 비아스에게 보낸 남자들 가운데 하나로, 카린돌을 꾀어 그녀의 본명을 알아낸다.",
-        "en": "One of the men Galotek sent to Vyass, he seduces Carindol and learns her true name."
+        "en": "One of the men Galotek sent to Vyass, he seduces Carindol and learns her true name.",
+        "major": true
       },
       {
         "at": 3,
@@ -3083,7 +3093,8 @@
       {
         "at": 3,
         "ko": "수탐자들이 1년을 기다려야 했던 것은 신체가 아직 태어나지 않은 아이였기 때문이다.",
-        "en": "The Searchers had to wait a year because the vessel was a child not yet born."
+        "en": "The Searchers had to wait a year because the vessel was a child not yet born.",
+        "major": true
       },
       {
         "at": 3,
@@ -3421,7 +3432,8 @@
       {
         "at": 4,
         "ko": "나가 살육신이 된 케이건의 회오리에 휩싸였다가, 그 회오리가 심장탑을 지키는 벽으로 바뀐다.",
-        "en": "The city is caught in the whirlwind of Kagan, who has become the Nhaga-Slaying God, and the whirlwind then turns into a wall guarding the Heart Tower."
+        "en": "The city is caught in the whirlwind of Kagan, who has become the Nhaga-Slaying God, and the whirlwind then turns into a wall guarding the Heart Tower.",
+        "major": true
       },
       {
         "at": 4,
@@ -3706,7 +3718,8 @@
       {
         "at": 4,
         "ko": "이 피라미드는 첫 번째 종족이 남긴 유적이다.",
-        "en": "The pyramid is a ruin left by the First Race."
+        "en": "The pyramid is a ruin left by the First Race.",
+        "major": true
       }
     ]
   },
@@ -4213,7 +4226,8 @@
       {
         "at": 2,
         "ko": "나가들에게 여신이 불신자들에게 납치되었다고 알려 북부를 치자는 여론을 일으킨다.",
-        "en": "They tell the Nhaga that the Goddess has been kidnapped by unbelievers, stirring up calls to attack the North."
+        "en": "They tell the Nhaga that the Goddess has been kidnapped by unbelievers, stirring up calls to attack the North.",
+        "major": true
       },
       {
         "at": 3,
@@ -4863,7 +4877,8 @@
       {
         "at": 4,
         "ko": "첫 번째 종족이 남긴 유산이다.",
-        "en": "A legacy left by the First Race."
+        "en": "A legacy left by the First Race.",
+        "major": true
       },
       {
         "at": 4,

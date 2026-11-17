@@ -64,7 +64,9 @@ export default function EntryScreen() {
                     <Pressable
                       key={i}
                       accessibilityRole="button"
-                      accessibilityLabel={t('revealMajor')}
+                      accessibilityLabel={
+                        isNewFact(f, progress, newSince) ? `${t('newBadge')}, ${t('revealMajor')}` : t('revealMajor')
+                      }
                       onPress={() => setRevealed((prev) => new Set(prev).add(f))}
                       style={({ pressed }) => [
                         styles.fact,
