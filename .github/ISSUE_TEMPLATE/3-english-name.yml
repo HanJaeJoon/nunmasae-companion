@@ -1,0 +1,45 @@
+name: 영문 표기 / English name
+description: 영문 이름이나 용어 표기가 영문판과 달라요 / An English name or term differs from the English edition
+title: "[영문 표기 / English name] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.
+        **Spoiler warning**: if your title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.
+
+        지금 쓰는 표기 목록은 `docs/glossary.json`에 있어요. / Current spellings are listed in `docs/glossary.json`.
+  - type: input
+    id: entry
+    attributes:
+      label: 항목 이름 / Entry name
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: 지금 표기 / Current spelling
+    validations:
+      required: true
+  - type: input
+    id: fix
+    attributes:
+      label: 고칠 표기 / Correct spelling
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거 / Evidence
+      description: 영문판 권/장/쪽, 출판사 자료 등 / English edition book/chapter/page, publisher material, etc.
+  - type: dropdown
+    id: progress
+    attributes:
+      label: 읽은 지점 / Read-through setting
+      description: 이 표기를 볼 때 앱에서 고른 권 / The book selected in the app when you saw it
+      options:
+        - 1권까지 / Through Book 1
+        - 2권까지 / Through Book 2
+        - 3권까지 / Through Book 3
+        - 4권까지 / Through Book 4

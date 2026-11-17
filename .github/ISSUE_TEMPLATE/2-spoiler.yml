@@ -1,0 +1,47 @@
+name: 권 번호가 너무 이른 사실(스포일러) / Revealed too early (spoiler)
+description: 아직 안 읽은 권의 내용이 보여요 / Something from a later book shows up too early
+title: "[스포일러 / Spoiler] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.
+        **Spoiler warning**: if your title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.
+
+        항목 이름이나 다른 항목의 문장 때문에 새는 경우도 알려 주세요. / Leaks through an entry name or another entry's sentence count too.
+  - type: input
+    id: entry
+    attributes:
+      label: 항목 이름 / Entry name
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 지금 문장 / Current sentence
+      description: 너무 일찍 보이는 문장 / The sentence that shows up too early
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 고칠 내용 / What it should be
+      description: 맞는 권 번호, 또는 가려야 할 이유 / The correct book, or why it should be hidden
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거 / Evidence
+      description: 그 내용이 처음 밝혀지는 권/장/쪽과 출처 / Book, chapter, page and source where it is first revealed
+  - type: dropdown
+    id: progress
+    attributes:
+      label: 읽은 지점 / Read-through setting
+      description: 이 문장을 볼 때 앱에서 고른 권 / The book selected in the app when you saw it
+      options:
+        - 1권까지 / Through Book 1
+        - 2권까지 / Through Book 2
+        - 3권까지 / Through Book 3
+        - 4권까지 / Through Book 4

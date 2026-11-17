@@ -1,8 +1,66 @@
-# Nunmasae Companion
+# Nunmasae Companion (눈마새 길잡이)
 
-Unofficial, spoiler-free fan companion for the Korean fantasy novel "The Bird That Drinks Tears" (눈물을 마시는 새). Not affiliated with the author, Golden Bough, Krafton or HarperCollins. No ads, no donations, no paid features.
+**한국어**: 소설 "눈물을 마시는 새"의 비공식 팬 동반 앱(unofficial fan companion)이다. 읽은 권까지만 보여 주는, 스포일러 없는 인물/장소/용어 길잡이.
 
-한국어 이름은 **눈마새 길잡이**다 (화면의 앱 이름과 한국어 기기의 홈 화면 이름. 홈 화면 이름은 `app.json` 의 `locales.ko`). 소설 "눈물을 마시는 새"의 비공식 동반 앱. 몇 권까지 읽었는지 고르면 **거기까지 나온 인물, 종족, 장소, 용어만**, 항목 안에서도 **그 권까지 밝혀진 사실만** 보여 준다. 그 너머의 항목과 사실은 흐리게 처리하지 않고 아예 렌더하지 않는다 (개수도 드러나지 않게).
+**English**: An unofficial, spoiler-free fan companion for the Korean fantasy novel "The Bird That Drinks Tears". It shows characters, places and terms only up to the book you have read.
+
+[한국어](#한국어) | [English](#english) | [개발자용 / For developers](#개발자용-안내)
+
+## 한국어
+
+### 어떤 앱인가
+
+- 몇 권까지 읽었는지(1~4권) 고르면 그 권까지 나온 인물, 종족, 장소, 용어와, 항목 안에서도 그 권까지 밝혀진 사실만 보여 준다.
+- 아직 안 읽은 권의 항목과 사실은 흐리게 가리는 것이 아니라 아예 화면에 그리지 않는다. 몇 개가 숨어 있는지도 드러나지 않는다.
+- 지금 읽는 권의 주요 반전은 상세 화면에서 한 번 더 눌러야 보인다.
+- 영어와 한국어 화면을 지원한다. 영어 화면에는 한글 이름도 함께 나온다.
+- 광고, 후원, 유료 기능, 로그인, 서버가 없다. 기기에 저장하는 것은 읽은 권수와 언어 선택뿐이다.
+- 받기: Google Play (곧 공개)
+
+### 틀린 정보 알리기
+
+사실은 책 원문이 아니라 2차 자료로 정리해서 틀리거나 권 번호가 어긋난 곳이 있을 수 있다. 알려 주면 바로 고친다.
+
+- 앱의 설정 > "GitHub 이슈로 알리기" 또는 "메일로 알리기"
+- [GitHub 이슈](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose)에서 양식 선택: 틀린 사실 / 권 번호가 너무 이른 사실(스포일러) / 영문 표기
+- 직접 고쳐서 PR 보내기: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+**스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.
+
+### 비공식 안내
+
+원작자, 출판사(황금가지, HarperCollins), 크래프톤과 관계없는 팬 프로젝트다. 이름, 설정, 용어는 원작에 속하고, 앱의 사실 문장은 모두 직접 쓴 요약이다. 원문 인용, 표지, 삽화는 쓰지 않는다. 권리자의 요청이 오면 따지지 않고 바로 내린다.
+
+## English
+
+### What it is
+
+- Pick how far you have read (Book 1 to 4). The app shows only the characters, races, places and terms that have appeared by then, and inside each entry only the facts revealed by then.
+- Entries and facts from books you have not read are not blurred; they are not drawn at all, so even their count stays hidden.
+- Major twists in the book you are reading now stay covered on the detail screen until you tap them.
+- English and Korean screens. The English screen also shows the Korean names so you can match them with the original.
+- No ads, no donations, no paid features, no login, no server. The only things stored on your device are your reading progress and language choice.
+- Get it: Google Play (Coming soon)
+
+### Report a mistake
+
+The facts are summarized from secondary sources, not from the books themselves, so some may be wrong or placed in the wrong book. Tell us and we will fix it.
+
+- In the app: Settings > "Report on GitHub" or "Report by email"
+- [Open a GitHub issue](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) and pick a form: wrong fact / revealed too early (spoiler) / English name
+- Fix it yourself and send a pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+**Spoiler warning**: if your issue title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.
+
+### Unofficial
+
+This is a fan project, not affiliated with the author, the publishers (Golden Bough, HarperCollins) or Krafton. Names, settings and terms belong to the original work; every fact sentence in the app is an original summary. No quotes from the books, no covers, no illustrations. If a rights holder asks, we take it down right away.
+
+## 개발자용 안내
+
+이 절부터는 한국어로 쓴 개발 문서다. 영어 기여 안내는 [CONTRIBUTING.md](CONTRIBUTING.md#english)에 있다.
+
+한국어 이름은 **눈마새 길잡이**다 (화면의 앱 이름과 한국어 기기의 홈 화면 이름. 홈 화면 이름은 `app.json` 의 `locales.ko`). 몇 권까지 읽었는지 고르면 **거기까지 나온 인물, 종족, 장소, 용어만**, 항목 안에서도 **그 권까지 밝혀진 사실만** 보여 준다. 그 너머의 항목과 사실은 흐리게 처리하지 않고 아예 렌더하지 않는다 (개수도 드러나지 않게).
 
 Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, 광고 없음. 저장하는 것은 진행 권수, 직전 진행 권수("new" 표시용), 언어 선택뿐이다 (기기의 AsyncStorage).
 
