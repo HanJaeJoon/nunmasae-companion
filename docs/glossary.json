@@ -1008,6 +1008,24 @@
     "id": "nani-legend"
   },
   {
+    "ko": "네 형제 새 이야기",
+    "en": "Tale of the Four Bird Brothers",
+    "status": "provisional",
+    "id": "four-bird-brothers"
+  },
+  {
+    "ko": "고대 아라짓어",
+    "en": "Old Arajit",
+    "status": "provisional",
+    "id": "old-arajit"
+  },
+  {
+    "ko": "생각하는 동물들",
+    "en": "Thinking Animals",
+    "status": "provisional",
+    "id": "thinking-animals"
+  },
+  {
     "ko": "케이건",
     "en": "Kagan",
     "status": "A"
@@ -1760,6 +1778,41 @@
   {
     "ko": "하늘치 유적",
     "en": "Skyray ruins",
+    "status": "provisional"
+  },
+  {
+    "ko": "해바라기",
+    "en": "Haebaragi",
+    "status": "provisional"
+  },
+  {
+    "ko": "달바라기",
+    "en": "Dalbaragi",
+    "status": "provisional"
+  },
+  {
+    "ko": "아킨스로우 협곡",
+    "en": "Akinsrow Gorge",
+    "status": "provisional"
+  },
+  {
+    "ko": "오동나무 군단",
+    "en": "Paulownia Legion",
+    "status": "provisional"
+  },
+  {
+    "ko": "야자수 군단",
+    "en": "Palm Legion",
+    "status": "provisional"
+  },
+  {
+    "ko": "가이너 카쉬냅",
+    "en": "Gainer Kashnap",
+    "status": "provisional"
+  },
+  {
+    "ko": "아라짓 전사의 노래",
+    "en": "song of the Arajit Warriors",
     "status": "provisional"
   }
 ]

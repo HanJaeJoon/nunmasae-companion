@@ -45,7 +45,8 @@
       {
         "at": 4,
         "ko": "어디에도 없는 신이 인간에게 준 것은 인간에게서만 태어나는 나늬다.",
-        "en": "What the God of Nowhere gave humans is Nani, who is born only from humans."
+        "en": "What the God of Nowhere gave humans is Nani, who is born only from humans.",
+        "major": true
       }
     ]
   },
@@ -263,6 +264,11 @@
         "en": "They shed their skin when the time comes."
       },
       {
+        "at": 1,
+        "ko": "한계선 남쪽의 옛 아라짓 도시들을 무너뜨리고 그 땅을 차지했다.",
+        "en": "They destroyed the old Arajit cities south of the Line of Limit and took that land."
+      },
+      {
         "at": 3,
         "ko": "수호자들이 여신의 힘으로 추위를 이겨 내면서 나가군이 한계선을 넘어 북진한다.",
         "en": "As the Guardians overcome the cold with the Goddess's power, the Nhaga army crosses the Line of Limit and advances north."
@@ -325,7 +331,8 @@
       {
         "at": 4,
         "ko": "두억시니는 첫 번째 종족이 세상을 떠나며 남긴 찌꺼기다.",
-        "en": "The Duoksini are the dregs the First Race left behind when it departed the world."
+        "en": "The Duoksini are the dregs the First Race left behind when it departed the world.",
+        "major": true
       }
     ]
   },
@@ -355,7 +362,8 @@
       {
         "at": 4,
         "ko": "하늘치와 그 등의 유적, 두억시니의 피라미드는 이 종족이 남긴 것이다.",
-        "en": "The Skyrays and the ruins on their backs, as well as the pyramids of the Duoksini, were left behind by this race."
+        "en": "The Skyrays and the ruins on their backs, as well as the pyramids of the Duoksini, were left behind by this race.",
+        "major": true
       }
     ]
   },
@@ -380,12 +388,14 @@
       {
         "at": 4,
         "ko": "케이건 드라카가 이 신의 신체이자 화신이며, 둘은 하나로 합쳐져 있다.",
-        "en": "Kagan Draca is this god's vessel and avatar, and the two are merged into one."
+        "en": "Kagan Draca is this god's vessel and avatar, and the two are merged into one.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "케이건 안에 깃든 이 신은 춤추는 자라고도 불린다.",
-        "en": "Dwelling within Kagan, this god is also called the Dancer."
+        "en": "Dwelling within Kagan, this god is also called the Dancer.",
+        "major": true
       },
       {
         "at": 4,
@@ -395,12 +405,14 @@
       {
         "at": 4,
         "ko": "이 신이 아주 오랫동안 한 몸 안에 머물러 신들이 서로를 보지 못했고, 그동안 세상의 변화가 멈춰 있었다.",
-        "en": "Because this god stayed in one body for a very long time, the gods could not see one another, and all that while the world stopped changing."
+        "en": "Because this god stayed in one body for a very long time, the gods could not see one another, and all that while the world stopped changing.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "이 신이 인간에게 준 선물은 나늬다.",
-        "en": "The gift this god gave to humans is Nani."
+        "en": "The gift this god gave to humans is Nani.",
+        "major": true
       }
     ]
   },
@@ -425,7 +437,8 @@
       {
         "at": 3,
         "ko": "도깨비 시우쇠의 몸에서 화신으로 깨어나 북부군에 합류한다.",
-        "en": "Awakens as an avatar in the body of the Tokkebi Siusoe and joins the Northern Army."
+        "en": "Awakens as an avatar in the body of the Tokkebi Siusoe and joins the Northern Army.",
+        "major": true
       },
       {
         "at": 3,
@@ -470,7 +483,8 @@
       {
         "at": 3,
         "ko": "최후의 대장장이가 낳은 아기 레콘이 이 여신의 신체였고, 태어나자마자 화신이 된다.",
-        "en": "The Rekon baby born to the Final Smith was this goddess's vessel and becomes her avatar as soon as it is born."
+        "en": "The Rekon baby born to the Final Smith was this goddess's vessel and becomes her avatar as soon as it is born.",
+        "major": true
       },
       {
         "at": 3,
@@ -515,32 +529,44 @@
       {
         "at": 2,
         "ko": "하텐그라쥬 수호자들에게 붙잡혀 카린돌 마케로우의 몸에 갇히고, 그 몸은 얼려진다.",
-        "en": "Captured by the Guardians of Hattengraaj, she is imprisoned in the body of Carindol Mahkerow, and that body is frozen."
+        "en": "Captured by the Guardians of Hattengraaj, she is imprisoned in the body of Carindol Mahkerow, and that body is frozen.",
+        "major": true
       },
       {
         "at": 2,
         "ko": "갇힌 뒤에도 신명을 지닌 수호자들이 그 힘을 빌려 물과 비를 다룬다.",
-        "en": "Even after her imprisonment, Guardians who hold Sacred Names borrow her power to control water and rain."
+        "en": "Even after her imprisonment, Guardians who hold Sacred Names borrow her power to control water and rain.",
+        "major": true
       },
       {
         "at": 3,
         "ko": "요스비가 이 여신의 신체였고, 그 앞의 신체는 세페린이었다.",
-        "en": "Yosby was this goddess's vessel, and the vessel before him was Seperin."
+        "en": "Yosby was this goddess's vessel, and the vessel before him was Seperin.",
+        "major": true
       },
       {
         "at": 3,
         "ko": "요스비가 죽을 때 여신은 곁에 있던 카린돌에게 옮겨 갔다.",
-        "en": "When Yosby died, the Goddess passed to Carindol, who was beside him."
+        "en": "When Yosby died, the Goddess passed to Carindol, who was beside him.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "세리스마의 계획을 이용해 일부러 갇힌 채 다른 신들을 불러 모은 것은 여신 자신이었다.",
-        "en": "It was the Goddess herself who used Serisma's plan to stay imprisoned on purpose and gather the other gods."
+        "en": "It was the Goddess herself who used Serisma's plan to stay imprisoned on purpose and gather the other gods.",
+        "major": true
+      },
+      {
+        "at": 4,
+        "ko": "케이건에게 요스비의 이름으로 온 전언은 사실 갇혀 있던 이 여신이 보낸 것이었다.",
+        "en": "The message that reached Kagan in Yosby's name was in fact sent by this Goddess while she was imprisoned.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "전쟁이 끝난 뒤에도 카린돌의 딸 그리미를 돌보려고 떠나지 않고 남는다.",
-        "en": "Even after the war ends, she stays instead of leaving, to look after Carindol's daughter Grimi."
+        "en": "Even after the war ends, she stays instead of leaving, to look after Carindol's daughter Grimi.",
+        "major": true
       }
     ]
   },
@@ -600,6 +626,11 @@
         "en": "He serves as the pathfinder of the Rescue Mission organized by the Great Temple of Hainsha."
       },
       {
+        "at": 1,
+        "ko": "오래전 즈믄누리 씨름판에서 도깨비 장사들과 성주까지 모두 이긴 적이 있다.",
+        "en": "Long ago he beat every Tokkebi strongman in the wrestling ring of Jumunuri, the castle lord included."
+      },
+      {
         "at": 2,
         "ko": "사라졌다고 알려진 아라짓의 왕검이 그의 칼 바라기라는 사실이 하인샤 대사원에서 드러난다.",
         "en": "At the Great Temple of Hainsha, it comes to light that his sword Baragi is the royal sword of Arajit, which was believed lost."
@@ -612,17 +643,31 @@
       {
         "at": 2,
         "ko": "나가에게 아내를 잃었다고 티나한에게 털어놓는다.",
-        "en": "He confides to Teenahan that he lost his wife to the Nhaga."
+        "en": "He confides to Teenahan that he lost his wife to the Nhaga.",
+        "major": true
+      },
+      {
+        "at": 2,
+        "ko": "홀로 많은 나가를 상대해 아내의 유해를 되찾아 왔다.",
+        "en": "Alone against many Nhaga, he took back his wife's remains.",
+        "major": true
       },
       {
         "at": 2,
         "ko": "마지막 아라짓 전사이자 마지막 키탈저 사냥꾼을 자처하며 사모 페이를 북부의 왕으로 추대한다.",
-        "en": "Calling himself the last Arajit Warrior and the last Kitaljer Hunter, he raises Sammo Pei as King of the North."
+        "en": "Calling himself the last Arajit Warrior and the last Kitaljer Hunter, he raises Sammo Pei as King of the North.",
+        "major": true
       },
       {
         "at": 2,
         "ko": "사모의 명에 따라 티나한, 비형과 함께 다른 신들의 화신을 찾는 수탐자로 떠난다.",
         "en": "At Sammo's command, he sets out with Teenahan and Byong as Searchers to find the avatars of the other gods."
+      },
+      {
+        "at": 2,
+        "ko": "오래전 유료도로당 당주 보늬와의 사이에 아들 케이를 두었다.",
+        "en": "Long ago he had a son, Kei, with Boni, guild master of the Toll Road Guild.",
+        "major": true
       },
       {
         "at": 3,
@@ -645,29 +690,34 @@
         "en": "In ruined Kasida, he teaches a boy he meets how to survive and gives him a dagger."
       },
       {
-        "at": 3,
-        "ko": "오래전 유료도로당 당주 보늬의 남편이었고, 보좌관 케이가 그의 아들이다.",
-        "en": "Long ago he was the husband of Boni, guild master of the Toll Road Guild, and her aide Kei is his son."
-      },
-      {
         "at": 4,
         "ko": "아내를 나가에게 잃은 뒤 나가를 먹기 시작했고, 소드락을 먹은 나가를 먹어 늙지 않는다고 믿어 왔다.",
-        "en": "He began eating Nhaga after losing his wife to them, and has believed that eating Nhaga who ate Sodrak keeps him from aging."
+        "en": "He began eating Nhaga after losing his wife to them, and has believed that eating Nhaga who ate Sodrak keeps him from aging.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "극연왕의 오라비인 아라짓 왕자였으며, 나가에게 속아 누이의 검 바라기를 가지고 나온 일이 왕국 몰락의 한 원인이 되었다.",
-        "en": "He was a prince of Arajit and the brother of the King of Extremity, and being tricked by the Nhaga into taking his sister's sword Baragi out became one cause of the kingdom's fall."
+        "en": "He was a prince of Arajit and the brother of the King of Extremity, and being tricked by the Nhaga into taking his sister's sword Baragi out became one cause of the kingdom's fall.",
+        "major": true
+      },
+      {
+        "at": 4,
+        "ko": "누이에게서 달아난 뒤 키탈저 사냥꾼들에게 몸을 맡겼고, 아내도 그곳에서 만났다.",
+        "en": "After fleeing from his sister, he joined the Kitaljer Hunters, and it was there that he met his wife.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "시우쇠의 폭로로 어디에도 없는 신의 화신임이 드러나고, 나가를 증오한 채 나가 살육신이 되어 하텐그라쥬를 회오리로 덮친다.",
-        "en": "Siusoe's revelation exposes him as the avatar of the God of Nowhere, and still hating the Nhaga, he becomes the Nhaga-Slaying God and strikes Hattengraaj with a whirlwind."
+        "en": "Siusoe's revelation exposes him as the avatar of the God of Nowhere, and still hating the Nhaga, he becomes the Nhaga-Slaying God and strikes Hattengraaj with a whirlwind.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "신이 인간에게 준 선물이 나늬임을 깨닫고 나가 살육신이기를 멈춘다.",
-        "en": "Realizing that the gift the god gave humans is Nani, he stops being the Nhaga-Slaying God."
+        "en": "Realizing that the gift the god gave humans is Nani, he stops being the Nhaga-Slaying God.",
+        "major": true
       },
       {
         "at": 4,
@@ -784,6 +834,11 @@
         "en": "He has a habit of ending everything he says with a question."
       },
       {
+        "at": 1,
+        "ko": "나가를 사람으로 볼 수 있는지 알아보는 것을 구출대에 함께하는 개인적인 이유로 삼는다.",
+        "en": "His personal reason for joining the Rescue Mission is to find out whether the Nhaga can be seen as people."
+      },
+      {
         "at": 2,
         "ko": "유료도로 당원들과 씨름판을 벌일 만큼 씨름에 능하다.",
         "en": "He is good enough at wrestling to hold matches with members of the Toll Road Guild."
@@ -794,14 +849,21 @@
         "en": "He returns to Jumunuri first, then comes back to the Great Temple of Hainsha with the castle lord's answer."
       },
       {
+        "at": 2,
+        "ko": "하인샤 대사원에 이른 뒤 나가도 사람이라고 결론 내리고, 케이건의 나가 사냥을 용납할 수 없다고 여긴다.",
+        "en": "After reaching the Great Temple of Hainsha, he concludes that the Nhaga are people too and decides he cannot accept Kagan's hunting of them."
+      },
+      {
         "at": 3,
         "ko": "시우쇠를 깨울 때 그릇의 물이 피로 변하자 질겁한다.",
-        "en": "When the water in a bowl turns to blood as they awaken Siusoe, he is horrified."
+        "en": "When the water in a bowl turns to blood as they awaken Siusoe, he is horrified.",
+        "major": true
       },
       {
         "at": 3,
         "ko": "최후의 대장간에서 북부 소식을 듣고 륜이 용인이 되었음을 안다.",
-        "en": "At the Final Forge, he hears news from the North and learns that Ryun has become a dragoner."
+        "en": "At the Final Forge, he hears news from the North and learns that Ryun has become a dragoner.",
+        "major": true
       },
       {
         "at": 4,
@@ -853,7 +915,8 @@
       {
         "at": 1,
         "ko": "친구 화리트의 죽음을 본 뒤 심장을 적출하지 않은 채 도망치고, 화리트를 죽였다는 누명을 써 쇼자인테쉬크톨의 대상이 된다.",
-        "en": "After witnessing the death of his friend Hwarit, he flees with his heart unextracted, is falsely accused of killing Hwarit, and becomes the target of a Shojainteshiktol."
+        "en": "After witnessing the death of his friend Hwarit, he flees with his heart unextracted, is falsely accused of killing Hwarit, and becomes the target of a Shojainteshiktol.",
+        "major": true
       },
       {
         "at": 2,
@@ -863,7 +926,8 @@
       {
         "at": 3,
         "ko": "아스화리탈이 퍼뜨린 용근을 먹고 용인이 되어, 남의 마음과 몸속 물의 흐름까지 읽는다.",
-        "en": "He eats dragon root spread by Azhwarital and becomes a dragoner, able to read others' minds and even the flow of water inside their bodies."
+        "en": "He eats dragon root spread by Azhwarital and becomes a dragoner, able to read others' minds and even the flow of water inside their bodies.",
+        "major": true
       },
       {
         "at": 3,
@@ -939,8 +1003,13 @@
       },
       {
         "at": 2,
-        "ko": "북부의 추위를 견디려고 흑사자 모피를 두른다.",
-        "en": "She wears a Black Lion pelt to endure the cold of the North."
+        "ko": "흑사자 모피를 지니고 있다.",
+        "en": "She has a Black Lion pelt."
+      },
+      {
+        "at": 2,
+        "ko": "말이 통하지 않는 두억시니들의 통행료를 대신 내 유료도로를 지나가게 한다.",
+        "en": "She pays the toll on behalf of the Duoksini, who cannot be reasoned with, and gets them through the toll road."
       },
       {
         "at": 2,
@@ -949,8 +1018,15 @@
       },
       {
         "at": 2,
+        "ko": "수호자들의 여신 감금을 여신을 존중한 일이 아니라고 비판하고, 수호자들은 반박하지 못한다.",
+        "en": "She condemns the Guardians' imprisonment of the Goddess as no act of reverence, and the Guardians cannot answer her.",
+        "major": true
+      },
+      {
+        "at": 2,
         "ko": "하인샤 대사원에서 북부의 왕으로 추대된다.",
-        "en": "At the Great Temple of Hainsha, she is raised as King of the North."
+        "en": "At the Great Temple of Hainsha, she is raised as King of the North.",
+        "major": true
       },
       {
         "at": 3,
@@ -1029,9 +1105,21 @@
         "en": "He knew Kagan Draca."
       },
       {
+        "at": 2,
+        "ko": "케이건의 친구였고, 케이건에게서 아라짓 전사의 노래를 배웠다.",
+        "en": "He was Kagan's friend and learned the song of the Arajit Warriors from him.",
+        "major": true
+      },
+      {
+        "at": 2,
+        "ko": "오래전 뱀단지를 하인샤 대사원에 전하러 북부에 왔고, 케이건의 안내로 북부를 여행했다.",
+        "en": "Long ago he came north to deliver a Snake Jar to the Great Temple of Hainsha, and traveled the North with Kagan as his guide."
+      },
+      {
         "at": 3,
         "ko": "발자국 없는 여신이 깃든 신체였고, 그가 죽자 여신은 카린돌에게 옮겨 갔다.",
-        "en": "He was the vessel in which the Traceless Goddess dwelt, and when he died, the Goddess passed to Carindol."
+        "en": "He was the vessel in which the Traceless Goddess dwelt, and when he died, the Goddess passed to Carindol.",
+        "major": true
       },
       {
         "at": 3,
@@ -1051,7 +1139,8 @@
       {
         "at": 4,
         "ko": "그의 심장을 실제로 부순 자는 갈로텍이었다.",
-        "en": "The one who actually destroyed his heart was Galotek."
+        "en": "The one who actually destroyed his heart was Galotek.",
+        "major": true
       }
     ]
   },
@@ -1110,7 +1199,8 @@
       {
         "at": 1,
         "ko": "심장 적출식 날 누나 비아스 마케로우에게 살해된다.",
-        "en": "On the day of his extraction ceremony, he is murdered by his older sister Vyass Mahkerow."
+        "en": "On the day of his extraction ceremony, he is murdered by his older sister Vyass Mahkerow.",
+        "major": true
       },
       {
         "at": 1,
@@ -1146,7 +1236,8 @@
       {
         "at": 1,
         "ko": "동생 화리트를 죽인 장본인이다.",
-        "en": "She is the one who killed her brother Hwarit."
+        "en": "She is the one who killed her brother Hwarit.",
+        "major": true
       },
       {
         "at": 1,
@@ -1202,22 +1293,25 @@
       {
         "at": 1,
         "ko": "비아스의 침대 밑에서 사이커를 찾아내 그녀가 화리트를 죽였음을 알아챈다.",
-        "en": "Finding a Syker under Vyass's bed, she realizes that Vyass killed Hwarit."
+        "en": "Finding a Syker under Vyass's bed, she realizes that Vyass killed Hwarit.",
+        "major": true
       },
       {
-        "at": 2,
-        "ko": "비아스를 가주 경쟁에서 떨어뜨리려고 가문에 온 남자들을 가로챈다.",
-        "en": "To knock Vyass out of the race for head of the house, she intercepts the men who come to the house."
+        "at": 1,
+        "ko": "가문에 남자들을 억지로 데려와 비아스에게 비난받는다.",
+        "en": "She forcibly brings men into the house and is reproached by Vyass for it."
       },
       {
         "at": 2,
         "ko": "그로스의 꾀에 넘어가 본명을 들키고, 수호자들에게 붙잡혀 냉동 장치에 갇힌다.",
-        "en": "Tricked by Gros, she has her true name discovered, and the Guardians capture her and lock her in a freezing device."
+        "en": "Tricked by Gros, she has her true name discovered, and the Guardians capture her and lock her in a freezing device.",
+        "major": true
       },
       {
         "at": 2,
         "ko": "얼어붙은 그 몸에 발자국 없는 여신이 갇히고, 그녀의 영은 갈로텍에게 넘어간다.",
-        "en": "The Traceless Goddess is imprisoned in her frozen body, and her spirit passes to Galotek."
+        "en": "The Traceless Goddess is imprisoned in her frozen body, and her spirit passes to Galotek.",
+        "major": true
       },
       {
         "at": 3,
@@ -1310,12 +1404,14 @@
       {
         "at": 4,
         "ko": "그녀의 미래 모습이 케이건 앞에 나타나, 인간이 받은 선물이 나늬임을 일깨운다.",
-        "en": "A vision of her future self appears before Kagan and reminds him that the gift humans received is Nani."
+        "en": "A vision of her future self appears before Kagan and reminds him that the gift humans received is Nani.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "사모가 딸처럼 아껴 곁에 두고, 발자국 없는 여신이 그녀가 자랄 때까지 곁에 남는다.",
-        "en": "Sammo cherishes her like a daughter and keeps her close, and the Traceless Goddess stays by her side until she grows up."
+        "en": "Sammo cherishes her like a daughter and keeps her close, and the Traceless Goddess stays by her side until she grows up.",
+        "major": true
       }
     ]
   },
@@ -1424,7 +1520,8 @@
       {
         "at": 2,
         "ko": "살신 계획을 막는 척했지만, 실은 여신 감금 계획을 처음부터 짠 주모자였다.",
-        "en": "He pretended to stop the God-Killing Plan but was in fact the mastermind who devised the plan for the imprisonment of the Goddess from the start."
+        "en": "He pretended to stop the God-Killing Plan but was in fact the mastermind who devised the plan for the imprisonment of the Goddess from the start.",
+        "major": true
       },
       {
         "at": 3,
@@ -1514,8 +1611,9 @@
       },
       {
         "at": 3,
-        "ko": "누이 세페린을 죽인 나가 살육자에게 복수하려는 것이 그가 전쟁을 밀어붙인 숨은 동기다.",
-        "en": "His hidden motive for pushing the war is revenge on the Nhaga Slayer who killed his sister Seperin."
+        "ko": "누이 세페린이 나가 살육자에게 당한 일을 갚으려는 것이 그가 전쟁을 밀어붙인 숨은 동기다.",
+        "en": "His hidden motive for pushing the war is to avenge what the Nhaga Slayer did to his sister Seperin.",
+        "major": true
       },
       {
         "at": 4,
@@ -1525,7 +1623,8 @@
       {
         "at": 4,
         "ko": "요스비의 심장을 실제로 부순 자가 그였다.",
-        "en": "He was the one who actually destroyed Yosby's heart."
+        "en": "He was the one who actually destroyed Yosby's heart.",
+        "major": true
       },
       {
         "at": 4,
@@ -1554,12 +1653,17 @@
         "en": "In life, he attacked the fortress of the Siguriat Toll Road Guild, lost a large force, and failed."
       },
       {
+        "at": 2,
+        "ko": "생전에 나라에 가까운 세력을 일으켰지만, 그가 사라지자 세력이 흩어졌다.",
+        "en": "In life he built up a power close to a kingdom, but it scattered once he was gone."
+      },
+      {
         "at": 3,
         "ko": "나가군의 전략을 실제로 짜 연승을 이끌고, 끝내 유료도로당 요새를 무너뜨린다.",
         "en": "He is the one who actually plans the Nhaga army's strategy, leading it to victory after victory and finally bringing down the Toll Road Guild's fortress."
       },
       {
-        "at": 3,
+        "at": 4,
         "ko": "요새를 무너뜨린 뒤 오히려 자기 삶을 더럽혔다고 괴로워하며, 갈로텍에게 죽을 때 다른 몸으로 옮기지 말라고 부탁한다.",
         "en": "After the fortress falls, he is tormented by the thought of having instead stained his own life, and asks Galotek not to move him into another body when the time of death comes."
       },
@@ -1587,7 +1691,8 @@
       {
         "at": 2,
         "ko": "갈로텍의 부탁으로 여신을 가둘 냉동 장치를 설계한다.",
-        "en": "At Galotek's request, Nogi designs the freezing device that will imprison the Goddess."
+        "en": "At Galotek's request, Nogi designs the freezing device that will imprison the Goddess.",
+        "major": true
       }
     ]
   },
@@ -1607,8 +1712,9 @@
       },
       {
         "at": 3,
-        "ko": "나가 살육자의 공격으로 목숨을 잃었고, 그 일로 갈로텍이 복수심을 품었다.",
-        "en": "She lost her life to an attack by the Nhaga Slayer, which left Galotek bent on revenge."
+        "ko": "나가 살육자에게 당한 일로 갈로텍이 복수심을 품었다.",
+        "en": "What she suffered at the hands of the Nhaga Slayer left Galotek bent on revenge.",
+        "major": true
       }
     ]
   },
@@ -1893,7 +1999,8 @@
       {
         "at": 1,
         "ko": "륜이 도주 중 얻은 용근에서 자보로 무렵 깨어난 어린 용으로, 륜이 배낭에 넣어 기른다.",
-        "en": "A young dragon that hatched from the dragon root Ryun obtained while fleeing, around the time he reached Zaboro, and that Ryun raises in his backpack."
+        "en": "A young dragon that hatched from the dragon root Ryun obtained while fleeing, around the time he reached Zaboro, and that Ryun raises in his backpack.",
+        "major": true
       },
       {
         "at": 1,
@@ -1904,6 +2011,11 @@
         "at": 1,
         "ko": "나가의 적인 용이라 나늬가 겁을 내 태우려 하지 않는다.",
         "en": "Because it is a dragon, the enemy of the Nhaga, Nani is afraid of it and refuses to carry it."
+      },
+      {
+        "at": 2,
+        "ko": "날아다녀 도로를 거의 쓰지 않는다는 이유로 통행료를 면제받는다.",
+        "en": "Because it flies and hardly uses the road, it is exempted from the toll."
       },
       {
         "at": 3,
@@ -1966,6 +2078,11 @@
         "en": "The giant beetle that Byong Srabble rides."
       },
       {
+        "at": 1,
+        "ko": "두 사람까지만 태울 수 있다.",
+        "en": "It can carry no more than two riders."
+      },
+      {
         "at": 2,
         "ko": "이름은 전설 속 미인의 이름에서 따왔다.",
         "en": "Its name comes from the name of a beautiful woman in legend."
@@ -2026,7 +2143,7 @@
         "en": "Hearing from Siusoe that the Duoksini have not lost their god, it willingly vanishes in his fire."
       },
       {
-        "at": 4,
+        "at": 3,
         "ko": "사라지기 전 사모와 마지막 이야기를 나누며, 자기 완성을 위해 산다는 자를 조심하라고 이른다.",
         "en": "Before it disappears, it has a last talk with Sammo and warns her to beware of anyone who says they live for their own completion."
       }
@@ -2091,12 +2208,14 @@
       {
         "at": 3,
         "ko": "수탐자들이 처음 찾아낸 자신을 죽이는 신의 화신으로, 그릇의 물이 피로 변한 것을 마시고 온몸이 불길에 싸인 도깨비가 되었다.",
-        "en": "The first avatar of the God That Kills Himself found by the Searchers, he drank water from a bowl after it turned to blood and became a Tokkebi wrapped in flames from head to toe."
+        "en": "The first avatar of the God That Kills Himself found by the Searchers, he drank water from a bowl after it turned to blood and became a Tokkebi wrapped in flames from head to toe.",
+        "major": true
       },
       {
         "at": 3,
         "ko": "세퀴라도 공방전에서 무너지기 직전의 북부군에 합류해 전쟁을 버티게 한다.",
-        "en": "He joins the Northern Army as it is about to collapse in the battle for Sequirado and keeps it holding out in the war."
+        "en": "He joins the Northern Army as it is about to collapse in the battle for Sequirado and keeps it holding out in the war.",
+        "major": true
       },
       {
         "at": 3,
@@ -2126,7 +2245,8 @@
       {
         "at": 4,
         "ko": "화를 참지 못하고 케이건이 어디에도 없는 신이라는 사실을 때가 되기 전에 폭로한다.",
-        "en": "Unable to hold back his anger, he reveals before the time is right that Kagan is the God of Nowhere."
+        "en": "Unable to hold back his anger, he reveals before the time is right that Kagan is the God of Nowhere.",
+        "major": true
       },
       {
         "at": 4,
@@ -2162,7 +2282,8 @@
       {
         "at": 2,
         "ko": "세리스마에게 속은 일로 종규해석소의 심판을 받지만 가벼운 견책으로 끝난다.",
-        "en": "He is judged by the Office of Canon Interpretation for having been deceived by Serisma, but gets off with a light reprimand."
+        "en": "He is judged by the Office of Canon Interpretation for having been deceived by Serisma, but gets off with a light reprimand.",
+        "major": true
       }
     ]
   },
@@ -2198,7 +2319,8 @@
       {
         "at": 4,
         "ko": "하늘치를 몰고 하텐그라쥬로 와 환상계단으로 내려온 뒤, 나가의 멸망을 경고하고 케이건의 정체를 알린다.",
-        "en": "He steers the Skyray to Hattengraaj, comes down by the Phantom Stairs, warns of the destruction of the Nhaga, and reveals Kagan's identity."
+        "en": "He steers the Skyray to Hattengraaj, comes down by the Phantom Stairs, warns of the destruction of the Nhaga, and reveals Kagan's identity.",
+        "major": true
       }
     ]
   },
@@ -2302,13 +2424,18 @@
       },
       {
         "at": 1,
-        "ko": "원래는 페치렌의 가죽 상인이었다.",
-        "en": "Originally a leather merchant of Pechiren."
+        "ko": "원래는 평범한 장사꾼이었다.",
+        "en": "Originally an ordinary merchant."
       },
       {
         "at": 1,
         "ko": "선지자가 죽은 뒤 스스로 무리를 해산한다.",
         "en": "After the Prophet dies, Tody disbands the group of followers voluntarily."
+      },
+      {
+        "at": 1,
+        "ko": "사모에게 목숨만 살려 달라며 가진 재산을 모두 바친다.",
+        "en": "He hands over all his wealth to Sammo, begging her to spare his life."
       }
     ]
   },
@@ -2384,9 +2511,15 @@
         "en": "She recognizes Kagan at a glance and talks with him privately."
       },
       {
-        "at": 3,
-        "ko": "오래전 케이건의 아내였고, 보좌관 케이는 둘의 아들이다.",
-        "en": "Long ago she was Kagan's wife, and her aide Kei is their son."
+        "at": 2,
+        "ko": "오래전 케이건과의 사이에 아들 케이를 두었고, 그 아들이 보좌관이다.",
+        "en": "Long ago she had a son, Kei, with Kagan, and that son is her aide.",
+        "major": true
+      },
+      {
+        "at": 2,
+        "ko": "고대 아라짓어를 쓴다.",
+        "en": "She speaks Old Arajit."
       },
       {
         "at": 3,
@@ -2479,7 +2612,8 @@
       {
         "at": 2,
         "ko": "사모를 왕으로 세우는 데 가장 먼저 찬성한다.",
-        "en": "He is the first to agree to making Sammo king."
+        "en": "He is the first to agree to making Sammo king.",
+        "major": true
       },
       {
         "at": 3,
@@ -2791,7 +2925,8 @@
       {
         "at": 4,
         "ko": "이 시대의 나늬이며, 증오를 거둔 케이건은 그녀에게서 옛 아내 여름의 얼굴을 본다.",
-        "en": "She is the Nani of this age, and Kagan, having let go of his hatred, sees in her the face of his wife of long ago, Yorum."
+        "en": "She is the Nani of this age, and Kagan, having let go of his hatred, sees in her the face of his wife of long ago, Yorum.",
+        "major": true
       }
     ]
   },
@@ -2915,7 +3050,8 @@
       {
         "at": 3,
         "ko": "아이를 바라 무기를 받으러 온 젊은 레콘과의 사이에서 딸을 낳았고, 그 딸이 모든 이보다 낮은 여신의 신체였다.",
-        "en": "Wishing for a child, she had a daughter with a young Rekon who came for a weapon, and that daughter was the vessel of the Goddess Lower Than All."
+        "en": "Wishing for a child, she had a daughter with a young Rekon who came for a weapon, and that daughter was the vessel of the Goddess Lower Than All.",
+        "major": true
       },
       {
         "at": 3,
@@ -2941,7 +3077,8 @@
       {
         "at": 3,
         "ko": "최후의 대장장이가 낳은 병아리 모습의 딸로, 태어나자마자 모든 이보다 낮은 여신의 화신이 된다.",
-        "en": "The chick-shaped daughter of the Final Smith, who becomes the avatar of the Goddess Lower Than All as soon as she is born."
+        "en": "The chick-shaped daughter of the Final Smith, who becomes the avatar of the Goddess Lower Than All as soon as she is born.",
+        "major": true
       },
       {
         "at": 3,
@@ -3035,6 +3172,11 @@
         "at": 1,
         "ko": "나가를 감시하려고 높새바람 탑을 세웠다.",
         "en": "He built the Northeast Wind Tower to keep watch over the Nhaga."
+      },
+      {
+        "at": 1,
+        "ko": "왕위는 인간 부하에게 물려주었다.",
+        "en": "He passed the throne to a human follower."
       }
     ]
   },
@@ -3075,12 +3217,14 @@
       {
         "at": 4,
         "ko": "오라비가 왕위를 마다해 어린 나이에 왕위에 올랐다.",
-        "en": "She took the throne at a young age because her brother refused it."
+        "en": "She took the throne at a young age because her brother refused it.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "그 오라비가 케이건 드라카다.",
-        "en": "That brother is Kagan Draca."
+        "en": "That brother is Kagan Draca.",
+        "major": true
       }
     ]
   },
@@ -3104,7 +3248,7 @@
         "en": "Insulted the Kitaljer Hunters and drove them away, and after that no king could take the throne in Arajit."
       },
       {
-        "at": 4,
+        "at": 2,
         "ko": "그때 키탈저 사냥꾼들이 왕이 사과하기 전에는 왕이 없으리라는 저주를 내렸다.",
         "en": "At that time, the Kitaljer Hunters laid a curse that there would be no king until the king apologized."
       }
@@ -3195,18 +3339,14 @@
       },
       {
         "at": 4,
-        "ko": "별비 사냥으로 가문의 남자들이 모두 죽자, 스스로 사냥꾼의 딸로서 별비에게 복수했다.",
-        "en": "When all the men of her family died in a Byolbi hunt, she took revenge on the Byolbi herself as a hunter's daughter."
+        "ko": "대호 별비 사냥에 함께했다.",
+        "en": "She took part in the hunt for the Great Tiger Byolbi."
       },
       {
         "at": 4,
         "ko": "케이건을 살리려고 나가의 제안에 응했다가 그의 눈앞에서 목숨을 잃었다.",
-        "en": "She accepted a Nhaga's offer to save Kagan and lost her life before his eyes."
-      },
-      {
-        "at": 4,
-        "ko": "그녀 또한 인간에게서 태어나는 나늬였다.",
-        "en": "She too was a Nani, one born of humans."
+        "en": "She accepted a Nhaga's offer to save Kagan and lost her life before his eyes.",
+        "major": true
       }
     ]
   },
@@ -3402,6 +3542,11 @@
         "at": 4,
         "ko": "의장 칸비야 고소리가 중립을 선언해, 북부군과 나가군이 이 도시에서 싸우지 않는다.",
         "en": "Council chair Kanbiya Gosori declares neutrality, so the Northern Army and the Nhaga army do not fight in this city."
+      },
+      {
+        "at": 4,
+        "ko": "전쟁이 끝난 뒤 한계선 남북을 잇는 유일한 교류지가 된다.",
+        "en": "After the war, it becomes the only place of exchange between north and south of the Line of Limit."
       }
     ]
   },
@@ -3601,7 +3746,8 @@
       {
         "at": 2,
         "ko": "북부의 군웅들이 모인 가운데 사모 페이가 이곳에서 북부의 왕으로 추대된다.",
-        "en": "With the warlords of the North gathered, Sammo Pei is proclaimed King of the North here."
+        "en": "With the warlords of the North gathered, Sammo Pei is proclaimed King of the North here.",
+        "major": true
       }
     ]
   },
@@ -3720,6 +3866,11 @@
       },
       {
         "at": 3,
+        "ko": "그 암각문은 용인에 관한 옛 비문이다.",
+        "en": "That rock inscription is an old epigraph about dragoners."
+      },
+      {
+        "at": 3,
         "ko": "홀로 살아남은 소년이 그 빈자리에 '미움'이라는 말을 새긴다.",
         "en": "A boy, the only survivor, carves the word \"Hatred\" into the blank space."
       },
@@ -3777,6 +3928,11 @@
         "at": 2,
         "ko": "북쪽 끝 가까운 지방으로, 빌파 일가의 근거지다.",
         "en": "A region near the far north, the home base of the Bilpa family."
+      },
+      {
+        "at": 2,
+        "ko": "어떤 도둑이 나가들의 의뢰를 받아 영웅왕의 왕국을 훔쳤다는 이야기가 전해진다.",
+        "en": "There is a tale that a thief, hired by the Nhaga, stole the Hero King's kingdom."
       }
     ]
   },
@@ -3796,7 +3952,8 @@
       {
         "at": 3,
         "ko": "이 공방전 끝에 화신 시우쇠가 나타나 북부군을 구한다.",
-        "en": "At the end of this siege, the avatar Siusoe appears and saves the Northern Army."
+        "en": "At the end of this siege, the avatar Siusoe appears and saves the Northern Army.",
+        "major": true
       }
     ]
   },
@@ -4022,6 +4179,11 @@
         "at": 1,
         "ko": "추위가 닥치면 적출한 나가는 멈춰 잠들 뿐 죽지 않지만, 적출하지 않은 나가는 얼어 죽을 수 있다.",
         "en": "When cold strikes, an extracted Nhaga only stops and sleeps without dying, but a Nhaga without extraction can freeze to death."
+      },
+      {
+        "at": 1,
+        "ko": "심장 적출법을 알기 전의 나가는 밀림 밖으로 나오지 못하는 약한 종족이었다.",
+        "en": "Before they learned heart extraction, the Nhaga were a weak race that could not leave the jungle."
       }
     ]
   },
@@ -4047,6 +4209,11 @@
         "at": 2,
         "ko": "스스로를 여신의 신랑이라 부르며, 삶 전체를 여신과의 혼례로 여긴다.",
         "en": "They call themselves the Goddess's bridegrooms and see their whole lives as a marriage to her."
+      },
+      {
+        "at": 2,
+        "ko": "나가들에게 여신이 불신자들에게 납치되었다고 알려 북부를 치자는 여론을 일으킨다.",
+        "en": "They tell the Nhaga that the Goddess has been kidnapped by unbelievers, stirring up calls to attack the North."
       },
       {
         "at": 3,
@@ -4209,6 +4376,21 @@
         "en": "An old war the Nhaga waged against other races to expand their power northward."
       },
       {
+        "at": 2,
+        "ko": "나가가 심장 적출법을 익히면서 본격적으로 벌어졌고, 이때 첫 만민 회의가 열렸다.",
+        "en": "It began in earnest once the Nhaga mastered heart extraction, and the first Assembly of All Peoples was held at that time."
+      },
+      {
+        "at": 2,
+        "ko": "아킨스로우 협곡에서 도깨비 하나가 나가 대군을 무너뜨린 일이 전한다.",
+        "en": "It is told that a single Tokkebi destroyed a great Nhaga army at Akinsrow Gorge."
+      },
+      {
+        "at": 2,
+        "ko": "나가가 북쪽의 추위를 넘지 못해 멈추면서 나가의 승리로 끝났다.",
+        "en": "It ended in a Nhaga victory when the Nhaga halted, unable to overcome the cold of the north."
+      },
+      {
         "at": 3,
         "ko": "몇 해 뒤 여신을 가둔 나가가 다시 북진하면서 두 번째 전쟁이 벌어진다.",
         "en": "Some years later, the Nhaga, having imprisoned the Goddess, push north again, and a second war begins."
@@ -4369,14 +4551,19 @@
         "en": "It is said that after they were insulted by the King of Power and left, no king arose in the North."
       },
       {
-        "at": 4,
-        "ko": "스스로를 용의 자손이라 불렀다.",
-        "en": "They called themselves the descendants of the dragon."
+        "at": 1,
+        "ko": "모순에 특별한 힘이 있다고 믿었다.",
+        "en": "They believed that contradictions hold a special power."
+      },
+      {
+        "at": 2,
+        "ko": "만민 회의에서 모욕당한 그들은 왕이 사과하지 않는 한 왕은 없다는 저주를 남겼다.",
+        "en": "Insulted at the Assembly of All Peoples, they left a curse that there would be no king unless the king apologized."
       },
       {
         "at": 4,
-        "ko": "만민 회의에서 모욕당한 그들은 왕이 사과하지 않는 한 왕은 없다는 저주를 남겼다.",
-        "en": "Insulted at the Assembly of All Peoples, they left a curse that there would be no king unless the king apologized."
+        "ko": "스스로를 용의 자손이라 불렀다.",
+        "en": "They called themselves the descendants of the dragon."
       }
     ]
   },
@@ -4399,14 +4586,30 @@
         "en": "The royal sword of the royal house of Arajit, handed down from the Hero King."
       },
       {
+        "at": 1,
+        "ko": "영웅왕이 해바라기와 달바라기 두 칼을 합쳐 만들었다.",
+        "en": "The Hero King made it by joining two swords, Haebaragi and Dalbaragi."
+      },
+      {
         "at": 2,
         "ko": "케이건이 지닌 칼이 오래전 사라졌다던 그 왕검이라는 것이 사람들 앞에 드러난다.",
         "en": "It is revealed before others that the sword Kagan carries is that royal sword, long said to be lost."
       },
       {
+        "at": 2,
+        "ko": "역사가들은 바라기의 실종을 아라짓 몰락을 설명하는 중요한 사건으로 다룬다.",
+        "en": "Historians treat the disappearance of Baragi as a key event in explaining the fall of Arajit."
+      },
+      {
         "at": 4,
         "ko": "옛날 바라기가 사라진 것은 케이건이 나가에게 속아 그 칼을 가지고 왕국을 떠났기 때문이다.",
-        "en": "Baragi vanished long ago because Kagan, deceived by the Nhaga, left the kingdom with it."
+        "en": "Baragi vanished long ago because Kagan, deceived by the Nhaga, left the kingdom with it.",
+        "major": true
+      },
+      {
+        "at": 4,
+        "ko": "바라기가 사라졌다는 기록은 실제로 사라지고 한참 뒤에야 공식 기록에 올랐다.",
+        "en": "Baragi's disappearance entered the official records only long after it actually went missing."
       }
     ]
   },
@@ -4431,7 +4634,8 @@
       {
         "at": 4,
         "ko": "소드락이 몸에 쌓여 늙지 않는다는 믿음이 있지만, 케이건이 오래 산 진짜 이유는 따로 있었다.",
-        "en": "Some believe Sodrak building up in the body keeps one from aging, but the real reason Kagan lived so long was something else."
+        "en": "Some believe Sodrak building up in the body keeps one from aging, but the real reason Kagan lived so long was something else.",
+        "major": true
       }
     ]
   },
@@ -4476,7 +4680,8 @@
       {
         "at": 4,
         "ko": "이 말은 세 종족의 신이 인간의 신 하나를 상대하려고 세운 계획이었고, 그 하나는 케이건 드라카였다.",
-        "en": "The saying was a plan made by the gods of the three races to face the one god of the humans, and that one was Kagan Draca."
+        "en": "The saying was a plan made by the gods of the three races to face the one god of the humans, and that one was Kagan Draca.",
+        "major": true
       }
     ]
   },
@@ -4506,7 +4711,8 @@
       {
         "at": 4,
         "ko": "어디에도 없는 신의 화신인 케이건 드라카가 나가를 미워하는 채로 그 힘을 쓰게 된 모습을 이르는 말이다.",
-        "en": "The name for Kagan Draca, avatar of the God of Nowhere, when he comes to use that power while still hating the Nhaga."
+        "en": "The name for Kagan Draca, avatar of the God of Nowhere, when he comes to use that power while still hating the Nhaga.",
+        "major": true
       },
       {
         "at": 4,
@@ -4516,7 +4722,8 @@
       {
         "at": 4,
         "ko": "인간이 받은 선물이 나늬임을 깨달은 케이건이 증오를 거두면서 멈춘다.",
-        "en": "It stops when Kagan realizes that the gift humans received is Nani and lets go of his hatred."
+        "en": "It stops when Kagan realizes that the gift humans received is Nani and lets go of his hatred.",
+        "major": true
       }
     ]
   },
@@ -4594,6 +4801,16 @@
         "en": "It holds a fortress that once withstood even the attack of a great army."
       },
       {
+        "at": 2,
+        "ko": "딱정벌레를 타고 날아서 산맥을 넘는 도깨비에게는 통행료를 받지 않는다.",
+        "en": "It charges no toll to Tokkebi who fly over the mountains on their beetles."
+      },
+      {
+        "at": 2,
+        "ko": "통행료는 종족마다 정해져 있어 성자든 범죄자든 같은 값을 낸다.",
+        "en": "Tolls are fixed by race, so saint and criminal alike pay the same."
+      },
+      {
         "at": 3,
         "ko": "전쟁 중에도 어느 편도 들지 않고 나가군에게도 통행료를 받는다.",
         "en": "Even during the war, it takes no side and collects tolls from the Nhaga army too."
@@ -4602,6 +4819,11 @@
         "at": 3,
         "ko": "돌아가는 나가군이 통행료를 내지 못하자 맞서 싸운다.",
         "en": "When the returning Nhaga army cannot pay the toll, it fights back."
+      },
+      {
+        "at": 3,
+        "ko": "전쟁 중 나가군의 오동나무 군단과 야자수 군단이 관문을 뚫으려다 실패했다.",
+        "en": "During the war, the Nhaga army's Paulownia Legion and Palm Legion tried and failed to break through its gate."
       },
       {
         "at": 3,
@@ -4701,7 +4923,8 @@
       {
         "at": 3,
         "ko": "나가도 용근을 먹으면 용인이 될 수 있다.",
-        "en": "Nhaga too can become dragoners by eating a dragon root."
+        "en": "Nhaga too can become dragoners by eating a dragon root.",
+        "major": true
       }
     ]
   },
@@ -4754,11 +4977,6 @@
         "en": "A Rekon's declaration of a duel, asking to settle things with weapons."
       },
       {
-        "at": 1,
-        "ko": "선언한 쪽은 먼저 칠 기회를 상대에게 넘기고, 끝날 때까지 말을 섞지 않는다.",
-        "en": "The one who declares it gives the opponent the first strike and exchanges no words until it is over."
-      },
-      {
         "at": 4,
         "ko": "반대로 절대 싸우지 않겠다는 맹세는 철의 침묵이라 하며, 레콘에게는 최고의 경의다.",
         "en": "Its opposite, a vow never to fight, is called the Silence in Iron, and to a Rekon it is the highest mark of respect."
@@ -4801,12 +5019,14 @@
       {
         "at": 2,
         "ko": "실은 수호자들이 발자국 없는 여신을 가두려고 꾸민 속임수였다.",
-        "en": "In truth, it was a ruse the Guardians devised to imprison the Traceless Goddess."
+        "en": "In truth, it was a ruse the Guardians devised to imprison the Traceless Goddess.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "그 계획을 진짜로 설계한 것은 발자국 없는 여신 자신이었다.",
-        "en": "The one who truly designed that plan was the Traceless Goddess herself."
+        "en": "The one who truly designed that plan was the Traceless Goddess herself.",
+        "major": true
       }
     ]
   },
@@ -4826,12 +5046,14 @@
       {
         "at": 2,
         "ko": "사모 페이를 왕으로 세운 뒤 구출대의 셋이 수탐자가 되어 떠난다.",
-        "en": "After making Sammo Pei king, the three of the Rescue Mission become Searchers and set out."
+        "en": "After making Sammo Pei king, the three of the Rescue Mission become Searchers and set out.",
+        "major": true
       },
       {
         "at": 3,
         "ko": "즈믄누리 성주가 준 접시로 첫 화신 시우쇠를 깨워 북부군에 보낸다.",
-        "en": "With the dish given by the castle lord of Jumunuri, they awaken the first avatar, Siusoe, and send him to the Northern Army."
+        "en": "With the dish given by the castle lord of Jumunuri, they awaken the first avatar, Siusoe, and send him to the Northern Army.",
+        "major": true
       },
       {
         "at": 3,
@@ -4910,8 +5132,9 @@
       },
       {
         "at": 4,
-        "ko": "접시는 눈속임이었고, 신체를 찾아낸 것은 케이건 안에 있던 어디에도 없는 신의 힘이었다.",
-        "en": "The dish was a trick; what really found the vessels was the power of the God of Nowhere within Kagan."
+        "ko": "인간 신의 화신을 찾을 때 접시가 깨지지 않은 것은 케이건 자신이 그 화신이었기 때문이다.",
+        "en": "When they searched for the avatar of the human god, the dish did not break because Kagan himself was that avatar.",
+        "major": true
       }
     ]
   },
@@ -4936,17 +5159,75 @@
       {
         "at": 4,
         "ko": "인간에게서만 태어나 모든 종족에게 사랑받는 존재로, 어디에도 없는 신이 인간에게 준 선물이다.",
-        "en": "A being born only of humans and loved by all races, given to humans as a gift by the God of Nowhere."
+        "en": "A being born only of humans and loved by all races, given to humans as a gift by the God of Nowhere.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "이 시대의 나늬는 데오늬 달비다.",
-        "en": "The Nani of this age is Deoni Dalbi."
+        "en": "The Nani of this age is Deoni Dalbi.",
+        "major": true
       },
       {
         "at": 4,
         "ko": "모든 종족에게서 태어나는 보늬라는 존재도 있어 나늬와 자매처럼 여겨진다.",
         "en": "There is also a being called Boni, born of every race, regarded as a sister to the Nani."
+      }
+    ]
+  },
+  {
+    "id": "four-bird-brothers",
+    "type": "term",
+    "name": {
+      "ko": "네 형제 새 이야기",
+      "en": "Tale of the Four Bird Brothers"
+    },
+    "facts": [
+      {
+        "at": 1,
+        "ko": "물, 피, 독약, 눈물을 마시는 네 형제 새가 나오는 옛이야기다.",
+        "en": "An old tale of four bird brothers who drink water, blood, poison and tears."
+      },
+      {
+        "at": 1,
+        "ko": "그중 눈물을 마시는 새가 왕에 빗대어진다.",
+        "en": "Of the four, the bird that drinks tears is likened to a king.",
+        "major": true
+      }
+    ]
+  },
+  {
+    "id": "old-arajit",
+    "type": "term",
+    "name": {
+      "ko": "고대 아라짓어",
+      "en": "Old Arajit"
+    },
+    "facts": [
+      {
+        "at": 2,
+        "ko": "보늬 당주가 쓰는 옛 말이다.",
+        "en": "An old tongue spoken by Boni, the guild master."
+      },
+      {
+        "at": 4,
+        "ko": "극연왕 시절에 이미 학식 높은 사람만 아는 어려운 말이었다.",
+        "en": "Even in the days of the King of Extremity, it was a difficult tongue known only to the very learned."
+      }
+    ]
+  },
+  {
+    "id": "thinking-animals",
+    "type": "term",
+    "name": {
+      "ko": "생각하는 동물들",
+      "en": "Thinking Animals"
+    },
+    "facts": [
+      {
+        "at": 3,
+        "ko": "가이너 카쉬냅이 쓴 책으로, 나가 사회에서도 악명이 높다.",
+        "en": "A book by Gainer Kashnap, notorious even in Nhaga society."
       }
     ]
   }
