@@ -40,6 +40,8 @@ type Strings = {
   reportBody: string;
   notFound: string;
   newBadge: string;
+  majorBadge: string;
+  revealMajor: string;
   appTagline: string;
   noMatches: string;
   typeCharacter: string;
@@ -90,6 +92,8 @@ export const translations: Record<AppLocale, Strings> = {
       'Entry name:\nRead-through setting when you saw it (Book N):\nWhat is wrong:\nWhat is right (as far as you know):\n',
     notFound: 'This entry is not available.',
     newBadge: 'New',
+    majorBadge: 'Major',
+    revealMajor: 'Major twist, tap to reveal',
     appTagline: 'A spoiler-free glossary of characters, races, places and terms.',
     noMatches: 'No names match up to Book %{n}.',
     typeCharacter: 'Character',
@@ -137,6 +141,8 @@ export const translations: Record<AppLocale, Strings> = {
     reportBody: '항목 이름:\n본 화면의 읽은 지점(N권까지):\n틀린 내용:\n맞는 내용(아는 만큼):\n',
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
+    majorBadge: '주요',
+    revealMajor: '주요 반전, 눌러서 보기',
     appTagline: '인물, 종족, 장소, 용어를 스포일러 없이 찾아보는 용어집입니다.',
     noMatches: '%{n}권까지 나온 이름 중에 일치하는 것이 없습니다.',
     typeCharacter: '인물',

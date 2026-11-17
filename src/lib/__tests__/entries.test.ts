@@ -2,6 +2,7 @@ import {
   ENTRIES,
   firstAt,
   groupFactsByAt,
+  isMasked,
   isNewEntry,
   isNewFact,
   nextNewSince,
@@ -100,6 +101,23 @@ describe('new 표시', () => {
   });
 });
 
+describe('isMasked', () => {
+  const major = { at: 2, ko: 'k', en: 'e', major: true } as const;
+
+  it('지금 읽는 권의 주요 사실만 가린다', () => {
+    expect(isMasked(major, 2)).toBe(true);
+  });
+
+  it('이전 권의 주요 사실은 가리지 않는다', () => {
+    expect(isMasked(major, 3)).toBe(false);
+    expect(isMasked(major, 4)).toBe(false);
+  });
+
+  it('주요가 아닌 사실은 가리지 않는다', () => {
+    expect(isMasked({ at: 2, ko: 'k', en: 'e' }, 2)).toBe(false);
+  });
+});
+
 describe('entries.json 무결성', () => {
   const TYPES = ['character', 'race', 'god', 'place', 'term', 'creature'];
 
@@ -119,6 +137,7 @@ describe('entries.json 무결성', () => {
       expect(f.at).toBeLessThanOrEqual(4);
       expect(f.ko.trim()).not.toBe('');
       expect(f.en.trim()).not.toBe('');
+      if ('major' in f) expect(f.major).toBe(true);
     }
   });
 

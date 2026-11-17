@@ -1,18 +1,30 @@
 import { useLocalSearchParams } from 'expo-router';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { BookShelf } from '@/components/BookShelf';
 import { HeaderBar } from '@/components/HeaderBar';
 import { NewBadge } from '@/components/NewBadge';
 import { TYPE_KEYS } from '@/components/TypeLabel';
 import { useAppColors } from '@/lib/colors';
-import { ENTRIES, firstAt, groupFactsByAt, isNewFact, secondaryLocale, visibleFacts } from '@/lib/entries';
+import {
+  ENTRIES,
+  firstAt,
+  groupFactsByAt,
+  isMasked,
+  isNewFact,
+  secondaryLocale,
+  visibleFacts,
+  type Fact,
+} from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 export default function EntryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { hydrated, progress, newSince, locale, t } = useSettings();
   const colors = useAppColors();
+  // 드러낸 주요 사실. 저장하지 않으므로 화면을 벗어나면 다시 가려진다.
+  const [revealed, setRevealed] = useState<ReadonlySet<Fact>>(new Set());
 
   if (!hydrated) return null;
 
@@ -46,12 +58,42 @@ export default function EntryScreen() {
                 </Text>
               </View>
               <View accessibilityRole="list">
-                {group.facts.map((f, i) => (
-                  <View key={i} style={[styles.fact, { borderTopColor: colors.rule }]}>
-                    {isNewFact(f, progress, newSince) && <NewBadge />}
-                    <Text style={[styles.factText, { color: colors.text }]}>{f[locale]}</Text>
-                  </View>
-                ))}
+                {group.facts.map((f, i) =>
+                  // 가린 사실은 문장을 트리에 넣지 않는다. 흐림 처리는 스크린 리더와 글자 길이로 샌다.
+                  isMasked(f, progress) && !revealed.has(f) ? (
+                    <Pressable
+                      key={i}
+                      accessibilityRole="button"
+                      accessibilityLabel={t('revealMajor')}
+                      onPress={() => setRevealed((prev) => new Set(prev).add(f))}
+                      style={({ pressed }) => [
+                        styles.fact,
+                        styles.masked,
+                        { borderTopColor: colors.rule },
+                        pressed && { backgroundColor: colors.pressed },
+                      ]}
+                    >
+                      {isNewFact(f, progress, newSince) && <NewBadge />}
+                      <Text style={[styles.factText, { color: colors.accent }]}>{t('revealMajor')}</Text>
+                    </Pressable>
+                  ) : (
+                    <View key={i} style={[styles.fact, { borderTopColor: colors.rule }]}>
+                      {(isNewFact(f, progress, newSince) || f.major) && (
+                        <View style={styles.badges}>
+                          {isNewFact(f, progress, newSince) && <NewBadge />}
+                          {f.major && (
+                            <View style={[styles.major, { borderColor: colors.accent }]}>
+                              <Text style={[styles.majorText, { color: colors.accent }]} numberOfLines={1}>
+                                {t('majorBadge')}
+                              </Text>
+                            </View>
+                          )}
+                        </View>
+                      )}
+                      <Text style={[styles.factText, { color: colors.text }]}>{f[locale]}</Text>
+                    </View>
+                  ),
+                )}
               </View>
             </View>
           ))}
@@ -109,5 +151,24 @@ const styles = StyleSheet.create({
   factText: {
     fontSize: 16,
     lineHeight: 24,
+  },
+  masked: {
+    minHeight: 48,
+    justifyContent: 'center',
+  },
+  badges: {
+    flexDirection: 'row',
+    gap: 6,
+  },
+  major: {
+    minHeight: 20,
+    justifyContent: 'center',
+    borderRadius: 10,
+    borderWidth: 1,
+    paddingHorizontal: 8,
+  },
+  majorText: {
+    fontSize: 12,
+    fontWeight: '500',
   },
 });

@@ -24,6 +24,8 @@ export type Fact = {
   at: number;
   ko: string;
   en: string;
+  /** 사용자가 주요 반전으로 꼽은 사실. 상세 화면에서 표식을 붙이고 isMasked 조건이면 가린다. */
+  major?: true;
 };
 
 export type Entry = {
@@ -71,6 +73,14 @@ export function isNewEntry(entry: Entry, progress: number, newSince: number | un
 /** 직전 진행 이후 새로 밝혀진 사실인지. */
 export function isNewFact(fact: Fact, progress: number, newSince: number | undefined): boolean {
   return newSince !== undefined && fact.at > newSince && fact.at <= progress;
+}
+
+/**
+ * 문장을 그리지 않고 "눌러서 보기" 로 가릴 사실인지. 지금 읽는 권의 주요 반전만 가린다.
+ * 권과 상관없이 주요 사실을 전부 가리려면 `fact.at === progress` 조건을 빼면 된다.
+ */
+export function isMasked(fact: Fact, progress: number): boolean {
+  return fact.major === true && fact.at === progress;
 }
 
 /** 정렬된 사실을 같은 at 끼리 묶는다. 상세 화면의 "Book N" 소제목 단위. */
