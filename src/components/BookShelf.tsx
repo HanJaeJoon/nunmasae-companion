@@ -18,6 +18,9 @@ export function BookShelf({ read, size = 24, fill, ground }: { read: number; siz
   const band = Math.max(1, Math.round(size * 0.07));
   return (
     <View
+      // accessible 이 read 에 따라 바뀌면 Fabric 이 이 View 를 평탄화했다 풀면서 책등을 새 부모로 옮기는데,
+      // 첫 실행에서 진행 화면이 닫히는 전환과 겹치면 Android 가 "child already has a parent" 로 죽는다.
+      collapsable={false}
       accessible={read > 0}
       accessibilityRole={read > 0 ? 'image' : undefined}
       accessibilityLabel={read > 0 ? t('bookOf', { n: read, total: BOOK_NUMBERS.length }) : undefined}
