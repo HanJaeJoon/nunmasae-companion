@@ -7,7 +7,17 @@ import { BrandRow } from '@/components/BrandRow';
 import { NewBadge } from '@/components/NewBadge';
 import { TYPE_KEYS } from '@/components/TypeLabel';
 import { useAppColors } from '@/lib/colors';
-import { ENTRIES, isNewEntry, secondaryLocale, visibleEntries, type EntryType } from '@/lib/entries';
+import {
+  activeRace,
+  ENTRIES,
+  filterByRace,
+  isNewEntry,
+  raceCounts,
+  searchEntries,
+  secondaryLocale,
+  visibleEntries,
+  type EntryType,
+} from '@/lib/entries';
 import { useSettings } from '@/lib/settings';
 
 const TABS: { label: string; types: EntryType[] }[] = [
@@ -17,11 +27,14 @@ const TABS: { label: string; types: EntryType[] }[] = [
   { label: 'tabTerms', types: ['term'] },
 ];
 
+const RACE_NAMES = new Map(ENTRIES.filter((e) => e.type === 'race').map((e) => [e.id, e.name]));
+
 export default function Index() {
   const { hydrated, progress, newSince, locale, t } = useSettings();
   const colors = useAppColors();
   const [tab, setTab] = useState(0);
   const [query, setQuery] = useState('');
+  const [race, setRace] = useState<string | null>(null);
 
   const other = secondaryLocale(locale);
   const searching = query.trim() !== '';
@@ -30,13 +43,20 @@ export default function Index() {
   const visible = useMemo(() => visibleEntries(ENTRIES, progress ?? 0), [progress]);
 
   // 검색어가 있으면 탭과 무관하게 보이는 항목 전체에서 찾는다.
-  const items = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    const filtered = q
-      ? visible.filter((e) => e.name.en.toLowerCase().includes(q) || e.name.ko.includes(q))
-      : visible.filter((e) => TABS[tab].types.includes(e.type));
-    return filtered.sort((a, b) => a.name[locale].localeCompare(b.name[locale], locale));
-  }, [visible, query, tab, locale]);
+  const found = useMemo(
+    () => (searching ? searchEntries(visible, query) : visible.filter((e) => TABS[tab].types.includes(e.type))),
+    [visible, searching, query, tab],
+  );
+
+  const counts = useMemo(() => (tab === 0 ? raceCounts(found) : []), [found, tab]);
+  const chosen = activeRace(counts, race);
+  // 고른 칩이 0 이 되어 사라지거나 다른 탭으로 가면 전체로 돌린다.
+  if (chosen !== race) setRace(chosen);
+
+  const items = useMemo(
+    () => filterByRace(found, chosen).sort((a, b) => a.name[locale].localeCompare(b.name[locale], locale)),
+    [found, chosen, locale],
+  );
 
   // 보이는 항목 기준으로만 판정해야 진행 너머 항목의 유형이 드러나지 않는다.
   const showType = searching || new Set(items.map((e) => e.type)).size > 1;
@@ -126,6 +146,50 @@ export default function Index() {
                 >
                   {t(tb.label)}
                 </Text>
+              </Pressable>
+            );
+          })}
+        </ScrollView>
+      )}
+
+      {counts.length > 0 && (
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          accessibilityRole="radiogroup"
+          accessibilityLabel={t('raceFilter')}
+          style={styles.chips}
+          contentContainerStyle={styles.chipsContent}
+        >
+          {[{ race: null, count: found.length }, ...counts].map((c) => {
+            const selected = c.race === chosen;
+            const label = c.race === null ? t('chipAll') : `${RACE_NAMES.get(c.race)?.[locale] ?? c.race} ${c.count}`;
+            return (
+              <Pressable
+                key={c.race ?? 'all'}
+                accessibilityRole="radio"
+                accessibilityState={{ selected, checked: selected }}
+                onPress={() => setRace(c.race)}
+                style={styles.chipHit}
+              >
+                {({ pressed }) => (
+                  <View
+                    style={[
+                      styles.chip,
+                      {
+                        borderColor: selected ? colors.accent : colors.rule,
+                        backgroundColor: selected ? colors.newBg : pressed ? colors.pressed : colors.panel,
+                      },
+                    ]}
+                  >
+                    <Text
+                      style={[styles.tabText, { color: selected ? colors.text : colors.subtext }, selected && styles.bold]}
+                      numberOfLines={1}
+                    >
+                      {label}
+                    </Text>
+                  </View>
+                )}
               </Pressable>
             );
           })}
@@ -259,6 +323,26 @@ const styles = StyleSheet.create({
   },
   bold: {
     fontWeight: '600',
+  },
+  chips: {
+    flexGrow: 0,
+    flexShrink: 0,
+    marginTop: 4,
+  },
+  chipsContent: {
+    gap: 8,
+  },
+  // 보이는 칩은 낮게 두고 눌리는 영역만 48dp 로 둔다.
+  chipHit: {
+    minHeight: 48,
+    justifyContent: 'center',
+  },
+  chip: {
+    minHeight: 34,
+    justifyContent: 'center',
+    paddingHorizontal: 14,
+    borderWidth: 1,
+    borderRadius: 17,
   },
   list: {
     paddingTop: 12,

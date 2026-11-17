@@ -73,7 +73,7 @@ Expo SDK 57 / React Native 0.86 / expo-router / TypeScript. 로그인, 서버, �
 | 경로 | 화면 |
 |---|---|
 | `src/app/progress.tsx` | 진행 선택. 첫 실행이면 제품 표식과 한 줄 소개, 읽은 권까지 채우는 책등 4개, 권 1~4 라디오 행(한국어판 권 제목. 영어 화면이면 영문판 대응도, Book Two 이후는 미출간), 비공식 안내 |
-| `src/app/index.tsx` | 목록. 진행 상태 문장("Read through Book 1.")이 제목이고 옆의 책등을 누르면 진행 변경. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다). 행마다 유형과 new 표시 |
+| `src/app/index.tsx` | 목록. 진행 상태 문장("Read through Book 1.")이 제목이고 옆의 책등을 누르면 진행 변경. Characters / Races & Gods / Places / Terms 탭과 이름 검색 (검색어가 있으면 모든 탭에서 찾는다). 인물 탭에는 종족 칩(전체, 인간, 나가, 레콘, 도깨비, 보이는 인물이 0인 칩은 숨김)이 검색과 함께 걸린다. 행마다 유형과 new 표시 |
 | `src/app/entry/[id].tsx` | 상세. 이름과 유형, 진행까지의 사실을 권별 패널(Book N) 안에 등장 순서대로 |
 | `src/app/settings.tsx` | 언어 토글, 진행 변경, 틀린 정보 알리기(GitHub 이슈, 메일), 비공식 안내, 소스 코드와 개인정보처리방침 링크 |
 
@@ -114,7 +114,7 @@ src/
 
 - `type`: `character` / `race` / `god` / `place` / `term` / `creature`. 탭은 인물(`character`, `creature`), 종족과 신(`race`, `god`), 장소, 용어 넷이다.
 - `at`: 그 사실이 밝혀지는 권 번호(1~4). 항목의 첫 등장은 가장 작은 `at` 이다.
-- `race`, `group`: 선택. 화면에는 표시하지 않는다 (`at` 이 없어서 반전을 숨길 수 없다).
+- `race`, `group`: 선택. `race`는 인물 탭 종족 칩으로 드러나므로 첫 등장 권에서 이미 드러난 종족만 넣는다. `group`은 화면에 표시하지 않는다 (`at` 이 없어서 반전을 숨길 수 없다).
 - 사실 문장은 직접 쓴 요약만. 원문 인용, 나무위키 문장 복사 금지.
 - 추가 후 `pnpm run test:ci` 로 무결성(id 유일, facts 비어 있지 않음, `at` 1~4)을 확인한다.
 

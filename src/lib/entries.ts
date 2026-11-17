@@ -32,7 +32,7 @@ export type Entry = {
   id: string;
   type: EntryType;
   name: Record<Locale, string>;
-  /** 인물이 속한 종족 항목의 id */
+  /** 인물이 속한 종족 항목의 id. 인물 탭의 종족 칩으로 드러나므로 첫 등장 권에서 이미 알려진 종족만 쓴다. */
   race?: string;
   group?: string;
   facts: Fact[];
@@ -53,6 +53,33 @@ export function visibleEntries(entries: readonly Entry[], progress: number): Ent
 /** 읽은 지점까지 밝혀진 사실만 등장 순서대로. 같은 at 은 데이터 순서를 유지한다. */
 export function visibleFacts(entry: Entry, progress: number): Fact[] {
   return entry.facts.filter((f) => f.at <= progress).sort((a, b) => a.at - b.at);
+}
+
+/** 이름(ko/en)에 검색어가 들어 있는 항목. 검색어가 비어 있으면 그대로 돌려준다. */
+export function searchEntries(entries: readonly Entry[], query: string): Entry[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return [...entries];
+  return entries.filter((e) => e.name.en.toLowerCase().includes(q) || e.name.ko.includes(q));
+}
+
+/** 인물 탭 종족 칩의 순서. 여기 없는 종족과 race 가 없는 인물은 "전체" 에서만 보인다. */
+export const RACE_CHIPS = ['human', 'nhaga', 'rekon', 'tokkebi'] as const;
+
+/** 보이는 항목 중 종족별 수. 0 인 종족은 빼므로 칩이 진행 너머를 드러내지 않는다. */
+export function raceCounts(entries: readonly Entry[]): { race: string; count: number }[] {
+  return RACE_CHIPS.map((race) => ({ race, count: entries.filter((e) => e.race === race).length })).filter(
+    (c) => c.count > 0,
+  );
+}
+
+/** 고른 종족이 보이는 칩에 없으면(0 이 되어 사라졌으면) "전체"(null) 로 돌아간다. */
+export function activeRace(counts: readonly { race: string }[], race: string | null): string | null {
+  return counts.some((c) => c.race === race) ? race : null;
+}
+
+/** 종족 칩 필터. null 이면 전체. */
+export function filterByRace(entries: readonly Entry[], race: string | null): Entry[] {
+  return race === null ? [...entries] : entries.filter((e) => e.race === race);
 }
 
 /**

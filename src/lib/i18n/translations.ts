@@ -22,6 +22,8 @@ type Strings = {
   tabRaces: string;
   tabPlaces: string;
   tabTerms: string;
+  chipAll: string;
+  raceFilter: string;
   searchPlaceholder: string;
   noResults: string;
   settings: string;
@@ -71,6 +73,8 @@ export const translations: Record<AppLocale, Strings> = {
     tabRaces: 'Races & Gods',
     tabPlaces: 'Places',
     tabTerms: 'Terms',
+    chipAll: 'All',
+    raceFilter: 'Filter characters by race',
     searchPlaceholder: 'Search names',
     noResults: 'Nothing here yet.',
     settings: 'Settings',
@@ -121,6 +125,8 @@ export const translations: Record<AppLocale, Strings> = {
     tabRaces: '종족·신',
     tabPlaces: '장소',
     tabTerms: '용어',
+    chipAll: '전체',
+    raceFilter: '종족별로 인물 보기',
     searchPlaceholder: '이름 검색',
     noResults: '아직 나온 항목이 없습니다.',
     settings: '설정',

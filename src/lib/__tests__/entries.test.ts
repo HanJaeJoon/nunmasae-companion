@@ -1,11 +1,15 @@
 import {
+  activeRace,
   ENTRIES,
+  filterByRace,
   firstAt,
   groupFactsByAt,
   isMasked,
   isNewEntry,
   isNewFact,
   nextNewSince,
+  raceCounts,
+  searchEntries,
   secondaryLocale,
   visibleEntries,
   visibleFacts,
@@ -51,6 +55,59 @@ describe('visibleEntries', () => {
 
   it('첫 등장은 가장 작은 at 이다 (사실 순서와 무관)', () => {
     expect(firstAt(entry('x', [4, 2, 3]))).toBe(2);
+  });
+});
+
+describe('종족 칩', () => {
+  const person = (id: string, ats: number[], race?: string, ko = id): Entry => ({
+    ...entry(id, ats),
+    name: { ko, en: id },
+    ...(race ? { race } : {}),
+  });
+  const list = [
+    person('kagan', [1], 'human', '케이건'),
+    person('kei', [2], 'human', '케이'),
+    person('ryun', [1], 'nhaga', '륜'),
+    person('teenahan', [1], 'rekon', '티나한'),
+    person('jurado', [3], 'rekon', '즈라더'),
+    person('traveler', [1], undefined, '여행자'),
+  ];
+
+  it('보이는 인물 중 종족별 수를 칩 순서대로 센다', () => {
+    expect(raceCounts(list)).toEqual([
+      { race: 'human', count: 2 },
+      { race: 'nhaga', count: 1 },
+      { race: 'rekon', count: 2 },
+    ]);
+  });
+
+  it('0 인 칩은 숨긴다 (진행 너머의 종족이 드러나지 않는다)', () => {
+    const byId = (ids: string[]) => list.filter((e) => ids.includes(e.id));
+    expect(raceCounts(visibleEntries(byId(['kagan', 'ryun', 'jurado']), 1)).map((c) => c.race)).toEqual([
+      'human',
+      'nhaga',
+    ]);
+  });
+
+  it('race 가 없는 인물은 전체에서만 보인다', () => {
+    expect(filterByRace(list, null).map((e) => e.id)).toContain('traveler');
+    for (const c of raceCounts(list)) {
+      expect(filterByRace(list, c.race).map((e) => e.id)).not.toContain('traveler');
+    }
+  });
+
+  it('검색과 칩은 함께 걸린다', () => {
+    const found = searchEntries(list, '케');
+    expect(raceCounts(found)).toEqual([{ race: 'human', count: 2 }]);
+    expect(filterByRace(found, 'human').map((e) => e.id)).toEqual(['kagan', 'kei']);
+    expect(filterByRace(searchEntries(list, 'TEE'), 'rekon').map((e) => e.id)).toEqual(['teenahan']);
+  });
+
+  it('고른 칩이 0 이 되어 사라지면 전체로 돌아간다', () => {
+    const counts = raceCounts(searchEntries(list, '케'));
+    expect(activeRace(counts, 'rekon')).toBeNull();
+    expect(activeRace(counts, 'human')).toBe('human');
+    expect(activeRace(counts, null)).toBeNull();
   });
 });
 

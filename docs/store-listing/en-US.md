@@ -16,6 +16,7 @@ Nunmasae Companion is an unofficial fan companion for the Korean fantasy novel "
 
 What's inside
 - Characters, Races & Gods, Places and Terms tabs
+- Filter characters by race
 - Name search across all tabs
 - Each entry lists its facts in the order they come to light
 - Pick your progress (Book 1 to 4) and change it any time
