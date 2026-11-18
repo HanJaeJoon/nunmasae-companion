@@ -765,7 +765,7 @@
   "vol": 2,
   "confidence": "mid",
   "evidence": "https://actualitte.com/article/134606/chroniques/quand-les-monstres-raisonnent-mieux-que-les-hommes-la-fantasy-de-lee-young-do - 불어판 2권(=한국 2권, 유료도로당 수록) 서평에 여러 영을 품은 수호자 갈로텍과 그 안의 화리트 대화가 나옴. 나가 군령자 희소는 https://namu.wiki/w/군령자",
-  "note": "사실은 맞음(? 제거 가능). design.md 는 군령자 서사를 3권으로 적었으나 공개 자체는 2권(전쟁 이전 비아스와의 장면)으로 봄"
+  "note": "사실은 맞음(? 제거 가능). design-volumes.md 는 군령자 서사를 3권으로 적었으나 공개 자체는 2권(전쟁 이전 비아스와의 장면)으로 봄"
  },
  {
   "entry": "카루",
@@ -1373,7 +1373,7 @@
   "vol": 1,
   "confidence": "high",
   "evidence": "https://redtea.kr/free/15067 - 4권본 1권 481~482, 571쪽 인용: 지그림 자보로 선출과 칭왕, 케이건과 키타타 대화. 나무위키 구출대 1권 절도 자보로 도착으로 끝남",
-  "note": "design.md 2권 요약은 자보로를 2권에 넣었지만 자보로 장면은 1권 후반(5장)임. 지그림은 마립간으로 선출된 뒤 '위엄왕'을 자칭함"
+  "note": "design-volumes.md 2권 요약은 자보로를 2권에 넣었지만 자보로 장면은 1권 후반(5장)임. 지그림은 마립간으로 선출된 뒤 '위엄왕'을 자칭함"
  },
  {
   "entry": "시구리아트 산맥",
@@ -1460,7 +1460,7 @@
   "fact": "신을 섬기는 네 종족, 곧 인간, 레콘, 도깨비, 나가를 함께 부르는 말이다.",
   "vol": 1,
   "confidence": "mid",
-  "evidence": "C:/Users/jj272/Desktop/Source/nunmasae-companion/docs/design.md 121줄 - 1권이 '네 종족과 네 신'을 펼치는 권. 용어 자체의 첫 장은 출처로 미확인",
+  "evidence": "C:/Users/jj272/Desktop/Source/nunmasae-companion/docs/research/design-volumes.md - 1권이 '네 종족과 네 신'을 펼치는 권. 용어 자체의 첫 장은 출처로 미확인",
   "note": ""
  },
  {
@@ -1660,7 +1660,7 @@
   "fact": "나가를 사냥해 잡아먹는다고 나가들 사이에 전설처럼 알려진 존재다.",
   "vol": 1,
   "confidence": "high",
-  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 1장부터 케이건이 나가를 사냥해 먹는 자로 소개. design.md 117줄",
+  "evidence": "https://ursummary.com/the-heart-of-the-nhaga-summary-by-chapter-lee-young-do/ - 영문 1권 1장부터 케이건이 나가를 사냥해 먹는 자로 소개. docs/research/design-volumes.md",
   "note": "케이건의 이명이기도 함"
  },
  {
@@ -1700,7 +1700,7 @@
   "fact": "시구리아트 산맥의 유료도로를 운영하며 통행료를 받는 집단이다.",
   "vol": 2,
   "confidence": "high",
-  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 시구리아트 유료도로당 설립 기록 출처 2권 6장. design.md 129줄: 6장이 유료도로당 장",
+  "evidence": "https://www.postype.com/@lifeiscrab/post/5155688 - 시구리아트 유료도로당 설립 기록 출처 2권 6장. docs/research/design-volumes.md: 6장이 유료도로당 장",
   "note": ""
  },
  {
