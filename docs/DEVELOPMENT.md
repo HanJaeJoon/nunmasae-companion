@@ -58,7 +58,10 @@ src/
 - `at`: 그 사실이 밝혀지는 권 번호(1~4). 항목의 첫 등장은 가장 작은 `at` 이다.
 - `race`, `group`: 선택. `race`는 인물 탭 종족 칩으로 드러나므로 첫 등장 권에서 이미 드러난 종족만 넣는다. `group`은 화면에 표시하지 않는다 (`at` 이 없어서 반전을 숨길 수 없다).
 - 사실 문장은 직접 쓴 요약만. 원문 인용, 나무위키 문장 복사 금지.
-- 추가 후 `pnpm run test:ci` 로 무결성(id 유일, facts 비어 있지 않음, `at` 1~4)을 확인한다.
+- 추가 후 `pnpm run test:ci` 로 무결성(id 유일, facts 비어 있지 않음, `at` 1~4)과 누수 검사(`src/lib/__tests__/data-guards.test.ts`)를 확인한다.
+  - 이름 언급: 사실의 ko/en 문장에 다른 항목의 이름 전체가 나오면(긴 이름부터, en 은 단어 경계) 그 항목의 첫 등장이 사실의 `at` 보다 늦지 않아야 한다. 오탐은 테스트 파일의 `MENTION_EXCEPTIONS` 에 사실과 이유를 적는다.
+  - 종족 칩: `race` 가 가리키는 종족 항목의 첫 등장이 인물의 첫 등장보다 늦지 않아야 한다.
+  - 초안 동기화: `docs/data-draft.md` 의 `- 사실:` 줄(`(권: )` 빈칸 줄 제외)이 같은 이름 항목의 사실과 ko 문장, `at`, `major` 까지 같아야 한다.
 
 재료는 `docs/data-draft.md` 다. 현재는 1~4권 항목 171개(인물 77, 생물 5, 종족 6, 신 5, 장소 33, 용어 45)와 사실 673개(주요 반전 92개)가 들어 있다. 사용자 검수 전 데이터이며 피드백이 오면 바로 고친다.
 
@@ -89,4 +92,4 @@ src/
 
 **SDK 메이저 업그레이드에서는 락파일(`pnpm-lock.yaml`)을 재생성할 것.**
 
-빌드 워크플로(`.github/workflows/build.yml`)는 `workflow_dispatch` 전용이라 push 만으로 빌드되지 않는다.
+CI 워크플로(`.github/workflows/ci.yml`)는 main push 와 모든 PR 에서 typecheck, test:ci, lint 를 돌린다. 빌드 워크플로(`.github/workflows/build.yml`)는 `workflow_dispatch` 전용이라 push 만으로 빌드되지 않는다.

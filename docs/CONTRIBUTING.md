@@ -24,7 +24,11 @@ The full rules live in [`CLAUDE.md`](../CLAUDE.md) (Korean only); the list above
 
 ## Code changes
 
-The package manager is pnpm. Before opening a pull request, all of these must pass. Data-only changes run the integrity tests too.
+The package manager is pnpm. Before opening a pull request, all of these must pass. CI runs the same commands on every pull request. Data-only changes run the integrity tests and these leak checks too:
+
+- Name mentions: fails if a fact mentions an entry that has not appeared yet by that fact's book.
+- Race chips: fails if a character's `race` points to a race that appears later than the character.
+- Draft sync: fails if `docs/data-draft.md` and `src/data/entries.json` differ in a fact's sentence, book number or `[주요]` mark.
 
 ```
 pnpm run typecheck && pnpm run test:ci && pnpm run lint
