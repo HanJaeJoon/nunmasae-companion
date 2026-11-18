@@ -27,7 +27,7 @@ Aplikasi pendamping penggemar yang tidak resmi dan bebas spoiler untuk novel fan
 Fakta-fakta di aplikasi ini dirangkum dari sumber sekunder, bukan langsung dari bukunya, jadi sebagian mungkin keliru atau ditempatkan di buku yang salah. Beri tahu kami dan kami akan memperbaikinya.
 
 - Di aplikasi: "Settings" (Pengaturan) > "Report on GitHub" (Laporkan di GitHub) atau "Report by email" (Laporkan lewat email)
-- [Buka issue di GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) lalu pilih formulir: fakta salah / terungkap terlalu cepat (spoiler) / nama bahasa Inggris
+- [Buka issue di GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) lalu pilih formulir: fakta salah / terungkap terlalu cepat (spoiler) / nama bahasa Inggris / fakta yang terlewat
 - Perbaiki sendiri dan kirim pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Peringatan spoiler**: jika judul atau isi issue Anda bisa membocorkan cerita bagi pembaca yang belum selesai, tulis `[Spoiler Book N]` di baris pertama.

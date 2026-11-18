@@ -1,5 +1,5 @@
-import { useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
+import { router, useLocalSearchParams } from 'expo-router';
+import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { BookShelf } from '@/components/BookShelf';
@@ -9,11 +9,14 @@ import { TYPE_KEYS } from '@/components/TypeLabel';
 import { useAppColors } from '@/lib/colors';
 import {
   ENTRIES,
+  factSegments,
   firstAt,
   groupFactsByAt,
   isMasked,
   isNewFact,
+  mentionedIn,
   secondaryLocale,
+  visibleEntries,
   visibleFacts,
   type Fact,
 } from '@/lib/entries';
@@ -25,13 +28,19 @@ export default function EntryScreen() {
   const colors = useAppColors();
   // 드러낸 주요 사실. 저장하지 않으므로 화면을 벗어나면 다시 가려진다.
   const [revealed, setRevealed] = useState<ReadonlySet<Fact>>(new Set());
+  const entry = ENTRIES.find((e) => e.id === id);
+  const targets = useMemo(() => (progress !== null ? visibleEntries(ENTRIES, progress) : []), [progress]);
+  const mentions = useMemo(
+    () => (entry && progress !== null ? mentionedIn(entry, ENTRIES, progress, locale) : []),
+    [entry, progress, locale],
+  );
 
   if (!hydrated) return null;
 
   // 딥 링크로 진행 너머 항목에 바로 들어와도 이름조차 보이지 않게 한다.
-  const entry = ENTRIES.find((e) => e.id === id);
   const visible = entry && progress !== null && firstAt(entry) <= progress;
   const other = secondaryLocale(locale);
+  const openEntry = (target: string) => router.push({ pathname: '/entry/[id]', params: { id: target } });
 
   return (
     <ScrollView style={{ backgroundColor: colors.background }} contentContainerStyle={styles.content}>
@@ -70,7 +79,7 @@ export default function EntryScreen() {
                       onPress={() => setRevealed((prev) => new Set(prev).add(f))}
                       style={({ pressed }) => [
                         styles.fact,
-                        styles.masked,
+                        styles.tappable,
                         { borderTopColor: colors.rule },
                         pressed && { backgroundColor: colors.pressed },
                       ]}
@@ -92,14 +101,68 @@ export default function EntryScreen() {
                           )}
                         </View>
                       )}
-                      <Text style={[styles.factText, { color: colors.text }]}>{f[locale]}</Text>
+                      <Text style={[styles.factText, { color: colors.text }]}>
+                        {factSegments(f[locale], locale, targets, entry).map((s, j) =>
+                          s.id ? (
+                            <Text
+                              key={j}
+                              accessibilityRole="link"
+                              onPress={() => openEntry(s.id!)}
+                              style={[styles.link, { color: colors.accent }]}
+                            >
+                              {s.text}
+                            </Text>
+                          ) : (
+                            s.text
+                          ),
+                        )}
+                      </Text>
                     </View>
                   ),
                 )}
               </View>
             </View>
           ))}
+
+          {mentions.length > 0 && (
+            <View style={[styles.panel, { backgroundColor: colors.panel }]}>
+              <View style={styles.groupHead}>
+                <Text accessibilityRole="header" aria-level={2} style={[styles.groupTitle, { color: colors.text }]}>
+                  {t('mentionedIn')}
+                </Text>
+              </View>
+              <View accessibilityRole="list">
+                {mentions.map((m) => (
+                  <Pressable
+                    key={m.id}
+                    accessibilityRole="link"
+                    onPress={() => openEntry(m.id)}
+                    style={({ pressed }) => [
+                      styles.fact,
+                      styles.tappable,
+                      { borderTopColor: colors.rule },
+                      pressed && { backgroundColor: colors.pressed },
+                    ]}
+                  >
+                    <Text style={[styles.factText, { color: colors.accent }]}>{m.name[locale]}</Text>
+                  </Pressable>
+                ))}
+              </View>
+            </View>
+          )}
         </>
+      ) : progress === null ? (
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => router.push('/progress')}
+          style={({ pressed }) => [
+            styles.panel,
+            styles.tappable,
+            { backgroundColor: pressed ? colors.pressed : colors.panel },
+          ]}
+        >
+          <Text style={[styles.factText, { color: colors.accent }]}>{t('progressTitle')}</Text>
+        </Pressable>
       ) : (
         <Text style={[styles.sub, { color: colors.subtext }]}>{t('notFound')}</Text>
       )}
@@ -154,7 +217,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
   },
-  masked: {
+  link: {
+    textDecorationLine: 'underline',
+  },
+  tappable: {
     minHeight: 48,
     justifyContent: 'center',
   },

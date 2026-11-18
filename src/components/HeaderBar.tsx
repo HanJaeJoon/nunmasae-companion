@@ -24,7 +24,10 @@ export function HeaderBar() {
       <Pressable
         accessibilityRole="button"
         accessibilityLabel={t('back')}
-        onPress={() => router.back()}
+        onPress={() => {
+          if (router.canGoBack()) router.back();
+          else router.replace('/');
+        }}
         style={({ pressed }) => [styles.hit, pressed && { backgroundColor: colors.pressed }]}
       >
         <Chevron color={colors.text} direction="left" />

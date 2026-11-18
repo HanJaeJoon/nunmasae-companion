@@ -55,10 +55,28 @@ export function visibleFacts(entry: Entry, progress: number): Fact[] {
   return entry.facts.filter((f) => f.at <= progress).sort((a, b) => a.at - b.at);
 }
 
-/** 이름(ko/en)에 검색어가 들어 있는 항목. 검색어가 비어 있으면 그대로 돌려준다. */
+const CHOSUNG = 'ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ';
+
+function toChosung(s: string): string {
+  return [...s]
+    .map((c) => {
+      const code = c.charCodeAt(0);
+      return code >= 0xac00 && code <= 0xd7a3 ? CHOSUNG[Math.floor((code - 0xac00) / 588)] : c;
+    })
+    .join('');
+}
+
+/**
+ * 이름(ko/en)에 검색어가 들어 있는 항목. 검색어가 비어 있으면 그대로 돌려준다.
+ * 검색어가 초성으로만 되어 있으면 한국어 이름의 초성과 공백 없이 비교한다(ㅋㅇㄱ -> 케이건).
+ */
 export function searchEntries(entries: readonly Entry[], query: string): Entry[] {
   const q = query.trim().toLowerCase();
   if (!q) return [...entries];
+  const compact = q.replace(/\s/g, '');
+  if ([...compact].every((c) => CHOSUNG.includes(c))) {
+    return entries.filter((e) => toChosung(e.name.ko.replace(/\s/g, '')).includes(compact));
+  }
   return entries.filter((e) => e.name.en.toLowerCase().includes(q) || e.name.ko.includes(q));
 }
 
@@ -91,10 +109,9 @@ export function nextNewSince(from: Progress | null, fromNewSince: Progress | und
   return from !== null && to > from ? from : to;
 }
 
-/** 직전 진행 이후 새로 열린 항목인지. 진행 너머 항목은 보이지 않으므로 new 도 아니다. */
+/** 직전 진행 이후 새로 열렸거나 새 사실이 붙은 항목인지. 진행 너머 사실은 new 도 아니다. */
 export function isNewEntry(entry: Entry, progress: number, newSince: number | undefined): boolean {
-  const at = firstAt(entry);
-  return newSince !== undefined && at > newSince && at <= progress;
+  return entry.facts.some((f) => isNewFact(f, progress, newSince));
 }
 
 /** 직전 진행 이후 새로 밝혀진 사실인지. */
@@ -127,4 +144,94 @@ export function groupFactsByAt(facts: readonly Fact[]): { at: number; facts: Fac
  */
 export function secondaryLocale(locale: Locale): Locale | null {
   return locale === 'en' ? 'ko' : null;
+}
+
+export type Segment = { text: string; id?: string };
+
+const HANGUL = '가-힣';
+// 이름 바로 뒤가 한글이면 조사나 "들", "-다" 로 시작할 때만 이름으로 본다("대호왕" 의 "대호" 는 잇지 않는다).
+const KO_TAIL = `(?=$|[^${HANGUL}]|[은는이가을를의에와과도로으께만라였인들다임뿐]|까지|처럼|보다|마다)`;
+// 같은 글자를 다른 뜻으로 쓰는 사실: 항목 id -> 그 항목 사실에서 잇지 않을 대상 id.
+const NO_LINK: Record<string, string[]> = {
+  'deoni-dalbi': ['soul-transfer'], // 전령 = messenger
+  tokkebi: ['soul-transfer'],
+  'nani-legend': ['boni'], // 모든 종족에서 태어나는 보늬
+};
+// 칭호 속 짧은 이름을 잇지 않는다. 한국어 "대호왕", "뇌룡공" 은 KO_TAIL 과 한 글자 규칙이 막는다.
+const NO_LINK_PHRASES: Record<Locale, string[]> = { ko: [], en: ['Great Tiger King', 'Thunder Dragon Duke'] };
+const nameRes = new Map<string, RegExp>();
+
+function nameRe(name: string, locale: Locale): RegExp {
+  const key = `${locale}:${name}`;
+  let re = nameRes.get(key);
+  if (!re) {
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // 영어는 복수형과 단수형을 같은 이름으로 본다(Guardian Generals, Kitaljer Hunter).
+    re = new RegExp(
+      locale === 'ko' ? `(?<![${HANGUL}])${escaped}${KO_TAIL}` : `(?<!\\w)${escaped.replace(/s$/, '')}s?(?!\\w)`,
+      'g',
+    );
+    nameRes.set(key, re);
+  }
+  return re;
+}
+
+/** 문장 속에서 찾을 이름. "나늬 (전설)" 처럼 괄호로 구별한 이름은 괄호를 뗀다. */
+function linkName(entry: Entry, locale: Locale): string {
+  return entry.name[locale].replace(/ \(.*\)$/, '');
+}
+
+/**
+ * 사실 문장을 candidates 이름 링크와 나머지 글자로 나눈다. 긴 이름부터 찾아 겹치는 짧은 이름은 건너뛰고,
+ * 항목마다 첫 언급만 잇는다. self, 종족, 한 글자 이름("용"), 같은 이름을 쓰는 항목이 둘 이상인 이름은 잇지 않지만
+ * 자리는 차지해 그 안의 짧은 이름도 잇지 않는다. candidates 는 진행까지 보이는 항목(visibleEntries)이어야 한다.
+ */
+export function factSegments(text: string, locale: Locale, candidates: readonly Entry[], self?: Entry): Segment[] {
+  const owner = new Array<string | null | undefined>(text.length).fill(undefined);
+  const count = new Map<string, number>();
+  for (const e of candidates) count.set(linkName(e, locale), (count.get(linkName(e, locale)) ?? 0) + 1);
+  const skip = (self && NO_LINK[self.id]) ?? [];
+  const names = [
+    ...NO_LINK_PHRASES[locale].map((name) => ({ name, id: null })),
+    ...candidates.map((e) => {
+      const name = linkName(e, locale);
+      const linkable = e !== self && e.type !== 'race' && !skip.includes(e.id) && count.get(name) === 1;
+      return { name, id: linkable ? e.id : null };
+    }),
+  ]
+    .filter((n) => [...n.name].length >= 2)
+    .sort((a, b) => b.name.length - a.name.length);
+  for (const { name, id } of names) {
+    let first = true;
+    for (const m of text.matchAll(nameRe(name, locale))) {
+      const end = m.index + m[0].length;
+      if (owner.slice(m.index, end).some((o) => o !== undefined)) continue;
+      owner.fill(first ? id : null, m.index, end);
+      first = false;
+    }
+  }
+  const segments: Segment[] = [];
+  for (let i = 0; i < text.length; i++) {
+    const id = owner[i] ?? undefined;
+    const last = segments[segments.length - 1];
+    if (last && last.id === id) last.text += text[i];
+    else segments.push(id ? { text: text[i], id } : { text: text[i] });
+  }
+  return segments;
+}
+
+/** entry 를 링크로 언급하는 보이는 항목(데이터 순서). 가린 주요 사실은 드러냈더라도 세지 않는다. */
+export function mentionedIn(entry: Entry, entries: readonly Entry[], progress: number, locale: Locale): Entry[] {
+  const name = linkName(entry, locale);
+  const visible = visibleEntries(entries, progress);
+  return visible.filter(
+    (other) =>
+      other !== entry &&
+      visibleFacts(other, progress).some(
+        (f) =>
+          !isMasked(f, progress) &&
+          f[locale].includes(name) &&
+          factSegments(f[locale], locale, visible, other).some((s) => s.id === entry.id),
+      ),
+  );
 }

@@ -27,7 +27,7 @@ Una guida non ufficiale e senza spoiler, creata dai fan, per il romanzo fantasy 
 I fatti sono riassunti da fonti secondarie, non dai libri stessi, quindi alcuni potrebbero essere sbagliati o assegnati al libro sbagliato. Faccelo sapere e lo correggeremo.
 
 - Nell'app: Settings (Impostazioni) > "Report on GitHub" (Segnala su GitHub) o "Report by email" (Segnala via email)
-- [Apri una issue su GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) e scegli un modulo: fatto errato / rivelato troppo presto (spoiler) / nome inglese
+- [Apri una issue su GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) e scegli un modulo: fatto errato / rivelato troppo presto (spoiler) / nome inglese / fatto mancante
 - Correggilo tu e invia una pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Attenzione agli spoiler**: se il titolo o il testo della tua issue può rovinare qualcosa a chi non ha finito di leggere, scrivi `[Spoiler Book N]` nella prima riga.

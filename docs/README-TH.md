@@ -27,7 +27,7 @@
 ข้อมูลในแอปสรุปมาจากแหล่งข้อมูลทุติยภูมิ ไม่ได้มาจากตัวหนังสือโดยตรง จึงอาจมีบางส่วนที่ผิดหรือถูกจัดไว้ผิดเล่ม แจ้งเรามาได้ แล้วเราจะแก้ไขให้
 
 - ในแอป: "Settings" (การตั้งค่า) > "Report on GitHub" (แจ้งผ่าน GitHub) หรือ "Report by email" (แจ้งทางอีเมล)
-- [เปิด issue บน GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) แล้วเลือกแบบฟอร์ม: ข้อมูลผิด / เปิดเผยเร็วเกินไป (สปอยล์) / ชื่อภาษาอังกฤษ
+- [เปิด issue บน GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) แล้วเลือกแบบฟอร์ม: ข้อมูลผิด / เปิดเผยเร็วเกินไป (สปอยล์) / ชื่อภาษาอังกฤษ / ข้อมูลที่ขาดหาย
 - แก้ไขเองแล้วส่ง pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **คำเตือนเรื่องสปอยล์**: หากหัวข้อหรือเนื้อหาของ issue อาจสปอยล์ผู้อ่านที่ยังอ่านไม่จบ ให้ใส่ `[Spoiler Book N]` ไว้ที่บรรทัดแรก

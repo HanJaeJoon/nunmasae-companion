@@ -8,6 +8,8 @@ body:
       value: |
         **스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.
         **Spoiler warning**: if your title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.
+        제목에는 항목 이름과 권 번호만 쓰고 반전 내용은 쓰지 마세요. 본문의 스포일러 문장은 `<details><summary>스포일러 N권 / Spoiler Book N</summary>...</details>` 안에 넣어 주세요.
+        Titles carry only the entry name and book number, never the twist. Put spoiler sentences in the body inside `<details><summary>스포일러 N권 / Spoiler Book N</summary>...</details>`.
 
         원문을 그대로 옮겨 적지 말고 요약해 주세요. / Please summarize instead of quoting the book.
   - type: input

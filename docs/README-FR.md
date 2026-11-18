@@ -27,7 +27,7 @@ Un compagnon non officiel et sans spoilers, créé par des fans, pour le roman d
 Les faits sont résumés à partir de sources secondaires, et non des livres eux-mêmes ; certains peuvent donc être faux ou rattachés au mauvais tome. Signalez-le-nous et nous corrigerons.
 
 - Dans l'application : Settings (Paramètres) > "Report on GitHub" (Signaler sur GitHub) ou "Report by email" (Signaler par e-mail)
-- [Ouvrez une issue GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) et choisissez un formulaire : fait erroné / révélé trop tôt (spoiler) / nom anglais
+- [Ouvrez une issue GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) et choisissez un formulaire : fait erroné / révélé trop tôt (spoiler) / nom anglais / fait manquant
 - Corrigez vous-même et envoyez une pull request : [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Attention aux spoilers** : si le titre ou le texte de votre issue risque de gâcher la lecture de ceux qui n'ont pas fini, ajoutez `[Spoiler Book N]` sur la première ligne.

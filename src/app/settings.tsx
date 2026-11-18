@@ -54,7 +54,7 @@ export default function SettingsScreen() {
   const subject = encodeURIComponent(t('reportSubject'));
   const body = encodeURIComponent(t('reportBody'));
   const reportLinks = [
-    { label: t('reportIssue'), url: `${BRANDING.newIssueUrl}?title=${subject}&body=${body}` },
+    { label: t('reportIssue'), url: `${BRANDING.newIssueUrl}/choose` },
     {
       label: t('reportEmail'),
       url: `mailto:${BRANDING.contactEmail}?subject=${subject}&body=${body}`,

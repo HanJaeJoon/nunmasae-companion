@@ -27,7 +27,7 @@
 الحقائق ملخصة من مصادر ثانوية وليس من الكتب نفسها، لذا قد يكون بعضها خاطئا أو موضوعا في الكتاب الخطأ. أخبرنا وسنصلحه.
 
 - داخل التطبيق: "Settings" (الإعدادات) > "Report on GitHub" (الإبلاغ عبر GitHub) أو "Report by email" (الإبلاغ عبر البريد الإلكتروني)
-- [افتح issue على GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) واختر نموذجا: معلومة خاطئة / كُشفت مبكرا جدا (حرق للأحداث) / الاسم الإنجليزي
+- [افتح issue على GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) واختر نموذجا: معلومة خاطئة / كُشفت مبكرا جدا (حرق للأحداث) / الاسم الإنجليزي / معلومة ناقصة
 - أصلحه بنفسك وأرسل pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **تحذير من حرق الأحداث**: إذا كان عنوان البلاغ أو نصه قد يحرق الأحداث على القراء الذين لم ينهوا القراءة، فضع `[Spoiler Book N]` في السطر الأول.

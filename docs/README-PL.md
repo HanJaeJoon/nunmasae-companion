@@ -27,7 +27,7 @@ Nieoficjalny, wolny od spoilerów fanowski przewodnik po koreańskiej powieści 
 Fakty są streszczone ze źródeł pośrednich, a nie z samych książek, więc niektóre mogą być błędne albo przypisane do niewłaściwego tomu. Daj nam znać, a poprawimy.
 
 - W aplikacji: Settings (Ustawienia) > "Report on GitHub" (Zgłoś na GitHubie) lub "Report by email" (Zgłoś e-mailem)
-- [Otwórz zgłoszenie na GitHubie](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) i wybierz formularz: błędny fakt / ujawnione za wcześnie (spoiler) / angielskie imię
+- [Otwórz zgłoszenie na GitHubie](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) i wybierz formularz: błędny fakt / ujawnione za wcześnie (spoiler) / angielskie imię / brakujący fakt
 - Popraw sam i wyślij pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Uwaga na spoilery**: jeśli tytuł lub treść zgłoszenia zdradzałyby coś czytelnikom, którzy jeszcze nie skończyli, wpisz `[Spoiler Book N]` w pierwszej linii.

@@ -27,7 +27,7 @@ An unofficial, spoiler-free fan companion for the Korean fantasy novel "The Bird
 The facts are summarized from secondary sources, not from the books themselves, so some may be wrong or placed in the wrong book. Tell us and we will fix it.
 
 - In the app: Settings > "Report on GitHub" or "Report by email"
-- [Open a GitHub issue](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) and pick a form: wrong fact / revealed too early (spoiler) / English name
+- [Open a GitHub issue](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) and pick a form: wrong fact / revealed too early (spoiler) / English name / missing fact
 - Fix it yourself and send a pull request: [CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 **Spoiler warning**: if your issue title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.

@@ -27,7 +27,7 @@
 Các sự thật được tóm tắt từ nguồn thứ cấp chứ không phải từ chính bộ sách, nên có thể có chỗ sai hoặc bị xếp nhầm tập. Hãy cho chúng tôi biết, chúng tôi sẽ sửa.
 
 - Trong ứng dụng: "Settings" (Cài đặt) > "Report on GitHub" (Báo cáo trên GitHub) hoặc "Report by email" (Báo cáo qua email)
-- [Mở một issue trên GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) và chọn biểu mẫu: sai thông tin / hé lộ quá sớm (spoiler) / tên tiếng Anh
+- [Mở một issue trên GitHub](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) và chọn biểu mẫu: sai thông tin / hé lộ quá sớm (spoiler) / tên tiếng Anh / thiếu thông tin
 - Tự sửa và gửi pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Cảnh báo spoiler**: nếu tiêu đề hoặc nội dung issue của bạn có thể tiết lộ nội dung cho những độc giả chưa đọc xong, hãy ghi `[Spoiler Book N]` ở dòng đầu tiên.

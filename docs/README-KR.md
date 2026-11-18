@@ -27,7 +27,7 @@
 사실은 책 원문이 아니라 2차 자료로 정리해서 틀리거나 권 번호가 어긋난 곳이 있을 수 있다. 알려 주면 바로 고친다.
 
 - 앱의 설정 > "GitHub 이슈로 알리기" 또는 "메일로 알리기"
-- [GitHub 이슈](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose)에서 양식 선택: 틀린 사실 / 권 번호가 너무 이른 사실(스포일러) / 영문 표기
+- [GitHub 이슈](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose)에서 양식 선택: 틀린 사실 / 권 번호가 너무 이른 사실(스포일러) / 영문 표기 / 빠진 사실
 - 직접 고쳐서 PR 보내기: [CONTRIBUTING-KR.md](CONTRIBUTING-KR.md)
 
 **스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.

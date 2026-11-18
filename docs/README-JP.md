@@ -27,7 +27,7 @@
 事実は原作そのものではなく二次資料から要約しているため、誤っていたり、別の巻に置かれていたりするものがあるかもしれません。お知らせいただければ修正します。
 
 - アプリ内: "Settings" (設定) > "Report on GitHub" (GitHub で報告) または "Report by email" (メールで報告)
-- [GitHub で issue を作成](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose)し、フォームを選んでください: 事実の誤り / 早すぎる公開 (ネタバレ) / 英語名
+- [GitHub で issue を作成](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose)し、フォームを選んでください: 事実の誤り / 早すぎる公開 (ネタバレ) / 英語名 / 抜けている事実
 - 自分で修正してプルリクエストを送る: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **ネタバレ注意**: issue のタイトルや本文が、まだ読み終えていない読者へのネタバレになる場合は、1行目に `[Spoiler Book N]` と書いてください。

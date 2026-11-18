@@ -200,6 +200,7 @@ export default function Index() {
         data={items}
         keyExtractor={(e) => e.id}
         keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="on-drag"
         contentContainerStyle={styles.list}
         ItemSeparatorComponent={() => (
           <View style={[styles.separator, { backgroundColor: colors.panel }]}>

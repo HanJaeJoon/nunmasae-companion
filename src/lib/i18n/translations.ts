@@ -43,6 +43,7 @@ type Strings = {
   notFound: string;
   newBadge: string;
   majorBadge: string;
+  mentionedIn: string;
   revealMajor: string;
   appTagline: string;
   noMatches: string;
@@ -97,6 +98,7 @@ export const translations: Record<AppLocale, Strings> = {
     notFound: 'This entry is not available.',
     newBadge: 'New',
     majorBadge: 'Major',
+    mentionedIn: 'Mentioned in',
     revealMajor: 'Major twist, tap to reveal',
     appTagline: 'A spoiler-free glossary of characters, races, places and terms.',
     noMatches: 'No names match up to Book %{n}.',
@@ -148,6 +150,7 @@ export const translations: Record<AppLocale, Strings> = {
     notFound: '볼 수 없는 항목입니다.',
     newBadge: '새로 나옴',
     majorBadge: '주요',
+    mentionedIn: '언급된 곳',
     revealMajor: '주요 반전, 눌러서 보기',
     appTagline: '인물, 종족, 장소, 용어를 스포일러 없이 찾아보는 용어집입니다.',
     noMatches: '%{n}권까지 나온 이름 중에 일치하는 것이 없습니다.',

@@ -27,7 +27,7 @@ Ein inoffizieller, spoilerfreier Fan-Begleiter zum koreanischen Fantasyroman "Th
 Die Fakten sind aus Sekundärquellen zusammengefasst, nicht aus den Büchern selbst. Manche können daher falsch sein oder dem falschen Band zugeordnet sein. Sag uns Bescheid, dann korrigieren wir es.
 
 - In der App: Settings (Einstellungen) > "Report on GitHub" (Auf GitHub melden) oder "Report by email" (Per E-Mail melden)
-- [Ein GitHub-Issue eröffnen](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) und ein Formular wählen: falsche Angabe / zu früh enthüllt (Spoiler) / englischer Name
+- [Ein GitHub-Issue eröffnen](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) und ein Formular wählen: falsche Angabe / zu früh enthüllt (Spoiler) / englischer Name / fehlende Angabe
 - Selbst korrigieren und einen Pull Request schicken: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Spoilerwarnung**: Wenn der Titel oder Text deines Issues etwas für Leser verraten würde, die noch nicht fertig sind, schreib `[Spoiler Book N]` in die erste Zeile.

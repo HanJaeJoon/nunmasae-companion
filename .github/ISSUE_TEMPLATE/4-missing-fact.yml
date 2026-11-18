@@ -1,0 +1,48 @@
+name: 빠진 사실 / Missing fact
+description: 항목에 있어야 할 사실이 없어요 / An entry is missing a fact
+title: "[빠진 사실 / Missing] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **스포일러 주의**: 이슈 제목과 본문에 아직 안 읽은 사람에게 스포일러가 될 내용을 쓸 때는 첫 줄에 `[스포일러 N권]`을 적어 주세요.
+        **Spoiler warning**: if your title or text would spoil something for readers who have not finished, put `[Spoiler Book N]` on the first line.
+        제목에는 항목 이름과 권 번호만 쓰고 반전 내용은 쓰지 마세요. 본문의 스포일러 문장은 `<details><summary>스포일러 N권 / Spoiler Book N</summary>...</details>` 안에 넣어 주세요.
+        Titles carry only the entry name and book number, never the twist. Put spoiler sentences in the body inside `<details><summary>스포일러 N권 / Spoiler Book N</summary>...</details>`.
+
+        사실은 직접 쓴 한 문장 요약으로만 적어 주세요. 원문 인용, 줄거리 요약, 나무위키 문장 복사는 받지 않습니다.
+        Write the fact as one sentence in your own words. No quotes from the book, no plot summaries, no text copied from wikis.
+  - type: input
+    id: entry
+    attributes:
+      label: 항목 이름 / Entry name
+      description: 앱에 아직 없는 항목이면 새 이름을 적어 주세요 / If the entry is not in the app yet, give its name
+      placeholder: 케이건 드라카 / Kagan Draca
+    validations:
+      required: true
+  - type: textarea
+    id: fact
+    attributes:
+      label: 빠진 사실 / Missing fact
+      description: 한 문장 요약 / One sentence in your own words
+    validations:
+      required: true
+  - type: dropdown
+    id: book
+    attributes:
+      label: 밝혀지는 권 / Book where it is revealed
+      description: 모르면 "모름"을 골라 주세요. 권 번호는 메인테이너가 확인합니다 / Pick "Not sure" if you don't know; the maintainer will check
+      options:
+        - 모름 / Not sure
+        - 1권 / Book 1
+        - 2권 / Book 2
+        - 3권 / Book 3
+        - 4권 / Book 4
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거 / Evidence
+      description: 권/장/쪽과 출처 / Book, chapter, page and source

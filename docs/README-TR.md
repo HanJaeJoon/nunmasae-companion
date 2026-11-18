@@ -27,7 +27,7 @@ Kore fantastik romanı "The Bird That Drinks Tears" (눈물을 마시는 새) i�
 Bilgiler kitapların kendisinden değil, ikincil kaynaklardan özetlenmiştir; bu yüzden bazıları yanlış olabilir ya da yanlış kitaba yerleştirilmiş olabilir. Bize bildirin, düzeltelim.
 
 - Uygulamada: Settings (Ayarlar) > "Report on GitHub" (GitHub'da bildir) veya "Report by email" (E-postayla bildir)
-- [GitHub'da bir issue açın](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) ve bir form seçin: yanlış bilgi / erken açığa çıkmış (spoiler) / İngilizce ad
+- [GitHub'da bir issue açın](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) ve bir form seçin: yanlış bilgi / erken açığa çıkmış (spoiler) / İngilizce ad / eksik bilgi
 - Kendiniz düzeltip bir pull request gönderin: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Spoiler uyarısı**: issue başlığınız veya metniniz, henüz bitirmemiş okurlar için bir şeyi açık edecekse, ilk satıra `[Spoiler Book N]` yazın.

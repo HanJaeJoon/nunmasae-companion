@@ -27,7 +27,7 @@
 这些事实是根据二手资料整理的摘要，而不是直接取自原著，因此可能有错误，或被放在了错误的卷中。告诉我们，我们会修正。
 
 - 在应用中: "Settings" (设置) > "Report on GitHub" (在 GitHub 上报告) 或 "Report by email" (通过电子邮件报告)
-- [在 GitHub 上提交 issue](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) 并选择表单: 事实错误 / 揭晓过早 (剧透) / 英文名称
+- [在 GitHub 上提交 issue](https://github.com/HanJaeJoon/nunmasae-companion/issues/new/choose) 并选择表单: 事实错误 / 揭晓过早 (剧透) / 英文名称 / 缺漏的事实
 - 自己修正并发送 pull request: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **剧透警告**: 如果你的 issue 标题或内容会对尚未读完的读者造成剧透，请在第一行写上 `[Spoiler Book N]`。
