@@ -362,7 +362,7 @@
       {
         "at": 4,
         "ko": "하늘치와 그 등의 유적, 두억시니의 피라미드는 이 종족이 남긴 것이다.",
-        "en": "The Skyrays and the ruins on their backs, as well as the pyramids of the Duoksini, were left behind by this race.",
+        "en": "The Sky Rays and the ruins on their backs, as well as the pyramids of the Duoksini, were left behind by this race.",
         "major": true
       }
     ]
@@ -740,12 +740,12 @@
       {
         "at": 1,
         "ko": "키가 3m 가까이 되는 레콘으로, 하늘치 등에 오르는 것을 숙원으로 삼는다.",
-        "en": "A Rekon nearly 3 m tall whose lifelong wish is to climb onto the back of a Skyray."
+        "en": "A Rekon nearly 3 m tall whose lifelong wish is to climb onto the back of a Sky Ray."
       },
       {
         "at": 1,
         "ko": "하늘치 유적 발굴대를 이끄는 대장으로, 발굴대의 빚 때문에 대사원의 제안을 받아들여 구출대에 대적자로 합류한다.",
-        "en": "As leader of the Skyray ruins excavation team, he accepts the Great Temple's offer because of the team's debts and joins the Rescue Mission as its fighter."
+        "en": "As leader of the Sky Ray ruins excavation team, he accepts the Great Temple's offer because of the team's debts and joins the Rescue Mission as its fighter."
       },
       {
         "at": 1,
@@ -791,12 +791,12 @@
       {
         "at": 4,
         "ko": "즈라더와 철의 침묵을 주고받고, 발굴대가 하늘치 등에 올라 숙원이 이루어졌다는 말을 듣는다.",
-        "en": "He exchanges a Silence in Iron with Jurado and hears that the excavation team has climbed onto the Skyray's back, fulfilling his lifelong wish."
+        "en": "He exchanges a Silence in Iron with Jurado and hears that the excavation team has climbed onto the Sky Ray's back, fulfilling his lifelong wish."
       },
       {
         "at": 4,
         "ko": "전쟁이 끝난 뒤 별철 창을 내려놓고 하늘치 등으로 올라간다.",
-        "en": "After the war ends, he lays down his Stariron spear and climbs onto the back of a Skyray."
+        "en": "After the war ends, he lays down his Stariron spear and climbs onto the back of a Sky Ray."
       }
     ]
   },
@@ -912,7 +912,7 @@
       {
         "at": 1,
         "ko": "한때 수련자였다가 그만두었다.",
-        "en": "He was once a Novitiate but gave it up."
+        "en": "He was once a Novice but gave it up."
       },
       {
         "at": 1,
@@ -1298,7 +1298,7 @@
       {
         "at": 1,
         "ko": "비아스의 침대 밑에서 사이커를 찾아내 그녀가 화리트를 죽였음을 알아챈다.",
-        "en": "Finding a Syker under Vyass's bed, she realizes that Vyass killed Hwarit.",
+        "en": "Finding a syker under Vyass's bed, she realizes that Vyass killed Hwarit.",
         "major": true
       },
       {
@@ -1522,7 +1522,7 @@
       {
         "at": 2,
         "ko": "자신이 가르친 수련자였던 카루와 스바치를 부린다.",
-        "en": "He commands Karu and Suvachi, who were once Novitiates under his teaching."
+        "en": "He commands Karu and Suvachi, who were once Novices under his teaching."
       },
       {
         "at": 2,
@@ -1749,7 +1749,7 @@
       {
         "at": 4,
         "ko": "세리스마의 권유로 수련자 자리를 내려놓은 그의 측근으로, 스바치와 함께 심장탑에서 빠져나오며 심장병의 이름에 먹칠을 해 둔다.",
-        "en": "Having given up his Novitiate post at Serisma's urging, he is one of Serisma's close aides, and as he slips out of the Heart Tower with Suvachi, he blots out the names on the heart vials."
+        "en": "Having given up his place as a Novice at Serisma's urging, he is one of Serisma's close aides, and as he slips out of the Heart Tower with Suvachi, he blots out the names on the heart vials."
       },
       {
         "at": 3,
@@ -2116,7 +2116,7 @@
       {
         "at": 2,
         "ko": "파름 평원의 하늘치 추락 참사에서 사모가 구해 낸 뒤 그녀를 친구라 부르며 따른다.",
-        "en": "After being rescued by Sammo in the Skyray crash disaster on the Parum Plain, Galbamari calls her a friend and follows her."
+        "en": "After being rescued by Sammo in the Sky Ray crash disaster on the Parum Plain, Galbamari calls her a friend and follows her."
       },
       {
         "at": 3,
@@ -2320,17 +2320,17 @@
       {
         "at": 3,
         "ko": "발굴대의 하늘치 등정을 참관하러 갔다가 연에 매달려 하늘치 등에 오른다.",
-        "en": "Going to observe the excavation team's climb onto a Skyray, he ends up hanging from a kite and reaching the Skyray's back."
+        "en": "Going to observe the excavation team's climb onto a Sky Ray, he ends up hanging from a kite and reaching the Sky Ray's back."
       },
       {
         "at": 3,
         "ko": "하늘치 유적이 보는 이의 바람대로 모습을 바꾼다는 것을 깨닫고 기둥의 글을 읽는다.",
-        "en": "Realizing that the Skyray ruins change their form according to the wishes of whoever looks at them, he reads the writing on the pillars."
+        "en": "Realizing that the Sky Ray ruins change their form according to the wishes of whoever looks at them, he reads the writing on the pillars."
       },
       {
         "at": 4,
         "ko": "하늘치를 몰고 하텐그라쥬로 와 환상계단으로 내려온 뒤, 나가의 멸망을 경고하고 케이건의 정체를 알린다.",
-        "en": "He steers the Skyray to Hattengraaj, comes down by the Phantom Stairs, warns of the destruction of the Nhaga, and reveals Kagan's identity.",
+        "en": "He steers the Sky Ray to Hattengraaj, comes down by the Phantom Stairs, warns of the destruction of the Nhaga, and reveals Kagan's identity.",
         "major": true
       }
     ]
@@ -2405,7 +2405,7 @@
       {
         "at": 1,
         "ko": "하늘치 유적 발굴대에서 장부와 하늘치 이동 조사 같은 실무를 맡는다.",
-        "en": "Handles practical work for the Skyray ruins excavation team, such as the accounts and surveys of Skyray movements."
+        "en": "Handles practical work for the Sky Ray ruins excavation team, such as the accounts and surveys of Sky Ray movements."
       },
       {
         "at": 1,
@@ -2415,7 +2415,7 @@
       {
         "at": 3,
         "ko": "전쟁 중 흩어졌던 발굴대를 다시 모으고, 오레놀을 하늘치로 띄울 연에 거의 억지로 태운다.",
-        "en": "He gathers the excavation team again after it scattered during the war, and all but forces Orenol onto the kite that will lift him to the Skyray."
+        "en": "He gathers the excavation team again after it scattered during the war, and all but forces Orenol onto the kite that will lift him to the Sky Ray."
       }
     ]
   },
@@ -2968,7 +2968,7 @@
       {
         "at": 4,
         "ko": "포로로 하텐그라쥬까지 끌려갔다가 하늘치를 타고 빠져나온다.",
-        "en": "Taken as a prisoner all the way to Hattengraaj, he escapes aboard the Skyray."
+        "en": "Taken as a prisoner all the way to Hattengraaj, he escapes aboard the Sky Ray."
       }
     ]
   },
@@ -3439,7 +3439,7 @@
       {
         "at": 4,
         "ko": "도시의 나가들과 북부군이 함께 하늘치를 타고 회오리를 빠져나온다.",
-        "en": "The city's Nhaga and the Northern Army escape the whirlwind together aboard a Skyray."
+        "en": "The city's Nhaga and the Northern Army escape the whirlwind together aboard a Sky Ray."
       }
     ]
   },
@@ -3603,7 +3603,7 @@
     "type": "place",
     "name": {
       "ko": "카라보라",
-      "en": "Karabora"
+      "en": "Carabora"
     },
     "facts": [
       {
@@ -3639,12 +3639,12 @@
       {
         "at": 1,
         "ko": "하늘치 유적 발굴대가 큰 연을 띄워 하늘치에 오르려는 곳이다.",
-        "en": "The place where the Skyray ruins excavation team flies a large kite to try to climb onto a Skyray."
+        "en": "The place where the Sky Ray ruins excavation team flies a large kite to try to climb onto a Sky Ray."
       },
       {
         "at": 3,
         "ko": "이곳에서 처음으로 사람이 하늘치 등에 오른다.",
-        "en": "Here, people climb onto a Skyray's back for the first time."
+        "en": "Here, people climb onto a Sky Ray's back for the first time."
       }
     ]
   },
@@ -3906,7 +3906,7 @@
       {
         "at": 2,
         "ko": "하인샤 대사원 가까운 평원으로, 케이건 드라카가 떨어뜨린 하늘치에 두억시니 대군이 깔려 목숨을 잃는다.",
-        "en": "A plain near the Great Temple of Hainsha, where a great Duoksini army dies crushed beneath the Skyray that Kagan Draca brought down."
+        "en": "A plain near the Great Temple of Hainsha, where a great Duoksini army dies crushed beneath the Sky Ray that Kagan Draca brought down."
       }
     ]
   },
@@ -4282,7 +4282,7 @@
     "type": "term",
     "name": {
       "ko": "수련자",
-      "en": "Novitiate"
+      "en": "Novice"
     },
     "facts": [
       {
@@ -4303,7 +4303,7 @@
       {
         "at": 1,
         "ko": "수련자가 수련 중에 여신에게서 받는 이름으로, 보통 남에게 밝히지 않는다.",
-        "en": "A name a Novitiate receives from the Goddess during training, usually kept from others."
+        "en": "A name a Novice receives from the Goddess during training, usually kept from others."
       },
       {
         "at": 2,
@@ -4413,7 +4413,7 @@
       {
         "at": 4,
         "ko": "하텐그라쥬에서 북부군과 나가가 함께 하늘치를 타고 회오리를 빠져나오며 전쟁이 끝난다.",
-        "en": "The war ends as the Northern Army and the Nhaga escape the whirlwind together aboard a Skyray at Hattengraaj."
+        "en": "The war ends as the Northern Army and the Nhaga escape the whirlwind together aboard a Sky Ray at Hattengraaj."
       }
     ]
   },
@@ -4473,7 +4473,7 @@
       {
         "at": 4,
         "ko": "하텐그라쥬에 이른 뒤 하늘치를 타고 물러난다.",
-        "en": "After reaching Hattengraaj, it withdraws aboard a Skyray."
+        "en": "After reaching Hattengraaj, it withdraws aboard a Sky Ray."
       }
     ]
   },
@@ -4523,7 +4523,7 @@
       {
         "at": 3,
         "ko": "하늘치 추락에서 살아남아 대호왕을 곁에서 지키는 두억시니 스물둘이다.",
-        "en": "Twenty-two Duoksini who survived the Skyray's fall and guard the Great Tiger King closely."
+        "en": "Twenty-two Duoksini who survived the Sky Ray's fall and guard the Great Tiger King closely."
       }
     ]
   },
@@ -4852,7 +4852,7 @@
     "type": "term",
     "name": {
       "ko": "하늘치",
-      "en": "Skyray"
+      "en": "Sky Ray"
     },
     "facts": [
       {
@@ -4868,7 +4868,7 @@
       {
         "at": 3,
         "ko": "오레놀과 발굴대원들이 처음으로 하늘치 등에 오른다.",
-        "en": "Orenol and the members of the excavation team climb onto a Skyray's back for the first time."
+        "en": "Orenol and the members of the excavation team climb onto a Sky Ray's back for the first time."
       },
       {
         "at": 3,
@@ -4899,17 +4899,17 @@
       {
         "at": 3,
         "ko": "하늘치 등 유적의 환상은 바라는 사람에게는 실제처럼 만져지고 그 글도 읽힌다.",
-        "en": "The illusion of the ruins on a Skyray's back feels real to the touch for those who wish it, and its writing can be read."
+        "en": "The illusion of the ruins on a Sky Ray's back feels real to the touch for those who wish it, and its writing can be read."
       },
       {
         "at": 3,
         "ko": "하늘치 근처에서는 바라는 사람에게만 계단이 생겨 그 사람만 오르내릴 수 있다.",
-        "en": "Near a Skyray, stairs appear only for those who wish for them, and only they can climb up and down."
+        "en": "Near a Sky Ray, stairs appear only for those who wish for them, and only they can climb up and down."
       },
       {
         "at": 4,
         "ko": "오레놀이 환상계단을 타고 북부군 진영으로 내려오고, 북부군도 이를 타고 하늘치에 오른다.",
-        "en": "Orenol comes down to the Northern Army's camp by the Phantom Stairs, and the Northern Army also climbs them onto the Skyray."
+        "en": "Orenol comes down to the Northern Army's camp by the Phantom Stairs, and the Northern Army also climbs them onto the Sky Ray."
       }
     ]
   },

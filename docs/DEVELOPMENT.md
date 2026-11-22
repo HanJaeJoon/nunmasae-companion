@@ -67,7 +67,7 @@ src/
 
 ## 영문 표기
 
-영문판 공식 표기(용어집의 A/B 등급, 출판사 자료 또는 독립 출처 2곳 이상) 대표 예: Human, Rekon, Tokkebi, Nhaga, Duoksini, Kagan Draca, Teenahan, Byong Srabble, Ryun Pei, Sammo Pei, Hwarit Mahkerow, Bao Moridol, Kiboren, Hattengraaj, Line of Limit, Skyray. 전체는 `docs/glossary.json` 에 있다.
+영문판 공식 표기(용어집의 A/B 등급, 출판사 자료 또는 독립 출처 2곳 이상) 대표 예: Human, Rekon, Tokkebi, Nhaga, Duoksini, Kagan Draca, Teenahan, Byong Srabble, Ryun Pei, Sammo Pei, Hwarit Mahkerow, Bao Moridol, Kiboren, Hattengraaj, Line of Limit, Sky Ray. 전체는 `docs/glossary.json` 에 있다.
 
 임시 표기는 `docs/glossary.json` 의 `provisional` 항목이다. 영문판으로 확인하면 `entries.json` 과 용어집을 함께 고친다.
 

@@ -50,7 +50,7 @@
   {
     "ko": "모든 이보다 낮은 여신",
     "en": "Goddess Lower Than All",
-    "status": "provisional",
+    "status": "A",
     "id": "goddess-lower-than-all"
   },
   {
@@ -110,7 +110,7 @@
   {
     "ko": "솜나니 페이",
     "en": "Somnani Pei",
-    "status": "provisional",
+    "status": "B",
     "id": "somnani-pei"
   },
   {
@@ -134,13 +134,13 @@
   {
     "ko": "두세나 마케로우",
     "en": "Dusenna Mahkerow",
-    "status": "provisional",
+    "status": "B",
     "id": "dusenna-mahkerow"
   },
   {
     "ko": "소메로 마케로우",
     "en": "Somero Mahkerow",
-    "status": "provisional",
+    "status": "B",
     "id": "somero-mahkerow"
   },
   {
@@ -176,7 +176,7 @@
   {
     "ko": "갈로텍",
     "en": "Galotek",
-    "status": "provisional",
+    "status": "A",
     "id": "galotek"
   },
   {
@@ -206,13 +206,13 @@
   {
     "ko": "스바치",
     "en": "Suvachi",
-    "status": "provisional",
+    "status": "A",
     "id": "suvachi"
   },
   {
     "ko": "유벡스",
     "en": "Yubex",
-    "status": "provisional",
+    "status": "A",
     "id": "yubex"
   },
   {
@@ -272,7 +272,7 @@
   {
     "ko": "나늬",
     "en": "Nani",
-    "status": "provisional",
+    "status": "A",
     "id": "nani"
   },
   {
@@ -338,7 +338,7 @@
   {
     "ko": "롭스",
     "en": "Robs",
-    "status": "provisional",
+    "status": "A",
     "id": "robs"
   },
   {
@@ -350,13 +350,13 @@
   {
     "ko": "지그림 자보로",
     "en": "Zigrim Zaboro",
-    "status": "provisional",
+    "status": "A",
     "id": "zigrim-zaboro"
   },
   {
     "ko": "키타타 자보로",
     "en": "Kitata Zaboro",
-    "status": "provisional",
+    "status": "B",
     "id": "kitata-zaboro"
   },
   {
@@ -506,7 +506,7 @@
   {
     "ko": "영웅왕",
     "en": "Hero King",
-    "status": "provisional",
+    "status": "A",
     "id": "hero-king"
   },
   {
@@ -613,8 +613,8 @@
   },
   {
     "ko": "카라보라",
-    "en": "Karabora",
-    "status": "provisional",
+    "en": "Carabora",
+    "status": "A",
     "id": "karabora"
   },
   {
@@ -770,7 +770,7 @@
   {
     "ko": "은루",
     "en": "Silver Tears",
-    "status": "provisional",
+    "status": "A",
     "id": "silver-tears"
   },
   {
@@ -799,8 +799,8 @@
   },
   {
     "ko": "수련자",
-    "en": "Novitiate",
-    "status": "provisional",
+    "en": "Novice",
+    "status": "B",
     "id": "novitiate"
   },
   {
@@ -914,7 +914,7 @@
   {
     "ko": "군령자",
     "en": "Manysoul",
-    "status": "provisional",
+    "status": "A",
     "id": "manysoul"
   },
   {
@@ -937,7 +937,7 @@
   },
   {
     "ko": "하늘치",
-    "en": "Skyray",
+    "en": "Sky Ray",
     "status": "A",
     "id": "skyray"
   },
@@ -962,7 +962,7 @@
   {
     "ko": "흑사자",
     "en": "Black Lion",
-    "status": "provisional",
+    "status": "A",
     "id": "black-lion"
   },
   {
@@ -1004,7 +1004,7 @@
   {
     "ko": "나늬 (전설)",
     "en": "Nani (legend)",
-    "status": "provisional",
+    "status": "A",
     "id": "nani-legend"
   },
   {
@@ -1053,7 +1053,7 @@
   {
     "ko": "솜나니",
     "en": "Somnani",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "화리트",
@@ -1073,12 +1073,12 @@
   {
     "ko": "두세나",
     "en": "Dusenna",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "소메로",
     "en": "Somero",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "그리미",
@@ -1143,17 +1143,17 @@
   {
     "ko": "토디",
     "en": "Tody",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "지그림",
     "en": "Zigrim",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "키타타",
     "en": "Kitata",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "하르체",
@@ -1383,7 +1383,7 @@
   {
     "ko": "위엄왕",
     "en": "Dignified King",
-    "status": "provisional"
+    "status": "A"
   },
   {
     "ko": "무적왕",
@@ -1627,8 +1627,8 @@
   },
   {
     "ko": "사이커",
-    "en": "Syker",
-    "status": "provisional"
+    "en": "syker",
+    "status": "B"
   },
   {
     "ko": "냉동 장치",
@@ -1777,7 +1777,7 @@
   },
   {
     "ko": "하늘치 유적",
-    "en": "Skyray ruins",
+    "en": "Sky Ray ruins",
     "status": "provisional"
   },
   {
