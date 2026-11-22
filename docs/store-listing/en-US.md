@@ -35,3 +35,10 @@ Privacy and cost
 
 Unofficial
 This is a fan-made app. It is not affiliated with or endorsed by the author, the publishers or any licensee. Every description is a short summary written for this app; it contains no text or artwork from the books. Names of characters, places and terms belong to the original work.
+
+## Release notes - versionCode 7 (500)
+
+- Names inside facts now link to their entries, and each entry lists where it is mentioned.
+- Search Korean names by their initial consonants.
+- The New badge also marks entries that gained new facts.
+- Some English names now follow the published English edition (Carabora, Novice, Sky Ray).

@@ -13,7 +13,7 @@
     },
     "android": {
       "package": "com.whochoolab.nunmasae",
-      "versionCode": 6,
+      "versionCode": 7,
       "blockedPermissions": [
         "android.permission.READ_MEDIA_AUDIO",
         "android.permission.READ_MEDIA_IMAGES",
